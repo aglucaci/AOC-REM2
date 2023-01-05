@@ -1,0 +1,1110 @@
+
+# Average sequence length is (PROTEIN AA ungapped): 340.6505376344086
+# Average sequence length is (NUCLEOTIDE NUC): 1021.9516129032257
+
+
+# Processing: NP_073176.2 GTP-binding protein REM 2 [Rattus norvegicus]
+# Species: Rattus norvegicus
+# Match: NM_022685.2 Rattus norvegicus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: NP_542764.2 GTP-binding protein REM 2 [Mus musculus]
+# Species: Mus musculus
+# Match: NM_080726.3 Mus musculus rad and gem related GTP binding protein 2 (Rem2), mRNA 
+
+
+
+# Processing: NP_775798.2 GTP-binding protein REM 2 [Homo sapiens]
+# Species: Homo sapiens
+# Match: NM_173527.3 Homo sapiens RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_009425749.1 GTP-binding protein REM 2 isoform X1 [Pan troglodytes]
+# Species: Pan troglodytes
+# Match: XM_009427474.3 PREDICTED: Pan troglodytes RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_005623274.2 GTP-binding protein REM 2 isoform X1 [Canis lupus familiaris]
+# Species: Canis lupus familiaris
+# Match: XM_005623217.4 PREDICTED: Canis lupus familiaris RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: NP_001179637.1 GTP-binding protein REM 2 [Bos taurus]
+# Species: Bos taurus
+# Match: NM_001192708.1 Bos taurus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_001100692.1 GTP-binding protein REM 2 [Macaca mulatta]
+# Species: Macaca mulatta
+# Match: XM_001100692.4 PREDICTED: Macaca mulatta RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_007479863.1 PREDICTED: GTP-binding protein REM 2 [Monodelphis domestica]
+# Species: Monodelphis domestica
+# Match: XM_007479801.2 PREDICTED: Monodelphis domestica RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_023477792.1 GTP-binding protein REM 2 isoform X1 [Equus caballus]
+# Species: Equus caballus
+# Match: XM_023622024.1 PREDICTED: Equus caballus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_051678600.1 GTP-binding protein REM 2 [Oryctolagus cuniculus]
+# Species: Oryctolagus cuniculus
+# Match: XM_051822640.1 PREDICTED: Oryctolagus cuniculus RRAD and GEM like GTPase 2 (LOC100344089), mRNA 
+
+
+
+# Processing: XP_035115986.1 GTP-binding protein REM 2 isoform X1 [Callithrix jacchus]
+# Species: Callithrix jacchus
+# Match: XM_035260095.1 PREDICTED: Callithrix jacchus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_002824612.1 GTP-binding protein REM 2 [Pongo abelii]
+# Species: Pongo abelii
+# Match: XM_002824566.3 PREDICTED: Pongo abelii RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_011231650.2 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Ailuropoda melanoleuca]
+# Skipping this sequence due to quality issues XP_011231650.2 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Ailuropoda melanoleuca]
+
+
+# Processing: XP_003260643.2 GTP-binding protein REM 2 [Nomascus leucogenys]
+# Species: Nomascus leucogenys
+# Match: XM_003260595.2 PREDICTED: Nomascus leucogenys RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_020954924.1 GTP-binding protein REM 2 isoform X1 [Sus scrofa]
+# Species: Sus scrofa
+# Match: XM_021099265.1 PREDICTED: Sus scrofa RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_003420985.1 GTP-binding protein REM 2 isoform X1 [Loxodonta africana]
+# Species: Loxodonta africana
+# Match: XM_003420937.2 PREDICTED: Loxodonta africana RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_028933599.1 GTP-binding protein REM 2 [Ornithorhynchus anatinus]
+# Species: Ornithorhynchus anatinus
+# Match: XM_029077766.2 PREDICTED: Ornithorhynchus anatinus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_023422775.1 GTP-binding protein REM 2 [Cavia porcellus]
+# Species: Cavia porcellus
+# Match: XM_023567007.1 PREDICTED: Cavia porcellus RRAD and GEM like GTPase 2 (Rem2), transcript variant X2, mRNA 
+
+
+
+# Processing: XP_027246446.1 GTP-binding protein REM 2 isoform X2 [Cricetulus griseus]
+# Species: Cricetulus griseus
+# Match: XM_027390645.2 PREDICTED: Cricetulus griseus RRAD and GEM like GTPase 2 (Rem2), transcript variant X2, mRNA 
+
+
+
+# Processing: XP_031810888.1 GTP-binding protein REM 2 [Sarcophilus harrisii]
+# Species: Sarcophilus harrisii
+# Match: XM_031955028.1 PREDICTED: Sarcophilus harrisii RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_003801957.1 GTP-binding protein REM 2 [Otolemur garnettii]
+# Species: Otolemur garnettii
+# Match: XM_003801909.3 PREDICTED: Otolemur garnettii RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_008958461.2 GTP-binding protein REM 2 isoform X1 [Pan paniscus]
+# Species: Pan paniscus
+# Match: XM_008960213.2 PREDICTED: Pan paniscus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_003901614.1 GTP-binding protein REM 2 [Papio anubis]
+# Species: Papio anubis
+# Match: XM_003901565.5 PREDICTED: Papio anubis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_003924384.1 GTP-binding protein REM 2 [Saimiri boliviensis boliviensis]
+# Species: Saimiri boliviensis boliviensis
+# Match: XM_003924335.3 PREDICTED: Saimiri boliviensis boliviensis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_003987505.1 GTP-binding protein REM 2 [Felis catus]
+# Species: Felis catus
+# Match: XM_003987456.6 PREDICTED: Felis catus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_027827448.1 GTP-binding protein REM 2 isoform X1 [Ovis aries]
+# Species: Ovis aries
+# Match: XM_027971647.2 PREDICTED: Ovis aries RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_018864992.1 GTP-binding protein REM 2 isoform X1 [Gorilla gorilla gorilla]
+# Species: Gorilla gorilla gorilla
+# Match: XM_019009447.1 PREDICTED: Gorilla gorilla gorilla RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_004283239.1 GTP-binding protein REM 2 isoform X1 [Orcinus orca]
+# Species: Orcinus orca
+# Match: XM_004283191.4 PREDICTED: Orcinus orca RRAD and GEM like GTPase 2 (LOC101284288), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_023580666.1 GTP-binding protein REM 2 isoform X1 [Trichechus manatus latirostris]
+# Species: Trichechus manatus latirostris
+# Match: XM_023724898.1 PREDICTED: Trichechus manatus latirostris RRAD and GEM like GTPase 2 (LOC101345257), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_004402165.1 PREDICTED: GTP-binding protein REM 2 [Odobenus rosmarus divergens]
+# Species: Odobenus rosmarus divergens
+# Match: XM_004402108.1 PREDICTED: Odobenus rosmarus divergens RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_004421307.1 PREDICTED: GTP-binding protein REM 2 isoform X1 [Ceratotherium simum simum]
+# Species: Ceratotherium simum simum
+# Match: XM_004421250.2 PREDICTED: Ceratotherium simum simum RAS (RAD and GEM)-like GTP binding 2 (LOC101388298), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_004474624.1 GTP-binding protein REM 2 [Dasypus novemcinctus]
+# Species: Dasypus novemcinctus
+# Match: XM_004474567.2 PREDICTED: Dasypus novemcinctus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_004584734.1 GTP-binding protein REM 2 [Ochotona princeps]
+# Species: Ochotona princeps
+# Match: XM_004584677.1 PREDICTED: Ochotona princeps RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_004609538.1 PREDICTED: GTP-binding protein REM 2 [Sorex araneus]
+# Species: Sorex araneus
+# Match: XM_004609481.1 PREDICTED: Sorex araneus RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_004646705.1 GTP-binding protein REM 2 isoform X1 [Octodon degus]
+# Species: Octodon degus
+# Match: XM_004646648.2 PREDICTED: Octodon degus RRAD and GEM like GTPase 2 (Rem2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_045010612.1 GTP-binding protein REM 2 [Jaculus jaculus]
+# Species: Jaculus jaculus
+# Match: XM_045154677.1 PREDICTED: Jaculus jaculus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_004694715.1 PREDICTED: GTP-binding protein REM 2 [Condylura cristata]
+# Species: Condylura cristata
+# Match: XM_004694658.2 PREDICTED: Condylura cristata RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_045143600.1 GTP-binding protein REM 2 [Echinops telfairi]
+# Species: Echinops telfairi
+# Match: XM_045287665.1 PREDICTED: Echinops telfairi RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_004755419.1 GTP-binding protein REM 2 isoform X1 [Mustela putorius furo]
+# Species: Mustela putorius furo
+# Match: XM_004755362.3 PREDICTED: Mustela putorius furo RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_004864252.1 GTP-binding protein REM 2 [Heterocephalus glaber]
+# Species: Heterocephalus glaber
+# Match: XM_004864195.2 PREDICTED: Heterocephalus glaber RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_005085627.1 GTP-binding protein REM 2 [Mesocricetus auratus]
+# Species: Mesocricetus auratus
+# Match: XM_005085570.4 PREDICTED: Mesocricetus auratus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_005338844.1 GTP-binding protein REM 2 [Ictidomys tridecemlineatus]
+# Species: Ictidomys tridecemlineatus
+# Match: XM_005338787.4 PREDICTED: Ictidomys tridecemlineatus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_026633474.1 GTP-binding protein REM 2 [Microtus ochrogaster]
+# Species: Microtus ochrogaster
+# Match: XM_026777673.1 PREDICTED: Microtus ochrogaster RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_005377170.1 PREDICTED: GTP-binding protein REM 2 [Chinchilla lanigera]
+# Species: Chinchilla lanigera
+# Match: XM_005377113.2 PREDICTED: Chinchilla lanigera RAS (RAD and GEM)-like GTP binding 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_005560873.1 GTP-binding protein REM 2 [Macaca fascicularis]
+# Species: Macaca fascicularis
+# Match: XM_005560816.3 PREDICTED: Macaca fascicularis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_017910060.1 PREDICTED: GTP-binding protein REM 2 isoform X1 [Capra hircus]
+# Species: Capra hircus
+# Match: XM_018054571.1 PREDICTED: Capra hircus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_005895517.1 PREDICTED: GTP-binding protein REM 2 [Bos mutus]
+# Species: Bos mutus
+# Match: XM_005895455.1 PREDICTED: Bos mutus RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_025151857.1 GTP-binding protein REM 2 isoform X4 [Bubalus bubalis]
+# Species: Bubalus bubalis
+# Match: XM_025296072.3 PREDICTED: Bubalus bubalis RRAD and GEM like GTPase 2 (REM2), transcript variant X4, mRNA 
+
+
+
+# Processing: XP_006100142.1 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Myotis lucifugus]
+# Skipping this sequence due to quality issues XP_006100142.1 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Myotis lucifugus]
+
+
+# Processing: XP_006144658.1 GTP-binding protein REM 2 [Tupaia chinensis]
+# Species: Tupaia chinensis
+# Match: XM_006144596.3 PREDICTED: Tupaia chinensis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_032337586.1 GTP-binding protein REM 2 isoform X1 [Camelus ferus]
+# Species: Camelus ferus
+# Match: XM_032481695.1 PREDICTED: Camelus ferus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_031534630.1 GTP-binding protein REM 2 [Vicugna pacos]
+# Species: Vicugna pacos
+# Match: XM_031678770.1 PREDICTED: Vicugna pacos RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_030892541.1 GTP-binding protein REM 2 isoform X1 [Leptonychotes weddellii]
+# Species: Leptonychotes weddellii
+# Match: XM_031036681.1 PREDICTED: Leptonychotes weddellii RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_006776833.1 PREDICTED: LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Myotis davidii]
+# Skipping this sequence due to quality issues XP_006776833.1 PREDICTED: LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Myotis davidii]
+
+
+# Processing: XP_006835515.1 PREDICTED: GTP-binding protein REM 2 [Chrysochloris asiatica]
+# Species: Chrysochloris asiatica
+# Match: XM_006835452.1 PREDICTED: Chrysochloris asiatica RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_006883195.1 PREDICTED: GTP-binding protein REM 2 [Elephantulus edwardii]
+# Species: Elephantulus edwardii
+# Match: XM_006883133.1 PREDICTED: Elephantulus edwardii RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_006913671.1 GTP-binding protein REM 2 [Pteropus alecto]
+# Species: Pteropus alecto
+# Match: XM_006913609.2 PREDICTED: Pteropus alecto RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_006988546.1 GTP-binding protein REM 2 [Peromyscus maniculatus bairdii]
+# Species: Peromyscus maniculatus bairdii
+# Match: XM_006988484.2 PREDICTED: Peromyscus maniculatus bairdii RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_007098155.2 GTP-binding protein REM 2 isoform X2 [Panthera tigris]
+# Species: Panthera tigris
+# Match: XM_007098093.3 PREDICTED: Panthera tigris RRAD and GEM like GTPase 2 (REM2), transcript variant X3, mRNA 
+
+
+
+# Processing: XP_007100539.1 GTP-binding protein REM 2 isoform X1 [Physeter catodon]
+# Species: Physeter catodon
+# Match: XM_007100477.2 PREDICTED: Physeter catodon RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_007180601.1 GTP-binding protein REM 2 [Balaenoptera acutorostrata scammoni]
+# Species: Balaenoptera acutorostrata scammoni
+# Match: XM_007180539.1 PREDICTED: Balaenoptera acutorostrata scammoni RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_007449588.1 PREDICTED: GTP-binding protein REM 2 [Lipotes vexillifer]
+# Species: Lipotes vexillifer
+# Match: XM_007449526.1 PREDICTED: Lipotes vexillifer RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_007536820.1 PREDICTED: GTP-binding protein REM 2 [Erinaceus europaeus]
+# Species: Erinaceus europaeus
+# Match: XM_007536758.2 PREDICTED: Erinaceus europaeus RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_007949362.2 GTP-binding protein REM 2 [Orycteropus afer afer]
+# Species: Orycteropus afer afer
+# Match: XM_007951171.2 PREDICTED: Orycteropus afer afer RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_037843487.1 GTP-binding protein REM 2 isoform X1 [Chlorocebus sabaeus]
+# Species: Chlorocebus sabaeus
+# Match: XM_037987559.1 PREDICTED: Chlorocebus sabaeus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_008063462.1 GTP-binding protein REM 2 [Carlito syrichta]
+# Species: Carlito syrichta
+# Match: XM_008065271.2 PREDICTED: Carlito syrichta RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_008527190.1 PREDICTED: GTP-binding protein REM 2 isoform X1 [Equus przewalskii]
+# Species: Equus przewalskii
+# Match: XM_008528968.1 PREDICTED: Equus przewalskii RAS (RAD and GEM)-like GTP binding 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_008564773.1 PREDICTED: GTP-binding protein REM 2 [Galeopterus variegatus]
+# Species: Galeopterus variegatus
+# Match: XM_008566551.1 PREDICTED: Galeopterus variegatus RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_040476835.1 GTP-binding protein REM 2 [Ursus maritimus]
+# Species: Ursus maritimus
+# Match: XM_040620901.1 PREDICTED: Ursus maritimus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_008838125.1 GTP-binding protein REM 2 isoform X1 [Nannospalax galili]
+# Species: Nannospalax galili
+# Match: XM_008839903.2 PREDICTED: Nannospalax galili RRAD and GEM like GTPase 2 (Rem2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_010376660.2 GTP-binding protein REM 2 [Rhinopithecus roxellana]
+# Species: Rhinopithecus roxellana
+# Match: XM_010378358.2 PREDICTED: Rhinopithecus roxellana RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_033620961.1 GTP-binding protein REM 2 [Fukomys damarensis]
+# Species: Fukomys damarensis
+# Match: XM_033765070.1 PREDICTED: Fukomys damarensis RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_010829554.1 PREDICTED: GTP-binding protein REM 2 [Bison bison bison]
+# Species: Bison bison bison
+# Match: XM_010831252.1 PREDICTED: Bison bison bison RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_045372440.1 GTP-binding protein REM 2, partial [Camelus bactrianus]
+# Skipping this sequence due to quality issues XP_045372440.1 GTP-binding protein REM 2, partial [Camelus bactrianus]
+
+
+# Processing: XP_031308585.1 GTP-binding protein REM 2 [Camelus dromedarius]
+# Species: Camelus dromedarius
+# Match: XM_031452725.1 PREDICTED: Camelus dromedarius RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_011371080.1 GTP-binding protein REM 2 [Pteropus vampyrus]
+# Species: Pteropus vampyrus
+# Match: XM_011372778.2 PREDICTED: Pteropus vampyrus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_011770654.1 GTP-binding protein REM 2 [Macaca nemestrina]
+# Species: Macaca nemestrina
+# Match: XM_011772352.2 PREDICTED: Macaca nemestrina RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_011786352.1 PREDICTED: GTP-binding protein REM 2 [Colobus angolensis palliatus]
+# Species: Colobus angolensis palliatus
+# Match: XM_011930962.1 PREDICTED: Colobus angolensis palliatus RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_011846020.1 PREDICTED: GTP-binding protein REM 2 [Mandrillus leucophaeus]
+# Species: Mandrillus leucophaeus
+# Match: XM_011990630.1 PREDICTED: Mandrillus leucophaeus RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_011943923.1 PREDICTED: GTP-binding protein REM 2 [Cercocebus atys]
+# Species: Cercocebus atys
+# Match: XM_012088533.1 PREDICTED: Cercocebus atys RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_012322096.1 GTP-binding protein REM 2 [Aotus nancymaae]
+# Species: Aotus nancymaae
+# Match: XM_012466673.1 PREDICTED: Aotus nancymaae RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_012504901.1 PREDICTED: GTP-binding protein REM 2 [Propithecus coquereli]
+# Species: Propithecus coquereli
+# Match: XM_012649447.1 PREDICTED: Propithecus coquereli RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_012608143.1 GTP-binding protein REM 2 isoform X1 [Microcebus murinus]
+# Species: Microcebus murinus
+# Match: XM_012752689.1 PREDICTED: Microcebus murinus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_012880822.1 PREDICTED: GTP-binding protein REM 2 [Dipodomys ordii]
+# Species: Dipodomys ordii
+# Match: XM_013025368.1 PREDICTED: Dipodomys ordii RAS (RAD and GEM)-like GTP binding 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_014711821.1 GTP-binding protein REM 2 isoform X1 [Equus asinus]
+# Species: Equus asinus
+# Match: XM_014856335.2 PREDICTED: Equus asinus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_014942125.2 GTP-binding protein REM 2 [Acinonyx jubatus]
+# Species: Acinonyx jubatus
+# Match: XM_015086639.2 PREDICTED: Acinonyx jubatus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_015348334.1 GTP-binding protein REM 2 [Marmota marmota marmota]
+# Species: Marmota marmota marmota
+# Match: XM_015492848.2 PREDICTED: Marmota marmota marmota RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_015976023.2 GTP-binding protein REM 2 [Rousettus aegyptiacus]
+# Species: Rousettus aegyptiacus
+# Match: XM_016120537.2 PREDICTED: Rousettus aegyptiacus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_016061243.1 PREDICTED: GTP-binding protein REM 2 [Miniopterus natalensis]
+# Species: Miniopterus natalensis
+# Match: XM_016205757.1 PREDICTED: Miniopterus natalensis RAS (RAD and GEM)-like GTP binding 2 (REM2), mRNA 
+
+
+
+# Processing: XP_017399988.1 GTP-binding protein REM 2 isoform X1 [Cebus imitator]
+# Species: Cebus imitator
+# Match: XM_017544499.2 PREDICTED: Cebus imitator RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_017520661.1 GTP-binding protein REM 2 isoform X1 [Manis javanica]
+# Species: Manis javanica
+# Match: XM_017665172.2 PREDICTED: Manis javanica RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_017719775.1 PREDICTED: GTP-binding protein REM 2 [Rhinopithecus bieti]
+# Species: Rhinopithecus bieti
+# Match: XM_017864286.1 PREDICTED: Rhinopithecus bieti RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_019285008.1 PREDICTED: GTP-binding protein REM 2 [Panthera pardus]
+# Species: Panthera pardus
+# Match: XM_019429463.1 PREDICTED: Panthera pardus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_019518722.1 PREDICTED: GTP-binding protein REM 2 [Hipposideros armiger]
+# Species: Hipposideros armiger
+# Match: XM_019663177.1 PREDICTED: Hipposideros armiger RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_019823933.1 PREDICTED: GTP-binding protein REM 2 [Bos indicus]
+# Species: Bos indicus
+# Match: XM_019968374.1 PREDICTED: Bos indicus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_020018448.1 GTP-binding protein REM 2 [Castor canadensis]
+# Species: Castor canadensis
+# Match: XM_020162859.1 PREDICTED: Castor canadensis RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_020765074.1 GTP-binding protein REM 2 isoform X1 [Odocoileus virginianus texanus]
+# Species: Odocoileus virginianus texanus
+# Match: XM_020909415.1 PREDICTED: Odocoileus virginianus texanus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_020864501.1 GTP-binding protein REM 2 isoform X1 [Phascolarctos cinereus]
+# Species: Phascolarctos cinereus
+# Match: XM_021008842.1 PREDICTED: Phascolarctos cinereus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_021038171.1 GTP-binding protein REM 2 [Mus caroli]
+# Species: Mus caroli
+# Match: XM_021182512.1 PREDICTED: Mus caroli RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_021059278.1 GTP-binding protein REM 2 [Mus pahari]
+# Species: Mus pahari
+# Match: XM_021203619.1 PREDICTED: Mus pahari RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_021495294.1 GTP-binding protein REM 2 [Meriones unguiculatus]
+# Species: Meriones unguiculatus
+# Match: XM_021639619.1 PREDICTED: Meriones unguiculatus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_021551250.1 GTP-binding protein REM 2 [Neomonachus schauinslandi]
+# Species: Neomonachus schauinslandi
+# Match: XM_021695575.1 PREDICTED: Neomonachus schauinslandi RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_022376179.1 GTP-binding protein REM 2 [Enhydra lutris kenyoni]
+# Species: Enhydra lutris kenyoni
+# Match: XM_022520471.1 PREDICTED: Enhydra lutris kenyoni RRAD and GEM like GTPase 2 (LOC111158448), mRNA 
+
+
+
+# Processing: XP_022409309.1 GTP-binding protein REM 2 [Delphinapterus leucas]
+# Species: Delphinapterus leucas
+# Match: XM_022553601.2 PREDICTED: Delphinapterus leucas RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_023086208.1 GTP-binding protein REM 2 isoform X1 [Piliocolobus tephrosceles]
+# Species: Piliocolobus tephrosceles
+# Match: XM_023230440.1 PREDICTED: Piliocolobus tephrosceles RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_024411881.1 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Desmodus rotundus]
+# Skipping this sequence due to quality issues XP_024411881.1 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Desmodus rotundus]
+
+
+# Processing: XP_024597460.1 GTP-binding protein REM 2 isoform X1 [Neophocaena asiaeorientalis asiaeorientalis]
+# Species: Neophocaena asiaeorientalis asiaeorientalis
+# Match: XM_024741692.1 PREDICTED: Neophocaena asiaeorientalis asiaeorientalis RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_025248260.1 GTP-binding protein REM 2 [Theropithecus gelada]
+# Species: Theropithecus gelada
+# Match: XM_025392475.1 PREDICTED: Theropithecus gelada RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_025298612.1 GTP-binding protein REM 2 isoform X1 [Canis lupus dingo]
+# Species: Canis lupus dingo
+# Match: XM_025442827.3 PREDICTED: Canis lupus dingo RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_025726144.1 GTP-binding protein REM 2 [Callorhinus ursinus]
+# Species: Callorhinus ursinus
+# Match: XM_025870359.1 PREDICTED: Callorhinus ursinus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_025775068.1 GTP-binding protein REM 2 [Puma concolor]
+# Species: Puma concolor
+# Match: XM_025919283.1 PREDICTED: Puma concolor RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_025863289.1 GTP-binding protein REM 2 isoform X1 [Vulpes vulpes]
+# Species: Vulpes vulpes
+# Match: XM_026007504.1 PREDICTED: Vulpes vulpes RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_026261908.1 GTP-binding protein REM 2 [Urocitellus parryii]
+# Species: Urocitellus parryii
+# Match: XM_026406123.1 PREDICTED: Urocitellus parryii RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_026342196.1 GTP-binding protein REM 2 [Ursus arctos]
+# Species: Ursus arctos
+# Match: XM_026486411.2 PREDICTED: Ursus arctos RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_026966579.1 GTP-binding protein REM 2 isoform X1 [Lagenorhynchus obliquidens]
+# Species: Lagenorhynchus obliquidens
+# Match: XM_027110778.1 PREDICTED: Lagenorhynchus obliquidens RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_027409131.1 GTP-binding protein REM 2 [Bos indicus x Bos taurus]
+# Species: Bos indicus x Bos taurus
+# Match: XM_027553330.1 PREDICTED: Bos indicus x Bos taurus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_027427260.1 GTP-binding protein REM 2 [Zalophus californianus]
+# Species: Zalophus californianus
+# Match: XM_027571459.2 PREDICTED: Zalophus californianus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_027698989.1 GTP-binding protein REM 2 isoform X2 [Vombatus ursinus]
+# Species: Vombatus ursinus
+# Match: XM_027843188.1 PREDICTED: Vombatus ursinus RRAD and GEM like GTPase 2 (REM2), transcript variant X2, mRNA 
+
+
+
+# Processing: XP_027775957.1 GTP-binding protein REM 2 isoform X1 [Marmota flaviventris]
+# Species: Marmota flaviventris
+# Match: XM_027920156.1 PREDICTED: Marmota flaviventris RRAD and GEM like GTPase 2 (Rem2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_027970586.1 GTP-binding protein REM 2 [Eumetopias jubatus]
+# Species: Eumetopias jubatus
+# Match: XM_028114785.1 PREDICTED: Eumetopias jubatus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_028362935.1 GTP-binding protein REM 2 [Phyllostomus discolor]
+# Species: Phyllostomus discolor
+# Match: XM_028507134.2 PREDICTED: Phyllostomus discolor RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_028644375.1 GTP-binding protein REM 2 [Grammomys surdaster]
+# Species: Grammomys surdaster
+# Match: XM_028788542.1 PREDICTED: Grammomys surdaster RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_028748073.1 GTP-binding protein REM 2 [Peromyscus leucopus]
+# Species: Peromyscus leucopus
+# Match: XM_028892240.2 PREDICTED: Peromyscus leucopus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_029093244.1 GTP-binding protein REM 2 [Monodon monoceros]
+# Species: Monodon monoceros
+# Match: XM_029237411.1 PREDICTED: Monodon monoceros RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_029808465.1 GTP-binding protein REM 2 [Suricata suricatta]
+# Species: Suricata suricatta
+# Match: XM_029952605.1 PREDICTED: Suricata suricatta RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_030174539.1 GTP-binding protein REM 2 [Lynx canadensis]
+# Species: Lynx canadensis
+# Match: XM_030318679.1 PREDICTED: Lynx canadensis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_030710377.1 GTP-binding protein REM 2 isoform X1 [Globicephala melas]
+# Species: Globicephala melas
+# Match: XM_030854517.1 PREDICTED: Globicephala melas RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_031217158.1 GTP-binding protein REM 2 [Mastomys coucha]
+# Species: Mastomys coucha
+# Match: XM_031361298.1 PREDICTED: Mastomys coucha RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_032035819.1 GTP-binding protein REM 2 [Hylobates moloch]
+# Species: Hylobates moloch
+# Match: XM_032179928.1 PREDICTED: Hylobates moloch RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_032121441.1 GTP-binding protein REM 2 isoform X1 [Sapajus apella]
+# Species: Sapajus apella
+# Match: XM_032265550.1 PREDICTED: Sapajus apella RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_032199698.1 GTP-binding protein REM 2 isoform X1 [Mustela erminea]
+# Species: Mustela erminea
+# Match: XM_032343807.1 PREDICTED: Mustela erminea RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_032260427.1 GTP-binding protein REM 2 [Phoca vitulina]
+# Species: Phoca vitulina
+# Match: XM_032404536.1 PREDICTED: Phoca vitulina RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_032478603.1 GTP-binding protein REM 2 [Phocoena sinus]
+# Species: Phocoena sinus
+# Match: XM_032622712.1 PREDICTED: Phocoena sinus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_032712297.1 GTP-binding protein REM 2 isoform X1 [Lontra canadensis]
+# Species: Lontra canadensis
+# Match: XM_032856406.1 PREDICTED: Lontra canadensis RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_032774030.1 GTP-binding protein REM 2 [Rattus rattus]
+# Species: Rattus rattus
+# Match: XM_032918139.1 PREDICTED: Rattus rattus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_032963438.1 GTP-binding protein REM 2 isoform X1 [Rhinolophus ferrumequinum]
+# Species: Rhinolophus ferrumequinum
+# Match: XM_033107547.1 PREDICTED: Rhinolophus ferrumequinum RRAD and GEM like GTPase 2 (LOC117023075), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_033044495.1 GTP-binding protein REM 2 [Trachypithecus francoisi]
+# Species: Trachypithecus francoisi
+# Match: XM_033188604.1 PREDICTED: Trachypithecus francoisi RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_033707248.1 GTP-binding protein REM 2 isoform X1 [Tursiops truncatus]
+# Species: Tursiops truncatus
+# Match: XM_033851357.1 PREDICTED: Tursiops truncatus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_034354503.1 GTP-binding protein REM 2 [Arvicanthis niloticus]
+# Species: Arvicanthis niloticus
+# Match: XM_034498612.1 PREDICTED: Arvicanthis niloticus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_034850582.1 GTP-binding protein REM 2 [Mirounga leonina]
+# Species: Mirounga leonina
+# Match: XM_034994691.1 PREDICTED: Mirounga leonina RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_035970722.1 GTP-binding protein REM 2 isoform X1 [Halichoerus grypus]
+# Species: Halichoerus grypus
+# Match: XM_036114829.1 PREDICTED: Halichoerus grypus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_036055286.1 GTP-binding protein REM 2 [Onychomys torridus]
+# Species: Onychomys torridus
+# Match: XM_036199393.1 PREDICTED: Onychomys torridus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_036211848.1 GTP-binding protein REM 2 isoform X1 [Myotis myotis]
+# Species: Myotis myotis
+# Match: XM_036355955.1 PREDICTED: Myotis myotis RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_036593002.1 GTP-binding protein REM 2 [Trichosurus vulpecula]
+# Species: Trichosurus vulpecula
+# Match: XM_036737107.1 PREDICTED: Trichosurus vulpecula RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_036697922.1 GTP-binding protein REM 2 [Balaenoptera musculus]
+# Species: Balaenoptera musculus
+# Match: XM_036842027.1 PREDICTED: Balaenoptera musculus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_036740490.1 GTP-binding protein REM 2 isoform X1 [Manis pentadactyla]
+# Species: Manis pentadactyla
+# Match: XM_036884595.1 PREDICTED: Manis pentadactyla RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_036893607.1 GTP-binding protein REM 2 [Sturnira hondurensis]
+# Species: Sturnira hondurensis
+# Match: XM_037037712.1 PREDICTED: Sturnira hondurensis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_036985302.1 GTP-binding protein REM 2 [Artibeus jamaicensis]
+# Species: Artibeus jamaicensis
+# Match: XM_037129407.1 PREDICTED: Artibeus jamaicensis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_037358933.1 GTP-binding protein REM 2 [Talpa occidentalis]
+# Species: Talpa occidentalis
+# Match: XM_037503036.1 PREDICTED: Talpa occidentalis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_037691461.1 GTP-binding protein REM 2 isoform X1 [Choloepus didactylus]
+# Species: Choloepus didactylus
+# Match: XM_037835533.1 PREDICTED: Choloepus didactylus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_038166234.1 GTP-binding protein REM 2 [Arvicola amphibius]
+# Species: Arvicola amphibius
+# Match: XM_038310306.1 PREDICTED: Arvicola amphibius RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_038597307.1 GTP-binding protein REM 2 [Tachyglossus aculeatus]
+# Species: Tachyglossus aculeatus
+# Match: XM_038741379.1 PREDICTED: Tachyglossus aculeatus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_039101134.1 GTP-binding protein REM 2 isoform X1 [Hyaena hyaena]
+# Species: Hyaena hyaena
+# Match: XM_039245203.1 PREDICTED: Hyaena hyaena RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_039707783.1 GTP-binding protein REM 2 [Pteropus giganteus]
+# Species: Pteropus giganteus
+# Match: XM_039851849.1 PREDICTED: Pteropus giganteus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_040083154.1 GTP-binding protein REM 2 isoform X1 [Oryx dammah]
+# Species: Oryx dammah
+# Match: XM_040227220.1 PREDICTED: Oryx dammah RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_040332579.1 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Puma yagouaroundi]
+# Skipping this sequence due to quality issues XP_040332579.1 LOW QUALITY PROTEIN: GTP-binding protein REM 2 [Puma yagouaroundi]
+
+
+# Processing: XP_040825230.1 GTP-binding protein REM 2 [Ochotona curzoniae]
+# Species: Ochotona curzoniae
+# Match: XM_040969296.1 PREDICTED: Ochotona curzoniae RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_041490046.1 GTP-binding protein REM 2 [Microtus oregoni]
+# Species: Microtus oregoni
+# Match: XM_041634112.1 PREDICTED: Microtus oregoni RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_041614796.1 GTP-binding protein REM 2 isoform X1 [Vulpes lagopus]
+# Species: Vulpes lagopus
+# Match: XM_041758862.1 PREDICTED: Vulpes lagopus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_042542359.1 GTP-binding protein REM 2 [Dipodomys spectabilis]
+# Species: Dipodomys spectabilis
+# Match: XM_042686425.1 PREDICTED: Dipodomys spectabilis RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_042798628.1 GTP-binding protein REM 2 isoform X1 [Panthera leo]
+# Species: Panthera leo
+# Match: XM_042942694.1 PREDICTED: Panthera leo RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_043327144.1 GTP-binding protein REM 2 isoform X1 [Cervus canadensis]
+# Species: Cervus canadensis
+# Match: XM_043471209.1 PREDICTED: Cervus canadensis RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_043411698.1 GTP-binding protein REM 2 [Prionailurus bengalensis]
+# Species: Prionailurus bengalensis
+# Match: XM_043555763.1 PREDICTED: Prionailurus bengalensis RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_043775486.1 GTP-binding protein REM 2 isoform X1 [Cervus elaphus]
+# Species: Cervus elaphus
+# Match: XM_043919551.1 PREDICTED: Cervus elaphus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_043836312.1 GTP-binding protein REM 2 isoform X1 [Dromiciops gliroides]
+# Species: Dromiciops gliroides
+# Match: XM_043980377.1 PREDICTED: Dromiciops gliroides RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_044085674.1 GTP-binding protein REM 2 isoform X1 [Neogale vison]
+# Species: Neogale vison
+# -- NO Match -- 
+
+
+
+# Processing: XP_044518215.1 GTP-binding protein REM 2 isoform X1 [Gracilinanus agilis]
+# Species: Gracilinanus agilis
+# Match: XM_044662280.1 PREDICTED: Gracilinanus agilis RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_045306328.1 GTP-binding protein REM 2 [Leopardus geoffroyi]
+# Species: Leopardus geoffroyi
+# Match: XM_045450372.1 PREDICTED: Leopardus geoffroyi RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_045381916.1 GTP-binding protein REM 2 isoform X1 [Lemur catta]
+# Species: Lemur catta
+# Match: XM_045525960.1 PREDICTED: Lemur catta RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_045658748.1 GTP-binding protein REM 2 isoform X1 [Ursus americanus]
+# Species: Ursus americanus
+# Match: XM_045802792.1 PREDICTED: Ursus americanus RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_045697175.1 GTP-binding protein REM 2 [Phyllostomus hastatus]
+# Species: Phyllostomus hastatus
+# Match: XM_045841219.1 PREDICTED: Phyllostomus hastatus RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_045756484.1 GTP-binding protein REM 2 [Mirounga angustirostris]
+# Species: Mirounga angustirostris
+# Match: XM_045900528.1 PREDICTED: Mirounga angustirostris RRAD and GEM like GTPase 2 (REM2), mRNA 
+
+
+
+# Processing: XP_045864265.1 GTP-binding protein REM 2 isoform X1 [Meles meles]
+# Species: Meles meles
+# Match: XM_046008309.1 PREDICTED: Meles meles RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_046321063.1 GTP-binding protein REM 2 [Marmota monax]
+# Species: Marmota monax
+# Match: XM_046465107.1 PREDICTED: Marmota monax RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_046509548.1 GTP-binding protein REM 2 isoform X1 [Equus quagga]
+# Species: Equus quagga
+# Match: XM_046653592.1 PREDICTED: Equus quagga GTP-binding protein REM 2 (LOC124235489), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_048218760.1 GTP-binding protein REM 2 [Perognathus longimembris pacificus]
+# Species: Perognathus longimembris pacificus
+# Match: XM_048362803.1 PREDICTED: Perognathus longimembris pacificus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_048300944.1 GTP-binding protein REM 2 [Myodes glareolus]
+# Species: Myodes glareolus
+# Match: XM_048444987.1 PREDICTED: Myodes glareolus RRAD and GEM like GTPase 2 (Rem2), mRNA 
+
+
+
+# Processing: XP_049469083.1 GTP-binding protein REM 2 isoform X1 [Panthera uncia]
+# Species: Panthera uncia
+# Match: XM_049613126.1 PREDICTED: Panthera uncia RRAD and GEM like GTPase 2 (REM2), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_049624594.1 GTP-binding protein REM 2 [Suncus etruscus]
+# Species: Suncus etruscus
+# Match: XM_049768637.1 PREDICTED: Suncus etruscus RRAD and GEM like GTPase 2 (LOC126001377), mRNA 
+
+
+
+# Processing: XP_049755560.1 GTP-binding protein REM 2 isoform X1 [Elephas maximus indicus]
+# Species: Elephas maximus indicus
+# Match: XM_049899603.1 PREDICTED: Elephas maximus indicus RRAD and GEM like GTPase 2 (LOC126084786), transcript variant X1, mRNA 
+
+
+
+# Processing: XP_049982186.1 GTP-binding protein REM 2 [Microtus fortis]
+# Species: Microtus fortis
+# Match: XM_050126229.1 PREDICTED: Microtus fortis RRAD and GEM like GTPase 2 (LOC126490927), mRNA 
+
+
+
+# Processing: XP_050652511.1 GTP-binding protein REM 2 [Macaca thibetana thibetana]
+# Species: Macaca thibetana thibetana
+# Match: XM_050796554.1 PREDICTED: Macaca thibetana thibetana RRAD and GEM like GTPase 2 (LOC126958288), mRNA 
+
+
+
+# Processing: XP_050999364.1 GTP-binding protein REM 2 [Acomys russatus]
+# Species: Acomys russatus
+# Match: XM_051143407.1 PREDICTED: Acomys russatus RRAD and GEM like GTPase 2 (LOC127187235), mRNA 
+
+
+
+# Processing: XP_051051695.1 GTP-binding protein REM 2 [Phodopus roborovskii]
+# Species: Phodopus roborovskii
+# Match: XM_051195738.1 PREDICTED: Phodopus roborovskii RRAD and GEM like GTPase 2 (LOC127230422), mRNA 
+
+
+
+# Processing: XP_051836398.1 GTP-binding protein REM 2 [Antechinus flavipes]
+# Species: Antechinus flavipes
+# Match: XM_051980438.1 PREDICTED: Antechinus flavipes RRAD and GEM like GTPase 2 (LOC127551038), mRNA 
+
+
+
+# Processing: XP_052046485.1 GTP-binding protein REM 2 [Apodemus sylvaticus]
+# Species: Apodemus sylvaticus
+# Match: XM_052190525.1 PREDICTED: Apodemus sylvaticus RRAD and GEM like GTPase 2 (LOC127690950), mRNA 
+
+# Writing data to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2
+--- The following had no matches
+XP_044085674.1 GTP-binding protein REM 2 isoform X1 [Neogale vison]

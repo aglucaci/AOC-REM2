@@ -1,0 +1,2281 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond",
+   "contact":"spond@temple.edu",
+   "info":"Fit an MG94xREV model with several selectable options frequency estimator and \nreport the fit results including dN/dS ratios, and synonymous and non-synonymous branch lengths. v0.2 adds LRT test for dN/dS != 1",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"0.2"
+  },
+ "branch attributes":{
+   "0":{
+     "NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2",
+       "synonymous":1e-10
+      },
+     "NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.0259899432032267,
+       "Standard MG94":0.02293143957157591,
+       "dN":0.00313438583023505,
+       "dS":0.08408869794893413,
+       "nonsynonymous":0.002367884292475361,
+       "original name":"NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1",
+       "synonymous":0.02056355527910057
+      },
+     "NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "Node103":{
+       "Nucleotide GTR":0.01296683097242353,
+       "Standard MG94":0.01684372081604738,
+       "dN":0.002302285457895732,
+       "dS":0.06176526979982546,
+       "nonsynonymous":0.001739270743237419,
+       "synonymous":0.01510445007280995
+      },
+     "Node107":{
+       "Nucleotide GTR":0.01293693754203648,
+       "Standard MG94":0.01481393126740662,
+       "dN":0.002024843495311543,
+       "dS":0.05432211038879924,
+       "nonsynonymous":0.001529676104651596,
+       "synonymous":0.01328425516275503
+      },
+     "Node119":{
+       "Nucleotide GTR":0.01293626193251266,
+       "Standard MG94":0.01498411216229999,
+       "dN":0.002048104685864606,
+       "dS":0.05494615711829914,
+       "nonsynonymous":0.001547248863947392,
+       "synonymous":0.01343686329835259
+      },
+     "Node12":{
+       "Nucleotide GTR":0.01297273228985916,
+       "Standard MG94":0.01587058812364862,
+       "dN":0.00216927273043601,
+       "dS":0.05819683002612801,
+       "nonsynonymous":0.00163878574709782,
+       "synonymous":0.0142318023765508
+      },
+     "Node129":{
+       "Nucleotide GTR":0.01300880595322778,
+       "Standard MG94":0.01842585290088611,
+       "dN":0.002518539320755072,
+       "dS":0.0675668866840192,
+       "nonsynonymous":0.001902640587534268,
+       "synonymous":0.01652321231335185
+      },
+     "Node130":{
+       "Nucleotide GTR":0.05380740084980108,
+       "Standard MG94":0.1051926752558978,
+       "dN":0.01437827004874532,
+       "dS":0.3857374530902867,
+       "nonsynonymous":0.01086212152727855,
+       "synonymous":0.09433055372861933
+      },
+     "Node133":{
+       "Nucleotide GTR":0.01312587318852639,
+       "Standard MG94":0.01761082620836299,
+       "dN":0.002407137325763259,
+       "dS":0.0645782154689401,
+       "nonsynonymous":0.001818481505539008,
+       "synonymous":0.015792344702824
+      },
+     "Node140":{
+       "Nucleotide GTR":0.01664728545898915,
+       "Standard MG94":0.02845609750241096,
+       "dN":0.003889524184338598,
+       "dS":0.104347403930612,
+       "nonsynonymous":0.002938356577692845,
+       "synonymous":0.02551774092471809
+      },
+     "Node141":{
+       "Nucleotide GTR":0.02564110483111423,
+       "Standard MG94":0.03982934634796664,
+       "dN":0.005444077700875519,
+       "dS":0.1460526655600403,
+       "nonsynonymous":0.004112750239797957,
+       "synonymous":0.03571659610816872
+      },
+     "Node142":{
+       "Nucleotide GTR":0.05583096609166193,
+       "Standard MG94":0.09773070675431648,
+       "dN":0.01335833022926674,
+       "dS":0.358374704516416,
+       "nonsynonymous":0.01009160391757114,
+       "synonymous":0.08763910283674529
+      },
+     "Node16":{
+       "Nucleotide GTR":0.01304421225427271,
+       "Standard MG94":0.01603670370028162,
+       "dN":0.002191978252605898,
+       "dS":0.05880596939151789,
+       "nonsynonymous":0.00165593872449451,
+       "synonymous":0.01438076497578712
+      },
+     "Node17":{
+       "Nucleotide GTR":0.02611003853554763,
+       "Standard MG94":0.03402599234805481,
+       "dN":0.004650845750112661,
+       "dS":0.1247719919212945,
+       "nonsynonymous":0.003513499994859188,
+       "synonymous":0.03051249235319562
+      },
+     "Node174":{
+       "Nucleotide GTR":0.01296278722673969,
+       "Standard MG94":0.01682446756237049,
+       "dN":0.002299653825227302,
+       "dS":0.06169466886664302,
+       "nonsynonymous":0.00173728266582875,
+       "synonymous":0.01508718489654173
+      },
+     "Node176":{
+       "Nucleotide GTR":0.01293648511345624,
+       "Standard MG94":0.0157634017637988,
+       "dN":0.002154621953433585,
+       "dS":0.05780378180909285,
+       "nonsynonymous":0.00162771775910414,
+       "synonymous":0.01413568400469466
+      },
+     "Node178":{
+       "Nucleotide GTR":0.02626095164411596,
+       "Standard MG94":0.03213106330123325,
+       "dN":0.004391837207054587,
+       "dS":0.117823360730676,
+       "nonsynonymous":0.003317830956667374,
+       "synonymous":0.02881323234456592
+      },
+     "Node203":{
+       "Nucleotide GTR":0.03929478992239326,
+       "Standard MG94":0.04179685473906026,
+       "dN":0.005713006757974769,
+       "dS":0.153267442386164,
+       "nonsynonymous":0.00431591376993929,
+       "synonymous":0.03748094096912098
+      },
+     "Node208":{
+       "Nucleotide GTR":0.0129444847023329,
+       "Standard MG94":0.01565606320749725,
+       "dN":0.0021399503734458,
+       "dS":0.05741017549358254,
+       "nonsynonymous":0.001616634055412094,
+       "synonymous":0.01403942915208516
+      },
+     "Node21":{
+       "Nucleotide GTR":0.01296454612571506,
+       "Standard MG94":0.0169678300733451,
+       "dN":0.002319249342620927,
+       "dS":0.06222037362429324,
+       "nonsynonymous":0.001752086177697553,
+       "synonymous":0.01521574389564755
+      },
+     "Node210":{
+       "Nucleotide GTR":0.0130647977631539,
+       "Standard MG94":0.01512866369584979,
+       "dN":0.002067862724913273,
+       "dS":0.0554762219755352,
+       "nonsynonymous":0.001562175153449519,
+       "synonymous":0.01356648854240027
+      },
+     "Node226":{
+       "Nucleotide GTR":0.01309251817915268,
+       "Standard MG94":0.01777224361859687,
+       "dN":0.002429200678646581,
+       "dS":0.06517012684068312,
+       "nonsynonymous":0.001835149353583689,
+       "synonymous":0.01593709426501317
+      },
+     "Node227":{
+       "Nucleotide GTR":0.3132325668640604,
+       "Standard MG94":6.705349693842876,
+       "dN":0.916521311344244,
+       "dS":24.58825680296278,
+       "nonsynonymous":0.6923896847403146,
+       "synonymous":6.012960009102564
+      },
+     "Node228":{
+       "Nucleotide GTR":2772.466708725912,
+       "Standard MG94":2.826387378238945,
+       "dN":0.3863250068298489,
+       "dS":10.36425270178017,
+       "nonsynonymous":0.2918507691805882,
+       "synonymous":2.534536609058357
+      },
+     "Node233":{
+       "Nucleotide GTR":0.01309351824821554,
+       "Standard MG94":0.01040642558679335,
+       "dN":0.001422403194567472,
+       "dS":0.03815995830373364,
+       "nonsynonymous":0.001074560173637116,
+       "synonymous":0.00933186541315623
+      },
+     "Node235":{
+       "Nucleotide GTR":0.01292800693149494,
+       "Standard MG94":0.01085257333607244,
+       "dN":0.001483384938830271,
+       "dS":0.03979596476606796,
+       "nonsynonymous":0.001120629075868212,
+       "synonymous":0.009731944260204234
+      },
+     "Node238":{
+       "Nucleotide GTR":0.01308781244317627,
+       "Standard MG94":0.01521123957529817,
+       "dN":0.002079149616242284,
+       "dS":0.05577902451713444,
+       "nonsynonymous":0.001570701880577697,
+       "synonymous":0.01364053769472047
+      },
+     "Node247":{
+       "Nucleotide GTR":0.01293661574697408,
+       "Standard MG94":0.01480869226817009,
+       "dN":0.002024127402241141,
+       "dS":0.05430289918215082,
+       "nonsynonymous":0.001529135129281876,
+       "synonymous":0.01327955713888822
+      },
+     "Node249":{
+       "Nucleotide GTR":0.01439100195264669,
+       "Standard MG94":0.01512744794280993,
+       "dN":0.002067696549602325,
+       "dS":0.05547176385637396,
+       "nonsynonymous":0.00156204961564725,
+       "synonymous":0.01356539832716268
+      },
+     "Node250":{
+       "Nucleotide GTR":0.0542983225151577,
+       "Standard MG94":0.05055769471783923,
+       "dN":0.006910482939299144,
+       "dS":0.185393102201592,
+       "nonsynonymous":0.005220551933186323,
+       "synonymous":0.04533714278465292
+      },
+     "Node253":{
+       "Nucleotide GTR":0.06720496872692533,
+       "Standard MG94":0.06073133878518477,
+       "dN":0.008301068371452679,
+       "dS":0.2226994597178195,
+       "nonsynonymous":0.006271075251145074,
+       "synonymous":0.05446026353403965
+      },
+     "Node262":{
+       "Nucleotide GTR":0.01293695420213482,
+       "Standard MG94":0.01479710032618774,
+       "dN":0.002022542956634008,
+       "dS":0.0542603919812857,
+       "nonsynonymous":0.001527938153520558,
+       "synonymous":0.01326916217266719
+      },
+     "Node273":{
+       "Nucleotide GTR":0.01299383953462358,
+       "Standard MG94":0.01899847456661883,
+       "dN":0.002596808163387301,
+       "dS":0.06966666808407124,
+       "nonsynonymous":0.001961769097263775,
+       "synonymous":0.01703670546935504
+      },
+     "Node284":{
+       "Nucleotide GTR":0.01308237554539871,
+       "Standard MG94":0.02280154698954079,
+       "dN":0.003116631451260588,
+       "dS":0.08361238689735494,
+       "nonsynonymous":0.002354471675977816,
+       "synonymous":0.02044707531356295
+      },
+     "Node289":{
+       "Nucleotide GTR":0.03949020443686362,
+       "Standard MG94":0.05435784302235299,
+       "dN":0.007429906543791187,
+       "dS":0.1993280983862842,
+       "nonsynonymous":0.005612952569493886,
+       "synonymous":0.0487448904528591
+      },
+     "Node30":{
+       "Nucleotide GTR":0.01288217753983341,
+       "Standard MG94":0.01611637477994358,
+       "dN":0.002202868101121186,
+       "dS":0.05909812014516103,
+       "nonsynonymous":0.001664165504043489,
+       "synonymous":0.01445220927590008
+      },
+     "Node305":{
+       "Nucleotide GTR":0.01299074089486727,
+       "Standard MG94":0.01176733577073722,
+       "dN":0.001608419322489226,
+       "dS":0.0431503630725268,
+       "nonsynonymous":0.001215086800322376,
+       "synonymous":0.01055224897041484
+      },
+     "Node312":{
+       "Nucleotide GTR":0.02628306662929383,
+       "Standard MG94":0.03937923684232836,
+       "dN":0.005382554443597077,
+       "dS":0.1444021314910635,
+       "nonsynonymous":0.004066272249396687,
+       "synonymous":0.03531296459293162
+      },
+     "Node314":{
+       "Nucleotide GTR":0.01297350879890794,
+       "Standard MG94":0.01568398090430987,
+       "dN":0.002143766306284606,
+       "dS":0.05751254860310223,
+       "nonsynonymous":0.001619516817113921,
+       "synonymous":0.01406446408719594
+      },
+     "Node319":{
+       "Nucleotide GTR":0.01294772746607591,
+       "Standard MG94":0.01349786863474257,
+       "dN":0.00184495735887216,
+       "dS":0.04949615984807783,
+       "nonsynonymous":0.00139378040451153,
+       "synonymous":0.01210408823023104
+      },
+     "Node321":{
+       "Nucleotide GTR":0.01294805715221583,
+       "Standard MG94":0.01327029755330807,
+       "dN":0.001813851785635334,
+       "dS":0.04866166553432458,
+       "nonsynonymous":0.001370281574991107,
+       "synonymous":0.01190001597831698
+      },
+     "Node324":{
+       "Nucleotide GTR":0.01291765942497429,
+       "Standard MG94":0.01151205726973936,
+       "dN":0.001573526558177857,
+       "dS":0.04221426672775684,
+       "nonsynonymous":0.001188726922180718,
+       "synonymous":0.01032333034755864
+      },
+     "Node67":{
+       "Nucleotide GTR":0.01293115369753337,
+       "Standard MG94":0.01396042347829468,
+       "dN":0.001908181708255499,
+       "dS":0.05119233048764295,
+       "nonsynonymous":0.001441543491736677,
+       "synonymous":0.01251887998655799
+      },
+     "Node68":{
+       "Nucleotide GTR":0.01295380188170418,
+       "Standard MG94":0.01688104619688769,
+       "dN":0.002307387280851454,
+       "dS":0.06190214052115604,
+       "nonsynonymous":0.001743124935763212,
+       "synonymous":0.01513792126112447
+      },
+     "Node77":{
+       "Nucleotide GTR":0.01309308714872987,
+       "Standard MG94":0.01975189753121145,
+       "dN":0.002699789847420779,
+       "dS":0.07242944082233184,
+       "nonsynonymous":0.00203956702171944,
+       "synonymous":0.01771233050949201
+      },
+     "Node9":{
+       "Nucleotide GTR":0.01294809451345642,
+       "Standard MG94":0.01350073003897368,
+       "dN":0.001845348470160598,
+       "dS":0.04950665250621863,
+       "nonsynonymous":0.001394075871096265,
+       "synonymous":0.01210665416787743
+      },
+     "Node94":{
+       "Nucleotide GTR":0.0130096273985348,
+       "Standard MG94":0.01478204151088199,
+       "dN":0.002020484641142423,
+       "dS":0.05420517189064279,
+       "nonsynonymous":0.001526383190862653,
+       "synonymous":0.01325565832001933
+      },
+     "Node95":{
+       "Nucleotide GTR":0.01289405910958469,
+       "Standard MG94":0.00869919614170475,
+       "dN":0.001189050388044215,
+       "dS":0.03189961425993777,
+       "nonsynonymous":0.000898272864065523,
+       "synonymous":0.007800923277639237
+      },
+     "XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.06762696102727857,
+       "Standard MG94":0.1156494586020912,
+       "dN":0.01580755639807564,
+       "dS":0.4240820713411799,
+       "nonsynonymous":0.01194188160766882,
+       "original name":"XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.1037075769944225
+      },
+     "XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01303322148979845,
+       "Standard MG94":0.01697178330419762,
+       "dN":0.002319789690326927,
+       "dS":0.06223486996823373,
+       "nonsynonymous":0.001752494385529904,
+       "original name":"XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.01521928891866772
+      },
+     "XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02690141496250167,
+       "Standard MG94":0.02982404879719089,
+       "dN":0.004076502727112901,
+       "dS":0.1093636281792714,
+       "nonsynonymous":0.003079610264521822,
+       "original name":"XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1",
+       "synonymous":0.02674443853266912
+      },
+     "XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.02605948224954245,
+       "Standard MG94":0.03511598974065106,
+       "dN":0.004799832139374577,
+       "dS":0.1287689700100474,
+       "nonsynonymous":0.003626052357597331,
+       "original name":"XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.03148993738305372
+      },
+     "XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01294292914814605,
+       "Standard MG94":0.01407118523797353,
+       "dN":0.00192332118909732,
+       "dS":0.0515984895569354,
+       "nonsynonymous":0.001452980672997445,
+       "original name":"XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.01261820456497607
+      },
+     "XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01308046375112664,
+       "Standard MG94":0.02282580786113595,
+       "dN":0.003119947550623641,
+       "dS":0.08370135057088175,
+       "nonsynonymous":0.002356976836484323,
+       "original name":"XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":0.02046883102465163
+      },
+     "XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.0131716094530273,
+       "Standard MG94":0.01208446064312773,
+       "dN":0.00165176556350185,
+       "dS":0.04431324765826367,
+       "nonsynonymous":0.001247832891196564,
+       "original name":"XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01083662775193119
+      },
+     "XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01286769067700664,
+       "Standard MG94":0.008964955092363903,
+       "dN":0.001225375673537264,
+       "dS":0.03287414200641655,
+       "nonsynonymous":0.0009257149460545882,
+       "original name":"XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.008039240146309313
+      },
+     "XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01276398700367815,
+       "Standard MG94":0.007700348581455383,
+       "dN":0.001052522821615669,
+       "dS":0.02823687906493717,
+       "nonsynonymous":0.0007951325687905798,
+       "original name":"XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.006905216012664792
+      },
+     "XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.02604701781735999,
+       "Standard MG94":0.02844572334439293,
+       "dN":0.0038881061916395,
+       "dS":0.1043093622962292,
+       "nonsynonymous":0.002937285349445624,
+       "original name":"XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1",
+       "synonymous":0.0255084379949473
+      },
+     "XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.1694216413893994,
+       "Standard MG94":0.1875693035458087,
+       "dN":0.02563792671567701,
+       "dS":0.6878093484329607,
+       "nonsynonymous":0.01936827412122824,
+       "original name":"XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.1682010294245805
+      },
+     "XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.03943136252669641,
+       "Standard MG94":0.04289017248875961,
+       "dN":0.005862446990538696,
+       "dS":0.1572765960954074,
+       "nonsynonymous":0.004428808990412338,
+       "original name":"XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":0.03846136349834726
+      },
+     "XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01301982146362666,
+       "Standard MG94":0.01550078647099533,
+       "dN":0.002118726359090414,
+       "dS":0.05684078173382959,
+       "nonsynonymous":0.001600600289010202,
+       "original name":"XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":0.01390018618198512
+      },
+     "XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01292575387249608,
+       "Standard MG94":0.01381310587940407,
+       "dN":0.001888045589322993,
+       "dS":0.05065212257627284,
+       "nonsynonymous":0.00142633158027646,
+       "original name":"XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01238677429912764
+      },
+     "XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.02611433317012328,
+       "Standard MG94":0.02785028330459084,
+       "dN":0.003806718417545135,
+       "dS":0.1021259068050319,
+       "nonsynonymous":0.002875800630487738,
+       "original name":"XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":0.02497448267410313
+      },
+     "XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.03958308008181634,
+       "Standard MG94":0.06137902085289636,
+       "dN":0.008389596851716483,
+       "dS":0.2250744846955909,
+       "nonsynonymous":0.00633795444509474,
+       "original name":"XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":0.05504106640780165
+      },
+     "XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.7967190338681512,
+       "Standard MG94":6.526779732920915,
+       "dN":0.8921134605648616,
+       "dS":23.93344769427812,
+       "nonsynonymous":0.6739506763974114,
+       "original name":"XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":5.852829056523505
+      },
+     "XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.7575742394217643,
+       "Standard MG94":3.645464437865975,
+       "dN":0.4982806266047104,
+       "dS":13.36777645565957,
+       "nonsynonymous":0.3764280892290771,
+       "original name":"XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":3.269036348636898
+      },
+     "XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.1003342586853189,
+       "Standard MG94":0.1286084291532976,
+       "dN":0.01757885442510757,
+       "dS":0.471602112854851,
+       "nonsynonymous":0.01328001577578653,
+       "original name":"XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "synonymous":0.1153284133775112
+      },
+     "XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01298423228622836,
+       "Standard MG94":0.01483928245056039,
+       "dN":0.002028308624005662,
+       "dS":0.05441507219244923,
+       "nonsynonymous":0.001532293849961399,
+       "original name":"XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01330698860059899
+      },
+     "XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01282668268811924,
+       "Standard MG94":0.01482678022551003,
+       "dN":0.002026599756277495,
+       "dS":0.05436922701894111,
+       "nonsynonymous":0.001531002879011871,
+       "original name":"XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01329577734649815
+      },
+     "XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.02589672373751439,
+       "Standard MG94":0.01938873401360199,
+       "dN":0.00265015081014619,
+       "dS":0.07109773431332629,
+       "nonsynonymous":0.002002067012779161,
+       "original name":"XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.01738666700082282
+      },
+     "XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01293647982621524,
+       "Standard MG94":0.01578577100243406,
+       "dN":0.002157679494779509,
+       "dS":0.05788580893805169,
+       "nonsynonymous":0.001630027590924068,
+       "original name":"XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.01415574341151001
+      },
+     "XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.02636721904445546,
+       "Standard MG94":0.02580760584591739,
+       "dN":0.00352751486984712,
+       "dS":0.09463548792865244,
+       "nonsynonymous":0.002664875195392867,
+       "original name":"XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.02314273065052455
+      },
+     "XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02618009625117379,
+       "Standard MG94":0.03975548987526478,
+       "dN":0.005433982622422832,
+       "dS":0.1457818367442035,
+       "nonsynonymous":0.004105123872466647,
+       "original name":"XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1",
+       "synonymous":0.03565036600279815
+      },
+     "XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":3.023265183777768,
+       "Standard MG94":4.792338772971287,
+       "dN":0.6550412457448223,
+       "dS":17.57332008274148,
+       "nonsynonymous":0.4948535249747292,
+       "original name":"XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":4.297485247996555
+      },
+     "XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01275621926290269,
+       "Standard MG94":0.007999143609566056,
+       "dN":0.001093363646254329,
+       "dS":0.02933254882387312,
+       "nonsynonymous":0.0008259859328597926,
+       "original name":"XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.007173157676706266
+      },
+     "XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2",
+       "synonymous":1e-10
+      },
+     "XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.02604720670493078,
+       "Standard MG94":0.02905311718489679,
+       "dN":0.003971127872031829,
+       "dS":0.1065366519101566,
+       "nonsynonymous":0.003000004409441234,
+       "original name":"XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.02605311277545556
+      },
+     "XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01291972537759768,
+       "Standard MG94":0.01219014454724697,
+       "dN":0.00166621097721089,
+       "dS":0.04470078642850995,
+       "nonsynonymous":0.001258745736670147,
+       "original name":"XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.01093139881057683
+      },
+     "XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01290813047634012,
+       "Standard MG94":0.01323408434685475,
+       "dN":0.001808901980333295,
+       "dS":0.04852887311325945,
+       "nonsynonymous":0.001366542224808864,
+       "original name":"XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.01186754212204587
+      },
+     "XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01291683147498086,
+       "Standard MG94":0.01790275322036438,
+       "dN":0.002447039395017298,
+       "dS":0.06564870047964756,
+       "nonsynonymous":0.001848625683104033,
+       "original name":"XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01605412753726032
+      },
+     "XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.03939048065321914,
+       "Standard MG94":0.02886719235588103,
+       "dN":0.003945714720461608,
+       "dS":0.1058548727859322,
+       "nonsynonymous":0.00298080594260127,
+       "original name":"XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.02588638641327977
+      },
+     "XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01291939979579695,
+       "Standard MG94":0.01229996909670068,
+       "dN":0.001681222355390841,
+       "dS":0.04510350878432039,
+       "nonsynonymous":0.001270086142263433,
+       "original name":"XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.01102988295443724
+      },
+     "XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01287662016143603,
+       "Standard MG94":0.01611406640941581,
+       "dN":0.002202552581293021,
+       "dS":0.05908965544012339,
+       "nonsynonymous":0.001663927143329288,
+       "original name":"XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01445013926608653
+      },
+     "XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02622049643198073,
+       "Standard MG94":0.03331006703100507,
+       "dN":0.004552989435324266,
+       "dS":0.1221467215996697,
+       "nonsynonymous":0.003439574051067645,
+       "original name":"XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.02987049297993743
+      },
+     "XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01318909492139851,
+       "Standard MG94":0.019116279964157,
+       "dN":0.002612910404488054,
+       "dS":0.07009865589972585,
+       "nonsynonymous":0.001973933599606891,
+       "original name":"XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.01714234636455009
+      },
+     "XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01291713582726576,
+       "Standard MG94":0.01602453097202909,
+       "dN":0.002190314422176457,
+       "dS":0.05876133246996539,
+       "nonsynonymous":0.00165468177715216,
+       "original name":"XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.01436984919487693
+      },
+     "XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.01297359029428396,
+       "Standard MG94":0.01550813312874497,
+       "dN":0.002119730537649645,
+       "dS":0.05686772164235632,
+       "nonsynonymous":0.001601358899712913,
+       "original name":"XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.01390677422903206
+      },
+     "XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.0128359269425516,
+       "Standard MG94":0.008508626998280136,
+       "dN":0.001163002427951444,
+       "dS":0.0312008046152226,
+       "nonsynonymous":0.0008785948285921198,
+       "original name":"XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.007630032169688016
+      },
+     "XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.0130040742600618,
+       "Standard MG94":0.01167206519309973,
+       "dN":0.001595397255224185,
+       "dS":0.04280100956589785,
+       "nonsynonymous":0.00120524922760398,
+       "original name":"XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01046681596549574
+      },
+     "XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3",
+       "synonymous":1e-10
+      },
+     "XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.6833005887834276,
+       "Standard MG94":2.771203300525739,
+       "dN":0.3787821663248306,
+       "dS":10.16189483288441,
+       "nonsynonymous":0.2861525001990888,
+       "original name":"XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":2.485050800326653
+      },
+     "XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01294279512632576,
+       "Standard MG94":0.01407370774787472,
+       "dN":0.001923665978584533,
+       "dS":0.05160773950273548,
+       "nonsynonymous":0.001453241145592461,
+       "original name":"XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.01262046660228225
+      },
+     "XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.03997143173239334,
+       "Standard MG94":0.08301808407842112,
+       "dN":0.01134733410767646,
+       "dS":0.3044240887965245,
+       "nonsynonymous":0.00857238886669612,
+       "original name":"XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.07444569521172496
+      },
+     "XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01291070766285586,
+       "Standard MG94":0.01203752110130541,
+       "dN":0.001645349628108592,
+       "dS":0.04414112218215299,
+       "nonsynonymous":0.001242985947181987,
+       "original name":"XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01079453515412342
+      },
+     "XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0.0399033421355647,
+       "Standard MG94":0.04410947093686452,
+       "dN":0.006029106905919887,
+       "dS":0.1617477161309497,
+       "nonsynonymous":0.004554712889035694,
+       "original name":"XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":0.03955475804782885
+      },
+     "XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01309921950692869,
+       "Standard MG94":0.02142308568921616,
+       "dN":0.002928216347456103,
+       "dS":0.07855762286671084,
+       "nonsynonymous":0.002212132733381748,
+       "original name":"XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.01921095295583441
+      },
+     "XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Nucleotide GTR":0.01289409462845261,
+       "Standard MG94":0.01012646970051042,
+       "dN":0.001384137399682803,
+       "dS":0.03713337094591897,
+       "nonsynonymous":0.001045652126078818,
+       "original name":"XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "synonymous":0.009080817574431603
+      },
+     "XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.323707345074027e-10,
+       "dS":4.089210100473059e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1":{
+       "Nucleotide GTR":0.0129676011661902,
+       "Standard MG94":0.01553261586770951,
+       "dN":0.002123076962973545,
+       "dS":0.05695749889490632,
+       "nonsynonymous":0.001603886970087648,
+       "original name":"XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1",
+       "synonymous":0.01392872889762187
+      },
+     "XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1":{
+       "Nucleotide GTR":0.05156751940720285,
+       "Standard MG94":0.04933039948847684,
+       "dN":0.006742729983170002,
+       "dS":0.1808926582798791,
+       "nonsynonymous":0.005093822292564921,
+       "original name":"XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1",
+       "synonymous":0.0442365771959119
+      },
+     "XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1":{
+       "Nucleotide GTR":0.01300891721120397,
+       "Standard MG94":0.01347982516363122,
+       "dN":0.00184249108543986,
+       "dS":0.04942999514055922,
+       "nonsynonymous":0.001391917248398151,
+       "original name":"XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1",
+       "synonymous":0.01208790791523305
+      }
+    },
+   "attributes":{
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Standard MG94":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "dN":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "dS":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "nonsynonymous":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      },
+     "synonymous":{
+       "attribute type":"branch length",
+       "display order":2
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29] 
+      ],
+     "name":"fitter.filter.default"
+    }
+  },
+ "fits":{
+   "Nucleotide GTR":{
+     "AIC-c":3130.223917818047,
+     "Equilibrium frequencies":      [
+[0.1633064516129032],
+      [0.3796296296296297],
+      [0.2408154121863799],
+      [0.2162485065710872] 
+      ],
+     "Log Likelihood":-1203.947709595029,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.2131208972697072,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.06050240335082786,
+       "Substitution rate from nucleotide C to nucleotide G":0.2779712463330916,
+       "Substitution rate from nucleotide C to nucleotide T":0.6086353618507208,
+       "Substitution rate from nucleotide G to nucleotide T":0.1645581316670465
+      },
+     "display order":0,
+     "estimated parameters":353
+    },
+   "Standard MG94":{
+     "AIC-c":2711.912520536159,
+     "Confidence Intervals":{
+       "non-synonymous/synonymous rate ratio":{
+         "LB":0.01369472866338762,
+         "UB":0.02446782969130451
+        }
+      },
+     "Log Likelihood":-1109.82865192137,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.1865834123532616,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.1550300603843456,
+       "Substitution rate from nucleotide C to nucleotide G":0.04471349669511784,
+       "Substitution rate from nucleotide C to nucleotide T":0.2795396435841884,
+       "Substitution rate from nucleotide G to nucleotide T":0.1840301121955852,
+       "non-synonymous/synonymous rate ratio":0.01830881924454012
+      },
+     "display order":1,
+     "estimated parameters":235
+    }
+  },
+ "input":{
+   "file name":"/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.5.codon.fas",
+   "number of sequences":174,
+   "number of sites":30,
+   "partition count":1,
+   "trees":{
+     "0":"(NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1,NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1,(XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1,((((((XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node142,XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node141,XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1)Node140,(XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node133,XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1)Node130,XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3,XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2,XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1)Node129,(XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1,(XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node178)Node176,XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1,XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,(XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1)Node203,XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(((((XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1)Node228,XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node227,(XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,(XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node235)Node233,(XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node238)Node226,XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1,XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node210,XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node208,(XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,((XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node250,(XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1,XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node253)Node249,(XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node262)Node247)Node174,((XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node21,(XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node30,XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1,XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node17,((XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1,(XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1,XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node77,XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1,XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node68,XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1,XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1,XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node67,XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,((XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1,XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node95,XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1)Node94,XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node16,(XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,(XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node119,(XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1,XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node107,XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1,XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node103,XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(((XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node305,XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1,XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2,XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node289,(XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node284,XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node273,XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1,(XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,(XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node314,XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node312)Node12,((XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1,XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node321,(XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1)Node324,XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1)Node319)Node9)"
+    }
+  },
+ "test results":{
+   "non-synonymous/synonymous rate ratio":{
+     "LRT":374.187121543026,
+     "p-value":0
+    }
+  },
+ "tested":{
+   "0":{
+     "NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":"test",
+     "NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1":"test",
+     "NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "Node103":"test",
+     "Node107":"test",
+     "Node119":"test",
+     "Node12":"test",
+     "Node129":"test",
+     "Node130":"test",
+     "Node133":"test",
+     "Node140":"test",
+     "Node141":"test",
+     "Node142":"test",
+     "Node16":"test",
+     "Node17":"test",
+     "Node174":"test",
+     "Node176":"test",
+     "Node178":"test",
+     "Node203":"test",
+     "Node208":"test",
+     "Node21":"test",
+     "Node210":"test",
+     "Node226":"test",
+     "Node227":"test",
+     "Node228":"test",
+     "Node233":"test",
+     "Node235":"test",
+     "Node238":"test",
+     "Node247":"test",
+     "Node249":"test",
+     "Node250":"test",
+     "Node253":"test",
+     "Node262":"test",
+     "Node273":"test",
+     "Node284":"test",
+     "Node289":"test",
+     "Node30":"test",
+     "Node305":"test",
+     "Node312":"test",
+     "Node314":"test",
+     "Node319":"test",
+     "Node321":"test",
+     "Node324":"test",
+     "Node67":"test",
+     "Node68":"test",
+     "Node77":"test",
+     "Node9":"test",
+     "Node94":"test",
+     "Node95":"test",
+     "XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1":"test",
+     "XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1":"test",
+     "XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":"test",
+     "XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1":"test",
+     "XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":"test",
+     "XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1":"test",
+     "XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":"test",
+     "XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1":"test",
+     "XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1":"test",
+     "XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":"test",
+     "XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":"test",
+     "XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1":"test",
+     "XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1":"test",
+     "XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3":"test",
+     "XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1":"test",
+     "XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1":"test",
+     "XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1":"test",
+     "XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1":"test",
+     "XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1":"test",
+     "XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1":"test",
+     "XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1":"test",
+     "XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1":"test",
+     "XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1":"test",
+     "XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1":"test"
+    }
+  },
+ "timers":{
+   "LRT":{
+     "order":2,
+     "timer":16
+    },
+   "Overall":{
+     "order":0,
+     "timer":64
+    },
+   "Standard MG94":{
+     "order":null,
+     "timer":64
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# -------------------------------------------------------------
+# User settings for data files and gene label
+# -------------------------------------------------------------
+
+
+# -------------------------------------------------------------
+# Mammalian REM2
+# -------------------------------------------------------------
+Nucleotide: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+Protein: data/mammalian_REM2/Rem2_refseq_protein.fasta
+HumanRef: data/mammalian_REM2/Rem2_Human.fasta
+CSV: data/mammalian_REM2/Rem2_orthologs.csv
+Label: mammalian_REM2
+TN93_Threshold: 0.1
+
+# User settings for NCBI Entrez
+EMAIL: ""
+
+# -------------------------------------------------------------
+# Do not change below this line
+# -------------------------------------------------------------
+
+PREMSA: hyphy-analyses/codon-msa/pre-msa.bf
+POSTMSA: hyphy-analyses/codon-msa/post-msa.bf
+FMM: hyphy-analyses/FitMultiModel/FitMultiModel.bf
+BUSTEDSMH: hyphy-analyses/BUSTED-MH/BUSTED-MH.bf
+FITMG94: hyphy-analyses/FitMG94/FitMG94.bf
+HYPHY: hyphy
+HYPHYMPI: HYPHYMPI
+STRIKEAMBIGS: scripts/strike-ambigs.bf
+
+# -------------------------------------------------------------
+# End of file
+# -------------------------------------------------------------

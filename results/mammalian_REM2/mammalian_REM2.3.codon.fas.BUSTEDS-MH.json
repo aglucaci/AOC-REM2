@@ -1,0 +1,2773 @@
+{
+ "Evidence Ratios":{
+  },
+ "Site Log Likelihood":{
+   "unconstrained":    [
+[-22.59247363363806, -7.229516006185149, -38.00478978993659, -16.51164476637226, -4.810264626509723, -4.552579891436733, -4.654706885013487, -3.632446686643303, -3.360128205980785, -3.779103021263845, -4.830219024529208, -3.638392907242447, -4.157934621606134, -3.678576458987096, -4.473331567679613, -4.850317339150057, -4.280261410774215, -4.342204852606319, -4.592763443181385, -3.678576458987096, -4.248733868333421, -4.166590630909988, -3.678576458987096, -4.213931842839092, -3.800903248155177, -4.330906463890686, -4.821563015225355, -97.88210300057342, -94.12437229623951, -139.1692332751485, -103.308465075989, -59.95166180589198, -41.80893309980394, -50.56997860650959, -123.2649821702632, -28.23223121186327, -47.03533003645987, -30.68305613938943, -46.00395131559967, -31.84780654936059, -136.2069153897541, -48.9781269176613, -41.48443796188777, -30.68616842777644, -17.04780264934685, -8.429991534323278, -29.53010235086479, -13.63905694657273, -12.13341776476873, -53.07815207980806, -21.98596486891757, -80.14100327646446, -49.03204149837727, -80.63284427907095, -124.3738429242281, -48.3719747790697, -16.6466124141581, -36.32385386654004, -29.48684144304334, -37.94212653521241, -43.1737528738172, -32.85999680572191, -68.1501903211895, -71.40518613088294, -52.95705534975276, -98.78945901616171, -49.30269831164389, -57.00931933955754, -39.81776010179715, -77.57711111929316, -50.51838596452969, -45.41253367574534, -62.15686388321581, -57.63930394315899, -39.88090300371951, -96.05969543050217, -73.23834743177457, -4.473331567679613, -4.850317339150058, -4.280261410774214, -4.288917420078069, -4.117751069861485, -3.678576458987096, -4.240077859029566, -37.62025744527514, -39.88477401807564, -103.0845592148967, -78.86792882375069, -48.31621668877767, -37.01327177613003, -31.9578261385706, -63.74994320077953, -44.04270268247047, -65.11727852511916, -85.42069545557192, -75.04823426601612, -66.62572196593194] 
+    ]
+  },
+ "Synonymous site-posteriors":  [
+[0.9835092414711628, 0.7767853965028571, 0.7008350832205947, 0.9826827814491388, 0.4413961671094921, 0.4413961671094939, 0.4413961671094917, 0.4413961671094923, 0.4413961671094926, 0.4413961671094915, 0.4413961671094942, 0.4413961671094931, 0.4413961671094923, 0.4413961671094936, 0.4413961671094929, 0.4413961671094937, 0.4413961671094946, 0.4413961671094944, 0.4413961671094928, 0.4413961671094936, 0.4413961671094936, 0.4413961671094924, 0.4413961671094936, 0.4413961671094921, 0.4413961671094926, 0.441396167109492, 0.4413961671094955, 0.0001004135863636786, 7.389727011298734e-09, 0.0001421132319473261, 1.077519515874955e-05, 0.12917208536902, 0.02202334548194668, 0.93048260603651, 2.430757477489785e-07, 0.6829163090042492, 0.1318522862673929, 0.4740916906550707, 0.9443460729891341, 0.7406674822874887, 1.628239217008112e-13, 0.128771363225188, 0.2428190856701515, 0.9787777911163844, 0.9980307167967649, 0.9986498819418925, 0.7022519510322305, 0.9965788994871441, 0.9678323768223956, 0.8651124785876484, 0.9967070960424648, 0.02119227921925793, 0.07704973322140071, 0.1950137650570025, 4.222969593231442e-05, 0.0858143338088318, 0.9675770463017502, 0.9770123115779156, 0.9925063016916855, 0.9886821428358239, 0.9485370830847436, 0.5568847057750671, 0.001780334812069568, 0.0301990051670125, 0.973336473795174, 1.148113137270909e-05, 0.05860484034286857, 0.2265889397878002, 0.9991545190347251, 0.004079397579196665, 0.31306717802476, 0.756424803081711, 0.009166614219645946, 0.0002205860618124055, 0.1854170758109442, 0.0009267360369162777, 0.009982038629299833, 0.4413961671094933, 0.4413961671094936, 0.4413961671094939, 0.4413961671094934, 0.4413961671094937, 0.4413961671094936, 0.4413961671094938, 0.9359621810446214, 0.67451490428203, 1.842593722221113e-09, 0.004193895568501071, 0.9645510419866243, 0.6025726249964792, 0.8066859009635885, 0.0004052869395125642, 0.08978788808833672, 0.5350780901475929, 3.833951808286621e-05, 0.002470040983844264, 0.006646906220091061],
+  [0.01648922966637438, 0.2183661615235558, 0.2991112023636747, 0.01731377248109935, 0.4665613380514832, 0.4665613380514819, 0.4665613380514836, 0.4665613380514826, 0.4665613380514828, 0.4665613380514839, 0.4665613380514817, 0.4665613380514818, 0.4665613380514826, 0.4665613380514816, 0.4665613380514821, 0.4665613380514817, 0.4665613380514806, 0.4665613380514808, 0.466561338051482, 0.4665613380514816, 0.4665613380514816, 0.4665613380514826, 0.4665613380514816, 0.4665613380514829, 0.4665613380514827, 0.4665613380514832, 0.4665613380514799, 0.8853918577577615, 0.02482618926288326, 0.9935389903776101, 0.647838609960281, 0.8699103401875564, 0.6287429947074943, 0.06951687789321723, 0.1640178398316245, 0.3163007855495369, 0.8355809598059482, 0.523077315057409, 0.0556538542402062, 0.2588423816982127, 0.0003501483518276402, 0.870761995413766, 0.7568568629659007, 0.02122090836002807, 0.001969281464069094, 0.001350107073629481, 0.2973843089254505, 0.003421043659229355, 0.032149429298497, 0.1348870294487305, 0.003292860414871709, 0.9777979850781175, 0.9084393812559598, 0.8049692692759353, 0.9802152380952599, 0.8888268014833556, 0.03240449685513874, 0.02298625526380052, 0.007493639555281481, 0.01131785183952576, 0.05146282913607361, 0.4418652454901471, 0.9512734879633965, 0.9697118492761639, 0.02666351282793005, 0.7398888358363839, 0.9380193454977586, 0.7732583398781588, 0.0008454809369702274, 0.9842781995110648, 0.6866395214613132, 0.2434732624146716, 0.8350893406615997, 0.5300998865294014, 0.8036894995921887, 0.9959034998451641, 0.9896384833581238, 0.4665613380514819, 0.4665613380514818, 0.4665613380514813, 0.4665613380514819, 0.4665613380514816, 0.4665613380514816, 0.4665613380514815, 0.06402990520168514, 0.3249475635557681, 0.01511582293779961, 0.9931904751385187, 0.03544885287226963, 0.3956198980296974, 0.1930983033464737, 0.8975884418769877, 0.8803754598621248, 0.4649074436507672, 0.613083626601273, 0.9545952948104829, 0.9689943835954516],
+  [1.528862462709057e-06, 0.004848441973587012, 5.371441573056233e-05, 3.44606976199456e-06, 0.09204249483902477, 0.09204249483902445, 0.09204249483902462, 0.092042494839025, 0.09204249483902478, 0.09204249483902471, 0.09204249483902403, 0.09204249483902499, 0.09204249483902496, 0.09204249483902473, 0.09204249483902481, 0.09204249483902464, 0.09204249483902466, 0.09204249483902488, 0.09204249483902523, 0.09204249483902473, 0.09204249483902488, 0.09204249483902495, 0.09204249483902473, 0.09204249483902512, 0.09204249483902466, 0.0920424948390247, 0.09204249483902452, 0.1145077286558748, 0.9751738033473897, 0.006318896390442559, 0.3521506148445603, 0.000917574443423679, 0.3492336598105589, 5.160702728200185e-07, 0.8359819170926278, 0.0007829054462139438, 0.03256675392665911, 0.002830994287520252, 7.277065984474197e-08, 0.0004901360142984709, 0.9996498516480097, 0.0004666413610460366, 0.0003240513639476378, 1.300523587592862e-06, 1.73916615952282e-09, 1.098447792978451e-08, 0.0003637400423190046, 5.685362663686669e-08, 1.819387910740222e-05, 4.919636211114763e-07, 4.35426634186512e-08, 0.001009735702624617, 0.01451088552263943, 1.696566706224248e-05, 0.01974253220880783, 0.02535886470781264, 1.845684311109332e-05, 1.433158283994654e-06, 5.875303305348383e-08, 5.32465039063668e-09, 8.777918280380136e-08, 0.001250048734785895, 0.04694617722453383, 8.914555682352567e-05, 1.337689590451385e-08, 0.2600996830322433, 0.003375814159372851, 0.0001527203340411577, 2.830459157682979e-11, 0.0116424029097385, 0.0002933005139266262, 0.0001019345036173061, 0.1557440451187544, 0.4696795274087862, 0.01089342459686701, 0.003169764117919617, 0.000379478012576603, 0.09204249483902474, 0.09204249483902469, 0.09204249483902482, 0.09204249483902484, 0.09204249483902477, 0.09204249483902471, 0.09204249483902478, 7.913753693497055e-06, 0.0005375321622019043, 0.9848841752196066, 0.002615629292980404, 1.051411059097141e-07, 0.001807476973823299, 0.0002157956899376855, 0.1020062711834998, 0.0298366520495384, 1.446620163994788e-05, 0.3868780338806441, 0.042934664205673, 0.02435871018445737] 
+  ],
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Sadie Wisotsky",
+   "citation":"*Gene-wide identification of episodic selection*, Mol Biol Evol. 32(5):1365-71",
+   "contact":"spond@temple.edu",
+   "info":"BUSTED-SMSH (branch-site unrestricted statistical test of episodic diversification) uses a random effects branch-site model fitted\njointly to all or a subset of tree branches in order to test for alignment-wide evidence of episodic diversifying selection and.\nAssuming there is evidence of positive selection (i.e. there is an omega > 1),  BUSTED will also perform a quick evidence-ratio\nstyle analysis to explore which individual sites may have been subject to selection. v2.0 adds support for synonymous rate variation,\nand relaxes the test statistic to 0.5 (chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial starting point.\nVersion 2.2 changes the grid search to LHC, and adds an initial search phase to use adaptive Nedler-Mead.\n",
+   "requirements":"in-frame codon alignment and a phylogenetic tree (optionally annotated with {})",
+   "version":"2.2"
+  },
+ "background":0,
+ "branch attributes":{
+   "0":{
+     "NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2",
+       "unconstrained":0
+      },
+     "NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.00473471869599356,
+       "MG94 with double instantaneous substitutions":0.004738397773185052,
+       "MG94xREV with separate rates for branch sets":0.00473471869599356,
+       "Nucleotide GTR":0.004935041540889942,
+       "original name":"NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.004677021515709692
+      },
+     "NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.009425305943722909,
+       "MG94 with double instantaneous substitutions":0.009426958648999395,
+       "MG94xREV with separate rates for branch sets":0.009425305943722909,
+       "Nucleotide GTR":0.009918671090705876,
+       "original name":"NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1",
+       "unconstrained":0.009241297231741292
+      },
+     "NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "Node10":{
+       "MG94 with double and triple instantaneous substitutions":0.004709575156055823,
+       "MG94 with double instantaneous substitutions":0.004705305854002803,
+       "MG94xREV with separate rates for branch sets":0.004709575156055823,
+       "Nucleotide GTR":0.004943429882547526,
+       "unconstrained":0.004757132356049886
+      },
+     "Node100":{
+       "MG94 with double and triple instantaneous substitutions":0.005518181190829241,
+       "MG94 with double instantaneous substitutions":0.005518115778427896,
+       "MG94xREV with separate rates for branch sets":0.005518181190829241,
+       "Nucleotide GTR":0.005106148311732451,
+       "unconstrained":0.006186134625819496
+      },
+     "Node102":{
+       "MG94 with double and triple instantaneous substitutions":0.006545075072617746,
+       "MG94 with double instantaneous substitutions":0.006538081962820556,
+       "MG94xREV with separate rates for branch sets":0.006545075072617746,
+       "Nucleotide GTR":0.006635039347982248,
+       "unconstrained":0.006506532477922856
+      },
+     "Node103":{
+       "MG94 with double and triple instantaneous substitutions":0.01575051256209695,
+       "MG94 with double instantaneous substitutions":0.01575552208117052,
+       "MG94xREV with separate rates for branch sets":0.01575051256209695,
+       "Nucleotide GTR":0.01407948042726513,
+       "unconstrained":0.01676604938184919
+      },
+     "Node104":{
+       "MG94 with double and triple instantaneous substitutions":0.005470411447203802,
+       "MG94 with double instantaneous substitutions":0.005472563544030332,
+       "MG94xREV with separate rates for branch sets":0.005470411447203802,
+       "Nucleotide GTR":0.00510064929408403,
+       "unconstrained":0.005741431804890467
+      },
+     "Node107":{
+       "MG94 with double and triple instantaneous substitutions":0.00513306248856446,
+       "MG94 with double instantaneous substitutions":0.005133164837410309,
+       "MG94xREV with separate rates for branch sets":0.00513306248856446,
+       "Nucleotide GTR":0.005002415006883589,
+       "unconstrained":0.00528882124805336
+      },
+     "Node11":{
+       "MG94 with double and triple instantaneous substitutions":0.004773725995490682,
+       "MG94 with double instantaneous substitutions":0.004781228931704116,
+       "MG94xREV with separate rates for branch sets":0.004773725995490682,
+       "Nucleotide GTR":0.004933448461598202,
+       "unconstrained":0.00453909786030806
+      },
+     "Node110":{
+       "MG94 with double and triple instantaneous substitutions":0.01548538985728067,
+       "MG94 with double instantaneous substitutions":0.01550154425579992,
+       "MG94xREV with separate rates for branch sets":0.01548538985728067,
+       "Nucleotide GTR":0.01492686246466509,
+       "unconstrained":0.01625902621092403
+      },
+     "Node113":{
+       "MG94 with double and triple instantaneous substitutions":0.005095690958648272,
+       "MG94 with double instantaneous substitutions":0.005097475784676272,
+       "MG94xREV with separate rates for branch sets":0.005095690958648272,
+       "Nucleotide GTR":0.005031929468468851,
+       "unconstrained":0.00526858101656292
+      },
+     "Node116":{
+       "MG94 with double and triple instantaneous substitutions":0.00516507483289464,
+       "MG94 with double instantaneous substitutions":0.00516722715932271,
+       "MG94xREV with separate rates for branch sets":0.00516507483289464,
+       "Nucleotide GTR":0.005026212533349051,
+       "unconstrained":0.005418292904951856
+      },
+     "Node12":{
+       "MG94 with double and triple instantaneous substitutions":0.01435542955939786,
+       "MG94 with double instantaneous substitutions":0.01435644845195511,
+       "MG94xREV with separate rates for branch sets":0.01435542955939786,
+       "Nucleotide GTR":0.0148955595839766,
+       "unconstrained":0.01326537138930274
+      },
+     "Node122":{
+       "MG94 with double and triple instantaneous substitutions":0.005164022243195373,
+       "MG94 with double instantaneous substitutions":0.005164106988788531,
+       "MG94xREV with separate rates for branch sets":0.005164022243195373,
+       "Nucleotide GTR":0.005029993511909791,
+       "unconstrained":0.005313927284320156
+      },
+     "Node126":{
+       "MG94 with double and triple instantaneous substitutions":0.005194215081604146,
+       "MG94 with double instantaneous substitutions":0.005194287793322231,
+       "MG94xREV with separate rates for branch sets":0.005194215081604146,
+       "Nucleotide GTR":0.005026882176049828,
+       "unconstrained":0.005349813071599494
+      },
+     "Node129":{
+       "MG94 with double and triple instantaneous substitutions":0.005223543889066997,
+       "MG94 with double instantaneous substitutions":0.005223604786062665,
+       "MG94xREV with separate rates for branch sets":0.005223543889066997,
+       "Nucleotide GTR":0.005032768090150301,
+       "unconstrained":0.005379631136515377
+      },
+     "Node13":{
+       "MG94 with double and triple instantaneous substitutions":0.003750153241039119,
+       "MG94 with double instantaneous substitutions":0.003771508909399497,
+       "MG94xREV with separate rates for branch sets":0.003750153241039119,
+       "Nucleotide GTR":0.004650980982864582,
+       "unconstrained":0.004652710341822783
+      },
+     "Node133":{
+       "MG94 with double and triple instantaneous substitutions":0.005204583829492292,
+       "MG94 with double instantaneous substitutions":0.005204657896507122,
+       "MG94xREV with separate rates for branch sets":0.005204583829492292,
+       "Nucleotide GTR":0.005017939959698328,
+       "unconstrained":0.005343937497195242
+      },
+     "Node136":{
+       "MG94 with double and triple instantaneous substitutions":0.00518009153894768,
+       "MG94 with double instantaneous substitutions":0.005182244181766206,
+       "MG94xREV with separate rates for branch sets":0.00518009153894768,
+       "Nucleotide GTR":0.005019023165048639,
+       "unconstrained":0.005291146464001
+      },
+     "Node139":{
+       "MG94 with double and triple instantaneous substitutions":0.005472901656594497,
+       "MG94 with double instantaneous substitutions":0.005510121501516166,
+       "MG94xREV with separate rates for branch sets":0.005472901656594497,
+       "Nucleotide GTR":0.004956965536216453,
+       "unconstrained":0.006393059753538708
+      },
+     "Node14":{
+       "MG94 with double and triple instantaneous substitutions":0.02999000142726089,
+       "MG94 with double instantaneous substitutions":0.02998698606105174,
+       "MG94xREV with separate rates for branch sets":0.02999000142726089,
+       "Nucleotide GTR":0.02636713781687865,
+       "unconstrained":0.03041926018003144
+      },
+     "Node140":{
+       "MG94 with double and triple instantaneous substitutions":0.01391120657132546,
+       "MG94 with double instantaneous substitutions":0.01391743598462139,
+       "MG94xREV with separate rates for branch sets":0.01391120657132546,
+       "Nucleotide GTR":0.01318511840321049,
+       "unconstrained":0.01450599745990626
+      },
+     "Node142":{
+       "MG94 with double and triple instantaneous substitutions":0.01053952312333559,
+       "MG94 with double instantaneous substitutions":0.01054675032722131,
+       "MG94xREV with separate rates for branch sets":0.01053952312333559,
+       "Nucleotide GTR":0.01007568176222275,
+       "unconstrained":0.01085821649870915
+      },
+     "Node144":{
+       "MG94 with double and triple instantaneous substitutions":0.005127650001832127,
+       "MG94 with double instantaneous substitutions":0.005127749021451507,
+       "MG94xREV with separate rates for branch sets":0.005127650001832127,
+       "Nucleotide GTR":0.004996440752558861,
+       "unconstrained":0.005138186171630105
+      },
+     "Node15":{
+       "MG94 with double and triple instantaneous substitutions":0.005030838445198114,
+       "MG94 with double instantaneous substitutions":0.005034638218159848,
+       "MG94xREV with separate rates for branch sets":0.005030838445198114,
+       "Nucleotide GTR":0.005003185250004225,
+       "unconstrained":0.004961156528885865
+      },
+     "Node159":{
+       "MG94 with double and triple instantaneous substitutions":0.007204990398667265,
+       "MG94 with double instantaneous substitutions":0.007173284245674732,
+       "MG94xREV with separate rates for branch sets":0.007204990398667265,
+       "Nucleotide GTR":0.007143937544863282,
+       "unconstrained":0.007191321015274691
+      },
+     "Node163":{
+       "MG94 with double and triple instantaneous substitutions":0.009925923542551765,
+       "MG94 with double instantaneous substitutions":0.009926454710064194,
+       "MG94xREV with separate rates for branch sets":0.009925923542551765,
+       "Nucleotide GTR":0.01012630491797087,
+       "unconstrained":0.004498551228010172
+      },
+     "Node164":{
+       "MG94 with double and triple instantaneous substitutions":0.01606181712812713,
+       "MG94 with double instantaneous substitutions":0.01607502689183187,
+       "MG94xREV with separate rates for branch sets":0.01606181712812713,
+       "Nucleotide GTR":0.01523081489980582,
+       "unconstrained":0.0161302459823765
+      },
+     "Node170":{
+       "MG94 with double and triple instantaneous substitutions":0.007834765953003775,
+       "MG94 with double instantaneous substitutions":0.007546417393848287,
+       "MG94xREV with separate rates for branch sets":0.007834765953003775,
+       "Nucleotide GTR":0.00693315316945704,
+       "unconstrained":0.00727735141792763
+      },
+     "Node171":{
+       "MG94 with double and triple instantaneous substitutions":0.008300399754226317,
+       "MG94 with double instantaneous substitutions":0.008584298324034744,
+       "MG94xREV with separate rates for branch sets":0.008300399754226317,
+       "Nucleotide GTR":0.008279573916978485,
+       "unconstrained":0.00913331800631313
+      },
+     "Node172":{
+       "MG94 with double and triple instantaneous substitutions":0.03218415470246022,
+       "MG94 with double instantaneous substitutions":0.03221800827150276,
+       "MG94xREV with separate rates for branch sets":0.03218415470246022,
+       "Nucleotide GTR":0.03041725567375613,
+       "unconstrained":0.02770435883613046
+      },
+     "Node176":{
+       "MG94 with double and triple instantaneous substitutions":0.004910062644895333,
+       "MG94 with double instantaneous substitutions":0.004904317579034318,
+       "MG94xREV with separate rates for branch sets":0.004910062644895333,
+       "Nucleotide GTR":0.004818518429366367,
+       "unconstrained":0.008361780520302252
+      },
+     "Node178":{
+       "MG94 with double and triple instantaneous substitutions":0.03218462293851326,
+       "MG94 with double instantaneous substitutions":0.03230797999915423,
+       "MG94xREV with separate rates for branch sets":0.03218462293851326,
+       "Nucleotide GTR":0.02665625540890644,
+       "unconstrained":0.03888298623728727
+      },
+     "Node182":{
+       "MG94 with double and triple instantaneous substitutions":0.02075887920092171,
+       "MG94 with double instantaneous substitutions":0.02075815131522519,
+       "MG94xREV with separate rates for branch sets":0.02075887920092171,
+       "Nucleotide GTR":0.01902392179650288,
+       "unconstrained":0.01421091628325845
+      },
+     "Node185":{
+       "MG94 with double and triple instantaneous substitutions":0.02705410911149706,
+       "MG94 with double instantaneous substitutions":0.02704376953901422,
+       "MG94xREV with separate rates for branch sets":0.02705410911149706,
+       "Nucleotide GTR":0.0262184815177211,
+       "unconstrained":0.03287879971198756
+      },
+     "Node188":{
+       "MG94 with double and triple instantaneous substitutions":0.004965848203787157,
+       "MG94 with double instantaneous substitutions":0.004967993008002739,
+       "MG94xREV with separate rates for branch sets":0.004965848203787157,
+       "Nucleotide GTR":0.005002213764790307,
+       "unconstrained":0.005070127872550944
+      },
+     "Node19":{
+       "MG94 with double and triple instantaneous substitutions":0.004905888364068911,
+       "MG94 with double instantaneous substitutions":0.004907678328017441,
+       "MG94xREV with separate rates for branch sets":0.004905888364068911,
+       "Nucleotide GTR":0.004974981102308853,
+       "unconstrained":0
+      },
+     "Node190":{
+       "MG94 with double and triple instantaneous substitutions":0.00536085210467353,
+       "MG94 with double instantaneous substitutions":0.005369068732141729,
+       "MG94xREV with separate rates for branch sets":0.00536085210467353,
+       "Nucleotide GTR":0.005236719822976411,
+       "unconstrained":0.005472999755099951
+      },
+     "Node191":{
+       "MG94 with double and triple instantaneous substitutions":0.001175111105091632,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0.001175111105091632,
+       "Nucleotide GTR":0.004742458273850662,
+       "unconstrained":0
+      },
+     "Node192":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0.004719284001755049,
+       "unconstrained":0
+      },
+     "Node193":{
+       "MG94 with double and triple instantaneous substitutions":0.03679609967109439,
+       "MG94 with double instantaneous substitutions":0.03578655256292874,
+       "MG94xREV with separate rates for branch sets":0.03679609967109439,
+       "Nucleotide GTR":0.03783545204198781,
+       "unconstrained":0.04236614681302033
+      },
+     "Node194":{
+       "MG94 with double and triple instantaneous substitutions":0.07970860934830039,
+       "MG94 with double instantaneous substitutions":0.078891386881496,
+       "MG94xREV with separate rates for branch sets":0.07970860934830039,
+       "Nucleotide GTR":0.04519445584738375,
+       "unconstrained":0.09018906246825016
+      },
+     "Node195":{
+       "MG94 with double and triple instantaneous substitutions":0.132716705234565,
+       "MG94 with double instantaneous substitutions":0.1316305355487906,
+       "MG94xREV with separate rates for branch sets":0.132716705234565,
+       "Nucleotide GTR":0.113800974657615,
+       "unconstrained":0.1338078779233987
+      },
+     "Node196":{
+       "MG94 with double and triple instantaneous substitutions":0.006276746801295085,
+       "MG94 with double instantaneous substitutions":0.003929535687404686,
+       "MG94xREV with separate rates for branch sets":0.006276746801295085,
+       "Nucleotide GTR":0.005635523031959419,
+       "unconstrained":0
+      },
+     "Node197":{
+       "MG94 with double and triple instantaneous substitutions":0.01147133188329876,
+       "MG94 with double instantaneous substitutions":0.01137570327159066,
+       "MG94xREV with separate rates for branch sets":0.01147133188329876,
+       "Nucleotide GTR":0.01069159455281283,
+       "unconstrained":0.008637877673989493
+      },
+     "Node198":{
+       "MG94 with double and triple instantaneous substitutions":0.01199068274868068,
+       "MG94 with double instantaneous substitutions":0.01191609774078654,
+       "MG94xREV with separate rates for branch sets":0.01199068274868068,
+       "Nucleotide GTR":0.01189239134095793,
+       "unconstrained":0.01188191227810259
+      },
+     "Node2":{
+       "MG94 with double and triple instantaneous substitutions":0.02005491946042855,
+       "MG94 with double instantaneous substitutions":0.02005704517754046,
+       "MG94xREV with separate rates for branch sets":0.02005491946042855,
+       "Nucleotide GTR":0.02019981934180245,
+       "unconstrained":0.01965735046699611
+      },
+     "Node20":{
+       "MG94 with double and triple instantaneous substitutions":0.01067516262385411,
+       "MG94 with double instantaneous substitutions":0.01068605009591205,
+       "MG94xREV with separate rates for branch sets":0.01067516262385411,
+       "Nucleotide GTR":0.01022466471225684,
+       "unconstrained":0.01063203696482086
+      },
+     "Node200":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0.007598149469657122,
+       "unconstrained":0
+      },
+     "Node201":{
+       "MG94 with double and triple instantaneous substitutions":3.048663798126361,
+       "MG94 with double instantaneous substitutions":3.312734965957519,
+       "MG94xREV with separate rates for branch sets":3.048663798126361,
+       "Nucleotide GTR":0.84375677664003,
+       "unconstrained":149.9359815586244
+      },
+     "Node205":{
+       "MG94 with double and triple instantaneous substitutions":0.05004787867803994,
+       "MG94 with double instantaneous substitutions":0.05007721382409761,
+       "MG94xREV with separate rates for branch sets":0.05004787867803994,
+       "Nucleotide GTR":0.05032657698213373,
+       "unconstrained":0.0487856222966818
+      },
+     "Node208":{
+       "MG94 with double and triple instantaneous substitutions":0.009794778087512177,
+       "MG94 with double instantaneous substitutions":0.009935659284090556,
+       "MG94xREV with separate rates for branch sets":0.009794778087512177,
+       "Nucleotide GTR":0.01022085399101314,
+       "unconstrained":0.01017456833425054
+      },
+     "Node209":{
+       "MG94 with double and triple instantaneous substitutions":0.01172456830236779,
+       "MG94 with double instantaneous substitutions":0.01169082299659794,
+       "MG94xREV with separate rates for branch sets":0.01172456830236779,
+       "Nucleotide GTR":0.01085637773478263,
+       "unconstrained":0.01067920417924685
+      },
+     "Node21":{
+       "MG94 with double and triple instantaneous substitutions":0.00520712794133981,
+       "MG94 with double instantaneous substitutions":0.005207195461243001,
+       "MG94xREV with separate rates for branch sets":0.00520712794133981,
+       "Nucleotide GTR":0.00504043466588028,
+       "unconstrained":0.00516801291727053
+      },
+     "Node214":{
+       "MG94 with double and triple instantaneous substitutions":0.1720106406197122,
+       "MG94 with double instantaneous substitutions":0.1905478307579026,
+       "MG94xREV with separate rates for branch sets":0.1720106406197122,
+       "Nucleotide GTR":0.1211613692124842,
+       "unconstrained":0.2564677637022935
+      },
+     "Node217":{
+       "MG94 with double and triple instantaneous substitutions":0.06776122855443018,
+       "MG94 with double instantaneous substitutions":0.06992714620657353,
+       "MG94xREV with separate rates for branch sets":0.06776122855443018,
+       "Nucleotide GTR":0.04357272521380067,
+       "unconstrained":0.07779001497994237
+      },
+     "Node220":{
+       "MG94 with double and triple instantaneous substitutions":0.009798663813988648,
+       "MG94 with double instantaneous substitutions":0.009537147928775414,
+       "MG94xREV with separate rates for branch sets":0.009798663813988648,
+       "Nucleotide GTR":0.00569551975535779,
+       "unconstrained":0.009774886342562532
+      },
+     "Node221":{
+       "MG94 with double and triple instantaneous substitutions":0.004728947525126609,
+       "MG94 with double instantaneous substitutions":0.006378774639872791,
+       "MG94xREV with separate rates for branch sets":0.004728947525126609,
+       "Nucleotide GTR":0.008723722449372804,
+       "unconstrained":0.002587543008529799
+      },
+     "Node222":{
+       "MG94 with double and triple instantaneous substitutions":0.0651952179239252,
+       "MG94 with double instantaneous substitutions":0.05973831762321747,
+       "MG94xREV with separate rates for branch sets":0.0651952179239252,
+       "Nucleotide GTR":0.044233171048539,
+       "unconstrained":0.05993895675559571
+      },
+     "Node226":{
+       "MG94 with double and triple instantaneous substitutions":0.02883311576190784,
+       "MG94 with double instantaneous substitutions":0.02895595718627354,
+       "MG94xREV with separate rates for branch sets":0.02883311576190784,
+       "Nucleotide GTR":0.02572281133378655,
+       "unconstrained":0.03459870016329496
+      },
+     "Node23":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0.0003478136141527423,
+       "unconstrained":0.008202359492821701
+      },
+     "Node230":{
+       "MG94 with double and triple instantaneous substitutions":0.004722103500932062,
+       "MG94 with double instantaneous substitutions":0.004736352514351778,
+       "MG94xREV with separate rates for branch sets":0.004722103500932062,
+       "Nucleotide GTR":0.004877460950446275,
+       "unconstrained":0.004522287876643001
+      },
+     "Node231":{
+       "MG94 with double and triple instantaneous substitutions":0.01641644909013167,
+       "MG94 with double instantaneous substitutions":0.01642812736219162,
+       "MG94xREV with separate rates for branch sets":0.01641644909013167,
+       "Nucleotide GTR":0.01554508855132385,
+       "unconstrained":0.01182881437558886
+      },
+     "Node232":{
+       "MG94 with double and triple instantaneous substitutions":0.004962924715246055,
+       "MG94 with double instantaneous substitutions":0.004961103120889787,
+       "MG94xREV with separate rates for branch sets":0.004962924715246055,
+       "Nucleotide GTR":0.00499383346172986,
+       "unconstrained":0.005022030124091137
+      },
+     "Node239":{
+       "MG94 with double and triple instantaneous substitutions":0.005657976847907431,
+       "MG94 with double instantaneous substitutions":0.005675622153929318,
+       "MG94xREV with separate rates for branch sets":0.005657976847907431,
+       "Nucleotide GTR":0.005343993504942353,
+       "unconstrained":0.005706587127266589
+      },
+     "Node24":{
+       "MG94 with double and triple instantaneous substitutions":0.01010832485084212,
+       "MG94 with double instantaneous substitutions":0.0101121917902529,
+       "MG94xREV with separate rates for branch sets":0.01010832485084212,
+       "Nucleotide GTR":0.009355525732816916,
+       "unconstrained":0.008091522194316601
+      },
+     "Node240":{
+       "MG94 with double and triple instantaneous substitutions":0.007501595850944225,
+       "MG94 with double instantaneous substitutions":0.007497256057336442,
+       "MG94xREV with separate rates for branch sets":0.007501595850944225,
+       "Nucleotide GTR":0.00675338388510536,
+       "unconstrained":0.007684778662921516
+      },
+     "Node241":{
+       "MG94 with double and triple instantaneous substitutions":0.02635017513539399,
+       "MG94 with double instantaneous substitutions":0.02635910554124164,
+       "MG94xREV with separate rates for branch sets":0.02635017513539399,
+       "Nucleotide GTR":0.02447721675224415,
+       "unconstrained":0.03237683783367636
+      },
+     "Node243":{
+       "MG94 with double and triple instantaneous substitutions":0.009675879538947043,
+       "MG94 with double instantaneous substitutions":0.00966286993459875,
+       "MG94xREV with separate rates for branch sets":0.009675879538947043,
+       "Nucleotide GTR":0.009914729784990509,
+       "unconstrained":0.009586523953186649
+      },
+     "Node245":{
+       "MG94 with double and triple instantaneous substitutions":0.004804350324477176,
+       "MG94 with double instantaneous substitutions":0.004807671606356059,
+       "MG94xREV with separate rates for branch sets":0.004804350324477176,
+       "Nucleotide GTR":0.004961894224127882,
+       "unconstrained":0.005127627861545699
+      },
+     "Node248":{
+       "MG94 with double and triple instantaneous substitutions":0.02313454835562523,
+       "MG94 with double instantaneous substitutions":0.02316407108711434,
+       "MG94xREV with separate rates for branch sets":0.02313454835562523,
+       "Nucleotide GTR":0.02114924599723426,
+       "unconstrained":0.02096858273019191
+      },
+     "Node249":{
+       "MG94 with double and triple instantaneous substitutions":0.04156407208452185,
+       "MG94 with double instantaneous substitutions":0.04155003473861467,
+       "MG94xREV with separate rates for branch sets":0.04156407208452185,
+       "Nucleotide GTR":0.04157067375323135,
+       "unconstrained":0.0385584985991989
+      },
+     "Node25":{
+       "MG94 with double and triple instantaneous substitutions":0.01105621807732115,
+       "MG94 with double instantaneous substitutions":0.01107652027084755,
+       "MG94xREV with separate rates for branch sets":0.01105621807732115,
+       "Nucleotide GTR":0.01034924414126998,
+       "unconstrained":0.01106025286001204
+      },
+     "Node253":{
+       "MG94 with double and triple instantaneous substitutions":0.02026806723940569,
+       "MG94 with double instantaneous substitutions":0.02027558171953065,
+       "MG94xREV with separate rates for branch sets":0.02026806723940569,
+       "Nucleotide GTR":0.02001889235888521,
+       "unconstrained":0.02021446074601904
+      },
+     "Node257":{
+       "MG94 with double and triple instantaneous substitutions":0.005464440647432488,
+       "MG94 with double instantaneous substitutions":0.005464405008689431,
+       "MG94xREV with separate rates for branch sets":0.005464440647432488,
+       "Nucleotide GTR":0.005111759747742918,
+       "unconstrained":0.005781929115182534
+      },
+     "Node26":{
+       "MG94 with double and triple instantaneous substitutions":0.02285313758648373,
+       "MG94 with double instantaneous substitutions":0.02284896339854485,
+       "MG94xREV with separate rates for branch sets":0.02285313758648373,
+       "Nucleotide GTR":0.02098822444263673,
+       "unconstrained":0.02457014481780813
+      },
+     "Node260":{
+       "MG94 with double and triple instantaneous substitutions":0.004808024503669058,
+       "MG94 with double instantaneous substitutions":0.004808631439068944,
+       "MG94xREV with separate rates for branch sets":0.004808024503669058,
+       "Nucleotide GTR":0.004868436917742299,
+       "unconstrained":0.003875214133529246
+      },
+     "Node261":{
+       "MG94 with double and triple instantaneous substitutions":0.01136144205674221,
+       "MG94 with double instantaneous substitutions":0.01137250150501123,
+       "MG94xREV with separate rates for branch sets":0.01136144205674221,
+       "Nucleotide GTR":0.01109515403649862,
+       "unconstrained":0.011888248986908
+      },
+     "Node263":{
+       "MG94 with double and triple instantaneous substitutions":0.005256607484410571,
+       "MG94 with double instantaneous substitutions":0.00525666039155482,
+       "MG94xREV with separate rates for branch sets":0.005256607484410571,
+       "Nucleotide GTR":0.005113729400462126,
+       "unconstrained":0.005404514984431634
+      },
+     "Node267":{
+       "MG94 with double and triple instantaneous substitutions":0.005370990610003518,
+       "MG94 with double instantaneous substitutions":0.005370990026063379,
+       "MG94xREV with separate rates for branch sets":0.005370990610003518,
+       "Nucleotide GTR":0.005130936285491555,
+       "unconstrained":0.01021685157940925
+      },
+     "Node268":{
+       "MG94 with double and triple instantaneous substitutions":0.005336213639194739,
+       "MG94 with double instantaneous substitutions":0.005336233442740147,
+       "MG94xREV with separate rates for branch sets":0.005336213639194739,
+       "Nucleotide GTR":0.00501338269253095,
+       "unconstrained":0.005658389254003736
+      },
+     "Node27":{
+       "MG94 with double and triple instantaneous substitutions":0.005124314203888056,
+       "MG94 with double instantaneous substitutions":0.00512772977914082,
+       "MG94xREV with separate rates for branch sets":0.005124314203888056,
+       "Nucleotide GTR":0.005031253754289711,
+       "unconstrained":0.005305204572177591
+      },
+     "Node270":{
+       "MG94 with double and triple instantaneous substitutions":0.01018554346448019,
+       "MG94 with double instantaneous substitutions":0.01019364277714529,
+       "MG94xREV with separate rates for branch sets":0.01018554346448019,
+       "Nucleotide GTR":0.01006102049873456,
+       "unconstrained":0.01023100273868079
+      },
+     "Node271":{
+       "MG94 with double and triple instantaneous substitutions":0.005296621515048661,
+       "MG94 with double instantaneous substitutions":0.00529877548099763,
+       "MG94xREV with separate rates for branch sets":0.005296621515048661,
+       "Nucleotide GTR":0.005039193909037357,
+       "unconstrained":0.005385598972910479
+      },
+     "Node272":{
+       "MG94 with double and triple instantaneous substitutions":0.01025893262277858,
+       "MG94 with double instantaneous substitutions":0.01027132001213569,
+       "MG94xREV with separate rates for branch sets":0.01025893262277858,
+       "Nucleotide GTR":0.01003581114214451,
+       "unconstrained":0.01040582756241613
+      },
+     "Node278":{
+       "MG94 with double and triple instantaneous substitutions":0.005031316204943384,
+       "MG94 with double instantaneous substitutions":0.005033464148081742,
+       "MG94xREV with separate rates for branch sets":0.005031316204943384,
+       "Nucleotide GTR":0.004987712906597112,
+       "unconstrained":0.005028856740971628
+      },
+     "Node293":{
+       "MG94 with double and triple instantaneous substitutions":0.004915185006812841,
+       "MG94 with double instantaneous substitutions":0.004922864073459287,
+       "MG94xREV with separate rates for branch sets":0.004915185006812841,
+       "Nucleotide GTR":0.005019616910804133,
+       "unconstrained":0.005060449508628249
+      },
+     "Node294":{
+       "MG94 with double and triple instantaneous substitutions":0.01052850163440663,
+       "MG94 with double instantaneous substitutions":0.01052779003662274,
+       "MG94xREV with separate rates for branch sets":0.01052850163440663,
+       "Nucleotide GTR":0.01017832804433537,
+       "unconstrained":0.01102271764318683
+      },
+     "Node298":{
+       "MG94 with double and triple instantaneous substitutions":0.01538736232972596,
+       "MG94 with double instantaneous substitutions":0.01538729002872087,
+       "MG94xREV with separate rates for branch sets":0.01538736232972596,
+       "Nucleotide GTR":0.01510523126439015,
+       "unconstrained":0.01523509645616278
+      },
+     "Node3":{
+       "MG94 with double and triple instantaneous substitutions":0.004747982184604082,
+       "MG94 with double instantaneous substitutions":0.004748222711921626,
+       "MG94xREV with separate rates for branch sets":0.004747982184604082,
+       "Nucleotide GTR":0.004959415072875786,
+       "unconstrained":0.00486150081467564
+      },
+     "Node301":{
+       "MG94 with double and triple instantaneous substitutions":0.004982042388458101,
+       "MG94 with double instantaneous substitutions":0.004985823151070146,
+       "MG94xREV with separate rates for branch sets":0.004982042388458101,
+       "Nucleotide GTR":0.005004541840423917,
+       "unconstrained":0.004907647928550443
+      },
+     "Node309":{
+       "MG94 with double and triple instantaneous substitutions":0.004996704451840147,
+       "MG94 with double instantaneous substitutions":0.00499885609402333,
+       "MG94xREV with separate rates for branch sets":0.004996704451840147,
+       "Nucleotide GTR":0.005003174729038847,
+       "unconstrained":0.004920087326940823
+      },
+     "Node317":{
+       "MG94 with double and triple instantaneous substitutions":0.01052316831387334,
+       "MG94 with double instantaneous substitutions":0.01051884161067607,
+       "MG94xREV with separate rates for branch sets":0.01052316831387334,
+       "Nucleotide GTR":0.01015797955658429,
+       "unconstrained":0.01037451296648255
+      },
+     "Node324":{
+       "MG94 with double and triple instantaneous substitutions":0.02540125572824259,
+       "MG94 with double instantaneous substitutions":0.02541841144294335,
+       "MG94xREV with separate rates for branch sets":0.02540125572824259,
+       "Nucleotide GTR":0.02513235119574998,
+       "unconstrained":0.02528716538677716
+      },
+     "Node325":{
+       "MG94 with double and triple instantaneous substitutions":0.005215824788360252,
+       "MG94 with double instantaneous substitutions":0.005219693422508279,
+       "MG94xREV with separate rates for branch sets":0.005215824788360252,
+       "Nucleotide GTR":0.005054440605691038,
+       "unconstrained":0.005086648707316638
+      },
+     "Node326":{
+       "MG94 with double and triple instantaneous substitutions":0.004864586161039223,
+       "MG94 with double instantaneous substitutions":0.004866735042120321,
+       "MG94xREV with separate rates for branch sets":0.004864586161039223,
+       "Nucleotide GTR":0.004945133757349001,
+       "unconstrained":0.004894488251819106
+      },
+     "Node327":{
+       "MG94 with double and triple instantaneous substitutions":0.004990498085397707,
+       "MG94 with double instantaneous substitutions":0.004992649416570506,
+       "MG94xREV with separate rates for branch sets":0.004990498085397707,
+       "Nucleotide GTR":0.004979028921791581,
+       "unconstrained":0.004903286213678859
+      },
+     "Node333":{
+       "MG94 with double and triple instantaneous substitutions":0.01488329956504536,
+       "MG94 with double instantaneous substitutions":0.01494348525169872,
+       "MG94xREV with separate rates for branch sets":0.01488329956504536,
+       "Nucleotide GTR":0.01509923221538341,
+       "unconstrained":0.01472409463421461
+      },
+     "Node334":{
+       "MG94 with double and triple instantaneous substitutions":0.01009739636296803,
+       "MG94 with double instantaneous substitutions":0.01007415851117411,
+       "MG94xREV with separate rates for branch sets":0.01009739636296803,
+       "Nucleotide GTR":0.0101239936857483,
+       "unconstrained":0.01012252846096071
+      },
+     "Node338":{
+       "MG94 with double and triple instantaneous substitutions":0.003129026117660237,
+       "MG94 with double instantaneous substitutions":0.00314861056526722,
+       "MG94xREV with separate rates for branch sets":0.003129026117660237,
+       "Nucleotide GTR":0.008639281171979991,
+       "unconstrained":0
+      },
+     "Node342":{
+       "MG94 with double and triple instantaneous substitutions":0.01513907679706521,
+       "MG94 with double instantaneous substitutions":0.01514585585753505,
+       "MG94xREV with separate rates for branch sets":0.01513907679706521,
+       "Nucleotide GTR":0.01508226191403591,
+       "unconstrained":0.01526849930190968
+      },
+     "Node37":{
+       "MG94 with double and triple instantaneous substitutions":0.01544066964047392,
+       "MG94 with double instantaneous substitutions":0.01545400472408398,
+       "MG94xREV with separate rates for branch sets":0.01544066964047392,
+       "Nucleotide GTR":0.01510184783420235,
+       "unconstrained":0.01577343913936204
+      },
+     "Node4":{
+       "MG94 with double and triple instantaneous substitutions":0.009511732462169737,
+       "MG94 with double instantaneous substitutions":0.009511833176536052,
+       "MG94xREV with separate rates for branch sets":0.009511732462169737,
+       "Nucleotide GTR":0.009933569570704407,
+       "unconstrained":0.009375675573874359
+      },
+     "Node40":{
+       "MG94 with double and triple instantaneous substitutions":0.005290850777564179,
+       "MG94 with double instantaneous substitutions":0.005292624490497492,
+       "MG94xREV with separate rates for branch sets":0.005290850777564179,
+       "Nucleotide GTR":0.005058041062866895,
+       "unconstrained":0.005715740292780769
+      },
+     "Node41":{
+       "MG94 with double and triple instantaneous substitutions":0.004978775719829806,
+       "MG94 with double instantaneous substitutions":0.004976941701211188,
+       "MG94xREV with separate rates for branch sets":0.004978775719829806,
+       "Nucleotide GTR":0.005001423497470404,
+       "unconstrained":0.004570764123919767
+      },
+     "Node60":{
+       "MG94 with double and triple instantaneous substitutions":0.005010088035071239,
+       "MG94 with double instantaneous substitutions":0.005012235028232549,
+       "MG94xREV with separate rates for branch sets":0.005010088035071239,
+       "Nucleotide GTR":0.005009092604337132,
+       "unconstrained":0.004976679392129799
+      },
+     "Node66":{
+       "MG94 with double and triple instantaneous substitutions":0.01042415236073016,
+       "MG94 with double instantaneous substitutions":0.01042353144368681,
+       "MG94xREV with separate rates for branch sets":0.01042415236073016,
+       "Nucleotide GTR":0.01013117838413942,
+       "unconstrained":0.0110461887626148
+      },
+     "Node76":{
+       "MG94 with double and triple instantaneous substitutions":0.004870654948335498,
+       "MG94 with double instantaneous substitutions":0.004886501355343222,
+       "MG94xREV with separate rates for branch sets":0.004870654948335498,
+       "Nucleotide GTR":0.005201429194533134,
+       "unconstrained":0.004118107984149415
+      },
+     "Node77":{
+       "MG94 with double and triple instantaneous substitutions":0.02374068178485599,
+       "MG94 with double instantaneous substitutions":0.02369488276788157,
+       "MG94xREV with separate rates for branch sets":0.02374068178485599,
+       "Nucleotide GTR":0.02270756465882687,
+       "unconstrained":0.02707593197016045
+      },
+     "Node78":{
+       "MG94 with double and triple instantaneous substitutions":0.01189659871022455,
+       "MG94 with double instantaneous substitutions":0.0118954477255549,
+       "MG94xREV with separate rates for branch sets":0.01189659871022455,
+       "Nucleotide GTR":0.01045059805080505,
+       "unconstrained":0.01273556630116375
+      },
+     "Node8":{
+       "MG94 with double and triple instantaneous substitutions":0.004986600347554827,
+       "MG94 with double instantaneous substitutions":0.004990382909785215,
+       "MG94xREV with separate rates for branch sets":0.004986600347554827,
+       "Nucleotide GTR":0.004989301698238495,
+       "unconstrained":0.004784122153514327
+      },
+     "Node80":{
+       "MG94 with double and triple instantaneous substitutions":0.004240687661603668,
+       "MG94 with double instantaneous substitutions":0.004227263011099242,
+       "MG94xREV with separate rates for branch sets":0.004240687661603668,
+       "Nucleotide GTR":0.006615417703085187,
+       "unconstrained":0
+      },
+     "Node81":{
+       "MG94 with double and triple instantaneous substitutions":0.02610321747334875,
+       "MG94 with double instantaneous substitutions":0.02612733357935696,
+       "MG94xREV with separate rates for branch sets":0.02610321747334875,
+       "Nucleotide GTR":0.02552246512613828,
+       "unconstrained":0.02656803580836646
+      },
+     "Node91":{
+       "MG94 with double and triple instantaneous substitutions":0.004499537649930547,
+       "MG94 with double instantaneous substitutions":0.004506330459788297,
+       "MG94xREV with separate rates for branch sets":0.004499537649930547,
+       "Nucleotide GTR":0.003217454169144087,
+       "unconstrained":0.005942049318542829
+      },
+     "Node92":{
+       "MG94 with double and triple instantaneous substitutions":0.005450721503765868,
+       "MG94 with double instantaneous substitutions":0.005435744422143473,
+       "MG94xREV with separate rates for branch sets":0.005450721503765868,
+       "Nucleotide GTR":0.005101047849998561,
+       "unconstrained":0.00548485873020754
+      },
+     "Node94":{
+       "MG94 with double and triple instantaneous substitutions":0.003420303831502828,
+       "MG94 with double instantaneous substitutions":0.003437104482566831,
+       "MG94xREV with separate rates for branch sets":0.003420303831502828,
+       "Nucleotide GTR":0.004568018307798627,
+       "unconstrained":0
+      },
+     "Node99":{
+       "MG94 with double and triple instantaneous substitutions":0.01048486887922276,
+       "MG94 with double instantaneous substitutions":0.0104805899183651,
+       "MG94xREV with separate rates for branch sets":0.01048486887922276,
+       "Nucleotide GTR":0.0100466214387162,
+       "unconstrained":0.01016264571969533
+      },
+     "XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004978349897481042,
+       "MG94 with double instantaneous substitutions":0.004980495345305336,
+       "MG94xREV with separate rates for branch sets":0.004978349897481042,
+       "Nucleotide GTR":0.00499974850502365,
+       "original name":"XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.004942937144356748
+      },
+     "XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.00504653179164954,
+       "MG94 with double instantaneous substitutions":0.005048680369123559,
+       "MG94xREV with separate rates for branch sets":0.00504653179164954,
+       "Nucleotide GTR":0.005006820672262278,
+       "original name":"XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.005104895797667935
+      },
+     "XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005052114375307023,
+       "MG94 with double instantaneous substitutions":0.005052247750837136,
+       "MG94xREV with separate rates for branch sets":0.005052114375307023,
+       "Nucleotide GTR":0.004985134827329926,
+       "original name":"XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.005069955928320442
+      },
+     "XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01611441984303045,
+       "MG94 with double instantaneous substitutions":0.01611913151392144,
+       "MG94xREV with separate rates for branch sets":0.01611441984303045,
+       "Nucleotide GTR":0.01536462325695685,
+       "original name":"XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.01618976695930594
+      },
+     "XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01024006059339218,
+       "MG94 with double instantaneous substitutions":0.01024729889375835,
+       "MG94xREV with separate rates for branch sets":0.01024006059339218,
+       "Nucleotide GTR":0.01007238405662053,
+       "original name":"XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.01043190129575163
+      },
+     "XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02106827600278016,
+       "MG94 with double instantaneous substitutions":0.02107860941846311,
+       "MG94xREV with separate rates for branch sets":0.02106827600278016,
+       "Nucleotide GTR":0.02035072187691684,
+       "original name":"XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02150256328410263
+      },
+     "XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.04900845903262758,
+       "MG94 with double instantaneous substitutions":0.04884665873962454,
+       "MG94xREV with separate rates for branch sets":0.04900845903262758,
+       "Nucleotide GTR":0.04469187987908686,
+       "original name":"XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.05094853642573047
+      },
+     "XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02198766438944563,
+       "MG94 with double instantaneous substitutions":0.02197873558715806,
+       "MG94xREV with separate rates for branch sets":0.02198766438944563,
+       "Nucleotide GTR":0.0205247124584298,
+       "original name":"XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.0227411812494237
+      },
+     "XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03779307076464272,
+       "MG94 with double instantaneous substitutions":0.04229483231014575,
+       "MG94xREV with separate rates for branch sets":0.03779307076464272,
+       "Nucleotide GTR":0.03618569380974614,
+       "original name":"XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.04575325989131886
+      },
+     "XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02222071086932889,
+       "MG94 with double instantaneous substitutions":0.02221764247993326,
+       "MG94xREV with separate rates for branch sets":0.02222071086932889,
+       "Nucleotide GTR":0.0206361691046587,
+       "original name":"XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.0256525364496113
+      },
+     "XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.008953715036023735,
+       "MG94 with double instantaneous substitutions":0.00769534902180384,
+       "MG94xREV with separate rates for branch sets":0.008953715036023735,
+       "Nucleotide GTR":0.01246010707438009,
+       "original name":"XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.008281288322153775
+      },
+     "XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.0324277049002089,
+       "MG94 with double instantaneous substitutions":0.03241308476631744,
+       "MG94xREV with separate rates for branch sets":0.0324277049002089,
+       "Nucleotide GTR":0.0311023287081299,
+       "original name":"XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.03395085504365678
+      },
+     "XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.009835952983610032,
+       "MG94 with double instantaneous substitutions":0.009839912309993717,
+       "MG94xREV with separate rates for branch sets":0.009835952983610032,
+       "Nucleotide GTR":0.009966221153288624,
+       "original name":"XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.009682110629435371
+      },
+     "XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005629745689402089,
+       "MG94 with double instantaneous substitutions":0.005638273944088091,
+       "MG94xREV with separate rates for branch sets":0.005629745689402089,
+       "Nucleotide GTR":0.0050438128265003,
+       "original name":"XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1",
+       "unconstrained":0.008707497636466938
+      },
+     "XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.04144245473881216,
+       "MG94 with double instantaneous substitutions":0.04253962246974356,
+       "MG94xREV with separate rates for branch sets":0.04144245473881216,
+       "Nucleotide GTR":0.0359381844530203,
+       "original name":"XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.04902514327353462
+      },
+     "XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01713499971550222,
+       "MG94 with double instantaneous substitutions":0.01698141732123143,
+       "MG94xREV with separate rates for branch sets":0.01713499971550222,
+       "Nucleotide GTR":0.01972764200558167,
+       "original name":"XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.01249206379027869
+      },
+     "XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03714112134300582,
+       "MG94 with double instantaneous substitutions":0.03716969181606834,
+       "MG94xREV with separate rates for branch sets":0.03714112134300582,
+       "Nucleotide GTR":0.03518930609861371,
+       "original name":"XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.0436521302815733
+      },
+     "XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004961199502369401,
+       "MG94 with double instantaneous substitutions":0.004961366391810423,
+       "MG94xREV with separate rates for branch sets":0.004961199502369401,
+       "Nucleotide GTR":0.004980206022909572,
+       "original name":"XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.004683402825098134
+      },
+     "XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005218057385743984,
+       "MG94 with double instantaneous substitutions":0.005220210678635823,
+       "MG94xREV with separate rates for branch sets":0.005218057385743984,
+       "Nucleotide GTR":0.0050131740804012,
+       "original name":"XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1",
+       "unconstrained":0.005387332571080291
+      },
+     "XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004980039395179136,
+       "MG94 with double instantaneous substitutions":0.004981828038267421,
+       "MG94xREV with separate rates for branch sets":0.004980039395179136,
+       "Nucleotide GTR":0.004977312142762619,
+       "original name":"XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.004971192259311978
+      },
+     "XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.06826776185925414,
+       "MG94 with double instantaneous substitutions":0.06799520505704601,
+       "MG94xREV with separate rates for branch sets":0.06826776185925414,
+       "Nucleotide GTR":0.04949290164313453,
+       "original name":"XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.08381741907452039
+      },
+     "XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.05063395068967223,
+       "MG94 with double instantaneous substitutions":0.04993344433411395,
+       "MG94xREV with separate rates for branch sets":0.05063395068967223,
+       "Nucleotide GTR":0.04618790972828146,
+       "original name":"XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.05629042862037354
+      },
+     "XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.08793207412940784,
+       "MG94 with double instantaneous substitutions":0.08798831196113532,
+       "MG94xREV with separate rates for branch sets":0.08793207412940784,
+       "Nucleotide GTR":0.07504703455896418,
+       "original name":"XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.09737182773504924
+      },
+     "XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":1.942656591915086,
+       "MG94 with double instantaneous substitutions":1.866830294942174,
+       "MG94xREV with separate rates for branch sets":1.942656591915086,
+       "Nucleotide GTR":0.5782886050389927,
+       "original name":"XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":20.40067622346258
+      },
+     "XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03911318638074552,
+       "MG94 with double instantaneous substitutions":0.03772437239732652,
+       "MG94xREV with separate rates for branch sets":0.03911318638074552,
+       "Nucleotide GTR":0.03620867366263313,
+       "original name":"XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.04137215343936672
+      },
+     "XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02187341791871665,
+       "MG94 with double instantaneous substitutions":0.02186088969482832,
+       "MG94xREV with separate rates for branch sets":0.02187341791871665,
+       "Nucleotide GTR":0.02057542036579935,
+       "original name":"XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02221772140057328
+      },
+     "XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.867538620271331,
+       "MG94 with double instantaneous substitutions":1.068370609323421,
+       "MG94xREV with separate rates for branch sets":0.867538620271331,
+       "Nucleotide GTR":0.3109500750422708,
+       "original name":"XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005047584086046078,
+       "MG94 with double instantaneous substitutions":0.005047713822663895,
+       "MG94xREV with separate rates for branch sets":0.005047584086046078,
+       "Nucleotide GTR":0.005002575442534843,
+       "original name":"XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.005143225089146527
+      },
+     "XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01567687270964261,
+       "MG94 with double instantaneous substitutions":0.01566961056777268,
+       "MG94xREV with separate rates for branch sets":0.01567687270964261,
+       "Nucleotide GTR":0.01522395271850494,
+       "original name":"XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.01539446008898485
+      },
+     "XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03637549652915842,
+       "MG94 with double instantaneous substitutions":0.0363564678123532,
+       "MG94xREV with separate rates for branch sets":0.03637549652915842,
+       "Nucleotide GTR":0.03555707517615867,
+       "original name":"XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.03668891869857224
+      },
+     "XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004958938504182932,
+       "MG94 with double instantaneous substitutions":0.00496072758967163,
+       "MG94xREV with separate rates for branch sets":0.004958938504182932,
+       "Nucleotide GTR":0.004994328653879621,
+       "original name":"XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.004815151193518621
+      },
+     "XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02708339501524895,
+       "MG94 with double instantaneous substitutions":0.02711976444101216,
+       "MG94xREV with separate rates for branch sets":0.02708339501524895,
+       "Nucleotide GTR":0.02587305488818032,
+       "original name":"XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1",
+       "unconstrained":0.03207697512306247
+      },
+     "XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005253670913682736,
+       "MG94 with double instantaneous substitutions":0.005250319137444483,
+       "MG94xREV with separate rates for branch sets":0.005253670913682736,
+       "Nucleotide GTR":0.004618044752763628,
+       "original name":"XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.005495858946412336
+      },
+     "XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005035473152811378,
+       "MG94 with double instantaneous substitutions":0.005039274723306261,
+       "MG94xREV with separate rates for branch sets":0.005035473152811378,
+       "Nucleotide GTR":0.005005250252905228,
+       "original name":"XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.00508788931522317
+      },
+     "XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02528306861402098,
+       "MG94 with double instantaneous substitutions":0.02528840800075544,
+       "MG94xREV with separate rates for branch sets":0.02528306861402098,
+       "Nucleotide GTR":0.02447426773511139,
+       "original name":"XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.03096627119985141
+      },
+     "XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.00519226433204387,
+       "MG94 with double instantaneous substitutions":0.005197785216086181,
+       "MG94xREV with separate rates for branch sets":0.00519226433204387,
+       "Nucleotide GTR":0.005068867840530026,
+       "original name":"XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.005519949313454764
+      },
+     "XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01010663584583138,
+       "MG94 with double instantaneous substitutions":0.01011050338790535,
+       "MG94xREV with separate rates for branch sets":0.01010663584583138,
+       "Nucleotide GTR":0.01005420056055167,
+       "original name":"XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.01006289102185781
+      },
+     "XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01502913318654423,
+       "MG94 with double instantaneous substitutions":0.01503194698812421,
+       "MG94xREV with separate rates for branch sets":0.01502913318654423,
+       "Nucleotide GTR":0.0149973316235139,
+       "original name":"XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.01398761691752298
+      },
+     "XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02136669386497505,
+       "MG94 with double instantaneous substitutions":0.02136502933143455,
+       "MG94xREV with separate rates for branch sets":0.02136669386497505,
+       "Nucleotide GTR":0.0205373438452078,
+       "original name":"XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02237449416798096
+      },
+     "XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004666276893076455,
+       "MG94 with double instantaneous substitutions":0.004668065465049613,
+       "MG94xREV with separate rates for branch sets":0.004666276893076455,
+       "Nucleotide GTR":0.004938209619576795,
+       "original name":"XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.004523356298483386
+      },
+     "XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.0332987205249558,
+       "MG94 with double instantaneous substitutions":0.03329838352164809,
+       "MG94xREV with separate rates for branch sets":0.0332987205249558,
+       "Nucleotide GTR":0.02693790475892353,
+       "original name":"XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.03724008324506145
+      },
+     "XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005245319662804011,
+       "MG94 with double instantaneous substitutions":0.005250877315660266,
+       "MG94xREV with separate rates for branch sets":0.005245319662804011,
+       "Nucleotide GTR":0.005084398007899221,
+       "original name":"XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1",
+       "unconstrained":0.00545979261469964
+      },
+     "XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01010970174381358,
+       "MG94 with double instantaneous substitutions":0.01011356818247416,
+       "MG94xREV with separate rates for branch sets":0.01010970174381358,
+       "Nucleotide GTR":0.01002231377080173,
+       "original name":"XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.01007897892520949
+      },
+     "XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.06423011371869281,
+       "MG94 with double instantaneous substitutions":0.06433643806459581,
+       "MG94xREV with separate rates for branch sets":0.06423011371869281,
+       "Nucleotide GTR":0.05578089128215478,
+       "original name":"XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1",
+       "unconstrained":0.07263206568010645
+      },
+     "XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02713029461561955,
+       "MG94 with double instantaneous substitutions":0.02713270444682293,
+       "MG94xREV with separate rates for branch sets":0.02713029461561955,
+       "Nucleotide GTR":0.02570507851323463,
+       "original name":"XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02948159272539706
+      },
+     "XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004867267820992964,
+       "MG94 with double instantaneous substitutions":0.004871002506426339,
+       "MG94xREV with separate rates for branch sets":0.004867267820992964,
+       "Nucleotide GTR":0.004979394947858094,
+       "original name":"XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.004746631097212287
+      },
+     "XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005020954434568082,
+       "MG94 with double instantaneous substitutions":0.005022741957836477,
+       "MG94xREV with separate rates for branch sets":0.005020954434568082,
+       "Nucleotide GTR":0.00498744747488743,
+       "original name":"XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.005032394425241044
+      },
+     "XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01465496095947996,
+       "MG94 with double instantaneous substitutions":0.01466201869152259,
+       "MG94xREV with separate rates for branch sets":0.01465496095947996,
+       "Nucleotide GTR":0.01492456242694214,
+       "original name":"XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1",
+       "unconstrained":0.01453329794388134
+      },
+     "XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2",
+       "unconstrained":0
+      },
+     "XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004429933645462758,
+       "MG94 with double instantaneous substitutions":0.004436325748515157,
+       "MG94xREV with separate rates for branch sets":0.004429933645462758,
+       "Nucleotide GTR":0.004864653123589374,
+       "original name":"XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1",
+       "unconstrained":0.004292822499368252
+      },
+     "XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005040781498847396,
+       "MG94 with double instantaneous substitutions":0.005042568357255278,
+       "MG94xREV with separate rates for branch sets":0.005040781498847396,
+       "Nucleotide GTR":0.004990581351714145,
+       "original name":"XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.005030393191999048
+      },
+     "XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01515255778264831,
+       "MG94 with double instantaneous substitutions":0.01515801620870686,
+       "MG94xREV with separate rates for branch sets":0.01515255778264831,
+       "Nucleotide GTR":0.0150698975041006,
+       "original name":"XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.01515185446895938
+      },
+     "XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004894000996081869,
+       "MG94 with double instantaneous substitutions":0.00489223277778898,
+       "MG94xREV with separate rates for branch sets":0.004894000996081869,
+       "Nucleotide GTR":0.004960523235129691,
+       "original name":"XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.004849729314503006
+      },
+     "XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01158908182921335,
+       "MG94 with double instantaneous substitutions":0.01159617031468775,
+       "MG94xREV with separate rates for branch sets":0.01158908182921335,
+       "Nucleotide GTR":0.01080476063551879,
+       "original name":"XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.01202910763090904
+      },
+     "XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004988710034598232,
+       "MG94 with double instantaneous substitutions":0.004992493434077936,
+       "MG94xREV with separate rates for branch sets":0.004988710034598232,
+       "Nucleotide GTR":0.004979085116351676,
+       "original name":"XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.004946919808002413
+      },
+     "XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01025788585676365,
+       "MG94 with double instantaneous substitutions":0.01026169743550183,
+       "MG94xREV with separate rates for branch sets":0.01025788585676365,
+       "Nucleotide GTR":0.0100441388701324,
+       "original name":"XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.009793241332345765
+      },
+     "XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01554409056534867,
+       "MG94 with double instantaneous substitutions":0.01554926070751266,
+       "MG94xREV with separate rates for branch sets":0.01554409056534867,
+       "Nucleotide GTR":0.01505622184530309,
+       "original name":"XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.01574717098855958
+      },
+     "XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01011001843036558,
+       "MG94 with double instantaneous substitutions":0.01010620571457574,
+       "MG94xREV with separate rates for branch sets":0.01011001843036558,
+       "Nucleotide GTR":0.01003616645814884,
+       "original name":"XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.01011040412769019
+      },
+     "XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005178126496315176,
+       "MG94 with double instantaneous substitutions":0.005180284569563896,
+       "MG94xREV with separate rates for branch sets":0.005178126496315176,
+       "Nucleotide GTR":0.005025311381180429,
+       "original name":"XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.00532549599791253
+      },
+     "XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02467208780743029,
+       "MG94 with double instantaneous substitutions":0.02470861460844409,
+       "MG94xREV with separate rates for branch sets":0.02467208780743029,
+       "Nucleotide GTR":0.02498644907051985,
+       "original name":"XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.02450242967599998
+      },
+     "XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01052291169601549,
+       "MG94 with double instantaneous substitutions":0.01051859680357758,
+       "MG94xREV with separate rates for branch sets":0.01052291169601549,
+       "Nucleotide GTR":0.01012164032497985,
+       "original name":"XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.01062700300650391
+      },
+     "XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005252081182104236,
+       "MG94 with double instantaneous substitutions":0.005229988519064219,
+       "MG94xREV with separate rates for branch sets":0.005252081182104236,
+       "Nucleotide GTR":0.00398342937264373,
+       "original name":"XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.004702567022248648
+      },
+     "XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005117224550444258,
+       "MG94 with double instantaneous substitutions":0.005117333054397493,
+       "MG94xREV with separate rates for branch sets":0.005117224550444258,
+       "Nucleotide GTR":0.00502528255293213,
+       "original name":"XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.005253547508139712
+      },
+     "XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01042037472871001,
+       "MG94 with double instantaneous substitutions":0.01042848978405581,
+       "MG94xREV with separate rates for branch sets":0.01042037472871001,
+       "Nucleotide GTR":0.01007938458707971,
+       "original name":"XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.01075884585324735
+      },
+     "XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01074977361707625,
+       "MG94 with double instantaneous substitutions":0.01075337991247985,
+       "MG94xREV with separate rates for branch sets":0.01074977361707625,
+       "Nucleotide GTR":0.01084772639027482,
+       "original name":"XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.005099024191005013
+      },
+     "XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03323152810055607,
+       "MG94 with double instantaneous substitutions":0.03230167132896201,
+       "MG94xREV with separate rates for branch sets":0.03323152810055607,
+       "Nucleotide GTR":0.03132072261335483,
+       "original name":"XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.03411479165418368
+      },
+     "XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.009700648912652226,
+       "MG94 with double instantaneous substitutions":0.009694085874982421,
+       "MG94xREV with separate rates for branch sets":0.009700648912652226,
+       "Nucleotide GTR":0.009905791041624356,
+       "original name":"XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.009545756785522472
+      },
+     "XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.00521305090198865,
+       "MG94 with double instantaneous substitutions":0.005213116058774097,
+       "MG94xREV with separate rates for branch sets":0.00521305090198865,
+       "Nucleotide GTR":0.005033629815805947,
+       "original name":"XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.005373659825002773
+      },
+     "XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01015776563469568,
+       "MG94 with double instantaneous substitutions":0.01015812963280706,
+       "MG94xREV with separate rates for branch sets":0.01015776563469568,
+       "Nucleotide GTR":0.01001432122910499,
+       "original name":"XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.01027654786074665
+      },
+     "XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004959817028494426,
+       "MG94 with double instantaneous substitutions":0.004944465386434488,
+       "MG94xREV with separate rates for branch sets":0.004959817028494426,
+       "Nucleotide GTR":0.004889103019808232,
+       "original name":"XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.004806752859964064
+      },
+     "XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.04430079139751208,
+       "MG94 with double instantaneous substitutions":0.04358443648297389,
+       "MG94xREV with separate rates for branch sets":0.04430079139751208,
+       "Nucleotide GTR":0.04163271820435176,
+       "original name":"XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.05144801668375579
+      },
+     "XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02399249074648529,
+       "MG94 with double instantaneous substitutions":0.02403377397052572,
+       "MG94xREV with separate rates for branch sets":0.02399249074648529,
+       "Nucleotide GTR":0.02431349117573965,
+       "original name":"XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.02278219450373616
+      },
+     "XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02046312715576726,
+       "MG94 with double instantaneous substitutions":0.02043852933786717,
+       "MG94xREV with separate rates for branch sets":0.02046312715576726,
+       "Nucleotide GTR":0.02057326919979579,
+       "original name":"XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02024597321145462
+      },
+     "XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03105549028705351,
+       "MG94 with double instantaneous substitutions":0.03106545085109752,
+       "MG94xREV with separate rates for branch sets":0.03105549028705351,
+       "Nucleotide GTR":0.03039185062487446,
+       "original name":"XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.03110703144321215
+      },
+     "XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004488896022107694,
+       "MG94 with double instantaneous substitutions":0.004489220926496792,
+       "MG94xREV with separate rates for branch sets":0.004488896022107694,
+       "Nucleotide GTR":0.0048851221342626,
+       "original name":"XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.003993511389007978
+      },
+     "XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02308497868859888,
+       "MG94 with double instantaneous substitutions":0.02312647918900998,
+       "MG94xREV with separate rates for branch sets":0.02308497868859888,
+       "Nucleotide GTR":0.0182008522241664,
+       "original name":"XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.02461872924961924
+      },
+     "XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02069809827539009,
+       "MG94 with double instantaneous substitutions":0.02044501251513521,
+       "MG94xREV with separate rates for branch sets":0.02069809827539009,
+       "Nucleotide GTR":0.01919597904311742,
+       "original name":"XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02092003955787413
+      },
+     "XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004981211801209348,
+       "MG94 with double instantaneous substitutions":0.004983357394533284,
+       "MG94xREV with separate rates for branch sets":0.004981211801209348,
+       "Nucleotide GTR":0.005000968514805847,
+       "original name":"XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.004912358584218977
+      },
+     "XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.00560883512790309,
+       "MG94 with double instantaneous substitutions":0.005608733914659696,
+       "MG94xREV with separate rates for branch sets":0.00560883512790309,
+       "Nucleotide GTR":0.00471807022320843,
+       "original name":"XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.00575421727010992
+      },
+     "XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005457173638799523,
+       "MG94 with double instantaneous substitutions":0.005457141291583321,
+       "MG94xREV with separate rates for branch sets":0.005457173638799523,
+       "Nucleotide GTR":0.005048631695587181,
+       "original name":"XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.006123957337031227
+      },
+     "XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3":{
+       "MG94 with double and triple instantaneous substitutions":0.005128292698470789,
+       "MG94 with double instantaneous substitutions":0.005130444087279558,
+       "MG94xREV with separate rates for branch sets":0.005128292698470789,
+       "Nucleotide GTR":0.005023232515394722,
+       "original name":"XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3",
+       "unconstrained":0.005256835146752168
+      },
+     "XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.004973731079519875,
+       "MG94 with double instantaneous substitutions":0.004977508567482942,
+       "MG94xREV with separate rates for branch sets":0.004973731079519875,
+       "Nucleotide GTR":0.004976214738609194,
+       "original name":"XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.004955638078443745
+      },
+     "XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01738493318863775,
+       "MG94 with double instantaneous substitutions":0.01964193024631851,
+       "MG94xREV with separate rates for branch sets":0.01738493318863775,
+       "Nucleotide GTR":0.01829040113470867,
+       "original name":"XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02288537225228857
+      },
+     "XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01973693080896174,
+       "MG94 with double instantaneous substitutions":0.01974835312205608,
+       "MG94xREV with separate rates for branch sets":0.01973693080896174,
+       "Nucleotide GTR":0.01227582402583661,
+       "original name":"XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.01868854012557551
+      },
+     "XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.1066918659397014,
+       "MG94 with double instantaneous substitutions":0.1068866105360377,
+       "MG94xREV with separate rates for branch sets":0.1066918659397014,
+       "Nucleotide GTR":0.08846631718234879,
+       "original name":"XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.1195103798653454
+      },
+     "XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.07847009257255061,
+       "MG94 with double instantaneous substitutions":0.07848124613605682,
+       "MG94xREV with separate rates for branch sets":0.07847009257255061,
+       "Nucleotide GTR":0.06448228607629558,
+       "original name":"XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.08620416331155382
+      },
+     "XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.00514971389066312,
+       "MG94 with double instantaneous substitutions":0.00515355850360706,
+       "MG94xREV with separate rates for branch sets":0.00514971389066312,
+       "Nucleotide GTR":0.005014037547219522,
+       "original name":"XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0.005153957696427993
+      },
+     "XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02164200723009455,
+       "MG94 with double instantaneous substitutions":0.02166173006506314,
+       "MG94xREV with separate rates for branch sets":0.02164200723009455,
+       "Nucleotide GTR":0.0204778822152653,
+       "original name":"XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.02260988909666238
+      },
+     "XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.04622117849472737,
+       "MG94 with double instantaneous substitutions":0.04629885423139497,
+       "MG94xREV with separate rates for branch sets":0.04622117849472737,
+       "Nucleotide GTR":0.04111508530542316,
+       "original name":"XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.05345597755517757
+      },
+     "XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.01554916429500137,
+       "MG94 with double instantaneous substitutions":0.01556248118195192,
+       "MG94xREV with separate rates for branch sets":0.01554916429500137,
+       "Nucleotide GTR":0.01509120023049043,
+       "original name":"XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1",
+       "unconstrained":0.01532039819304462
+      },
+     "XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.06579003483176359,
+       "MG94 with double instantaneous substitutions":0.06460365771906793,
+       "MG94xREV with separate rates for branch sets":0.06579003483176359,
+       "Nucleotide GTR":0.05909313242735564,
+       "original name":"XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1",
+       "unconstrained":0.0740025980094733
+      },
+     "XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.00511332025980601,
+       "MG94 with double instantaneous substitutions":0.00511547120489956,
+       "MG94xREV with separate rates for branch sets":0.00511332025980601,
+       "Nucleotide GTR":0.004982642270605934,
+       "original name":"XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1",
+       "unconstrained":0.00514164936902218
+      },
+     "XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.005053240888793843,
+       "MG94 with double instantaneous substitutions":0.005055395071678531,
+       "MG94xREV with separate rates for branch sets":0.005053240888793843,
+       "Nucleotide GTR":0.005013637251606829,
+       "original name":"XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1",
+       "unconstrained":0.005104336713059448
+      },
+     "XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double instantaneous substitutions":0,
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1",
+       "unconstrained":0
+      },
+     "XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.04044194087245284,
+       "MG94 with double instantaneous substitutions":0.04038870788318118,
+       "MG94xREV with separate rates for branch sets":0.04044194087245284,
+       "Nucleotide GTR":0.03664553968246378,
+       "original name":"XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1",
+       "unconstrained":0.0421931626546215
+      },
+     "XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03111840336565266,
+       "MG94 with double instantaneous substitutions":0.03109764779887661,
+       "MG94xREV with separate rates for branch sets":0.03111840336565266,
+       "Nucleotide GTR":0.0305436398465267,
+       "original name":"XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1",
+       "unconstrained":0.03152648089514108
+      },
+     "XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.03355873139753197,
+       "MG94 with double instantaneous substitutions":0.03356422841182706,
+       "MG94xREV with separate rates for branch sets":0.03355873139753197,
+       "Nucleotide GTR":0.03090237103400333,
+       "original name":"XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1",
+       "unconstrained":0.03538403117044108
+      },
+     "XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.02369958033154299,
+       "MG94 with double instantaneous substitutions":0.0237400532941696,
+       "MG94xREV with separate rates for branch sets":0.02369958033154299,
+       "Nucleotide GTR":0.02595198099613822,
+       "original name":"XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1",
+       "unconstrained":0.02223132806453496
+      },
+     "XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1":{
+       "MG94 with double and triple instantaneous substitutions":0.009667043355273287,
+       "MG94 with double instantaneous substitutions":0.009668561877961534,
+       "MG94xREV with separate rates for branch sets":0.009667043355273287,
+       "Nucleotide GTR":0.009921604475342134,
+       "original name":"XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1",
+       "unconstrained":0.00964197194382652
+      }
+    },
+   "attributes":{
+     "MG94 with double and triple instantaneous substitutions":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "MG94 with double instantaneous substitutions":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "MG94xREV with separate rates for branch sets":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":0
+      },
+     "unconstrained":{
+       "attribute type":"branch length",
+       "display order":0
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96] 
+      ],
+     "name":"busted.filter.default"
+    }
+  },
+ "fits":{
+   "MG94 with double and triple instantaneous substitutions":{
+     "AIC-c":8381.354164913799,
+     "Log Likelihood":-3876.966534034962,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.342934934516398,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.2331206747349768,
+       "Substitution rate from nucleotide C to nucleotide G":0.2246360718705278,
+       "Substitution rate from nucleotide C to nucleotide T":0.773818078972184,
+       "Substitution rate from nucleotide G to nucleotide T":0.3728575132658614,
+       "non-synonymous/synonymous rate ratio for *test*":0.05593211962658826,
+       "rate at which 2 nucleotides are changed instantly within a single codon":0,
+       "rate at which 3 nucleotides are changed instantly within a single codon":0.656383590997911,
+       "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":16.37728663336766
+      },
+     "display order":0,
+     "estimated parameters":308
+    },
+   "MG94 with double instantaneous substitutions":{
+     "AIC-c":8381.636669845939,
+     "Log Likelihood":-3879.182265808498,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.3454951089686447,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.2383892990405036,
+       "Substitution rate from nucleotide C to nucleotide G":0.2255699935088472,
+       "Substitution rate from nucleotide C to nucleotide T":0.7828615035828878,
+       "Substitution rate from nucleotide G to nucleotide T":0.3761735123662739,
+       "non-synonymous/synonymous rate ratio for *test*":0.05728255817045393,
+       "rate at which 2 nucleotides are changed instantly within a single codon":0.05892159188678332
+      },
+     "display order":0,
+     "estimated parameters":306
+    },
+   "MG94xREV with separate rates for branch sets":{
+     "AIC-c":8381.354164913799,
+     "Equilibrium frequencies":      [
+[0.008054188476497101],
+      [0.02021299003065476],
+      [0.01300781624470114],
+      [0.007984772213444867],
+      [0.005892558191797545],
+      [0.01478810935867968],
+      [0.009516702321255704],
+      [0.005841772272063232],
+      [0.008145703843267163],
+      [0.02044265925202608],
+      [0.01315561699185092],
+      [0.008075498840940755],
+      [0.009102226490891294],
+      [0.02284317207798503],
+      [0.01470043691635324],
+      [0.009023777550902307],
+      [0.01383904393839831],
+      [0.03473080596225342],
+      [0.02235057462068759],
+      [0.01371977000816654],
+      [0.01012484025719267],
+      [0.02540954880529621],
+      [0.01635199647448458],
+      [0.01003757776306231],
+      [0.01399628947411743],
+      [0.03512543323663748],
+      [0.02260453205412767],
+      [0.01387566029903348],
+      [0.01563982674508785],
+      [0.03925009490429972],
+      [0.0252589063432924],
+      [0.01550503249106755],
+      [0.01440647012566153],
+      [0.03615483271550763],
+      [0.02326698917913623],
+      [0.01428230574549892],
+      [0.01053997728033972],
+      [0.02645138691657374],
+      [0.01702245832538699],
+      [0.01044913686387918],
+      [0.01457016301679005],
+      [0.03656564043202993],
+      [0.02353135933319671],
+      [0.01444458782425032],
+      [0.01628108833070931],
+      [0.04085942079418078],
+      [0.02629456783729527],
+      [0.01614076726501299],
+      [0.01752976625352573],
+      [0.006924813710245605],
+      [0.005110335857330018],
+      [0.01282502489716182],
+      [0.008253383934934551],
+      [0.005066291641181756],
+      [0.01772894746126208],
+      [0.01140924180135203],
+      [0.007003496605282983],
+      [0.007893928732463019],
+      [0.01981079822474794],
+      [0.01274899075186579],
+      [0.007825893692681263] 
+      ],
+     "Log Likelihood":-3876.966534034962,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *test*":        [
+[0.05593211962658826, 1] 
+        ],
+       "rate at which 2 nucleotides are changed instantly within a single codon":        [
+[0, 1] 
+        ],
+       "rate at which 3 nucleotides are changed instantly within a single codon":        [
+[0.656383590997911, 1] 
+        ],
+       "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":        [
+[16.37728663336766, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":308
+    },
+   "Nucleotide GTR":{
+     "AIC-c":9437.983638637796,
+     "Equilibrium frequencies":      [
+[0.1970809149880505],
+      [0.3139012177079777],
+      [0.2870718106293388],
+      [0.201946056674633] 
+      ],
+     "Log Likelihood":-4361.492659754738,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.4433066552956302,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.187359208324076,
+       "Substitution rate from nucleotide C to nucleotide G":0.2424849388456886,
+       "Substitution rate from nucleotide C to nucleotide T":1.176158846617252,
+       "Substitution rate from nucleotide G to nucleotide T":0.2999830704202662
+      },
+     "display order":0,
+     "estimated parameters":355
+    },
+   "Unconstrained model":{
+     "AIC-c":8273.247791462083,
+     "Log Likelihood":-3813.572025646392,
+     "Rate Distributions":{
+       "Synonymous site-to-site rates":{
+         "0":{
+           "proportion":0.4413961671094938,
+           "rate":0.4603827337493103
+          },
+         "1":{
+           "proportion":0.4665613380514815,
+           "rate":1.215116140723125
+          },
+         "2":{
+           "proportion":0.0920424948390247,
+           "rate":2.497353139090187
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":0.0003077327160887348,
+           "proportion":0.4975699776976783
+          },
+         "1":{
+           "omega":0.1118751323166714,
+           "proportion":0.5004391779217614
+          },
+         "2":{
+           "omega":1,
+           "proportion":0.001990844380560314
+          }
+        }
+      },
+     "display order":4,
+     "estimated parameters":317,
+     "rate at which 2 nucleotides are changed instantly within a single codon":0,
+     "rate at which 3 nucleotides are changed instantly within a single codon":0,
+     "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":0.964472964962664
+    }
+  },
+ "input":{
+   "file name":"/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.3.codon.fas",
+   "number of sequences":175,
+   "number of sites":97,
+   "partition count":1,
+   "trees":{
+     "0":"(NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,(((NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1,XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node4,XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node3,(XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,(((((((XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node309,XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1,(XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2,XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node301,((((XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node185,((((((XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node37,XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node27,((XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node60,XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1,XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node41,(XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node66)Node40)Node26,XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node25,(((XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1,((XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1)Node81,XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node80)Node78,((XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1,(XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node94)Node92,XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1)Node91)Node77,XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node76)Node24,((((XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2)Node136,XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,(XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node129)Node126,(XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node133)Node122,(((XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node104,(XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node107)Node103,(XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1,XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node113,(XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1,XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node116)Node110)Node102,XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3)Node100,((XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1,((XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node144,XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node142,XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node140,(XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node159)Node139)Node99)Node23,((XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1)Node164,XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1)Node163,(((XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1)Node172,(XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1,(XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node178)Node176,XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node171,(XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node182)Node170)Node21,(((XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,(XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1)Node263)Node261,XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node260,(((((((((XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,((XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1,XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node201,XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node200)Node198,(XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1)Node205)Node197,((XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1)Node209,XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node208)Node196,XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node195,(XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node214)Node194,(XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node217)Node193,(((XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1)Node222,XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node221,(XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node226)Node220)Node192,XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node191,(((XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node232,XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node231,XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node230)Node190,(((XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,(XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,(XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node245)Node243)Node241,((XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1,XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node249,XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node248)Node240,((XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node257,XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node253)Node239)Node188)Node20,((XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(((XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1,XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node278,XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node272,XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node271,XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node270)Node268,((XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node294,XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node293)Node267)Node19,(XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node298)Node15,XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node14,XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1)Node13,XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1)Node12,(XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1,XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1,((((XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node327,XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1)Node326,XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node325,XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node324,((XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node334,XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node333)Node317)Node11,(XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node338)Node10,(XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node342,XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1)Node8)Node2,XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)"
+    }
+  },
+ "test results":{
+   "LRT":0,
+   "p-value":0.5
+  },
+ "tested":{
+   "0":{
+     "NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":"test",
+     "NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1":"test",
+     "NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "Node10":"test",
+     "Node100":"test",
+     "Node102":"test",
+     "Node103":"test",
+     "Node104":"test",
+     "Node107":"test",
+     "Node11":"test",
+     "Node110":"test",
+     "Node113":"test",
+     "Node116":"test",
+     "Node12":"test",
+     "Node122":"test",
+     "Node126":"test",
+     "Node129":"test",
+     "Node13":"test",
+     "Node133":"test",
+     "Node136":"test",
+     "Node139":"test",
+     "Node14":"test",
+     "Node140":"test",
+     "Node142":"test",
+     "Node144":"test",
+     "Node15":"test",
+     "Node159":"test",
+     "Node163":"test",
+     "Node164":"test",
+     "Node170":"test",
+     "Node171":"test",
+     "Node172":"test",
+     "Node176":"test",
+     "Node178":"test",
+     "Node182":"test",
+     "Node185":"test",
+     "Node188":"test",
+     "Node19":"test",
+     "Node190":"test",
+     "Node191":"test",
+     "Node192":"test",
+     "Node193":"test",
+     "Node194":"test",
+     "Node195":"test",
+     "Node196":"test",
+     "Node197":"test",
+     "Node198":"test",
+     "Node2":"test",
+     "Node20":"test",
+     "Node200":"test",
+     "Node201":"test",
+     "Node205":"test",
+     "Node208":"test",
+     "Node209":"test",
+     "Node21":"test",
+     "Node214":"test",
+     "Node217":"test",
+     "Node220":"test",
+     "Node221":"test",
+     "Node222":"test",
+     "Node226":"test",
+     "Node23":"test",
+     "Node230":"test",
+     "Node231":"test",
+     "Node232":"test",
+     "Node239":"test",
+     "Node24":"test",
+     "Node240":"test",
+     "Node241":"test",
+     "Node243":"test",
+     "Node245":"test",
+     "Node248":"test",
+     "Node249":"test",
+     "Node25":"test",
+     "Node253":"test",
+     "Node257":"test",
+     "Node26":"test",
+     "Node260":"test",
+     "Node261":"test",
+     "Node263":"test",
+     "Node267":"test",
+     "Node268":"test",
+     "Node27":"test",
+     "Node270":"test",
+     "Node271":"test",
+     "Node272":"test",
+     "Node278":"test",
+     "Node293":"test",
+     "Node294":"test",
+     "Node298":"test",
+     "Node3":"test",
+     "Node301":"test",
+     "Node309":"test",
+     "Node317":"test",
+     "Node324":"test",
+     "Node325":"test",
+     "Node326":"test",
+     "Node327":"test",
+     "Node333":"test",
+     "Node334":"test",
+     "Node338":"test",
+     "Node342":"test",
+     "Node37":"test",
+     "Node4":"test",
+     "Node40":"test",
+     "Node41":"test",
+     "Node60":"test",
+     "Node66":"test",
+     "Node76":"test",
+     "Node77":"test",
+     "Node78":"test",
+     "Node8":"test",
+     "Node80":"test",
+     "Node81":"test",
+     "Node91":"test",
+     "Node92":"test",
+     "Node94":"test",
+     "Node99":"test",
+     "XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1":"test",
+     "XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1":"test",
+     "XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":"test",
+     "XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1":"test",
+     "XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":"test",
+     "XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1":"test",
+     "XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":"test",
+     "XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1":"test",
+     "XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1":"test",
+     "XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":"test",
+     "XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":"test",
+     "XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1":"test",
+     "XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1":"test",
+     "XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3":"test",
+     "XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1":"test",
+     "XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1":"test",
+     "XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1":"test",
+     "XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1":"test",
+     "XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1":"test",
+     "XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1":"test",
+     "XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1":"test",
+     "XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1":"test",
+     "XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1":"test",
+     "XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1":"test"
+    }
+  },
+ "timers":{
+   "MG94 with double and triple instantaneous substitutions":{
+     "order":null,
+     "timer":115
+    },
+   "MG94 with double instantaneous substitutions":{
+     "order":null,
+     "timer":39
+    },
+   "Overall":{
+     "order":0,
+     "timer":5460
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":202
+    },
+   "Unconstrained BUSTED model fitting":{
+     "order":2,
+     "timer":5248
+    }
+  }
+}

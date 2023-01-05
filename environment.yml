@@ -1,0 +1,19 @@
+name: AOC
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - snakemake=7.9.0
+  - hyphy=2.5.42
+  - iqtree=2.2.0.3
+  - tn93=1.0.9
+  - altair=4.2.0
+  - altair_saver=0.5.0
+  - biopython=1.79
+  - jupyterlab=3.4.4
+  - mafft=7.505
+  - python=3.10.5
+  - jupyter=1.0
+  - jupyterlab_code_formatter=1.5.0

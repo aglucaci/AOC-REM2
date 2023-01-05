@@ -1,0 +1,187 @@
+Gene ID,Gene symbol,Description,Scientific name,Common name,RefSeq Transcript accessions,RefSeq Protein accessions,SPARCLE ID,Curation Status,RefseqSelect,Default sequence
+64626,Rem2,RRAD and GEM like GTPase 2,Rattus norvegicus,Norway rat,NM_022685.2,NP_073176.2,10134947,curated,,default-seq
+140743,Rem2,rad and gem related GTP binding protein 2,Mus musculus,house mouse,NM_080726.3,NP_542764.2,10134947,curated,RefseqSelect,default-seq
+161253,REM2,RRAD and GEM like GTPase 2,Homo sapiens,human,NM_173527.3,NP_775798.2,10134947,curated,RefseqSelect,default-seq
+467399,REM2,RRAD and GEM like GTPase 2,Pan troglodytes,chimpanzee,XM_009427474.3,XP_009425749.1,10134947,model,,default-seq
+490603,REM2,RRAD and GEM like GTPase 2,Canis lupus familiaris,dog,XM_005623217.4,XP_005623274.2,,model,,default-seq
+531597,REM2,RRAD and GEM like GTPase 2,Bos taurus,cattle,NM_001192708.1,NP_001179637.1,10134947,curated,,default-seq
+712572,REM2,RRAD and GEM like GTPase 2,Macaca mulatta,Rhesus monkey,XM_001100692.4,XP_001100692.1,10134947,model,,default-seq
+100030410,REM2,RRAD and GEM like GTPase 2,Monodelphis domestica,gray short-tailed opossum,XM_007479801.2,XP_007479863.1,10134947,model,,default-seq
+100146499,REM2,RRAD and GEM like GTPase 2,Equus caballus,horse,XM_023622024.1,XP_023477792.1,10134947,model,,default-seq
+100344089,LOC100344089,RRAD and GEM like GTPase 2,Oryctolagus cuniculus,rabbit,XM_051822640.1,XP_051678600.1,,model,,default-seq
+100388957,REM2,RRAD and GEM like GTPase 2,Callithrix jacchus,white-tufted-ear marmoset,XM_035260095.1,XP_035115986.1,,model,,default-seq
+100436454,REM2,RRAD and GEM like GTPase 2,Pongo abelii,Sumatran orangutan,XM_002824566.3,XP_002824612.1,10134947,model,,default-seq
+100473466,REM2,RRAD and GEM like GTPase 2,Ailuropoda melanoleuca,giant panda,XM_011233348.2,XP_011231650.2,,model,,default-seq
+100582339,REM2,RRAD and GEM like GTPase 2,Nomascus leucogenys,northern white-cheeked gibbon,XM_003260595.2,XP_003260643.2,,model,,default-seq
+100622301,REM2,RRAD and GEM like GTPase 2,Sus scrofa,pig,XM_021099265.1,XP_020954924.1,10134947,model,,default-seq
+100671702,REM2,RRAD and GEM like GTPase 2,Loxodonta africana,African savanna elephant,XM_003420937.2,XP_003420985.1,10134947,model,,default-seq
+100681532,REM2,RRAD and GEM like GTPase 2,Ornithorhynchus anatinus,platypus,XM_029077766.2,XP_028933599.1,10134947,model,,default-seq
+100731489,Rem2,RRAD and GEM like GTPase 2,Cavia porcellus,domestic guinea pig,XM_023567007.1,XP_023422775.1,10134947,model,,default-seq
+100764771,Rem2,RRAD and GEM like GTPase 2,Cricetulus griseus,Chinese hamster,XM_027390645.2,XP_027246446.1,10134947,model,,default-seq
+100932659,REM2,RRAD and GEM like GTPase 2,Sarcophilus harrisii,Tasmanian devil,XM_031955028.1,XP_031810888.1,,model,,default-seq
+100958141,REM2,RRAD and GEM like GTPase 2,Otolemur garnettii,small-eared galago,XM_003801909.3,XP_003801957.1,10134947,model,,default-seq
+100989527,REM2,RRAD and GEM like GTPase 2,Pan paniscus,pygmy chimpanzee,XM_008960213.2,XP_008958461.2,,model,,default-seq
+101021871,REM2,RRAD and GEM like GTPase 2,Papio anubis,olive baboon,XM_003901565.5,XP_003901614.1,10134947,model,,default-seq
+101040312,REM2,RRAD and GEM like GTPase 2,Saimiri boliviensis,Bolivian squirrel monkey,XM_003924335.3,XP_003924384.1,10134947,model,,default-seq
+101090269,REM2,RRAD and GEM like GTPase 2,Felis catus,domestic cat,XM_003987456.6,XP_003987505.1,10134947,model,,default-seq
+101104154,REM2,RRAD and GEM like GTPase 2,Ovis aries,sheep,XM_027971647.2,XP_027827448.1,10134947,model,,default-seq
+101125650,REM2,RRAD and GEM like GTPase 2,Gorilla gorilla,western gorilla,XM_019009447.1,XP_018864992.1,10134947,model,,default-seq
+101284288,LOC101284288,RRAD and GEM like GTPase 2,Orcinus orca,killer whale,XM_004283191.4,XP_004283239.1,10134947,model,,default-seq
+101345257,LOC101345257,RRAD and GEM like GTPase 2,Trichechus manatus latirostris,Florida manatee,XM_023724898.1,XP_023580666.1,10134947,model,,default-seq
+101369219,REM2,RRAD and GEM like GTPase 2,Odobenus rosmarus divergens,Pacific walrus,XM_004402108.1,XP_004402165.1,10134947,model,,default-seq
+101388298,LOC101388298,RRAD and GEM like GTPase 2,Ceratotherium simum simum,southern white rhinoceros,XM_004421250.2,XP_004421307.1,10134947,model,,default-seq
+101419188,REM2,RRAD and GEM like GTPase 2,Dasypus novemcinctus,nine-banded armadillo,XM_004474567.2,XP_004474624.1,10134947,model,,default-seq
+101516904,REM2,RRAD and GEM like GTPase 2,Ochotona princeps,American pika,XM_004584677.1,XP_004584734.1,10134947,model,,default-seq
+101551122,REM2,RRAD and GEM like GTPase 2,Sorex araneus,European shrew,XM_004609481.1,XP_004609538.1,10134947,model,,default-seq
+101582565,Rem2,RRAD and GEM like GTPase 2,Octodon degus,degu,XM_004646648.2,XP_004646705.1,10134947,model,,default-seq
+101602223,Rem2,RRAD and GEM like GTPase 2,Jaculus jaculus,lesser Egyptian jerboa,XM_045154677.1,XP_045010612.1,,model,,default-seq
+101626758,REM2,RRAD and GEM like GTPase 2,Condylura cristata,star-nosed mole,XM_004694658.2,XP_004694715.1,10134947,model,,default-seq
+101657060,REM2,RRAD and GEM like GTPase 2,Echinops telfairi,small Madagascar hedgehog,XM_045287665.1,XP_045143600.1,,model,,default-seq
+101690646,REM2,RRAD and GEM like GTPase 2,Mustela putorius furo,domestic ferret,XM_004755362.3,XP_004755419.1,10134947,model,,default-seq
+101722976,Rem2,RRAD and GEM like GTPase 2,Heterocephalus glaber,naked mole-rat,XM_004864195.2,XP_004864252.1,10134947,model,,default-seq
+101829220,Rem2,RRAD and GEM like GTPase 2,Mesocricetus auratus,golden hamster,XM_005085570.4,XP_005085627.1,10134947,model,,default-seq
+101955537,Rem2,RRAD and GEM like GTPase 2,Ictidomys tridecemlineatus,thirteen-lined ground squirrel,XM_005338787.4,XP_005338844.1,10134947,model,,default-seq
+101998393,Rem2,RRAD and GEM like GTPase 2,Microtus ochrogaster,prairie vole,XM_026777673.1,XP_026633474.1,10134947,model,,default-seq
+102030048,Rem2,RRAD and GEM like GTPase 2,Chinchilla lanigera,long-tailed chinchilla,XM_005377113.2,XP_005377170.1,10134947,model,,default-seq
+102133589,REM2,RRAD and GEM like GTPase 2,Macaca fascicularis,crab-eating macaque,XM_005560816.3,XP_005560873.1,10134947,model,,default-seq
+102183795,REM2,RRAD and GEM like GTPase 2,Capra hircus,goat,XM_018054571.1,XP_017910060.1,10134947,model,,default-seq
+102281421,REM2,RRAD and GEM like GTPase 2,Bos mutus,wild yak,XM_005895455.1,XP_005895517.1,10134947,model,,default-seq
+102410870,REM2,RRAD and GEM like GTPase 2,Bubalus bubalis,water buffalo,XM_025296072.3,XP_025151857.1,10134947,model,,default-seq
+102426115,REM2,RRAD and GEM like GTPase 2,Myotis lucifugus,little brown bat,XM_006100080.3,XP_006100142.1,10134947,model,,default-seq
+102483170,REM2,RRAD and GEM like GTPase 2,Tupaia chinensis,Chinese tree shrew,XM_006144596.3,XP_006144658.1,10134947,model,,default-seq
+102523870,REM2,RRAD and GEM like GTPase 2,Camelus ferus,Wild Bactrian camel,XM_032481695.1,XP_032337586.1,,model,,default-seq
+102528739,REM2,RRAD and GEM like GTPase 2,Vicugna pacos,alpaca,XM_031678770.1,XP_031534630.1,,model,,default-seq
+102747980,REM2,RRAD and GEM like GTPase 2,Leptonychotes weddellii,Weddell seal,XM_031036681.1,XP_030892541.1,,model,,default-seq
+102774169,REM2,RRAD and GEM like GTPase 2,Myotis davidii,,XM_006776770.2,XP_006776833.1,10134947,model,,default-seq
+102823520,REM2,RRAD and GEM like GTPase 2,Chrysochloris asiatica,Cape golden mole,XM_006835452.1,XP_006835515.1,10134947,model,,default-seq
+102856396,REM2,RRAD and GEM like GTPase 2,Elephantulus edwardii,Cape elephant shrew,XM_006883133.1,XP_006883195.1,10134947,model,,default-seq
+102886499,REM2,RRAD and GEM like GTPase 2,Pteropus alecto,black flying fox,XM_006913609.2,XP_006913671.1,10134947,model,,default-seq
+102921064,Rem2,RRAD and GEM like GTPase 2,Peromyscus maniculatus bairdii,prairie deer mouse,XM_006988484.2,XP_006988546.1,10134947,model,,default-seq
+102953961,REM2,RRAD and GEM like GTPase 2,Panthera tigris,tiger,XM_007098093.3,XP_007098155.2,,model,,default-seq
+102987251,REM2,RRAD and GEM like GTPase 2,Physeter catodon,sperm whale,XM_007100477.2,XP_007100539.1,10134947,model,,default-seq
+103003874,REM2,RRAD and GEM like GTPase 2,Balaenoptera acutorostrata scammoni,,XM_007180539.1,XP_007180601.1,10134947,model,,default-seq
+103081911,REM2,RRAD and GEM like GTPase 2,Lipotes vexillifer,Yangtze River dolphin,XM_007449526.1,XP_007449588.1,10134947,model,,default-seq
+103125907,REM2,RRAD and GEM like GTPase 2,Erinaceus europaeus,western European hedgehog,XM_007536758.2,XP_007536820.1,10134947,model,,default-seq
+103205773,REM2,RRAD and GEM like GTPase 2,Orycteropus afer afer,,XM_007951171.2,XP_007949362.2,,model,,default-seq
+103231448,REM2,RRAD and GEM like GTPase 2,Chlorocebus sabaeus,green monkey,XM_037987559.1,XP_037843487.1,,model,,default-seq
+103267685,REM2,RRAD and GEM like GTPase 2,Carlito syrichta,Philippine tarsier,XM_008065271.2,XP_008063462.1,10134947,model,,default-seq
+103556728,REM2,RRAD and GEM like GTPase 2,Equus przewalskii,Przewalski's horse,XM_008528968.1,XP_008527190.1,,model,,default-seq
+103585556,REM2,RRAD and GEM like GTPase 2,Galeopterus variegatus,Sunda flying lemur,XM_008566551.1,XP_008564773.1,10134947,model,,default-seq
+103681061,REM2,RRAD and GEM like GTPase 2,Ursus maritimus,polar bear,XM_040620901.1,XP_040476835.1,,model,,default-seq
+103739478,Rem2,RRAD and GEM like GTPase 2,Nannospalax galili,Upper Galilee mountains blind mole rat,XM_008839903.2,XP_008838125.1,10134947,model,,default-seq
+104674135,REM2,RRAD and GEM like GTPase 2,Rhinopithecus roxellana,golden snub-nosed monkey,XM_010378358.2,XP_010376660.2,,model,,default-seq
+104871725,Rem2,RRAD and GEM like GTPase 2,Fukomys damarensis,Damara mole-rat,XM_033765070.1,XP_033620961.1,,model,,default-seq
+104981989,REM2,RRAD and GEM like GTPase 2,Bison bison bison,,XM_010831252.1,XP_010829554.1,10134947,model,,default-seq
+105068766,REM2,RRAD and GEM like GTPase 2,Camelus bactrianus,Bactrian camel,XM_045516484.1,XP_045372440.1,,model,,default-seq
+105096998,REM2,RRAD and GEM like GTPase 2,Camelus dromedarius,Arabian camel,XM_031452725.1,XP_031308585.1,,model,,default-seq
+105300521,REM2,RRAD and GEM like GTPase 2,Pteropus vampyrus,large flying fox,XM_011372778.2,XP_011371080.1,10134947,model,,default-seq
+105499627,REM2,RRAD and GEM like GTPase 2,Macaca nemestrina,pig-tailed macaque,XM_011772352.2,XP_011770654.1,10134947,model,,default-seq
+105503854,REM2,RRAD and GEM like GTPase 2,Colobus angolensis palliatus,,XM_011930962.1,XP_011786352.1,,model,,default-seq
+105547171,REM2,RRAD and GEM like GTPase 2,Mandrillus leucophaeus,drill,XM_011990630.1,XP_011846020.1,10134947,model,,default-seq
+105598792,REM2,RRAD and GEM like GTPase 2,Cercocebus atys,sooty mangabey,XM_012088533.1,XP_011943923.1,10134947,model,,default-seq
+105727032,REM2,RRAD and GEM like GTPase 2,Aotus nancymaae,Ma's night monkey,XM_012466673.1,XP_012322096.1,10134947,model,,default-seq
+105814471,REM2,RRAD and GEM like GTPase 2,Propithecus coquereli,Coquerel's sifaka,XM_012649447.1,XP_012504901.1,10134947,model,,default-seq
+105864704,REM2,RRAD and GEM like GTPase 2,Microcebus murinus,gray mouse lemur,XM_012752689.1,XP_012608143.1,10134947,model,,default-seq
+105992497,Rem2,RRAD and GEM like GTPase 2,Dipodomys ordii,Ord's kangaroo rat,XM_013025368.1,XP_012880822.1,10134947,model,,default-seq
+106840659,REM2,RRAD and GEM like GTPase 2,Equus asinus,ass,XM_014856335.2,XP_014711821.1,10134947,model,,default-seq
+106988209,REM2,RRAD and GEM like GTPase 2,Acinonyx jubatus,cheetah,XM_015086639.2,XP_014942125.2,10134947,model,,default-seq
+107148214,Rem2,RRAD and GEM like GTPase 2,Marmota marmota marmota,Alpine marmot,XM_015492848.2,XP_015348334.1,10134947,model,,default-seq
+107498004,REM2,RRAD and GEM like GTPase 2,Rousettus aegyptiacus,Egyptian rousette,XM_016120537.2,XP_015976023.2,,model,,default-seq
+107531654,REM2,RRAD and GEM like GTPase 2,Miniopterus natalensis,,XM_016205757.1,XP_016061243.1,10134947,model,,default-seq
+108315258,REM2,RRAD and GEM like GTPase 2,Cebus imitator,Panamanian white-faced capuchin,XM_017544499.2,XP_017399988.1,10134947,model,,default-seq
+108400031,REM2,RRAD and GEM like GTPase 2,Manis javanica,Malayan pangolin,XM_017665172.2,XP_017520661.1,10134947,model,,default-seq
+108523599,REM2,RRAD and GEM like GTPase 2,Rhinopithecus bieti,black snub-nosed monkey,XM_017864286.1,XP_017719775.1,10134947,model,,default-seq
+109255045,REM2,RRAD and GEM like GTPase 2,Panthera pardus,leopard,XM_019429463.1,XP_019285008.1,10134947,model,,default-seq
+109393691,REM2,RRAD and GEM like GTPase 2,Hipposideros armiger,great roundleaf bat,XM_019663177.1,XP_019518722.1,10134947,model,,default-seq
+109564818,REM2,RRAD and GEM like GTPase 2,Bos indicus,zebu cattle,XM_019968374.1,XP_019823933.1,10134947,model,,default-seq
+109685807,Rem2,RRAD and GEM like GTPase 2,Castor canadensis,American beaver,XM_020162859.1,XP_020018448.1,10134947,model,,default-seq
+110147745,REM2,RRAD and GEM like GTPase 2,Odocoileus virginianus,white-tailed deer,XM_020909415.1,XP_020765074.1,10134947,model,,default-seq
+110223348,REM2,RRAD and GEM like GTPase 2,Phascolarctos cinereus,koala,XM_021008842.1,XP_020864501.1,10134947,model,,default-seq
+110309775,Rem2,RRAD and GEM like GTPase 2,Mus caroli,Ryukyu mouse,XM_021182512.1,XP_021038171.1,10134947,model,,default-seq
+110325559,Rem2,RRAD and GEM like GTPase 2,Mus pahari,shrew mouse,XM_021203619.1,XP_021059278.1,10134947,model,,default-seq
+110550034,Rem2,RRAD and GEM like GTPase 2,Meriones unguiculatus,Mongolian gerbil,XM_021639619.1,XP_021495294.1,10134947,model,,default-seq
+110585368,REM2,RRAD and GEM like GTPase 2,Neomonachus schauinslandi,Hawaiian monk seal,XM_021695575.1,XP_021551250.1,10134947,model,,default-seq
+111158448,LOC111158448,RRAD and GEM like GTPase 2,Enhydra lutris kenyoni,,XM_022520471.1,XP_022376179.1,10134947,model,,default-seq
+111164186,REM2,RRAD and GEM like GTPase 2,Delphinapterus leucas,beluga whale,XM_022553601.2,XP_022409309.1,10134947,model,,default-seq
+111554775,REM2,RRAD and GEM like GTPase 2,Piliocolobus tephrosceles,Ugandan red Colobus,XM_023230440.1,XP_023086208.1,10134947,model,,default-seq
+112300769,REM2,RRAD and GEM like GTPase 2,Desmodus rotundus,common vampire bat,XM_024556113.2,XP_024411881.1,10134947,model,,default-seq
+112397480,REM2,RRAD and GEM like GTPase 2,Neophocaena asiaeorientalis asiaeorientalis,Yangtze finless porpoise,XM_024741692.1,XP_024597460.1,10134947,model,,default-seq
+112629036,REM2,RRAD and GEM like GTPase 2,Theropithecus gelada,gelada,XM_025392475.1,XP_025248260.1,10134947,model,,default-seq
+112657054,REM2,RRAD and GEM like GTPase 2,Canis lupus dingo,dingo,XM_025442827.3,XP_025298612.1,10134947,model,,default-seq
+112822590,REM2,RRAD and GEM like GTPase 2,Callorhinus ursinus,northern fur seal,XM_025870359.1,XP_025726144.1,10134947,model,,default-seq
+112855696,REM2,RRAD and GEM like GTPase 2,Puma concolor,puma,XM_025919283.1,XP_025775068.1,10134947,model,,default-seq
+112926496,REM2,RRAD and GEM like GTPase 2,Vulpes vulpes,red fox,XM_026007504.1,XP_025863289.1,10134947,model,,default-seq
+113194843,Rem2,RRAD and GEM like GTPase 2,Urocitellus parryii,Arctic ground squirrel,XM_026406123.1,XP_026261908.1,10134947,model,,default-seq
+113246005,REM2,RRAD and GEM like GTPase 2,Ursus arctos,brown bear,XM_026486411.2,XP_026342196.1,10134947,model,,default-seq
+113622564,REM2,RRAD and GEM like GTPase 2,Lagenorhynchus obliquidens,Pacific white-sided dolphin,XM_027110778.1,XP_026966579.1,10134947,model,,default-seq
+113899935,REM2,RRAD and GEM like GTPase 2,Bos indicus x Bos taurus,hybrid cattle,XM_027553330.1,XP_027409131.1,10134947,model,,default-seq
+113909852,REM2,RRAD and GEM like GTPase 2,Zalophus californianus,California sea lion,XM_027571459.2,XP_027427260.1,10134947,model,,default-seq
+114028848,REM2,RRAD and GEM like GTPase 2,Vombatus ursinus,common wombat,XM_027843188.1,XP_027698989.1,10134947,model,,default-seq
+114079044,Rem2,RRAD and GEM like GTPase 2,Marmota flaviventris,yellow-bellied marmot,XM_027920156.1,XP_027775957.1,10134947,model,,default-seq
+114217870,REM2,RRAD and GEM like GTPase 2,Eumetopias jubatus,Steller sea lion,XM_028114785.1,XP_027970586.1,10134947,model,,default-seq
+114492685,REM2,RRAD and GEM like GTPase 2,Phyllostomus discolor,pale spear-nosed bat,XM_028507134.2,XP_028362935.1,10134947,model,,default-seq
+114639772,Rem2,RRAD and GEM like GTPase 2,Grammomys surdaster,,XM_028788542.1,XP_028644375.1,10134947,model,,default-seq
+114708745,Rem2,RRAD and GEM like GTPase 2,Peromyscus leucopus,white-footed mouse,XM_028892240.2,XP_028748073.1,10134947,model,,default-seq
+114904045,REM2,RRAD and GEM like GTPase 2,Monodon monoceros,narwhal,XM_029237411.1,XP_029093244.1,10134947,model,,default-seq
+115302665,REM2,RRAD and GEM like GTPase 2,Suricata suricatta,meerkat,XM_029952605.1,XP_029808465.1,,model,,default-seq
+115516232,REM2,RRAD and GEM like GTPase 2,Lynx canadensis,Canada lynx,XM_030318679.1,XP_030174539.1,,model,,default-seq
+115852106,REM2,RRAD and GEM like GTPase 2,Globicephala melas,long-finned pilot whale,XM_030854517.1,XP_030710377.1,,model,,default-seq
+116084361,Rem2,RRAD and GEM like GTPase 2,Mastomys coucha,southern multimammate mouse,XM_031361298.1,XP_031217158.1,,model,,default-seq
+116484899,REM2,RRAD and GEM like GTPase 2,Hylobates moloch,silvery gibbon,XM_032179928.1,XP_032035819.1,,model,,default-seq
+116541390,REM2,RRAD and GEM like GTPase 2,Sapajus apella,tufted capuchin,XM_032265550.1,XP_032121441.1,,model,,default-seq
+116591129,REM2,RRAD and GEM like GTPase 2,Mustela erminea,ermine,XM_032343807.1,XP_032199698.1,,model,,default-seq
+116632589,REM2,RRAD and GEM like GTPase 2,Phoca vitulina,harbor seal,XM_032404536.1,XP_032260427.1,,model,,default-seq
+116748961,REM2,RRAD and GEM like GTPase 2,Phocoena sinus,vaquita,XM_032622712.1,XP_032478603.1,,model,,default-seq
+116867066,REM2,RRAD and GEM like GTPase 2,Lontra canadensis,Northern American river otter,XM_032856406.1,XP_032712297.1,,model,,default-seq
+116913826,Rem2,RRAD and GEM like GTPase 2,Rattus rattus,black rat,XM_032918139.1,XP_032774030.1,,model,,default-seq
+117023075,LOC117023075,RRAD and GEM like GTPase 2,Rhinolophus ferrumequinum,greater horseshoe bat,XM_033107547.1,XP_032963438.1,,model,,default-seq
+117069993,REM2,RRAD and GEM like GTPase 2,Trachypithecus francoisi,Francois's langur,XM_033188604.1,XP_033044495.1,,model,,default-seq
+117311064,REM2,RRAD and GEM like GTPase 2,Tursiops truncatus,common bottlenose dolphin,XM_033851357.1,XP_033707248.1,,model,,default-seq
+117705864,Rem2,RRAD and GEM like GTPase 2,Arvicanthis niloticus,Nile rat,XM_034498612.1,XP_034354503.1,,model,,default-seq
+118003629,REM2,RRAD and GEM like GTPase 2,Mirounga leonina,Southern elephant seal,XM_034994691.1,XP_034850582.1,,model,,default-seq
+118550096,REM2,RRAD and GEM like GTPase 2,Halichoerus grypus,gray seal,XM_036114829.1,XP_035970722.1,,model,,default-seq
+118591250,Rem2,RRAD and GEM like GTPase 2,Onychomys torridus,southern grasshopper mouse,XM_036199393.1,XP_036055286.1,,model,,default-seq
+118679336,REM2,RRAD and GEM like GTPase 2,Myotis myotis,,XM_036355955.1,XP_036211848.1,,model,,default-seq
+118830201,REM2,RRAD and GEM like GTPase 2,Trichosurus vulpecula,common brushtail,XM_036737107.1,XP_036593002.1,,model,,default-seq
+118889880,REM2,RRAD and GEM like GTPase 2,Balaenoptera musculus,Blue whale,XM_036842027.1,XP_036697922.1,,model,,default-seq
+118911929,REM2,RRAD and GEM like GTPase 2,Manis pentadactyla,Chinese pangolin,XM_036884595.1,XP_036740490.1,,model,,default-seq
+118980967,REM2,RRAD and GEM like GTPase 2,Sturnira hondurensis,,XM_037037712.1,XP_036893607.1,,model,,default-seq
+119037279,REM2,RRAD and GEM like GTPase 2,Artibeus jamaicensis,Jamaican fruit-eating bat,XM_037129407.1,XP_036985302.1,,model,,default-seq
+119238909,REM2,RRAD and GEM like GTPase 2,Talpa occidentalis,Iberian mole,XM_037503036.1,XP_037358933.1,,model,,default-seq
+119533491,REM2,RRAD and GEM like GTPase 2,Choloepus didactylus,southern two-toed sloth,XM_037835533.1,XP_037691461.1,,model,,default-seq
+119800192,Rem2,RRAD and GEM like GTPase 2,Arvicola amphibius,Eurasian water vole,XM_038310306.1,XP_038166234.1,,model,,default-seq
+119921050,REM2,RRAD and GEM like GTPase 2,Tachyglossus aculeatus,Australian echidna,XM_038741379.1,XP_038597307.1,,model,,default-seq
+120240448,REM2,RRAD and GEM like GTPase 2,Hyaena hyaena,striped hyena,XM_039245203.1,XP_039101134.1,,model,,default-seq
+120593898,REM2,RRAD and GEM like GTPase 2,Pteropus giganteus,Indian flying fox,XM_039851849.1,XP_039707783.1,,model,,default-seq
+120853420,REM2,RRAD and GEM like GTPase 2,Oryx dammah,scimitar-horned oryx,XM_040227220.1,XP_040083154.1,,model,,default-seq
+121031498,REM2,RRAD and GEM like GTPase 2,Puma yagouaroundi,jaguarundi,XM_040476645.1,XP_040332579.1,,model,,default-seq
+121148923,REM2,RRAD and GEM like GTPase 2,Ochotona curzoniae,black-lipped pika,XM_040969296.1,XP_040825230.1,,model,,default-seq
+121435053,Rem2,RRAD and GEM like GTPase 2,Microtus oregoni,creeping vole,XM_041634112.1,XP_041490046.1,,model,,default-seq
+121493161,REM2,RRAD and GEM like GTPase 2,Vulpes lagopus,Arctic fox,XM_041758862.1,XP_041614796.1,,model,,default-seq
+122113461,Rem2,RRAD and GEM like GTPase 2,Dipodomys spectabilis,banner-tailed kangaroo rat,XM_042686425.1,XP_042542359.1,,model,,default-seq
+122222332,REM2,RRAD and GEM like GTPase 2,Panthera leo,lion,XM_042942694.1,XP_042798628.1,,model,,default-seq
+122443217,REM2,RRAD and GEM like GTPase 2,Cervus canadensis,,XM_043471209.1,XP_043327144.1,,model,,default-seq
+122468875,REM2,RRAD and GEM like GTPase 2,Prionailurus bengalensis,leopard cat,XM_043555763.1,XP_043411698.1,,model,,default-seq
+122704682,REM2,RRAD and GEM like GTPase 2,Cervus elaphus,red deer,XM_043919551.1,XP_043775486.1,,model,,default-seq
+122738330,REM2,RRAD and GEM like GTPase 2,Dromiciops gliroides,monito del monte,XM_043980377.1,XP_043836312.1,,model,,default-seq
+122892991,REM2,RRAD and GEM like GTPase 2,Neogale vison,American mink,XM_044229739.1,XP_044085674.1,,model,,default-seq
+123236025,REM2,RRAD and GEM like GTPase 2,Gracilinanus agilis,Agile Gracile Mouse Opossum,XM_044662280.1,XP_044518215.1,,model,,default-seq
+123583384,REM2,RRAD and GEM like GTPase 2,Leopardus geoffroyi,Geoffroy's cat,XM_045450372.1,XP_045306328.1,,model,,default-seq
+123620588,REM2,RRAD and GEM like GTPase 2,Lemur catta,Ring-tailed lemur,XM_045525960.1,XP_045381916.1,,model,,default-seq
+123795797,REM2,RRAD and GEM like GTPase 2,Ursus americanus,American black bear,XM_045802792.1,XP_045658748.1,,model,,default-seq
+123820476,REM2,RRAD and GEM like GTPase 2,Phyllostomus hastatus,greater spear-nosed bat,XM_045841219.1,XP_045697175.1,,model,,default-seq
+123861432,REM2,RRAD and GEM like GTPase 2,Mirounga angustirostris,Northern elephant seal,XM_045900528.1,XP_045756484.1,,model,,default-seq
+123943874,REM2,RRAD and GEM like GTPase 2,Meles meles,Eurasian badger,XM_046008309.1,XP_045864265.1,,model,,default-seq
+124107202,Rem2,RRAD and GEM like GTPase 2,Marmota monax,woodchuck,XM_046465107.1,XP_046321063.1,,model,,default-seq
+124235489,LOC124235489,GTP-binding protein REM 2,Equus quagga,,XM_046653592.1,XP_046509548.1,,model,,default-seq
+125363520,Rem2,RRAD and GEM like GTPase 2,Perognathus longimembris pacificus,Pacific pocket mouse,XM_048362803.1,XP_048218760.1,,model,,default-seq
+125407411,Rem2,RRAD and GEM like GTPase 2,Myodes glareolus,Bank vole,XM_048444987.1,XP_048300944.1,,model,,default-seq
+125909708,REM2,RRAD and GEM like GTPase 2,Panthera uncia,snow leopard,XM_049613126.1,XP_049469083.1,,model,,default-seq
+126001377,LOC126001377,RRAD and GEM like GTPase 2,Suncus etruscus,white-toothed pygmy shrew,XM_049768637.1,XP_049624594.1,,model,,default-seq
+126084786,LOC126084786,RRAD and GEM like GTPase 2,Elephas maximus indicus,,XM_049899603.1,XP_049755560.1,,model,,default-seq
+126490927,LOC126490927,RRAD and GEM like GTPase 2,Microtus fortis,reed vole,XM_050126229.1,XP_049982186.1,,model,,default-seq
+126958288,LOC126958288,RRAD and GEM like GTPase 2,Macaca thibetana thibetana,,XM_050796554.1,XP_050652511.1,,model,,default-seq
+127187235,LOC127187235,RRAD and GEM like GTPase 2,Acomys russatus,golden spiny mouse,XM_051143407.1,XP_050999364.1,,model,,default-seq
+127230422,LOC127230422,RRAD and GEM like GTPase 2,Phodopus roborovskii,desert hamster,XM_051195738.1,XP_051051695.1,,model,,default-seq
+127551038,LOC127551038,RRAD and GEM like GTPase 2,Antechinus flavipes,yellow-footed antechinus,XM_051980438.1,XP_051836398.1,,model,,default-seq
+127690950,LOC127690950,RRAD and GEM like GTPase 2,Apodemus sylvaticus,European woodmouse,XM_052190525.1,XP_052046485.1,,model,,default-seq

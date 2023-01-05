@@ -1,0 +1,3921 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "citation":"Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32 (5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds support for SRV",
+   "contact":"spond@temple.edu",
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"2.3"
+  },
+ "branch attributes":{
+   "0":{
+     "NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2"
+      },
+     "NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.02486735824358137,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02306986282346145,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02306986282346145,
+       "LRT":0,
+       "Nucleotide GTR":0.0259899432032267,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1"
+      },
+     "NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "Node103":{
+       "Baseline MG94xREV":0.0147199470765059,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01839988108703465,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01839988108703465,
+       "LRT":0,
+       "Nucleotide GTR":0.01296683097242353,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node107":{
+       "Baseline MG94xREV":0.0136129150638804,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0160270104937759,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0160270104937759,
+       "LRT":0,
+       "Nucleotide GTR":0.01293693754203648,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node119":{
+       "Baseline MG94xREV":0.01347855977970212,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01607892318511989,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01607892318511989,
+       "LRT":0,
+       "Nucleotide GTR":0.01293626193251266,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node12":{
+       "Baseline MG94xREV":0.01447585031009327,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01673447292228785,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01673447292228785,
+       "LRT":0,
+       "Nucleotide GTR":0.01297273228985916,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node129":{
+       "Baseline MG94xREV":0.01482992034770479,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02046295930583754,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02046295930583754,
+       "LRT":0,
+       "Nucleotide GTR":0.01300880595322778,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node130":{
+       "Baseline MG94xREV":0.05912249340209192,
+       "Baseline MG94xREV omega ratio":0.1992881103406827,
+       "Corrected P-value":1,
+       "Full adaptive model":0.07859489006304728,
+       "Full adaptive model (non-synonymous subs/site)":0.02661830855735354,
+       "Full adaptive model (synonymous subs/site)":0.0519765815056937,
+       "LRT":0,
+       "Nucleotide GTR":0.05380740084980108,
+       "Rate Distributions":        [
+[0.07993464172922511, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node133":{
+       "Baseline MG94xREV":0.01674051693491748,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01890216242304027,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01890216242304027,
+       "LRT":0,
+       "Nucleotide GTR":0.01312587318852639,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node140":{
+       "Baseline MG94xREV":0.02431961066950642,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03311905637155051,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.03311905637155051,
+       "LRT":0,
+       "Nucleotide GTR":0.01664728545898915,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node141":{
+       "Baseline MG94xREV":0.02410094741469002,
+       "Baseline MG94xREV omega ratio":0.2834776476808632,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03053960693419224,
+       "Full adaptive model (non-synonymous subs/site)":0.01300997997516389,
+       "Full adaptive model (synonymous subs/site)":0.01752962695902834,
+       "LRT":0,
+       "Nucleotide GTR":0.02564110483111423,
+       "Rate Distributions":        [
+[0.1158420526272206, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node142":{
+       "Baseline MG94xREV":0.06041503020885399,
+       "Baseline MG94xREV omega ratio":0.2017420532695014,
+       "Corrected P-value":1,
+       "Full adaptive model":0.07278228051220399,
+       "Full adaptive model (non-synonymous subs/site)":0.02637446430115591,
+       "Full adaptive model (synonymous subs/site)":0.0464078162110482,
+       "LRT":0,
+       "Nucleotide GTR":0.05583096609166193,
+       "Rate Distributions":        [
+[0.08870636948794085, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node16":{
+       "Baseline MG94xREV":0.01561418343355693,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01674526170896038,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01674526170896038,
+       "LRT":0,
+       "Nucleotide GTR":0.01304421225427271,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node17":{
+       "Baseline MG94xREV":0.030263235159009,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03726512718173711,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.03726512718173711,
+       "LRT":0,
+       "Nucleotide GTR":0.02611003853554763,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node174":{
+       "Baseline MG94xREV":0.01471801696001101,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01833146918091742,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01833146918091742,
+       "LRT":0,
+       "Nucleotide GTR":0.01296278722673969,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node176":{
+       "Baseline MG94xREV":0.01436063155063178,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01705049038297121,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01705049038297121,
+       "LRT":0,
+       "Nucleotide GTR":0.01293648511345624,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node178":{
+       "Baseline MG94xREV":0.02690739380966031,
+       "Baseline MG94xREV omega ratio":0.2235248917883315,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02917632167325243,
+       "Full adaptive model (non-synonymous subs/site)":0.01301891123229098,
+       "Full adaptive model (synonymous subs/site)":0.01615741044096144,
+       "LRT":0,
+       "Nucleotide GTR":0.02626095164411596,
+       "Rate Distributions":        [
+[0.1257665648228248, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node203":{
+       "Baseline MG94xREV":0.041207969544691,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.04481117796515394,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.04481117796515394,
+       "LRT":0,
+       "Nucleotide GTR":0.03929478992239326,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node208":{
+       "Baseline MG94xREV":0.01270208358840728,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01274824956195987,
+       "Full adaptive model (non-synonymous subs/site)":0.01274824956195987,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.2413198290719265,
+       "Nucleotide GTR":0.0129444847023329,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3905514985662595
+      },
+     "Node21":{
+       "Baseline MG94xREV":0.01493738554480088,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01850871822056004,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01850871822056004,
+       "LRT":0,
+       "Nucleotide GTR":0.01296454612571506,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node210":{
+       "Baseline MG94xREV":0.01487271631002759,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01696664943176128,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01696664943176128,
+       "LRT":0,
+       "Nucleotide GTR":0.0130647977631539,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node226":{
+       "Baseline MG94xREV":0.01270500238603946,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01274827479851989,
+       "Full adaptive model (non-synonymous subs/site)":0.01274827479851989,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.1905990758818916,
+       "Nucleotide GTR":0.01309251817915268,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.4052138708627308
+      },
+     "Node227":{
+       "Baseline MG94xREV":2.22212493141691,
+       "Baseline MG94xREV omega ratio":0.3607633996978529,
+       "Corrected P-value":1,
+       "Full adaptive model":0.3060582175497195,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.3060582175497195,
+       "LRT":0,
+       "Nucleotide GTR":0.3132325668640604,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node228":{
+       "Baseline MG94xREV":1896.147060789706,
+       "Baseline MG94xREV omega ratio":8195147.394284602,
+       "Corrected P-value":1,
+       "Full adaptive model":2.03613762809663,
+       "Full adaptive model (non-synonymous subs/site)":2.03613762809663,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.4684780943916849,
+       "Nucleotide GTR":2772.466708725912,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3360894298437947
+      },
+     "Node233":{
+       "Baseline MG94xREV":0.01277111986568608,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01297083759585075,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01297083759585075,
+       "LRT":0,
+       "Nucleotide GTR":0.01309351824821554,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node235":{
+       "Baseline MG94xREV":0.01186050942084762,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01082464855218406,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01082464855218406,
+       "LRT":0,
+       "Nucleotide GTR":0.01292800693149494,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node238":{
+       "Baseline MG94xREV":0.0128350506380383,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01430807206140759,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01430807206140759,
+       "LRT":0,
+       "Nucleotide GTR":0.01308781244317627,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node247":{
+       "Baseline MG94xREV":0.01361311121616802,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01597467239318452,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01597467239318452,
+       "LRT":0,
+       "Nucleotide GTR":0.01293661574697408,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node249":{
+       "Baseline MG94xREV":0.02270076805519712,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02062467683861105,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02062467683861105,
+       "LRT":0,
+       "Nucleotide GTR":0.01439100195264669,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node250":{
+       "Baseline MG94xREV":0.04504620650223725,
+       "Baseline MG94xREV omega ratio":0.09871520862144854,
+       "Corrected P-value":1,
+       "Full adaptive model":0.04662437246458895,
+       "Full adaptive model (non-synonymous subs/site)":0.01278353355269963,
+       "Full adaptive model (synonymous subs/site)":0.03384083891188925,
+       "LRT":0,
+       "Nucleotide GTR":0.0542983225151577,
+       "Rate Distributions":        [
+[0.05896198356039598, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node253":{
+       "Baseline MG94xREV":0.07086934786249319,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.06407636891071601,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.06407636891071601,
+       "LRT":0,
+       "Nucleotide GTR":0.06720496872692533,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node262":{
+       "Baseline MG94xREV":0.01361312920455844,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01597459968648906,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01597459968648906,
+       "LRT":0,
+       "Nucleotide GTR":0.01293695420213482,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node273":{
+       "Baseline MG94xREV":0.01608100569426841,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02137615735058587,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02137615735058587,
+       "LRT":0,
+       "Nucleotide GTR":0.01299383953462358,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node284":{
+       "Baseline MG94xREV":0.01782036838015468,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0273860306795686,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0273860306795686,
+       "LRT":0,
+       "Nucleotide GTR":0.01308237554539871,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node289":{
+       "Baseline MG94xREV":0.04999317379807097,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.06314097951645899,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.06314097951645899,
+       "LRT":0,
+       "Nucleotide GTR":0.03949020443686362,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node30":{
+       "Baseline MG94xREV":0.01397419832569027,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01736832220643062,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01736832220643062,
+       "LRT":0,
+       "Nucleotide GTR":0.01288217753983341,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node305":{
+       "Baseline MG94xREV":0.01301381473188791,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01167880267667658,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01167880267667658,
+       "LRT":0,
+       "Nucleotide GTR":0.01299074089486727,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node312":{
+       "Baseline MG94xREV":0.0313651103834279,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.04530071422769891,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.04530071422769891,
+       "LRT":0,
+       "Nucleotide GTR":0.02628306662929383,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node314":{
+       "Baseline MG94xREV":0.01349742326180713,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01640801408948159,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01640801408948159,
+       "LRT":0,
+       "Nucleotide GTR":0.01297350879890794,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node319":{
+       "Baseline MG94xREV":0.01329080887410701,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01377091414513497,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01377091414513497,
+       "LRT":0,
+       "Nucleotide GTR":0.01294772746607591,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node321":{
+       "Baseline MG94xREV":0.01332177957387073,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0136566285657323,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0136566285657323,
+       "LRT":0,
+       "Nucleotide GTR":0.01294805715221583,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node324":{
+       "Baseline MG94xREV":0.0123372834512345,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01140845047569729,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01140845047569729,
+       "LRT":0,
+       "Nucleotide GTR":0.01291765942497429,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node67":{
+       "Baseline MG94xREV":0.01434364792134441,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01406871605998637,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01406871605998637,
+       "LRT":0,
+       "Nucleotide GTR":0.01293115369753337,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node68":{
+       "Baseline MG94xREV":0.01590994653372147,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01809822014369155,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01809822014369155,
+       "LRT":0,
+       "Nucleotide GTR":0.01295380188170418,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node77":{
+       "Baseline MG94xREV":0.01628992161529651,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02299473283360885,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02299473283360885,
+       "LRT":0,
+       "Nucleotide GTR":0.01309308714872987,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node9":{
+       "Baseline MG94xREV":0.01329221361806863,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01377221821988019,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01377221821988019,
+       "LRT":0,
+       "Nucleotide GTR":0.01294809451345642,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node94":{
+       "Baseline MG94xREV":0.01484203667240049,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01495227845353607,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01495227845353607,
+       "LRT":0,
+       "Nucleotide GTR":0.0130096273985348,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node95":{
+       "Baseline MG94xREV":0.01105180419707107,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.007896396680093471,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.007896396680093471,
+       "LRT":0,
+       "Nucleotide GTR":0.01289405910958469,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.1095813193674371,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.1559101050013739,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.1559101050013739,
+       "LRT":0,
+       "Nucleotide GTR":0.06762696102727857,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.0129786760417984,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01329805521561482,
+       "Full adaptive model (non-synonymous subs/site)":0.01329805521561482,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.2369757059341282,
+       "Nucleotide GTR":0.01303322148979845,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3917585822543065,
+       "original name":"XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1"
+      },
+     "XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.02660339435254786,
+       "Baseline MG94xREV omega ratio":0.2460227293123644,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02749511841137901,
+       "Full adaptive model (non-synonymous subs/site)":0.012748202884966,
+       "Full adaptive model (synonymous subs/site)":0.01474691552641304,
+       "LRT":0,
+       "Nucleotide GTR":0.02690141496250167,
+       "Rate Distributions":        [
+[0.1349304797002439, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1"
+      },
+     "XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.03225322303840978,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03989046354451254,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.03989046354451254,
+       "LRT":0,
+       "Nucleotide GTR":0.02605948224954245,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.01340725496924924,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01475616483437622,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01475616483437622,
+       "LRT":0,
+       "Nucleotide GTR":0.01294292914814605,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.01782036993308319,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0273860259378067,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0273860259378067,
+       "LRT":0,
+       "Nucleotide GTR":0.01308046375112664,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.01372869359135204,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0117582402547208,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0117582402547208,
+       "LRT":0,
+       "Nucleotide GTR":0.0131716094530273,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.01109274396665267,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.008319499227343345,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.008319499227343345,
+       "LRT":0,
+       "Nucleotide GTR":0.01286769067700664,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.009631452358871527,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.007295375940222269,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.007295375940222269,
+       "LRT":0,
+       "Nucleotide GTR":0.01276398700367815,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.02690424927886671,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03037224396464216,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.03037224396464216,
+       "LRT":0,
+       "Nucleotide GTR":0.02604701781735999,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1"
+      },
+     "XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.5913144472379689,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.4906304744608652,
+       "Full adaptive model (non-synonymous subs/site)":0.4906304744608652,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":3.556205867729659,
+       "Nucleotide GTR":0.1694216413893994,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.06255214848678253,
+       "original name":"XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.04580153917333502,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.04416820655381266,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.04416820655381266,
+       "LRT":0,
+       "Nucleotide GTR":0.03943136252669641,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.01525210562202206,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01591826211594792,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01591826211594792,
+       "LRT":0,
+       "Nucleotide GTR":0.01301982146362666,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1"
+      },
+     "XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.01354110928620095,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01429121343932119,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01429121343932119,
+       "LRT":0,
+       "Nucleotide GTR":0.01292575387249608,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.02831282934021302,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02859995992721577,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02859995992721577,
+       "LRT":0,
+       "Nucleotide GTR":0.02611433317012328,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.04567699560903049,
+       "Baseline MG94xREV omega ratio":0.09619894285150907,
+       "Corrected P-value":1,
+       "Full adaptive model":0.05575642992873802,
+       "Full adaptive model (non-synonymous subs/site)":0.0129182754001957,
+       "Full adaptive model (synonymous subs/site)":0.04283815452854233,
+       "LRT":0,
+       "Nucleotide GTR":0.03958308008181634,
+       "Rate Distributions":        [
+[0.04706911969865513, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":4.396999212152347,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":165.5573654458489,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":165.5573654458489,
+       "LRT":0,
+       "Nucleotide GTR":0.7967190338681512,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.5770746493443731,
+       "Baseline MG94xREV omega ratio":0.5342865463966983,
+       "Corrected P-value":1,
+       "Full adaptive model":1.901979617873134,
+       "Full adaptive model (non-synonymous subs/site)":1.678864210850246,
+       "Full adaptive model (synonymous subs/site)":0.2231154070228882,
+       "LRT":0.3324998286461778,
+       "Nucleotide GTR":0.7575742394217643,
+       "Rate Distributions":        [
+[0, 0.4992184414046465],
+        [2.345308474577465, 0.5007815585953534] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":0.3668885300707871,
+       "original name":"XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1"
+      },
+     "XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.1023038124278823,
+       "Baseline MG94xREV omega ratio":0.2213652989602538,
+       "Corrected P-value":1,
+       "Full adaptive model":1.55624766631842,
+       "Full adaptive model (non-synonymous subs/site)":1.516974347866913,
+       "Full adaptive model (synonymous subs/site)":0.03927331845150455,
+       "LRT":6.905300152684504,
+       "Nucleotide GTR":0.1003342586853189,
+       "Rate Distributions":        [
+[0, 0.9024729825202128],
+        [61.81843198410162, 0.0975270174797872] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":0.01121729776693137,
+       "original name":"XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1"
+      },
+     "XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.01359079344746765,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01610662648514484,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01610662648514484,
+       "LRT":0,
+       "Nucleotide GTR":0.01298423228622836,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.01462338426665208,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01529257310861286,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01529257310861286,
+       "LRT":0,
+       "Nucleotide GTR":0.01282668268811924,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.02161798174060488,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01910222560497899,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01910222560497899,
+       "LRT":0,
+       "Nucleotide GTR":0.02589672373751439,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.01436105869407669,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01711194721928929,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01711194721928929,
+       "LRT":0,
+       "Nucleotide GTR":0.01293647982621524,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.02920436728594901,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0266805996321115,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0266805996321115,
+       "LRT":0,
+       "Nucleotide GTR":0.02636721904445546,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1"
+      },
+     "XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1"
+      },
+     "XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.03362823445963442,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.04708068623876275,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.04708068623876275,
+       "LRT":0,
+       "Nucleotide GTR":0.02618009625117379,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1"
+      },
+     "XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1"
+      },
+     "XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":135.1621930902303,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":28.32037015799375,
+       "Full adaptive model (non-synonymous subs/site)":1.424536095096906,
+       "Full adaptive model (synonymous subs/site)":26.89583406289684,
+       "LRT":0,
+       "Nucleotide GTR":3.023265183777768,
+       "Rate Distributions":        [
+[0.008267053184192097, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.009667478711413227,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.00769620207792169,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.00769620207792169,
+       "LRT":0,
+       "Nucleotide GTR":0.01275621926290269,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1"
+      },
+     "XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2"
+      },
+     "XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1"
+      },
+     "XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.02684889710909765,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03058660368749509,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.03058660368749509,
+       "LRT":0,
+       "Nucleotide GTR":0.02604720670493078,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.01239421619258604,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01242025185464291,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01242025185464291,
+       "LRT":0,
+       "Nucleotide GTR":0.01291972537759768,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.01267219827420712,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01417198026349733,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01417198026349733,
+       "LRT":0,
+       "Nucleotide GTR":0.01290813047634012,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.0146132077211901,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02005103039789497,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02005103039789497,
+       "LRT":0,
+       "Nucleotide GTR":0.01291683147498086,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1"
+      },
+     "XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.03427538475390963,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02726006920366469,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02726006920366469,
+       "LRT":0,
+       "Nucleotide GTR":0.03939048065321914,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.01228253351503628,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01245530716926411,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01245530716926411,
+       "LRT":0,
+       "Nucleotide GTR":0.01291939979579695,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.01397419843253622,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01736832216696759,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01736832216696759,
+       "LRT":0,
+       "Nucleotide GTR":0.01287662016143603,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.02896434909941503,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0375300213723283,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0375300213723283,
+       "LRT":0,
+       "Nucleotide GTR":0.02622049643198073,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.01743789390706317,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02276727647041097,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02276727647041097,
+       "LRT":0,
+       "Nucleotide GTR":0.01318909492139851,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.01276351389797476,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01271963329860928,
+       "Full adaptive model (non-synonymous subs/site)":0.01271963329860928,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.2350138072215486,
+       "Nucleotide GTR":0.01291713582726576,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3923064783710668,
+       "original name":"XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.01362571169107544,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01634609480880567,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01634609480880567,
+       "LRT":0,
+       "Nucleotide GTR":0.01297359029428396,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.009852781482232979,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.008204293115295363,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.008204293115295363,
+       "LRT":0,
+       "Nucleotide GTR":0.0128359269425516,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.0129419888143341,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01156660807176659,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01156660807176659,
+       "LRT":0,
+       "Nucleotide GTR":0.0130040742600618,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3"
+      },
+     "XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":473.4304622957643,
+       "Baseline MG94xREV omega ratio":0.0001346752261273808,
+       "Corrected P-value":1,
+       "Full adaptive model":197.1632049315748,
+       "Full adaptive model (non-synonymous subs/site)":0.2778852767435563,
+       "Full adaptive model (synonymous subs/site)":196.8853196548315,
+       "LRT":0,
+       "Nucleotide GTR":0.6833005887834276,
+       "Rate Distributions":        [
+[0.0002202999975397901, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.01340721905121261,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0147485205593385,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0147485205593385,
+       "LRT":0,
+       "Nucleotide GTR":0.01294279512632576,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.05764124864000053,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.1222475821956725,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.1222475821956725,
+       "LRT":0,
+       "Nucleotide GTR":0.03997143173239334,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0.01320033319870843,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01168797680165124,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01168797680165124,
+       "LRT":0,
+       "Nucleotide GTR":0.01291070766285586,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0.03876318646995007,
+       "Baseline MG94xREV omega ratio":0.5152752086726961,
+       "Corrected P-value":1,
+       "Full adaptive model":0.1197954365582692,
+       "Full adaptive model (non-synonymous subs/site)":0.1064398576227517,
+       "Full adaptive model (synonymous subs/site)":0.01335557893551732,
+       "LRT":5.148781124392372,
+       "Nucleotide GTR":0.0399033421355647,
+       "Rate Distributions":        [
+[0, 0.9582657780671332],
+        [29.80653796517687, 0.0417342219328668] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":0.02751261372352376,
+       "original name":"XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1"
+      },
+     "XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1"
+      },
+     "XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.01616213077765145,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02574604097348092,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02574604097348092,
+       "LRT":0,
+       "Nucleotide GTR":0.01309921950692869,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":{
+       "Baseline MG94xREV":0.01139549957677622,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.009758283905364722,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.009758283905364722,
+       "LRT":0,
+       "Nucleotide GTR":0.01289409462845261,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1"
+      },
+     "XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1"
+      },
+     "XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1"
+      },
+     "XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1"
+      },
+     "XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1"
+      },
+     "XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1"
+      },
+     "XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1"
+      },
+     "XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1"
+      },
+     "XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1":{
+       "Baseline MG94xREV":0.01463912340629616,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01613679502316395,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01613679502316395,
+       "LRT":0,
+       "Nucleotide GTR":0.0129676011661902,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1"
+      },
+     "XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1":{
+       "Baseline MG94xREV":0.05923086801862511,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.05030175878319158,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.05030175878319158,
+       "LRT":0,
+       "Nucleotide GTR":0.05156751940720285,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1"
+      },
+     "XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1":{
+       "Baseline MG94xREV":0.01293550302166593,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01387962960178572,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01387962960178572,
+       "LRT":0,
+       "Nucleotide GTR":0.01300891721120397,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1"
+      }
+    },
+   "attributes":{
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Full adaptive model (non-synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":10
+      },
+     "Full adaptive model (synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":9
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29] 
+      ],
+     "name":"absrel.filter.default"
+    }
+  },
+ "fits":{
+   "Baseline MG94xREV":{
+     "AIC-c":3195.975791197397,
+     "Equilibrium frequencies":      [
+[0.001694899612555023],
+      [0.03099720417574822],
+      [0.02042536843216275],
+      [0.003914305134186304],
+      [0.001288444252343719],
+      [0.02356373749992285],
+      [0.015527142943145],
+      [0.002975612192428963],
+      [0.001089489625020673],
+      [0.01992515197004261],
+      [0.01312952509353627],
+      [0.002516134171765106],
+      [0.001717422746208043],
+      [0.03140911893892871],
+      [0.02069679648589642],
+      [0.003966321440664229],
+      [0.002998427751733481],
+      [0.05483680363027701],
+      [0.03613428848098785],
+      [0.006924752980150934],
+      [0.002279372167042421],
+      [0.04168634173431783],
+      [0.02746889311967862],
+      [0.005264121904379667],
+      [0.001927403784087913],
+      [0.03524936119043644],
+      [0.02322729447568521],
+      [0.004451264530252825],
+      [0.003038273172961355],
+      [0.05556551738306807],
+      [0.03661446878363549],
+      [0.007016774440142282],
+      [0.001652941994791778],
+      [0.03022986147597927],
+      [0.01991973388307093],
+      [0.003817405637949286],
+      [0.00125654852763611],
+      [0.02298041192490263],
+      [0.01514276505802551],
+      [0.002901950249233767],
+      [0.001062519066466631],
+      [0.01943190039098693],
+      [0.01280450077279961],
+      [0.002453846709405719],
+      [0.001674907563249995],
+      [0.03063157919736652],
+      [0.02018444267482329],
+      [0.003868134269164033],
+      [0.0488484322546473],
+      [0.006168545656156823],
+      [0.002030456728214993],
+      [0.03713404694194455],
+      [0.0244691936042369],
+      [0.00468926132091912],
+      [0.03140000726045108],
+      [0.02069079241569428],
+      [0.003965170824316903],
+      [0.002706483081347412],
+      [0.04949756790861877],
+      [0.03261604031438844],
+      [0.006250518049819083] 
+      ],
+     "Log Likelihood":-1100.63637408768,
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "2.5%":0,
+         "97.5%":8195147.394284602,
+         "Mean":625512196.9609425,
+         "Median":0.234773810550348
+        }
+      },
+     "display order":1,
+     "estimated parameters":454
+    },
+   "Full adaptive model":{
+     "AIC-c":3122.929267186888,
+     "Log Likelihood":-1056.904852126749,
+     "Rate Distributions":{
+      },
+     "display order":2,
+     "estimated parameters":460
+    },
+   "Nucleotide GTR":{
+     "AIC-c":3130.223917818047,
+     "Equilibrium frequencies":      [
+[0.1633064516129032],
+      [0.3796296296296297],
+      [0.2408154121863799],
+      [0.2162485065710872] 
+      ],
+     "Log Likelihood":-1203.947709595029,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.2131208972697072,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.06050240335082786,
+       "Substitution rate from nucleotide C to nucleotide G":0.2779712463330916,
+       "Substitution rate from nucleotide C to nucleotide T":0.6086353618507208,
+       "Substitution rate from nucleotide G to nucleotide T":0.1645581316670465
+      },
+     "display order":0,
+     "estimated parameters":353
+    }
+  },
+ "input":{
+   "file name":"/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.5.codon.fas",
+   "number of sequences":174,
+   "number of sites":30,
+   "partition count":1,
+   "trees":{
+     "0":"(NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1,NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1,(XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1,((((((XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node142,XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node141,XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1)Node140,(XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node133,XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1)Node130,XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3,XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2,XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1)Node129,(XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1,(XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node178)Node176,XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1,XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,(XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1)Node203,XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(((((XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1)Node228,XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node227,(XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,(XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node235)Node233,(XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node238)Node226,XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1,XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node210,XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node208,(XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,((XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node250,(XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1,XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node253)Node249,(XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node262)Node247)Node174,((XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node21,(XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node30,XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1,XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node17,((XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1,(XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1,XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node77,XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1,XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node68,XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1,XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1,XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node67,XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,((XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1,XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node95,XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1)Node94,XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node16,(XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,(XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node119,(XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1,XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node107,XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1,XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node103,XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,(((XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node305,XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1,XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1,XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2,XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node289,(XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1)Node284,XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1,XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1)Node273,XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1,(XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,(XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1,XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node314,XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1)Node312)Node12,((XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1,XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1)Node321,(XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1)Node324,XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1,XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1)Node319)Node9)"
+    }
+  },
+ "runtime":"2.5.42",
+ "test results":{
+   "P-value threshold":0.05,
+   "positive test results":0,
+   "tested":220
+  },
+ "tested":{
+   "0":{
+     "NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":"test",
+     "NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1":"test",
+     "NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "Node103":"test",
+     "Node107":"test",
+     "Node119":"test",
+     "Node12":"test",
+     "Node129":"test",
+     "Node130":"test",
+     "Node133":"test",
+     "Node140":"test",
+     "Node141":"test",
+     "Node142":"test",
+     "Node16":"test",
+     "Node17":"test",
+     "Node174":"test",
+     "Node176":"test",
+     "Node178":"test",
+     "Node203":"test",
+     "Node208":"test",
+     "Node21":"test",
+     "Node210":"test",
+     "Node226":"test",
+     "Node227":"test",
+     "Node228":"test",
+     "Node233":"test",
+     "Node235":"test",
+     "Node238":"test",
+     "Node247":"test",
+     "Node249":"test",
+     "Node250":"test",
+     "Node253":"test",
+     "Node262":"test",
+     "Node273":"test",
+     "Node284":"test",
+     "Node289":"test",
+     "Node30":"test",
+     "Node305":"test",
+     "Node312":"test",
+     "Node314":"test",
+     "Node319":"test",
+     "Node321":"test",
+     "Node324":"test",
+     "Node67":"test",
+     "Node68":"test",
+     "Node77":"test",
+     "Node9":"test",
+     "Node94":"test",
+     "Node95":"test",
+     "XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1":"test",
+     "XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1":"test",
+     "XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":"test",
+     "XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1":"test",
+     "XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1":"test",
+     "XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1":"test",
+     "XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1":"test",
+     "XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":"test",
+     "XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1":"test",
+     "XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1":"test",
+     "XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1":"test",
+     "XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2":"test",
+     "XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1":"test",
+     "XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1":"test",
+     "XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1":"test",
+     "XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3":"test",
+     "XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1":"test",
+     "XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1":"test",
+     "XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1":"test",
+     "XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1":"test",
+     "XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1":"test",
+     "XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1":"test",
+     "XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1":"test",
+     "XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1":"test",
+     "XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1":"test",
+     "XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1":"test",
+     "XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1":"test",
+     "XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1":"test",
+     "XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1":"test"
+    }
+  },
+ "timers":{
+   "Baseline model fitting":{
+     "order":2,
+     "timer":6
+    },
+   "Complexity analysis":{
+     "order":3,
+     "timer":89
+    },
+   "Full adaptive model fitting":{
+     "order":4,
+     "timer":27
+    },
+   "Overall":{
+     "order":0,
+     "timer":239
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":1
+    },
+   "Testing for selection":{
+     "order":5,
+     "timer":116
+    }
+  }
+}

@@ -1,0 +1,1033 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    n6 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree -s /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas -T AUTO
+Seed:    292946 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Jan  1 16:30:25 2023
+Kernel:  AVX+FMA - auto-detect threads (1 CPU cores detected)
+
+Reading alignment file /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas ... Fasta format detected
+Reading fasta file: done in 0.0021333 secs using 82.45% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00106728 secs using 17.15% CPU
+Alignment has 175 sequences with 741 columns, 289 distinct patterns
+141 parsimony-informative, 108 singleton sites, 492 constant sites
+                                                                                                                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.76002e-05 secs using 79.91% CPU
+   1  NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                                69.64%    passed     79.42%
+   2  NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1                                                      69.64%    passed     46.48%
+   3  NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                                     69.64%    passed     66.02%
+   4  XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                               69.64%    passed     75.06%
+   5  XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                        68.02%    passed     25.31%
+   6  NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2                                                                    69.64%    passed     88.72%
+   7  XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                      69.64%    passed     61.08%
+   8  XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                       65.18%    passed     91.64%
+   9  XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                69.64%    passed     54.37%
+  10  XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1                                       69.64%    passed     48.35%
+  11  XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                            69.64%    passed     84.42%
+  12  XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                        69.64%    passed     86.39%
+  13  XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                 69.64%    passed     64.17%
+  14  XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                    69.64%    passed     81.40%
+  15  XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                            69.64%    passed     48.35%
+  16  XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                            70.85%    passed     89.39%
+  17  XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1                               69.64%    passed     98.31%
+  18  XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1                            69.64%    passed     84.35%
+  19  XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                65.99%    passed     74.56%
+  20  XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                  69.64%    passed     89.56%
+  21  XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                  65.18%    passed     93.87%
+  22  XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                        69.64%    passed     64.17%
+  23  XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                     69.64%    passed     75.10%
+  24  XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                         69.64%    passed     50.00%
+  25  XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                    69.64%    passed     78.48%
+  26  XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                       18.22%    failed      0.00%
+  27  XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1                          69.64%    passed     73.72%
+  28  XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1        69.64%    passed     75.03%
+  29  XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                 69.64%    passed     50.40%
+  30  XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1     69.64%    passed     69.24%
+  31  XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                69.64%    passed     46.48%
+  32  XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                   69.64%    passed     66.54%
+  33  XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                               68.42%    passed     41.18%
+  34  XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1                                 69.64%    passed     60.16%
+  35  XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                     70.04%    passed     64.70%
+  36  XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                          69.64%    passed     93.33%
+  37  XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                   86.23%    failed      0.36%
+  38  XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                         69.64%    passed     58.39%
+  39  XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                               69.64%    passed     65.32%
+  40  XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                69.64%    passed     87.24%
+  41  XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                          69.64%    passed     98.17%
+  42  XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                69.64%    passed     72.95%
+  43  XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1                                         69.64%    passed     95.43%
+  44  XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                 69.64%    passed     61.08%
+  45  XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                  69.64%    passed     79.51%
+  46  XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1                               69.64%    passed     88.56%
+  47  XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                    69.64%    passed     33.74%
+  48  XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                 69.64%    passed     94.39%
+  49  XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                       73.28%    failed      0.30%
+  50  XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                       65.18%    failed      0.00%
+  51  XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                      69.64%    passed     93.63%
+  52  XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                       69.64%    passed     93.97%
+  53  XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                     69.64%    passed     85.30%
+  54  XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                      71.66%    passed     85.52%
+  55  XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1                               69.64%    passed     40.55%
+  56  XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                              69.64%    passed     81.64%
+  57  XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                 69.64%    passed     81.64%
+  58  XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                          69.64%    passed     81.40%
+  59  XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                         70.45%    passed     83.55%
+  60  XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                               69.64%    passed     89.10%
+  61  XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                           18.22%    failed      0.00%
+  62  XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                    69.64%    passed     23.84%
+  63  XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1                     97.17%    passed     11.68%
+  64  XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                      69.64%    passed     65.27%
+  65  XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3                                                     69.64%    passed     35.95%
+  66  XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1                            69.64%    passed     84.04%
+  67  XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                             69.64%    passed     51.58%
+  68  XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                  70.04%    passed     80.34%
+  69  XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                           69.64%    passed     88.72%
+  70  XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                 69.64%    passed     98.01%
+  71  XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                   69.64%    passed     87.68%
+  72  XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                   69.64%    passed     64.17%
+  73  XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                89.88%    passed      5.47%
+  74  XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                      69.64%    passed     64.17%
+  75  XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                             69.64%    passed     61.08%
+  76  XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                     69.64%    passed     75.10%
+  77  XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                       69.64%    passed     57.73%
+  78  XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                            69.64%    passed     59.31%
+  79  XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1                                             69.64%    passed     93.93%
+  80  XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                  69.64%    passed     64.35%
+  81  XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                    69.64%    passed     32.33%
+  82  XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                             69.64%    passed     89.98%
+  83  XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                               69.64%    passed     65.92%
+  84  XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1                                      71.26%    passed     76.07%
+  85  XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                69.64%    passed     86.59%
+  86  XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                69.64%    passed     93.37%
+  87  XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                 69.64%    passed     51.58%
+  88  XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                     69.64%    passed     39.27%
+  89  XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                69.64%    passed     59.80%
+  90  XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                         70.04%    passed     88.02%
+  91  XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                   69.64%    passed     25.84%
+  92  XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                69.64%    passed     84.52%
+  93  XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                        65.59%    passed     37.87%
+  94  XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                          69.64%    passed     34.37%
+  95  XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                          69.64%    passed     80.98%
+  96  XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                               69.64%    passed     89.15%
+  97  XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                           69.64%    passed     28.39%
+  98  XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1                                      69.64%    passed     46.48%
+  99  XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                               69.64%    passed     75.70%
+ 100  XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                     69.64%    passed     48.93%
+ 101  XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1   69.64%    passed     75.70%
+ 102  XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                69.64%    passed     64.17%
+ 103  XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                             68.02%    passed     30.20%
+ 104  XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                 69.64%    passed     39.69%
+ 105  XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                       72.47%    passed     87.97%
+ 106  XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                 69.64%    passed     43.22%
+ 107  XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                 69.64%    passed     98.31%
+ 108  XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                    69.64%    passed     72.35%
+ 109  XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                            69.64%    passed     88.72%
+ 110  XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2                                              69.64%    passed     39.69%
+ 111  XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1                              65.99%    passed     21.16%
+ 112  XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1                          69.64%    passed     94.72%
+ 113  XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                               69.64%    passed     92.08%
+ 114  XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                 69.64%    passed     67.51%
+ 115  XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                 71.66%    passed     96.04%
+ 116  XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                   69.64%    passed     75.70%
+ 117  XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                  69.64%    passed     37.29%
+ 118  XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                     69.64%    passed     39.27%
+ 119  XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                            69.64%    passed     72.35%
+ 120  XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                     69.64%    passed     61.40%
+ 121  XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                    69.64%    passed     65.65%
+ 122  XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                69.64%    passed     86.59%
+ 123  XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                               69.64%    passed     57.51%
+ 124  XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                      69.64%    passed     28.39%
+ 125  XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                      69.64%    passed     75.70%
+ 126  XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                             69.64%    passed     63.74%
+ 127  XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                       69.64%    passed     74.73%
+ 128  XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1             69.64%    passed     67.68%
+ 129  XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                            69.64%    passed     61.08%
+ 130  XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                            69.64%    passed     75.70%
+ 131  XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                               69.64%    passed     82.71%
+ 132  XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                    69.64%    passed     40.76%
+ 133  XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                            69.64%    passed     28.39%
+ 134  XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                  71.66%    passed     87.19%
+ 135  XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                 69.64%    passed     46.99%
+ 136  XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                               67.21%    passed      9.60%
+ 137  XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                               69.64%    passed     72.35%
+ 138  XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                            69.64%    passed     88.36%
+ 139  XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                69.64%    passed     94.13%
+ 140  XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                69.64%    passed     85.40%
+ 141  XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                  69.64%    passed     64.01%
+ 142  XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                          69.64%    passed     76.10%
+ 143  XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                  69.64%    passed     82.00%
+ 144  XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                              70.85%    passed     85.93%
+ 145  XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                 69.64%    passed     64.86%
+ 146  XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                  69.64%    passed     83.51%
+ 147  XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                   69.64%    passed     97.34%
+ 148  XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                  69.64%    passed     96.53%
+ 149  XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                    69.64%    passed     72.95%
+ 150  XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                69.64%    passed     41.88%
+ 151  XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                               69.64%    passed     77.75%
+ 152  XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                  69.64%    passed     39.27%
+ 153  XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                             69.64%    passed     91.68%
+ 154  XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                            69.64%    passed     39.27%
+ 155  XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                69.64%    passed     87.92%
+ 156  XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                          89.88%    failed      0.00%
+ 157  XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                           65.59%    passed     29.03%
+ 158  XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                                 69.64%    passed     39.27%
+ 159  XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                   69.64%    passed     60.54%
+ 160  XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                               69.64%    passed     70.17%
+ 161  XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1                                             69.64%    passed     39.69%
+ 162  XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                   69.64%    passed     84.15%
+ 163  XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                       69.64%    passed     93.48%
+ 164  XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1                           69.64%    passed     43.68%
+ 165  XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                  69.23%    passed      6.77%
+ 166  XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1                                                    69.64%    passed     81.77%
+ 167  XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1                                69.64%    passed     39.27%
+ 168  XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1                                             67.61%    passed     26.84%
+ 169  XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1               69.64%    passed     54.37%
+ 170  XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1                                             69.64%    passed     73.97%
+ 171  XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1                                  69.64%    passed     61.08%
+ 172  XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1                                             69.64%    passed     70.38%
+ 173  XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1                                        69.64%    passed     97.35%
+ 174  XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1                                         65.99%    passed     86.09%
+ 175  XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1                                         69.64%    passed     40.03%
+WARNING: 173 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                               69.40%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1 is identical to NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2 but kept for subsequent analysis
+NOTE: XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 is identical to XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 is identical to XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1 is identical to XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 is identical to XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 is identical to XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 is identical to XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 is identical to XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 is identical to XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 is identical to XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2 is identical to XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 but kept for subsequent analysis
+NOTE: XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 is identical to XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000412171 secs using 79.82% CPU
+Identifying sites to remove: done in 0.00100526 secs using 99.28% CPU
+NOTE: 10 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 (identical to NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2) is ignored but added at the end
+NOTE: XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1 (identical to XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1 (identical to XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 (identical to XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 (identical to XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 (identical to XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 (identical to XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 (identical to XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1 (identical to XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1) is ignored but added at the end
+NOTE: XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1 (identical to XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1) is ignored but added at the end
+Alignment was printed to /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.021 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11975
+Determining AUTO threadcount: done in 1.02165 secs using 97.55% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.273847 secs using 96.71% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -6603.458
+2. Current log-likelihood: -6601.050
+3. Current log-likelihood: -6599.509
+4. Current log-likelihood: -6598.468
+Optimal log-likelihood: -6597.742
+Rate parameters:  A-C: 1.18939  A-G: 2.19452  A-T: 1.12938  C-G: 0.52154  C-T: 4.92432  G-T: 1.00000
+Base frequencies:  A: 0.179  C: 0.354  G: 0.360  T: 0.107
+Proportion of invariable sites: 0.082
+Gamma shape alpha: 0.588
+Parameters optimization took 4 rounds (0.205 sec)
+Time for fast ML tree search: 0.871 seconds
+
+NOTE: ModelFinder requires 15 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 741) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+26 trees examined
+Threads: 1 / Time: 1.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -13761
+Determining AUTO threadcount: done in 1.00216 secs using 96.8% CPU
+BEST NUMBER OF THREADS: 1
+
+  1  GTR+F         7081.743     335 14833.486    15389.338    16377.166
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+27 trees examined
+Threads: 1 / Time: 1.041 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -13521
+Determining AUTO threadcount: done in 1.04122 secs using 97.59% CPU
+BEST NUMBER OF THREADS: 1
+
+  2  GTR+F+I       6984.800     336 14641.600    15202.155    16189.889
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 1.078 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11677
+Determining AUTO threadcount: done in 1.07839 secs using 98.14% CPU
+BEST NUMBER OF THREADS: 1
+
+  3  GTR+F+G4      6595.237     336 13862.473    14423.028    15410.761
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 1.058 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11473
+Determining AUTO threadcount: done in 1.05764 secs using 98.39% CPU
+BEST NUMBER OF THREADS: 1
+
+  4  GTR+F+I+G4    6595.703     337 13865.406    14430.696    15418.302
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 1.052 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -12192
+Determining AUTO threadcount: done in 1.05212 secs using 97.14% CPU
+BEST NUMBER OF THREADS: 1
+
+  5  GTR+F+R2      6653.033     337 13980.066    14545.356    15532.962
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+15 trees examined
+Threads: 1 / Time: 1.046 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11942
+Determining AUTO threadcount: done in 1.04646 secs using 98.28% CPU
+BEST NUMBER OF THREADS: 1
+
+  6  GTR+F+R3      6605.937     339 13889.875    14464.738    15451.987
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 1.048 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11673
+Determining AUTO threadcount: done in 1.04767 secs using 98.37% CPU
+BEST NUMBER OF THREADS: 1
+
+  7  GTR+F+R4      6599.099     341 13880.198    14464.769    15451.526
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+11 trees examined
+Threads: 1 / Time: 1.060 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11548
+Determining AUTO threadcount: done in 1.06049 secs using 98.3% CPU
+BEST NUMBER OF THREADS: 1
+
+  8  GTR+F+R5      6593.881     343 13873.763    14468.181    15454.307
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+18 trees examined
+Threads: 1 / Time: 1.005 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -12042
+Determining AUTO threadcount: done in 1.00531 secs using 97.71% CPU
+BEST NUMBER OF THREADS: 1
+
+ 14  GTR+F+I+I+R2  6641.490     338 13958.979    14529.039    15516.484
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+15 trees examined
+Threads: 1 / Time: 1.033 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11759
+Determining AUTO threadcount: done in 1.03355 secs using 98.83% CPU
+BEST NUMBER OF THREADS: 1
+
+ 15  GTR+F+I+I+R3  6602.883     340 13885.767    14465.467    15452.487
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.026 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11659
+Determining AUTO threadcount: done in 1.02657 secs using 99.02% CPU
+BEST NUMBER OF THREADS: 1
+
+ 16  GTR+F+I+I+R4  6598.670     342 13881.340    14470.818    15457.277
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.043 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11773
+Determining AUTO threadcount: done in 1.04264 secs using 98.08% CPU
+BEST NUMBER OF THREADS: 1
+
+ 25  SYM+G4        6600.502     333 13867.003    14413.549    15401.467
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.039 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11462
+Determining AUTO threadcount: done in 1.03887 secs using 98.17% CPU
+BEST NUMBER OF THREADS: 1
+
+ 26  SYM+I+G4      6600.615     334 13869.230    14420.412    15408.302
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.022 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11709
+Determining AUTO threadcount: done in 1.02161 secs using 98.72% CPU
+BEST NUMBER OF THREADS: 1
+
+ 47  TVM+F+G4      6621.644     335 13913.288    14469.140    15456.968
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.033 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11728
+Determining AUTO threadcount: done in 1.03309 secs using 97.67% CPU
+BEST NUMBER OF THREADS: 1
+
+ 48  TVM+F+I+G4    6621.155     336 13914.310    14474.865    15462.599
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.040 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11626
+Determining AUTO threadcount: done in 1.03986 secs using 98.55% CPU
+BEST NUMBER OF THREADS: 1
+
+ 69  TVMe+G4       6602.614     332 13869.228    14411.169    15399.084
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.044 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11432
+Determining AUTO threadcount: done in 1.04387 secs using 98.33% CPU
+BEST NUMBER OF THREADS: 1
+
+ 70  TVMe+I+G4     6602.378     333 13870.755    14417.301    15405.220
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.025 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11586
+Determining AUTO threadcount: done in 1.02515 secs using 97.85% CPU
+BEST NUMBER OF THREADS: 1
+
+ 91  TIM3+F+G4     6613.182     334 13894.365    14445.547    15433.437
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.044 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11746
+Determining AUTO threadcount: done in 1.04434 secs using 98.27% CPU
+BEST NUMBER OF THREADS: 1
+
+ 92  TIM3+F+I+G4   6613.643     335 13897.287    14453.139    15440.967
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.057 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11614
+Determining AUTO threadcount: done in 1.05668 secs using 98.48% CPU
+BEST NUMBER OF THREADS: 1
+
+113  TIM3e+G4      6600.756     331 13863.513    14400.882    15388.761
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.035 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11542
+Determining AUTO threadcount: done in 1.03462 secs using 98.35% CPU
+BEST NUMBER OF THREADS: 1
+
+114  TIM3e+I+G4    6600.838     332 13865.677    14407.618    15395.533
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.025 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11586
+Determining AUTO threadcount: done in 1.02494 secs using 98.53% CPU
+BEST NUMBER OF THREADS: 1
+
+135  TIM2+F+G4     6601.634     334 13871.268    14422.450    15410.340
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.042 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11595
+Determining AUTO threadcount: done in 1.04204 secs using 98.17% CPU
+BEST NUMBER OF THREADS: 1
+
+136  TIM2+F+I+G4   6602.156     335 13874.312    14430.164    15417.992
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.038 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11582
+Determining AUTO threadcount: done in 1.03773 secs using 98.94% CPU
+BEST NUMBER OF THREADS: 1
+
+157  TIM2e+G4      6617.333     331 13896.665    14434.035    15421.914
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.068 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11517
+Determining AUTO threadcount: done in 1.06809 secs using 98.31% CPU
+BEST NUMBER OF THREADS: 1
+
+158  TIM2e+I+G4    6617.294     332 13898.589    14440.530    15428.445
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.053 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11654
+Determining AUTO threadcount: done in 1.05272 secs using 98.19% CPU
+BEST NUMBER OF THREADS: 1
+
+179  TIM+F+G4      6598.765     334 13865.529    14416.712    15404.602
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.063 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11607
+Determining AUTO threadcount: done in 1.06261 secs using 98.96% CPU
+BEST NUMBER OF THREADS: 1
+
+180  TIM+F+I+G4    6599.486     335 13868.971    14424.823    15412.651
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.059 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11667
+Determining AUTO threadcount: done in 1.05867 secs using 97.92% CPU
+BEST NUMBER OF THREADS: 1
+
+201  TIMe+G4       6616.676     331 13895.352    14432.722    15420.601
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.043 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11526
+Determining AUTO threadcount: done in 1.04283 secs using 98.56% CPU
+BEST NUMBER OF THREADS: 1
+
+202  TIMe+I+G4     6616.531     332 13897.062    14439.004    15426.919
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.016 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11747
+Determining AUTO threadcount: done in 1.01605 secs using 98.52% CPU
+BEST NUMBER OF THREADS: 1
+
+223  TPM3u+F+G4    6636.885     333 13939.770    14486.315    15474.234
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.052 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11855
+Determining AUTO threadcount: done in 1.05178 secs using 98.47% CPU
+BEST NUMBER OF THREADS: 1
+
+224  TPM3u+F+I+G4  6636.527     334 13941.054    14492.236    15480.126
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.023 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11589
+Determining AUTO threadcount: done in 1.02347 secs using 97.95% CPU
+BEST NUMBER OF THREADS: 1
+
+245  TPM3+G4       6602.807     330 13865.614    14398.443    15386.254
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.038 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11560
+Determining AUTO threadcount: done in 1.03814 secs using 98.65% CPU
+BEST NUMBER OF THREADS: 1
+
+246  TPM3+I+G4     6602.565     331 13867.130    14404.499    15392.378
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.029 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11633
+Determining AUTO threadcount: done in 1.02872 secs using 98.54% CPU
+BEST NUMBER OF THREADS: 1
+
+267  TPM2u+F+G4    6629.431     333 13924.861    14471.407    15459.326
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.050 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11732
+Determining AUTO threadcount: done in 1.04974 secs using 98.47% CPU
+BEST NUMBER OF THREADS: 1
+
+268  TPM2u+F+I+G4  6628.675     334 13925.349    14476.531    15464.421
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.049 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11543
+Determining AUTO threadcount: done in 1.049 secs using 98.66% CPU
+BEST NUMBER OF THREADS: 1
+
+289  TPM2+G4       6618.207     330 13896.415    14429.244    15417.055
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.060 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11532
+Determining AUTO threadcount: done in 1.05987 secs using 97.73% CPU
+BEST NUMBER OF THREADS: 1
+
+290  TPM2+I+G4     6617.984     331 13897.968    14435.337    15423.216
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.037 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11530
+Determining AUTO threadcount: done in 1.03707 secs using 97.49% CPU
+BEST NUMBER OF THREADS: 1
+
+311  K3Pu+F+G4     6624.952     333 13915.904    14462.450    15450.369
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.039 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11612
+Determining AUTO threadcount: done in 1.03884 secs using 97.78% CPU
+BEST NUMBER OF THREADS: 1
+
+312  K3Pu+F+I+G4   6624.608     334 13917.215    14468.397    15456.287
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.048 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11711
+Determining AUTO threadcount: done in 1.04791 secs using 98.95% CPU
+BEST NUMBER OF THREADS: 1
+
+333  K3P+G4        6617.390     330 13894.781    14427.610    15415.421
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.058 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11534
+Determining AUTO threadcount: done in 1.0581 secs using 97.73% CPU
+BEST NUMBER OF THREADS: 1
+
+334  K3P+I+G4      6617.013     331 13896.027    14433.396    15421.275
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.032 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11613
+Determining AUTO threadcount: done in 1.03194 secs using 98.35% CPU
+BEST NUMBER OF THREADS: 1
+
+355  TN+F+G4       6616.999     333 13899.999    14446.544    15434.463
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.044 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11629
+Determining AUTO threadcount: done in 1.04392 secs using 98.56% CPU
+BEST NUMBER OF THREADS: 1
+
+356  TN+F+I+G4     6617.347     334 13902.695    14453.877    15441.767
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.042 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11615
+Determining AUTO threadcount: done in 1.0425 secs using 98.46% CPU
+BEST NUMBER OF THREADS: 1
+
+377  TNe+G4        6617.708     330 13895.415    14428.245    15416.056
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.079 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11555
+Determining AUTO threadcount: done in 1.07861 secs using 97.68% CPU
+BEST NUMBER OF THREADS: 1
+
+378  TNe+I+G4      6617.576     331 13897.151    14434.520    15422.399
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.077 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11726
+Determining AUTO threadcount: done in 1.07672 secs using 98.14% CPU
+BEST NUMBER OF THREADS: 1
+
+399  HKY+F+G4      6642.207     332 13948.414    14490.355    15478.270
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.083 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11600
+Determining AUTO threadcount: done in 1.08301 secs using 98.51% CPU
+BEST NUMBER OF THREADS: 1
+
+400  HKY+F+I+G4    6641.523     333 13949.046    14495.591    15483.510
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.084 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11654
+Determining AUTO threadcount: done in 1.08439 secs using 98.34% CPU
+BEST NUMBER OF THREADS: 1
+
+421  K2P+G4        6618.434     329 13894.868    14423.190    15410.901
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+11 trees examined
+Threads: 1 / Time: 1.004 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11414
+Determining AUTO threadcount: done in 1.00373 secs using 98.2% CPU
+BEST NUMBER OF THREADS: 1
+
+422  K2P+I+G4      6618.142     330 13896.284    14429.114    15416.924
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.053 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -12055
+Determining AUTO threadcount: done in 1.0531 secs using 98.19% CPU
+BEST NUMBER OF THREADS: 1
+
+443  F81+F+G4      6839.824     331 14341.648    14879.017    15866.896
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.072 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11934
+Determining AUTO threadcount: done in 1.07157 secs using 98.6% CPU
+BEST NUMBER OF THREADS: 1
+
+444  F81+F+I+G4    6840.052     332 14344.104    14886.045    15873.960
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.081 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11797
+Determining AUTO threadcount: done in 1.08144 secs using 97.96% CPU
+BEST NUMBER OF THREADS: 1
+
+465  JC+G4         6718.218     328 14092.436    14616.281    15603.861
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.079 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11710
+Determining AUTO threadcount: done in 1.07889 secs using 98.23% CPU
+BEST NUMBER OF THREADS: 1
+
+466  JC+I+G4       6718.301     329 14094.602    14622.923    15610.634
+Akaike Information Criterion:           GTR+F+G4
+Corrected Akaike Information Criterion: TPM3+G4
+Bayesian Information Criterion:         TPM3+G4
+Best-fit model: TPM3+G4 chosen according to BIC
+
+All model information printed to /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.model.gz
+CPU time for ModelFinder: 72.537 seconds (0h:1m:12s)
+Wall-clock time for ModelFinder: 73.687 seconds (0h:1m:13s)
+
+NOTE: 6 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 1.018 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11863
+Determining AUTO threadcount: done in 1.01789 secs using 99.21% CPU
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -6602.807
+Optimal log-likelihood: -6602.802
+Rate parameters:  A-C: 2.03107  A-G: 4.36097  A-T: 1.00000  C-G: 2.03107  C-T: 4.36097  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.593
+Parameters optimization took 1 rounds (0.032 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0863715 secs using 99.98% CPU
+Computing ML distances took 0.086588 sec (of wall-clock time) 0.086573 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000713089 secs using 98.44% CPU
+Constructing RapidNJ tree: done in 0.0134601 secs using 99.98% CPU
+Computing RapidNJ tree took 0.014200 sec (of wall-clock time) 0.014187 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -6752.285
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.327 second
+Computing log-likelihood of 98 initial trees ... 1.242 seconds
+Current best score: -6602.802
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.120646 secs using 97.51% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -6600.580
+Optimizing NNI: done in 0.406202 secs using 96.06% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -6587.448
+Optimizing NNI: done in 0.341395 secs using 98.24% CPU
+Optimizing NNI: done in 0.281351 secs using 97.51% CPU
+Optimizing NNI: done in 0.364434 secs using 98.35% CPU
+Optimizing NNI: done in 0.402282 secs using 97.51% CPU
+Optimizing NNI: done in 0.315096 secs using 98.09% CPU
+Optimizing NNI: done in 0.232629 secs using 99.13% CPU
+Optimizing NNI: done in 0.299066 secs using 98.33% CPU
+Optimizing NNI: done in 0.348889 secs using 99.14% CPU
+Iteration 10 / LogL: -6594.617 / Time: 0h:0m:7s
+Optimizing NNI: done in 0.438734 secs using 97.49% CPU
+Optimizing NNI: done in 0.344181 secs using 98.54% CPU
+Optimizing NNI: done in 0.47996 secs using 97.7% CPU
+Optimizing NNI: done in 0.281596 secs using 97.15% CPU
+Optimizing NNI: done in 0.458425 secs using 98.03% CPU
+Optimizing NNI: done in 0.35515 secs using 98.02% CPU
+Optimizing NNI: done in 0.362082 secs using 97.79% CPU
+Optimizing NNI: done in 0.390855 secs using 98.21% CPU
+Optimizing NNI: done in 0.520682 secs using 98.27% CPU
+Optimizing NNI: done in 0.470947 secs using 97.24% CPU
+Iteration 20 / LogL: -6603.727 / Time: 0h:0m:11s
+Finish initializing candidate tree set (20)
+Current best tree score: -6587.448 / CPU time: 9.949
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.478423 secs using 98.12% CPU
+Optimizing NNI: done in 0.428855 secs using 97.43% CPU
+Optimizing NNI: done in 0.503613 secs using 97.61% CPU
+Optimizing NNI: done in 0.32817 secs using 97.62% CPU
+Optimizing NNI: done in 0.317804 secs using 96.85% CPU
+Optimizing NNI: done in 0.419996 secs using 97.38% CPU
+Optimizing NNI: done in 0.284883 secs using 97.89% CPU
+Optimizing NNI: done in 0.311887 secs using 98.07% CPU
+Optimizing NNI: done in 0.324134 secs using 98.76% CPU
+Optimizing NNI: done in 0.385536 secs using 98.44% CPU
+Iteration 30 / LogL: -6589.467 / Time: 0h:0m:15s (0h:0m:37s left)
+Optimizing NNI: done in 0.450142 secs using 98.22% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -6586.037
+Optimizing NNI: done in 0.35087 secs using 98% CPU
+Optimizing NNI: done in 0.309291 secs using 98.38% CPU
+Optimizing NNI: done in 0.295821 secs using 97.97% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -6584.614
+Optimizing NNI: done in 0.349267 secs using 97.13% CPU
+Optimizing NNI: done in 0.419126 secs using 98.56% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -6584.448
+Optimizing NNI: done in 0.534832 secs using 97.94% CPU
+Optimizing NNI: done in 0.366054 secs using 98.36% CPU
+Optimizing NNI: done in 0.310732 secs using 97.75% CPU
+Optimizing NNI: done in 0.425476 secs using 99.53% CPU
+Iteration 40 / LogL: -6585.686 / Time: 0h:0m:19s (0h:0m:46s left)
+Optimizing NNI: done in 0.36718 secs using 98.9% CPU
+Optimizing NNI: done in 0.35378 secs using 98.87% CPU
+Optimizing NNI: done in 0.325596 secs using 98.15% CPU
+Optimizing NNI: done in 0.332495 secs using 97.59% CPU
+Optimizing NNI: done in 0.348041 secs using 98.27% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -6583.818
+Optimizing NNI: done in 0.39923 secs using 98.74% CPU
+Optimizing NNI: done in 0.468511 secs using 97.01% CPU
+Optimizing NNI: done in 0.436981 secs using 98.39% CPU
+Optimizing NNI: done in 0.394724 secs using 97.72% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -6583.694
+Optimizing NNI: done in 0.316863 secs using 97.98% CPU
+Iteration 50 / LogL: -6583.914 / Time: 0h:0m:22s (0h:0m:46s left)
+Optimizing NNI: done in 0.399965 secs using 98.25% CPU
+Optimizing NNI: done in 0.379457 secs using 98.15% CPU
+Optimizing NNI: done in 0.469098 secs using 98.72% CPU
+Optimizing NNI: done in 0.411313 secs using 98.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -6583.652
+Optimizing NNI: done in 0.328768 secs using 97.26% CPU
+Optimizing NNI: done in 0.377975 secs using 98.67% CPU
+Optimizing NNI: done in 0.408747 secs using 99.02% CPU
+Optimizing NNI: done in 0.486666 secs using 98.51% CPU
+Optimizing NNI: done in 0.510954 secs using 98.63% CPU
+Optimizing NNI: done in 0.31243 secs using 99.04% CPU
+Iteration 60 / LogL: -6583.653 / Time: 0h:0m:27s (0h:0m:43s left)
+Optimizing NNI: done in 0.432976 secs using 97.92% CPU
+Optimizing NNI: done in 0.453228 secs using 98.45% CPU
+Optimizing NNI: done in 0.339449 secs using 98.53% CPU
+Optimizing NNI: done in 0.351405 secs using 98.29% CPU
+Optimizing NNI: done in 0.279067 secs using 98.92% CPU
+Optimizing NNI: done in 0.328602 secs using 98.47% CPU
+Optimizing NNI: done in 0.316489 secs using 96.83% CPU
+Optimizing NNI: done in 0.345857 secs using 97.68% CPU
+Optimizing NNI: done in 0.354615 secs using 99.43% CPU
+Optimizing NNI: done in 0.416656 secs using 98.08% CPU
+Iteration 70 / LogL: -6584.163 / Time: 0h:0m:30s (0h:0m:37s left)
+Optimizing NNI: done in 0.452642 secs using 98.45% CPU
+Optimizing NNI: done in 0.368209 secs using 98.37% CPU
+Optimizing NNI: done in 0.409552 secs using 98.04% CPU
+Optimizing NNI: done in 0.33869 secs using 97.93% CPU
+Optimizing NNI: done in 0.364592 secs using 98.08% CPU
+Optimizing NNI: done in 0.347764 secs using 97.12% CPU
+Optimizing NNI: done in 0.42051 secs using 98.33% CPU
+Optimizing NNI: done in 0.453741 secs using 97.13% CPU
+Optimizing NNI: done in 0.42142 secs using 96.67% CPU
+Optimizing NNI: done in 0.345047 secs using 97.97% CPU
+Iteration 80 / LogL: -6586.992 / Time: 0h:0m:34s (0h:0m:32s left)
+Optimizing NNI: done in 0.295649 secs using 98.3% CPU
+Optimizing NNI: done in 0.380688 secs using 97.89% CPU
+Optimizing NNI: done in 0.314914 secs using 98.09% CPU
+Optimizing NNI: done in 0.298422 secs using 96.97% CPU
+Optimizing NNI: done in 0.457517 secs using 98.25% CPU
+Optimizing NNI: done in 0.2905 secs using 98.96% CPU
+Optimizing NNI: done in 0.422598 secs using 98.34% CPU
+Optimizing NNI: done in 0.340398 secs using 98.82% CPU
+Optimizing NNI: done in 0.333304 secs using 98.8% CPU
+Optimizing NNI: done in 0.491965 secs using 98.57% CPU
+Iteration 90 / LogL: -6583.812 / Time: 0h:0m:38s (0h:0m:27s left)
+Optimizing NNI: done in 0.316335 secs using 97.47% CPU
+Optimizing NNI: done in 0.337546 secs using 98.81% CPU
+Optimizing NNI: done in 0.409149 secs using 98.53% CPU
+Optimizing NNI: done in 0.409933 secs using 98.53% CPU
+Optimizing NNI: done in 0.380076 secs using 98.15% CPU
+Optimizing NNI: done in 0.320455 secs using 99.37% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -6583.469
+Optimizing NNI: done in 0.374803 secs using 98.93% CPU
+Optimizing NNI: done in 0.366057 secs using 98.08% CPU
+Optimizing NNI: done in 0.399145 secs using 98.49% CPU
+Optimizing NNI: done in 0.374237 secs using 97.59% CPU
+Iteration 100 / LogL: -6638.359 / Time: 0h:0m:42s (0h:0m:40s left)
+Optimizing NNI: done in 0.399257 secs using 98.74% CPU
+Optimizing NNI: done in 0.357416 secs using 99.16% CPU
+Optimizing NNI: done in 0.329425 secs using 97.57% CPU
+BETTER TREE FOUND at iteration 103: -6583.468
+Optimizing NNI: done in 0.680069 secs using 98.38% CPU
+Optimizing NNI: done in 0.409184 secs using 97.8% CPU
+Optimizing NNI: done in 0.328041 secs using 98.78% CPU
+Optimizing NNI: done in 0.263972 secs using 97.72% CPU
+Optimizing NNI: done in 0.291648 secs using 98.97% CPU
+Optimizing NNI: done in 0.269922 secs using 98.14% CPU
+Optimizing NNI: done in 0.367371 secs using 97% CPU
+Iteration 110 / LogL: -6584.226 / Time: 0h:0m:45s (0h:0m:39s left)
+Optimizing NNI: done in 0.419583 secs using 98.09% CPU
+Optimizing NNI: done in 0.237946 secs using 97.48% CPU
+Optimizing NNI: done in 0.34814 secs using 98.27% CPU
+Optimizing NNI: done in 0.374061 secs using 98.12% CPU
+Optimizing NNI: done in 0.40851 secs using 99.02% CPU
+Optimizing NNI: done in 0.361169 secs using 97.5% CPU
+Optimizing NNI: done in 0.374948 secs using 96% CPU
+Optimizing NNI: done in 0.388023 secs using 98.19% CPU
+Optimizing NNI: done in 0.299839 secs using 98.66% CPU
+Optimizing NNI: done in 0.353697 secs using 98.87% CPU
+Iteration 120 / LogL: -6583.660 / Time: 0h:0m:49s (0h:0m:34s left)
+Optimizing NNI: done in 0.35274 secs using 98.01% CPU
+Optimizing NNI: done in 0.317887 secs using 98.74% CPU
+Optimizing NNI: done in 0.437391 secs using 97.71% CPU
+Optimizing NNI: done in 0.351323 secs using 98.01% CPU
+Optimizing NNI: done in 0.32894 secs using 98.17% CPU
+Optimizing NNI: done in 0.36647 secs using 98.09% CPU
+Optimizing NNI: done in 0.376126 secs using 98.14% CPU
+Optimizing NNI: done in 0.342593 secs using 97.36% CPU
+Optimizing NNI: done in 0.364946 secs using 96.71% CPU
+Optimizing NNI: done in 0.313432 secs using 98.08% CPU
+Iteration 130 / LogL: -6583.469 / Time: 0h:0m:53s (0h:0m:30s left)
+Optimizing NNI: done in 0.346416 secs using 99.42% CPU
+Optimizing NNI: done in 0.320562 secs using 97.81% CPU
+BETTER TREE FOUND at iteration 132: -6583.467
+Optimizing NNI: done in 0.508021 secs using 97.44% CPU
+Optimizing NNI: done in 0.347879 secs using 96.55% CPU
+Optimizing NNI: done in 0.219217 secs using 96.8% CPU
+Optimizing NNI: done in 0.513047 secs using 97.66% CPU
+Optimizing NNI: done in 0.428472 secs using 98.13% CPU
+Optimizing NNI: done in 0.496823 secs using 98.58% CPU
+Optimizing NNI: done in 0.309045 secs using 98.38% CPU
+Optimizing NNI: done in 0.306603 secs using 98.69% CPU
+Iteration 140 / LogL: -6586.217 / Time: 0h:0m:57s (0h:0m:37s left)
+Optimizing NNI: done in 0.387058 secs using 98.19% CPU
+Optimizing NNI: done in 0.424609 secs using 98.35% CPU
+Optimizing NNI: done in 0.504875 secs using 97.22% CPU
+Optimizing NNI: done in 0.299353 secs using 97.32% CPU
+Optimizing NNI: done in 0.367907 secs using 97.28% CPU
+Optimizing NNI: done in 0.394289 secs using 98.73% CPU
+Optimizing NNI: done in 0.349602 secs using 97.99% CPU
+Optimizing NNI: done in 0.418771 secs using 98.56% CPU
+Optimizing NNI: done in 0.3646 secs using 98.35% CPU
+Optimizing NNI: done in 0.287638 secs using 98.61% CPU
+Iteration 150 / LogL: -6607.255 / Time: 0h:1m:0s (0h:0m:33s left)
+Optimizing NNI: done in 0.300865 secs using 99.33% CPU
+Optimizing NNI: done in 0.356065 secs using 99.15% CPU
+Optimizing NNI: done in 0.269454 secs using 98.88% CPU
+Optimizing NNI: done in 0.254016 secs using 99.21% CPU
+Optimizing NNI: done in 0.428262 secs using 96.96% CPU
+Optimizing NNI: done in 0.442411 secs using 99.77% CPU
+Optimizing NNI: done in 0.396649 secs using 98.74% CPU
+Optimizing NNI: done in 0.367035 secs using 98.09% CPU
+Optimizing NNI: done in 0.415353 secs using 97.11% CPU
+Optimizing NNI: done in 0.345732 secs using 98.26% CPU
+Iteration 160 / LogL: -6583.856 / Time: 0h:1m:4s (0h:0m:29s left)
+Optimizing NNI: done in 0.421516 secs using 97.62% CPU
+Optimizing NNI: done in 0.438853 secs using 98.4% CPU
+Optimizing NNI: done in 0.32534 secs using 98.15% CPU
+Optimizing NNI: done in 0.453417 secs using 96.91% CPU
+Optimizing NNI: done in 0.477018 secs using 98.53% CPU
+Optimizing NNI: done in 0.311484 secs using 99.04% CPU
+Optimizing NNI: done in 0.311029 secs using 99.03% CPU
+Optimizing NNI: done in 0.30205 secs using 98.01% CPU
+Optimizing NNI: done in 0.317008 secs using 98.42% CPU
+Optimizing NNI: done in 0.324483 secs using 97.53% CPU
+Iteration 170 / LogL: -6585.046 / Time: 0h:1m:8s (0h:0m:25s left)
+Optimizing NNI: done in 0.413617 secs using 97.34% CPU
+Optimizing NNI: done in 0.347331 secs using 98.56% CPU
+Optimizing NNI: done in 0.332222 secs using 97.59% CPU
+Optimizing NNI: done in 0.361109 secs using 99.17% CPU
+Optimizing NNI: done in 0.350543 secs using 97.14% CPU
+Optimizing NNI: done in 0.447316 secs using 97.31% CPU
+Optimizing NNI: done in 0.344658 secs using 98.25% CPU
+Optimizing NNI: done in 0.315734 secs using 97.77% CPU
+Optimizing NNI: done in 0.367557 secs using 98.64% CPU
+Optimizing NNI: done in 0.301818 secs using 97.68% CPU
+Iteration 180 / LogL: -6583.468 / Time: 0h:1m:11s (0h:0m:20s left)
+Optimizing NNI: done in 0.321047 secs using 99.37% CPU
+Optimizing NNI: done in 0.290109 secs using 97.93% CPU
+Optimizing NNI: done in 0.371981 secs using 98.38% CPU
+Optimizing NNI: done in 0.346784 secs using 97.98% CPU
+Optimizing NNI: done in 0.693641 secs using 98.84% CPU
+Optimizing NNI: done in 0.314773 secs using 98.41% CPU
+Optimizing NNI: done in 0.304828 secs using 98.68% CPU
+Optimizing NNI: done in 0.469332 secs using 97.01% CPU
+Optimizing NNI: done in 0.298923 secs using 97.99% CPU
+Optimizing NNI: done in 0.441622 secs using 98.32% CPU
+Iteration 190 / LogL: -6585.364 / Time: 0h:1m:15s (0h:0m:16s left)
+Optimizing NNI: done in 0.359715 secs using 97.77% CPU
+Optimizing NNI: done in 0.493885 secs using 97.36% CPU
+Optimizing NNI: done in 0.353908 secs using 98.58% CPU
+Optimizing NNI: done in 0.340637 secs using 98.23% CPU
+Optimizing NNI: done in 0.316175 secs using 98.73% CPU
+Optimizing NNI: done in 0.29344 secs using 96.59% CPU
+Optimizing NNI: done in 0.501712 secs using 98.6% CPU
+Optimizing NNI: done in 0.425643 secs using 98.82% CPU
+Optimizing NNI: done in 0.396576 secs using 97.22% CPU
+Optimizing NNI: done in 0.379002 secs using 98.15% CPU
+Iteration 200 / LogL: -6583.632 / Time: 0h:1m:19s (0h:0m:12s left)
+Optimizing NNI: done in 0.411796 secs using 97.81% CPU
+Optimizing NNI: done in 0.287652 secs using 98.95% CPU
+Optimizing NNI: done in 0.424284 secs using 98.58% CPU
+Optimizing NNI: done in 0.288549 secs using 96.88% CPU
+Optimizing NNI: done in 0.448892 secs using 99.1% CPU
+Optimizing NNI: done in 0.447575 secs using 97.31% CPU
+Optimizing NNI: done in 0.417222 secs using 99.04% CPU
+Optimizing NNI: done in 0.318066 secs using 97.48% CPU
+Optimizing NNI: done in 0.369198 secs using 96.48% CPU
+Optimizing NNI: done in 0.42761 secs using 97.89% CPU
+Iteration 210 / LogL: -6583.468 / Time: 0h:1m:23s (0h:0m:8s left)
+Optimizing NNI: done in 0.31697 secs using 98.74% CPU
+Optimizing NNI: done in 0.344491 secs using 96.51% CPU
+Optimizing NNI: done in 0.323714 secs using 98.76% CPU
+Optimizing NNI: done in 0.328624 secs using 97.56% CPU
+Optimizing NNI: done in 0.362184 secs using 98.61% CPU
+Optimizing NNI: done in 0.391021 secs using 98.72% CPU
+Optimizing NNI: done in 0.307027 secs using 98.04% CPU
+Optimizing NNI: done in 0.382733 secs using 98.94% CPU
+Optimizing NNI: done in 0.309517 secs using 97.73% CPU
+Optimizing NNI: done in 0.358427 secs using 96.93% CPU
+Iteration 220 / LogL: -6585.725 / Time: 0h:1m:27s (0h:0m:4s left)
+Optimizing NNI: done in 0.356263 secs using 97.47% CPU
+Optimizing NNI: done in 0.276034 secs using 97.1% CPU
+Optimizing NNI: done in 0.290627 secs using 98.62% CPU
+Optimizing NNI: done in 0.463256 secs using 97.41% CPU
+Optimizing NNI: done in 0.408076 secs using 97.79% CPU
+Optimizing NNI: done in 0.396402 secs using 97.73% CPU
+Optimizing NNI: done in 0.496511 secs using 97.38% CPU
+Optimizing NNI: done in 0.325474 secs using 97.54% CPU
+Optimizing NNI: done in 0.337413 secs using 98.22% CPU
+Optimizing NNI: done in 0.352301 secs using 98.29% CPU
+Iteration 230 / LogL: -6585.661 / Time: 0h:1m:30s (0h:0m:0s left)
+Optimizing NNI: done in 0.265305 secs using 98.11% CPU
+Optimizing NNI: done in 0.455521 secs using 98.46% CPU
+Optimizing NNI: done in 0.237539 secs using 97.05% CPU
+TREE SEARCH COMPLETED AFTER 233 ITERATIONS / Time: 0h:1m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6583.467
+Optimal log-likelihood: -6583.467
+Rate parameters:  A-C: 1.95185  A-G: 4.23323  A-T: 1.00000  C-G: 1.95185  C-T: 4.23323  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.624
+Parameters optimization took 1 rounds (0.029 sec)
+BEST SCORE FOUND : -6583.467
+Total tree length: 26.129
+
+Total number of iterations: 233
+CPU time used for tree search: 88.854 sec (0h:1m:28s)
+Wall-clock time used for tree search: 90.561 sec (0h:1m:30s)
+Total CPU time used: 90.107 sec (0h:1m:30s)
+Total wall-clock time used: 91.837 sec (0h:1m:31s)
+
+Analysis results written to: 
+  IQ-TREE report:                /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.iqtree
+  Maximum-likelihood tree:       /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.treefile
+  Likelihood distances:          /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.mldist
+  Screen log file:               /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2.4.codon.fas.treefile -m "TPM3{1.95185,4.23323}+FQ+G4{0.623735}" --length 741
+
+Date and Time: Sun Jan  1 16:33:10 2023
