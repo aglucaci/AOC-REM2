@@ -80,7 +80,7 @@ def main(transcript_accessions, DATA_DICT, TREE_NEWICK):
             records = Entrez.parse(handle)
         except Exception as e:
             print("# Error, sleeping", e)
-            time.sleep(5)
+            time.sleep(10)
             handle = Entrez.esummary(db="nucleotide", id=ACCESSION, rettype="gb", retmode="text", retmax=1)
             records = Entrez.parse(handle)
         #end try
