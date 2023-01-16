@@ -100,10 +100,6 @@ rule all:
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json"),
-        os.path.join(OUTDIR, Label + ".1.codon.fas"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.BUSTEDS.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.BUSTED.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.BUSTEDS+MH.json"),
@@ -478,7 +474,7 @@ rule RELAX:
     output:
         output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.RELAX.json")
     shell:
-        "mpirun -np {PPN} {HYPHYMPI} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
+        "{HYPHY} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
 #end rule
 
 rule CFEL:
@@ -488,7 +484,7 @@ rule CFEL:
     output: 
         output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.CFEL.json")
     shell:
-        "mpirun -np {PPN} {HYPHYMPI} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
+        "{HYPHY} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
 #end file
 
 

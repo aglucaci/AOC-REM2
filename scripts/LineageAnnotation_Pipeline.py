@@ -63,18 +63,22 @@ def match_transcript_to_tree(TREE_NEWICK, accession):
 def main(transcript_accessions, DATA_DICT, TREE_NEWICK):
     count = 1
     for ACCESSION in transcript_accessions:
+
         #print("# Checking ACCESION:", ACCESSION)
         skip = False
+
         for i in DATA_DICT.keys():
             if ACCESSION == DATA_DICT[i]["ACCESSION"]:
                 skip = True
                 break
             #end if
         #end for
+
         if skip == True: 
             count += 1
             continue
         #end if
+
         try:
             handle = Entrez.esummary(db="nucleotide", id=ACCESSION, rettype="gb", retmode="text", retmax=1)
             records = Entrez.parse(handle)
@@ -84,11 +88,13 @@ def main(transcript_accessions, DATA_DICT, TREE_NEWICK):
             handle = Entrez.esummary(db="nucleotide", id=ACCESSION, rettype="gb", retmode="text", retmax=1)
             records = Entrez.parse(handle)
         #end try
+
         try:
             for record in records:
                 TAXON_ID = record["TaxId"]
                 print("#", count, "Processing transcript accession:", str(ACCESSION), "with NCBI Taxon ID:", str(TAXON_ID))
                 ncbi = NCBITaxa()
+
                 lineage = ncbi.get_lineage(TAXON_ID)
                 # uncomment to debug
                 #print(lineage) # returns a list of taxon id's
@@ -101,6 +107,7 @@ def main(transcript_accessions, DATA_DICT, TREE_NEWICK):
                 leafname = match_transcript_to_tree(TREE_NEWICK, ACCESSION.replace(".", "_"))
                 # uncomment to debug
                 #print(leafname)
+
                 DATA_DICT[str(count)] = {"ACCESSION": ACCESSION, "TAXON_ID": TAXON_ID, 
                                          "LINEAGE": [names[taxid] for taxid in lineage], 
                                          "TITLE":record["Title"], "LEAFNAME": leafname}
