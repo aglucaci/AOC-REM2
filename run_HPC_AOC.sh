@@ -1,5 +1,14 @@
 #!/bin/bash
 
+clear
+
+echo "Analysis of Orthologous Collections (AOC)."
+echo "@Author: Alexander G. Lucaci"
+echo ""
+
+# Set up the pipeline failure expectations.
+set -euo pipefail
+
 # Downloading hyphy-analyses.
 FOLDER="hyphy-analyses"
 URL="https://github.com/veg/hyphy-analyses.git"
@@ -8,26 +17,24 @@ if [ ! -d "$FOLDER" ] ; then
     git clone "$URL" "$FOLDER"
 fi
 
-echo "--- Initialized --- "
+#echo "--- Initialized --- "
 
-# Uncomment if you want to generate an analysis DAG file.
-#snakemake --forceall --dag | dot -Tpdf > AOC_Alignment.pdf
-         
-echo "Creating 'log' directory"
-mkdir -p logs 
+echo "Creating 'logs' directory"
+mkdir -p logs
 
-# Step 1 (Alignment + Recombination detection)
-# This step needs to wait for GARD to finish running
-bash run_HPC_Alignment.sh
+echo "Executing HPC Snakemake command"
 
-# Step 2 (Selection analyses)
-bash run_HPC_Recombinants.sh
+snakemake \
+      -s Snakefile \
+      --cluster-config cluster.json \
+      --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime={cluster.walltime} -e logs -o logs" \
+      --jobs 4 all \
+      --rerun-incomplete \
+      --keep-going \
+      --reason \
+      --latency-wait 60 
 
-# Step 3 (Lineage annotation, and selection analyses)
-bash run_HPC_Recombinants_Lineages.sh
-
-# Step 4 (Generate figures + figure legends)
-bash run_HPC_Figures.sh
+# End of file 
 
 
 exit 0
