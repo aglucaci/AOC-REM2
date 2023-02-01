@@ -113,10 +113,10 @@ rule all:
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.SLAC.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.aBSRELS.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.aBSRELS+MH.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile.labelled"),
-        #os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.RELAX.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.CFEL.json") 
+        #os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile.labelled"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json"),
+        #os.path.join(OUTDIR, Label + "_codons.SA.fasta.RELAX.json"),
+        #os.path.join(OUTDIR, Label + "_codons.SA.fasta.CFEL.json") 
 #end rule all
 
 print("# Moving on to processing rules")
@@ -240,6 +240,16 @@ rule cluster_to_fasta:
 # Recombination detection
 #----------------------------------------------------------------------------
 
+rule recombination_original:
+    input: 
+        input = rules.strike_ambigs.output.out_strike_ambigs 
+    output: 
+        output =  os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json") 
+    shell: 
+        "mpirun -np {PPN} {HYPHYMPI} ENV='TOLERATE_NUMERICAL_ERRORS=1;' GARD --alignment {input.input} --rv GDD --output {output.output}"
+#end rule
+
+
 rule recombination:
     input: 
         input = rules.cluster_to_fasta.output.output 
@@ -250,13 +260,13 @@ rule recombination:
 #end rule
 
 
-rule recombination_clean:
-    input: 
-        input =  rules.strike_ambigs.output.out_strike_ambigs 
-    output: 
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json")
-    shell: 
-        "mpirun --use-hwthread-cpus -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
+#rule recombination_clean:
+#    input: 
+#        input =  rules.strike_ambigs.output.out_strike_ambigs 
+#    output: 
+#        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json")
+#    shell: 
+#        "mpirun --use-hwthread-cpus -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
 #end rule
 
 #----------------------------------------------------------------------------
