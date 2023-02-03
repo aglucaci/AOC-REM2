@@ -25,7 +25,7 @@ POSTMSA: hyphy-analyses/codon-msa/post-msa.bf
 FMM: hyphy-analyses/FitMultiModel/FitMultiModel.bf
 BUSTEDSMH: hyphy-analyses/BUSTED-MH/BUSTED-MH.bf
 FITMG94: hyphy-analyses/FitMG94/FitMG94.bf
-HYPHY: hyphy
+HYPHY: /home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy
 HYPHYMPI: HYPHYMPI
 STRIKEAMBIGS: scripts/strike-ambigs.bf
 

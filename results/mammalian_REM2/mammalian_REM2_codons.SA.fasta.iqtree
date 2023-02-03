@@ -1,8 +1,8 @@
-IQ-TREE 2.2.0.3 COVID-edition built May 11 2022
+IQ-TREE 2.2.0.3 COVID-edition built Aug  2 2022
 
 Input file name: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 693763
+Random seed number: 960722
 
 REFERENCES
 ----------
@@ -39,40 +39,40 @@ Best-fit model according to BIC: GTR+F+I+I+R4
 List of models sorted by BIC scores: 
 
 Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
-GTR+F+I+I+R4     -26950.304   54624.608 +    0.774   54788.354 +    0.897   56646.296 +     0.85
-TIM+F+I+I+R4     -26960.023   54640.045 - 0.000344   54801.788 -  0.00109   56650.564 +    0.101
-TIM2+F+I+I+R4    -26961.015   54642.030 - 0.000128   54803.772 - 0.000402   56652.548 -   0.0373
-TPM3+I+I+R4      -26977.876   54667.753 - 3.31e-10   54825.533 - 7.57e-09   56655.932 -  0.00687
-GTR+F+R5         -26951.992   54629.984 +   0.0526   54794.737 -   0.0369   56657.257 -  0.00354
-TIM3e+I+I+R4     -26976.477   54666.954 - 4.94e-10   54825.719 -  6.9e-09   56660.718 - 0.000628
-GTR+F+I+I+R5     -26950.137   54628.275 +    0.124   54794.039 +   0.0523   56661.132 -  0.00051
-GTR+F+R4         -26961.616   54645.232 - 2.57e-05   54807.974 - 4.92e-05   56661.335 - 0.000461
-GTR+F+I+I+R3     -26966.721   54653.442 - 4.24e-07   54815.185 - 1.34e-06   56663.960 - 0.000124
-TVMe+I+I+R4      -26975.244   54666.489 - 6.23e-10   54826.243 - 5.31e-09   56665.837 - 4.85e-05
-GTR+F+R6         -26950.063   54630.127 -    0.049   54796.906 -   0.0125   56668.569 - 1.24e-05
-SYM+I+I+R4       -26973.876   54665.753 -    9e-10   54826.499 - 4.67e-09   56670.686 -  4.3e-06
-TVM+F+I+I+R4     -26967.063   54656.126 - 1.11e-07   54818.868 - 2.12e-07   56672.229 - 1.99e-06
-TIM3+F+I+I+R4    -26970.943   54661.887 - 6.22e-09   54823.629 - 1.96e-08   56672.405 - 1.82e-06
-TN+F+I+I+R4      -26976.953   54671.906 - 4.15e-11   54832.653 - 2.15e-10   56676.840 - 1.98e-07
-K3Pu+F+I+I+R4    -26977.219   54672.438 - 3.18e-11   54833.184 - 1.65e-10   56677.372 - 1.52e-07
-TPM2u+F+I+I+R4   -26979.106   54676.212 - 4.82e-12   54836.959 -  2.5e-11   56681.146 -  2.3e-08
-K2P+I+I+R4       -27000.397   54710.794 - 1.49e-19   54867.593 - 5.57e-18   56693.388 - 5.05e-11
-GTR+F+R3         -26987.088   54692.177 - 1.65e-15   54852.923 - 8.55e-15   56697.110 - 7.86e-12
-TPM3u+F+I+I+R4   -26987.361   54692.722 - 1.25e-15   54853.469 -  6.5e-15   56697.656 - 5.98e-12
-K3P+I+I+R4       -26999.857   54711.713 - 9.42e-20   54869.493 - 2.16e-18   56699.892 - 1.95e-12
-TNe+I+I+R4       -26999.950   54711.901 - 8.58e-20   54869.681 - 1.96e-18   56700.080 - 1.78e-12
-GTR+F+I+G4       -26996.594   54707.188 - 9.05e-19   54865.953 - 1.27e-17   56700.952 - 1.15e-12
-TPM2+I+I+R4      -27000.390   54712.779 - 5.53e-20   54870.560 - 1.26e-18   56700.959 - 1.15e-12
-HKY+F+I+I+R4     -26994.312   54704.623 - 3.26e-18   54864.377 - 2.78e-17   56703.972 - 2.54e-13
-TIMe+I+I+R4      -26999.411   54712.821 - 5.41e-20   54871.587 - 7.57e-19   56706.585 - 6.88e-14
-TIM2e+I+I+R4     -26999.939   54713.879 - 3.19e-20   54872.644 - 4.46e-19   56707.643 - 4.06e-14
-GTR+F+G4         -27018.032   54748.063 -  1.2e-27   54905.844 - 2.76e-26   56736.242 -  2.5e-20
-GTR+F+I+I+R2     -27110.239   54936.479 - 1.47e-68   55096.232 - 1.25e-67   56935.827 - 1.14e-63
-GTR+F+R2         -27200.330   55114.660 - 2.99e-107   55273.425 - 4.18e-106   57108.424 - 3.8e-101
-JC+I+I+R4        -27779.863   56267.727 -        0   56423.548 -        0   58244.736 -        0
-GTR+F+I          -27848.615   56409.230 -        0   56567.010 -        0   58397.409 -        0
-F81+F+I+I+R4     -27964.902   56643.805 -        0   56802.570 -        0   58637.569 -        0
-GTR+F            -28620.773   57951.546 -        0   58108.345 -        0   59934.140 -        0
+GTR+F+I+I+R4     -26944.777   54613.554 +     0.83   54777.300 +    0.929   56635.242 +    0.932
+TIM+F+I+I+R4     -26955.666   54631.332 - 0.000115   54793.074 - 0.000349   56641.850 -   0.0342
+TIM2+F+I+I+R4    -26955.766   54631.531 - 0.000104   54793.274 - 0.000316   56642.050 -    0.031
+GTR+F+R5         -26947.651   54621.302 -   0.0173   54786.055 -   0.0117   56648.575 -  0.00119
+TPM3+I+I+R4      -26974.730   54661.460 - 3.29e-11   54819.240 - 7.26e-10   56649.639 - 0.000696
+GTR+F+R4         -26955.902   54633.804 - 3.33e-05   54796.546 - 6.15e-05   56649.907 - 0.000609
+GTR+F+I+I+R5     -26944.616   54617.232 +    0.132   54782.997 +   0.0538   56650.090 - 0.000556
+GTR+F+I+I+R3     -26960.958   54641.917 - 5.76e-07   54803.659 - 1.75e-06   56652.435 - 0.000172
+TIM3e+I+I+R4     -26973.257   54660.514 - 5.27e-11   54819.279 - 7.12e-10   56654.278 - 6.85e-05
+GTR+F+R6         -26945.503   54621.006 -     0.02   54787.785 -  0.00491   56659.448 - 5.16e-06
+TVMe+I+I+R4      -26972.394   54660.788 -  4.6e-11   54820.542 - 3.78e-10   56660.137 - 3.66e-06
+TIM3+F+I+I+R4    -26965.639   54651.278 - 5.34e-09   54813.021 - 1.63e-08   56661.797 -  1.6e-06
+TVM+F+I+I+R4     -26962.185   54646.369 - 6.22e-08   54809.111 - 1.15e-07   56662.472 - 1.14e-06
+SYM+I+I+R4       -26970.940   54659.880 - 7.24e-11   54820.626 - 3.63e-10   56664.813 - 3.53e-07
+TN+F+I+I+R4      -26972.317   54662.633 - 1.83e-11   54823.379 - 9.16e-11   56667.567 - 8.91e-08
+K3Pu+F+I+I+R4    -26973.573   54665.145 - 5.21e-12   54825.891 - 2.61e-11   56670.079 - 2.54e-08
+TPM2u+F+I+I+R4   -26974.524   54667.048 - 2.01e-12   54827.794 - 1.01e-11   56671.982 -  9.8e-09
+K2P+I+I+R4       -26995.617   54701.234 - 7.58e-20   54858.033 - 2.74e-18   56683.828 - 2.62e-11
+GTR+F+R3         -26980.498   54678.996 - 5.12e-15   54839.742 - 2.56e-14   56683.929 - 2.49e-11
+GTR+F+I+G4       -26988.125   54690.249 - 1.84e-17   54849.015 - 2.48e-16   56684.013 - 2.39e-11
+TPM3u+F+I+I+R4   -26982.683   54683.365 - 5.76e-16   54844.111 - 2.88e-15   56688.299 - 2.81e-12
+TNe+I+I+R4       -26995.100   54702.200 - 4.68e-20   54859.980 - 1.03e-18   56690.379 - 9.92e-13
+K3P+I+I+R4       -26995.127   54702.254 - 4.55e-20   54860.034 - 1.01e-18   56690.433 - 9.65e-13
+TPM2+I+I+R4      -26995.597   54703.194 - 2.85e-20   54860.975 - 6.28e-19   56691.374 - 6.03e-13
+HKY+F+I+I+R4     -26990.349   54696.698 - 7.33e-19   54856.452 - 6.03e-18   56696.047 - 5.83e-14
+TIMe+I+I+R4      -26994.612   54703.224 -  2.8e-20   54861.990 - 3.78e-19   56696.988 - 3.64e-14
+TIM2e+I+I+R4     -26995.068   54704.136 - 1.78e-20   54862.901 -  2.4e-19   56697.900 - 2.31e-14
+GTR+F+G4         -27008.853   54729.706 - 4.98e-26   54887.486 -  1.1e-24   56717.885 - 1.06e-18
+GTR+F+I+I+R2     -27101.125   54918.250 -  5.7e-67   55078.004 - 4.69e-66   56917.599 - 4.53e-62
+GTR+F+R2         -27190.741   55095.481 - 1.86e-105   55254.246 - 2.51e-104   57089.245 - 2.42e-99
+JC+I+I+R4        -27778.782   56265.563 -        0   56421.385 -        0   58242.573 -        0
+GTR+F+I          -27841.990   56395.980 -        0   56553.761 -        0   58384.159 -        0
+F81+F+I+I+R4     -27964.964   56643.928 -        0   56802.693 -        0   58637.692 -        0
+GTR+F            -28616.826   57943.653 -        0   58100.452 -        0   59926.247 -        0
 
 AIC, w-AIC   : Akaike information criterion scores and weights.
 AICc, w-AICc : Corrected AIC scores and weights.
@@ -88,11 +88,11 @@ Model of substitution: GTR+F+I+I+R4
 
 Rate parameter R:
 
-  A-C: 1.0556
-  A-G: 3.0562
-  A-T: 1.0404
-  C-G: 0.6810
-  C-T: 4.1391
+  A-C: 1.0565
+  A-G: 3.0587
+  A-T: 1.0415
+  C-G: 0.6816
+  C-T: 4.1428
   G-T: 1.0000
 
 State frequencies: (empirical counts from alignment)
@@ -104,398 +104,398 @@ State frequencies: (empirical counts from alignment)
 
 Rate matrix Q:
 
-  A    -1.128    0.2661    0.7307    0.1316
+  A    -1.129    0.2662    0.7307    0.1316
   C    0.1774   -0.8636    0.1628    0.5234
-  G    0.5135    0.1717   -0.8117    0.1264
-  T    0.1748     1.044    0.2391    -1.458
+  G    0.5135    0.1717   -0.8116    0.1263
+  T    0.1749     1.044    0.2389    -1.457
 
 Model of rate heterogeneity: Invar+Invar+FreeRate with 4 categories
-Proportion of invariable sites: 0.1199
-Site proportion and rates:  (0.3696,0.224) (0.3709,1.208) (0.1284,3.04) (0.01111,7.088)
+Proportion of invariable sites: 0.1204
+Site proportion and rates:  (0.3696,0.2249) (0.3707,1.209) (0.1283,3.042) (0.01109,7.091)
 
  Category  Relative_rate  Proportion
-  0         0              0.1199
-  1         0.224          0.3696
-  2         1.208          0.3709
-  3         3.04           0.1284
-  4         7.088          0.01111
+  0         0              0.1204
+  1         0.2249         0.3696
+  2         1.209          0.3707
+  3         3.042          0.1283
+  4         7.091          0.01109
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -26881.6177 (s.e. 848.4720)
+Log-likelihood of the tree: -26881.6303 (s.e. 848.4719)
 Unconstrained log-likelihood (without tree): -11509.5408
 Number of free parameters (#branches + #model parameters): 362
-Akaike information criterion (AIC) score: 54487.2354
-Corrected Akaike information criterion (AICc) score: 54650.9812
-Bayesian information criterion (BIC) score: 56508.9233
+Akaike information criterion (AIC) score: 54487.2605
+Corrected Akaike information criterion (AICc) score: 54651.0063
+Bayesian information criterion (BIC) score: 56508.9484
 
-Total tree length (sum of branch lengths): 6.2663
-Sum of internal branch lengths: 2.5142 (40.1224% of tree length)
+Total tree length (sum of branch lengths): 6.2653
+Sum of internal branch lengths: 2.5138 (40.1217% of tree length)
 
 WARNING: 18 near-zero internal branches (<0.0005) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
-NOTE: Tree is UNROOTED although outgroup taxon 'NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1' is drawn at root
+NOTE: Tree is UNROOTED although outgroup taxon 'NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1' is drawn at root
 
-+--NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
++--NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1
 |
-|                 +--NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1
+|                                                                 +**XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                                              +--|
+|                                                              |  +--XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                                           +--|
+|                                                           |  +**NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                                        +--|
+|                                                        |  +--XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                                     +--|
+|                                                     |  +--XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                                  +--|
+|                                                  |  |  +--XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                                  |  +--|
+|                                                  |     +--XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               +--|
+|                                               |  |                 +--XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |  |              +--|
+|                                               |  |              |  +**XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |  |           +**|
+|                                               |  |           |  +--XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                                               |  |        +**|
+|                                               |  |        |  |     +--XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |  |        |  |  +--|
+|                                               |  |        |  |  |  +**XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |  |        |  +**|
+|                                               |  |        |     +--XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                                               |  |     +--|
+|                                               |  |     |  |  +--XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |  |     |  +**|
+|                                               |  |     |     +--XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1
+|                                               |  |  +--|
+|                                               |  |  |  +--XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                               |  +--|
+|                                               |     |                     +-----------------------XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1
+|                                               |     |  +------------------|
+|                                               |     |  |                  +-----XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                                               |     +**|
+|                                               |        |        +--XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |        |     +--|
+|                                               |        |     |  +**XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |        |  +--|
+|                                               |        |  |  +--XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                               |        +--|
+|                                               |           +--XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                            +--|
+|                                            |  |  +--XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                            |  +--|
+|                                            |     |  +--XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                            |     +--|
+|                                            |        |  +--XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                            |        +--|
+|                                            |           |  +--XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                            |           +--|
+|                                            |              +--XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                         +--|
+|                                         |  +---XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                      +--|
+|                                      |  |  +---XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                                      |  +--|
+|                                      |     |  +--XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                                      |     +--|
+|                                      |        |  +--XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                      |        +--|
+|                                      |           +--XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                                   +--|
+|                                   |  +---XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                                +--|
+|                                |  +------XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             +--|
+|                             |  |                                      +**NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2
+|                             |  |                                   +**|
+|                             |  |                                   |  +--XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                             |  |                                +--|
+|                             |  |                                |  |  +**XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                                |  +**|
+|                             |  |                                |     +--XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                             +--|
+|                             |  |                             |  +--XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1
+|                             |  |                          +--|
+|                             |  |                          |  |  +--XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                          |  +--|
+|                             |  |                          |     |  +--XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                          |     +--|
+|                             |  |                          |        +**XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                       +--|
+|                             |  |                       |  |     +--XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                       |  |  +--|
+|                             |  |                       |  |  |  +---XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                       |  +--|
+|                             |  |                       |     +--XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                    +--|
+|                             |  |                    |  |     +**XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                    |  |  +--|
+|                             |  |                    |  |  |  +--XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                    |  +--|
+|                             |  |                    |     +-----XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                 +--|
+|                             |  |                 |  |                 +--XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1
+|                             |  |                 |  |              +**|
+|                             |  |                 |  |              |  |  +--XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                 |  |              |  +**|
+|                             |  |                 |  |              |     +--XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                 |  |           +--|
+|                             |  |                 |  |           |  +--XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                 |  |        +--|
+|                             |  |                 |  |        |  |     +--XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                 |  |        |  |  +--|
+|                             |  |                 |  |        |  |  |  +--XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                 |  |        |  +--|
+|                             |  |                 |  |        |     |  +--XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                 |  |        |     +--|
+|                             |  |                 |  |        |        +--XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                 |  |     +--|
+|                             |  |                 |  |     |  +--XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                             |  |                 |  |  +--|
+|                             |  |                 |  |  |  +--XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |                 |  +--|
+|                             |  |                 |     |  +--XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |                 |     +--|
+|                             |  |                 |        +--XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |              +--|
+|                             |  |              |  +--XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |           +**|
+|                             |  |           |  |   +--XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |           |  +---|
+|                             |  |           |      +--XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        +--|
+|                             |  |        |  |              +**XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |           +--|
+|                             |  |        |  |           |  +--XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |        +--|
+|                             |  |        |  |        |  |  +--XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |        |  +--|
+|                             |  |        |  |        |     +--XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |     +--|
+|                             |  |        |  |     |  +--XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3
+|                             |  |        |  |  +--|
+|                             |  |        |  |  |  |        +--XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                             |  |        |  |  |  |     +--|
+|                             |  |        |  |  |  |     |  |  +--XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |  |  |  |     |  +--|
+|                             |  |        |  |  |  |     |     +**XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2
+|                             |  |        |  |  |  |  +--|
+|                             |  |        |  |  |  |  |  |           +----------XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |  |  |  |  |        +--|
+|                             |  |        |  |  |  |  |  |        |  +**XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |  |  |  |  |  |     +--|
+|                             |  |        |  |  |  |  |  |     |  +--XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |  |  |  |  |  |  +--|
+|                             |  |        |  |  |  |  |  |  |  +**XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |  |  |  |  |  +--|
+|                             |  |        |  |  |  |  |     |  +--XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |  |  |  |  |     +--|
+|                             |  |        |  |  |  |  |        +--XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |  |  +**|
+|                             |  |        |  |  |     |        +--XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |  |     |     +--|
+|                             |  |        |  |  |     |     |  +--XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |  |     |  +**|
+|                             |  |        |  |  |     |  |  |  +--XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1
+|                             |  |        |  |  |     |  |  +--|
+|                             |  |        |  |  |     |  |     +--XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  |  |     +--|
+|                             |  |        |  |  |        +--XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |  +--|
+|                             |  |        |     |                 +--XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |     |              +--|
+|                             |  |        |     |              |  |  +--XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |     |              |  +--|
+|                             |  |        |     |              |     +--XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |     |           +**|
+|                             |  |        |     |           |  +--XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |     |        +--|
+|                             |  |        |     |        |  |  +--XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |     |        |  +--|
+|                             |  |        |     |        |     +-----XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |     |     +**|
+|                             |  |        |     |     |  |     +--XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1
+|                             |  |        |     |     |  |  +**|
+|                             |  |        |     |     |  |  |  +--XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |     |     |  +**|
+|                             |  |        |     |     |     +--XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |     |  +--|
+|                             |  |        |     |  |  +--XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |        |     +--|
+|                             |  |        |        |  +--XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |        |        +--|
+|                             |  |        |           +--XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |     +--|
+|                             |  |     |  |        +--XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |     |  |     +--|
+|                             |  |     |  |     |  +--XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |     |  |  +--|
+|                             |  |     |  |  |  +**XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1
+|                             |  |     |  +--|
+|                             |  |     |     +--XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1
+|                             |  |  +--|
+|                             |  |  |  |      +--XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                             |  |  |  |  +---|
+|                             |  |  |  |  |   +--XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |  +--|
+|                             |  |  |     |           +--XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |     |        +--|
+|                             |  |  |     |        |  |  +--XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |     |        |  +--|
+|                             |  |  |     |        |     +--XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |     |     +--|
+|                             |  |  |     |     |  +--XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |     |  +--|
+|                             |  |  |     |  |  |  +--XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |     |  |  +--|
+|                             |  |  |     |  |     +--XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1
+|                             |  |  |     +--|
+|                             |  |  |        |     +--XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                             |  |  |        |  +--|
+|                             |  |  |        |  |  +--XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |  |  |        +--|
+|                             |  |  |           |     +--XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |           |  +--|
+|                             |  |  |           |  |  +--XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |           +--|
+|                             |  |  |              |  +--XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  |  |              +--|
+|                             |  |  |                 +--XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |  +--|
+|                             |     |              +--XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                             |     |           +--|
+|                             |     |           |  +--XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1
+|                             |     |        +--|
+|                             |     |        |  +--XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1
+|                             |     |     +**|
+|                             |     |     |  +-------XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                             |     |  +--|
+|                             |     |  |  |     +----------XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |     |  |  |  +--|
+|                             |     |  |  |  |  +----XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                             |     |  |  +--|
+|                             |     |  |     +----XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |     +--|
+|                             |        |  +--XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                             |        +--|
+|                             |           +--XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                          +--|
+|                          |  |                                     +--XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                          |  |                                  +--|
+|                          |  |                                  |  +--XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                          |  |                               +--|
+|                          |  |                               |  +----------XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                          |  |                            +--|
+|                          |  |                            |  |   +--XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                          |  |                            |  +---|
+|                          |  |                            |      +--XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1
+|                          |  |                         +--|
+|                          |  |                         |  +--XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                          |  |             +-----------|
+|                          |  |             |           |  +------XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
+|                          |  |             |           +--|
+|                          |  |             |              +--XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1
+|                          |  |     +-------|
+|                          |  |     |       |                  +--XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                          |  |     |       +------------------|
+|                          |  |     |                          +--XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                          |  |  +--|
+|                          |  |  |  |  +-----XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                          |  |  |  +--|
+|                          |  |  |     +-----XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1
+|                          |  +--|
+|                          |     |     +--XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1
+|                          |     |  +--|
+|                          |     |  |  |      +--XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                          |     |  |  +------|
+|                          |     |  |         +--XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
+|                          |     +--|
+|                          |        +---------XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
+|                       +--|
+|                       |  |        +---XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1
+|                       |  |     +--|
+|                       |  |     |  |  +---XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1
+|                       |  |     |  +--|
+|                       |  |     |     +--XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1
+|                       |  |  +--|
+|                       |  |  |  |  +--XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |  |  |  +--|
+|                       |  |  |     +--XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |  +--|
+|                       |     |              +--XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |     |           +--|
+|                       |     |           |  +--XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |     |     +-----|
+|                       |     |     |     |  +--XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |     |     |     +--|
+|                       |     |     |        |  +--XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1
+|                       |     |     |        +**|
+|                       |     |     |           +--XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |     |  +--|
+|                       |     |  |  +--XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |     +--|
+|                       |        |      +--XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1
+|                       |        |   +--|
+|                       |        |   |  +--XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                       |        +---|
+|                       |            +---XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                    +--|
+|                    |  +-----XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|                 +--|
+|                 |  +--XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1
 |              +--|
-|              |  +--XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |  |        +--XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1
+|              |  |     +--|
+|              |  |     |  |  +--XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |  |     |  +--|
+|              |  |     |     +--XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1
+|              |  |  +--|
+|              |  |  |  |           +--XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |  |  |  |        +--|
+|              |  |  |  |        |  +--XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |  |  |  |     +--|
+|              |  |  |  |     |  +--XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1
+|              |  |  |  |  +--|
+|              |  |  |  |  |  +--XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |  |  |  +--|
+|              |  |  |     +--XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |  +--|
+|              |     |     +--XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |     |  +--|
+|              |     |  |  +--XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|              |     +--|
+|              |        +--XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
 |           +--|
-|           |  +--XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|           |  |  +--XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|           |  +--|
+|           |     +---XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1
 |        +--|
-|        |  +--XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|        |  |     +--NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|        |  |  +--|
+|        |  |  |  +--XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|        |  +--|
+|        |     |  +--XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|        |     +--|
+|        |        +--XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
 |     +--|
 |     |  +--XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1
 |  +--|
-|  |  |                                                  +**NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                               +--|
-|  |  |                                               |  |  +**XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                               |  +--|
-|  |  |                                               |     +--XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                            +--|
-|  |  |                                            |  +--XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                         +--|
-|  |  |                                         |  +--XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                      +--|
-|  |  |                                      |  |  +--XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                      |  +--|
-|  |  |                                      |     +--XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   +--|
-|  |  |                                   |  |                    +--XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |  |                 +--|
-|  |  |                                   |  |                 |  +**XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |  |              +**|
-|  |  |                                   |  |              |  +--XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |  |           +**|
-|  |  |                                   |  |           |  |  +--XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |  |           |  +--|
-|  |  |                                   |  |           |     +**XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |  |        +**|
-|  |  |                                   |  |        |  |  +--XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                                   |  |        |  +**|
-|  |  |                                   |  |        |     +--XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1
-|  |  |                                   |  |     +--|
-|  |  |                                   |  |     |  +--XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                                   |  |  +--|
-|  |  |                                   |  |  |  +--XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                   |  +--|
-|  |  |                                   |     |                     +----------------------XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                   |     |  +------------------|
-|  |  |                                   |     |  |                  +-----XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                                   |     +**|
-|  |  |                                   |        |        +--XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |        |     +--|
-|  |  |                                   |        |     |  +**XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |        |  +--|
-|  |  |                                   |        |  |  +--XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                   |        +--|
-|  |  |                                   |           +--XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                +--|
-|  |  |                                |  |  +--XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                |  +--|
-|  |  |                                |     |  +--XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                |     +--|
-|  |  |                                |        |  +--XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                                |        +--|
-|  |  |                                |           |  +--XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                                |           +--|
-|  |  |                                |              +--XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                             +--|
-|  |  |                             |  +---XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                          +--|
-|  |  |                          |  |  +---XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                          |  +--|
-|  |  |                          |     |  +--XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                          |     +--|
-|  |  |                          |        |  +--XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                          |        +--|
-|  |  |                          |           +--XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                       +--|
-|  |  |                       |  +---XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                    +--|
-|  |  |                    |  +------XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 +--|
-|  |  |                 |  |                             +**XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                          +--|
-|  |  |                 |  |                          |  +--XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                       +--|
-|  |  |                 |  |                       |  |  +--XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                       |  +--|
-|  |  |                 |  |                       |     +--XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                    +--|
-|  |  |                 |  |                    |  +--XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3
-|  |  |                 |  |                 +--|
-|  |  |                 |  |                 |  |        +--XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                 |  |                 |  |     +--|
-|  |  |                 |  |                 |  |     |  |  +--XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |                 |  |     |  +--|
-|  |  |                 |  |                 |  |     |     +**XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2
-|  |  |                 |  |                 |  |  +--|
-|  |  |                 |  |                 |  |  |  |           +----------XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                 |  |  |  |        +--|
-|  |  |                 |  |                 |  |  |  |        |  +**XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |                 |  |  |  |     +--|
-|  |  |                 |  |                 |  |  |  |     |  +--XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |                 |  |  |  |  +--|
-|  |  |                 |  |                 |  |  |  |  |  +**XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |                 |  |  |  +--|
-|  |  |                 |  |                 |  |  |     |  +--XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |                 |  |  |     +--|
-|  |  |                 |  |                 |  |  |        +--XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                 |  +**|
-|  |  |                 |  |                 |     |        +--XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                 |     |     +--|
-|  |  |                 |  |                 |     |     |  +--XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                 |     |  +**|
-|  |  |                 |  |                 |     |  |  |  +--XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1
-|  |  |                 |  |                 |     |  |  +--|
-|  |  |                 |  |                 |     |  |     +--XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |                 |     +--|
-|  |  |                 |  |                 |        +--XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |              +--|
-|  |  |                 |  |              |  |              +--XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |  |           +--|
-|  |  |                 |  |              |  |           |  |  +--XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |  |           |  +--|
-|  |  |                 |  |              |  |           |     +--XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |  |        +**|
-|  |  |                 |  |              |  |        |  +--XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |  |     +--|
-|  |  |                 |  |              |  |     |  |  +--XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |  |     |  +--|
-|  |  |                 |  |              |  |     |     +-----XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |  |  +--|
-|  |  |                 |  |              |  |  |  |     +--XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1
-|  |  |                 |  |              |  |  |  |  +**|
-|  |  |                 |  |              |  |  |  |  |  +--XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |  |  |  +**|
-|  |  |                 |  |              |  |  |     |  +--XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |              |  |  |     +**|
-|  |  |                 |  |              |  |  |        +--XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |              |  +--|
-|  |  |                 |  |              |     |  +--XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |              |     +--|
-|  |  |                 |  |              |        +--XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |           +**|
-|  |  |                 |  |           |  |   +--XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |           |  +---|
-|  |  |                 |  |           |      +--XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        +--|
-|  |  |                 |  |        |  |                    +**NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2
-|  |  |                 |  |        |  |                 +--|
-|  |  |                 |  |        |  |                 |  |  +--XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                 |  |        |  |                 |  +**|
-|  |  |                 |  |        |  |                 |     |  +**XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |                 |     +**|
-|  |  |                 |  |        |  |                 |        +--XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |              +--|
-|  |  |                 |  |        |  |              |  +--XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1
-|  |  |                 |  |        |  |           +--|
-|  |  |                 |  |        |  |           |  |  +--XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |           |  +--|
-|  |  |                 |  |        |  |           |     |  +--XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |           |     +--|
-|  |  |                 |  |        |  |           |        +**XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |        +--|
-|  |  |                 |  |        |  |        |  |     +--XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |        |  |  +--|
-|  |  |                 |  |        |  |        |  |  |  +---XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |        |  +--|
-|  |  |                 |  |        |  |        |     +--XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |     +--|
-|  |  |                 |  |        |  |     |  |     +**XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |     |  |  +--|
-|  |  |                 |  |        |  |     |  |  |  +--XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |     |  +--|
-|  |  |                 |  |        |  |     |     +-----XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |  +--|
-|  |  |                 |  |        |  |  |  |                 +--XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |  |  |              +**|
-|  |  |                 |  |        |  |  |  |              |  |  +--XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |  |  |              |  +**|
-|  |  |                 |  |        |  |  |  |              |     +--XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |  |  |           +--|
-|  |  |                 |  |        |  |  |  |           |  +--XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |  |  |        +--|
-|  |  |                 |  |        |  |  |  |        |  |     +--XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |  |  |        |  |  +--|
-|  |  |                 |  |        |  |  |  |        |  |  |  +--XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |  |  |        |  +--|
-|  |  |                 |  |        |  |  |  |        |     |  +--XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |  |  |        |     +--|
-|  |  |                 |  |        |  |  |  |        |        +--XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |  |  |     +--|
-|  |  |                 |  |        |  |  |  |     |  +--XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                 |  |        |  |  |  |  +--|
-|  |  |                 |  |        |  |  |  |  |  +--XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |        |  |  |  +--|
-|  |  |                 |  |        |  |  |     |  +--XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  |  |     +--|
-|  |  |                 |  |        |  |  |        +--XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |        |  +--|
-|  |  |                 |  |        |     +--XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |     +--|
-|  |  |                 |  |     |  |        +--XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |     |  |     +--|
-|  |  |                 |  |     |  |     |  +--XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |     |  |  +--|
-|  |  |                 |  |     |  |  |  +**XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1
-|  |  |                 |  |     |  +--|
-|  |  |                 |  |     |     +--XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1
-|  |  |                 |  |  +--|
-|  |  |                 |  |  |  |      +--XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                 |  |  |  |  +---|
-|  |  |                 |  |  |  |  |   +--XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |  +--|
-|  |  |                 |  |  |     |           +--XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |     |        +--|
-|  |  |                 |  |  |     |        |  |  +--XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |     |        |  +--|
-|  |  |                 |  |  |     |        |     +--XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |     |     +--|
-|  |  |                 |  |  |     |     |  +--XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |     |  +--|
-|  |  |                 |  |  |     |  |  |  +--XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |     |  |  +--|
-|  |  |                 |  |  |     |  |     +--XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1
-|  |  |                 |  |  |     +--|
-|  |  |                 |  |  |        |     +--XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                 |  |  |        |  +--|
-|  |  |                 |  |  |        |  |  +--XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |  |  |        +--|
-|  |  |                 |  |  |           |     +--XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |           |  +--|
-|  |  |                 |  |  |           |  |  +--XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |           +--|
-|  |  |                 |  |  |              |  +--XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  |  |              +--|
-|  |  |                 |  |  |                 +--XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |  +--|
-|  |  |                 |     |              +--XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |                 |     |           +--|
-|  |  |                 |     |           |  +--XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1
-|  |  |                 |     |        +--|
-|  |  |                 |     |        |  +--XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1
-|  |  |                 |     |     +**|
-|  |  |                 |     |     |  +------XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                 |     |  +--|
-|  |  |                 |     |  |  |     +----------XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |     |  |  |  +--|
-|  |  |                 |     |  |  |  |  +----XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |                 |     |  |  +--|
-|  |  |                 |     |  |     +----XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |     +--|
-|  |  |                 |        |  +--XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |                 |        +--|
-|  |  |                 |           +--XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |              +--|
-|  |  |              |  |                                     +--XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |              |  |                                  +--|
-|  |  |              |  |                                  |  +--XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |              |  |                               +--|
-|  |  |              |  |                               |  +----------XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |              |  |                            +--|
-|  |  |              |  |                            |  |   +--XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |              |  |                            |  +---|
-|  |  |              |  |                            |      +--XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1
-|  |  |              |  |                         +--|
-|  |  |              |  |                         |  +--XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |              |  |             +-----------|
-|  |  |              |  |             |           |  +------XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1
-|  |  |              |  |             |           +--|
-|  |  |              |  |             |              +--XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1
-|  |  |              |  |     +-------|
-|  |  |              |  |     |       |                  +--XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |              |  |     |       +------------------|
-|  |  |              |  |     |                          +--XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |              |  |  +--|
-|  |  |              |  |  |  |  +-----XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |              |  |  |  +--|
-|  |  |              |  |  |     +-----XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1
-|  |  |              |  +--|
-|  |  |              |     |     +--XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1
-|  |  |              |     |  +--|
-|  |  |              |     |  |  |      +--XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |              |     |  |  +------|
-|  |  |              |     |  |         +--XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1
-|  |  |              |     +--|
-|  |  |              |        +---------XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1
-|  |  |           +--|
-|  |  |           |  |        +---XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1
-|  |  |           |  |     +--|
-|  |  |           |  |     |  |  +--XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1
-|  |  |           |  |     |  +--|
-|  |  |           |  |     |     +--XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1
-|  |  |           |  |  +--|
-|  |  |           |  |  |  |  +--XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |  |  |  +--|
-|  |  |           |  |  |     +--XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |  +--|
-|  |  |           |     |             +--XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |     |          +--|
-|  |  |           |     |          |  +--XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |     |     +----|
-|  |  |           |     |     |    |  +--XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |     |     |    +--|
-|  |  |           |     |     |       |  +--XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1
-|  |  |           |     |     |       +**|
-|  |  |           |     |     |          +--XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |     |  +--|
-|  |  |           |     |  |  +--XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |     +--|
-|  |  |           |        |      +--XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1
-|  |  |           |        |   +--|
-|  |  |           |        |   |  +--XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |           |        +---|
-|  |  |           |            +---XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |        +--|
-|  |  |        |  +-----XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |     +--|
-|  |  |     |  +--XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1
-|  |  |  +--|
-|  |  |  |  |        +--XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1
-|  |  |  |  |     +--|
-|  |  |  |  |     |  |  +--XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |  |  |     |  +--|
-|  |  |  |  |     |     +--XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1
-|  |  |  |  |  +--|
-|  |  |  |  |  |  |           +--XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |  |  |  |  |        +--|
-|  |  |  |  |  |  |        |  +--XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |  |  |  |  |     +--|
-|  |  |  |  |  |  |     |  +--XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1
-|  |  |  |  |  |  |  +--|
-|  |  |  |  |  |  |  |  +--XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |  |  |  |  +--|
-|  |  |  |  |  |     +--XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |  |  +--|
-|  |  |  |     |     +--XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |  |     |  +--|
-|  |  |  |     |  |  +--XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  |  |     +--|
-|  |  |  |        +--XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |  +--|
-|  |     |  +--XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  |     +--|
-|  |        +---XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1
+|  |  +--XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
 +--|
-|  |  +--XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
-|  +--|
-|     +--XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
+|  +--XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
 |
-+--XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
++--XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1
 
 Tree in newick format:
 
-(NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0035459425,((((((NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1:0.0078056484,XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0058294295):0.0108279263,XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0161083223):0.0080947874,XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0196900739):0.0030029113,XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1:0.0283268336):0.0013884062,(((((((((((((((((NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000020752,(XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000010199,XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0011787252):0.0047590139):0.0023456109,XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0066392102):0.0087755277,XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0084904865):0.0037295371,(XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0055590079,XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0009985573):0.0075829925):0.0088752533,(((((((XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032347428,XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000023525):0.0010784732,XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010781065):0.0000024670,(XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010778670,XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010199):0.0010786314):0.0000010199,(XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0010784255,XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1:0.0032515873):0.0000020835):0.0000029508,XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0010786690):0.0010911285,XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0059641310):0.0043343976,((XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1:0.2927481022,XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0797554900):0.2403603226,(((XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010793778,XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010199):0.0010807994,XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010794207):0.0011044212,XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0478291303):0.0026829080):0.0000020630):0.0100594594):0.0082611227,(XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0166571943,(XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0164967929,(XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0076344916,(XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0021403930,XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032397048):0.0032704734):0.0022744826):0.0017896335):0.0187494009):0.0269698084,XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0571846437):0.0031008563,(XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0533548690,(XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0234510078,(XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0198655224,XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0212433532):0.0021571519):0.0047773229):0.0156431710):0.0052293425,XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0511863927):0.0025434525,XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0938438751):0.0038570771,((((((((((XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000010199,XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010807340):0.0068785433,(XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0011004367,XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0022190433):0.0008871591):0.0261082981,XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3:0.0103922610):0.0032102677,(((XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0075685332,(XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0011085109,XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2:0.0000010199):0.0025032849):0.0033407801,((((XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.1383495359,XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000021120):0.0009594444,XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0022181365):0.0038469065,XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010199):0.0009620900,(XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0011062161,XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0009601203):0.0009569490):0.0090710425):0.0053133558,(((XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0056276369,XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010138405):0.0056929467,(XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1:0.0056117037,XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0078223350):0.0022326946):0.0000028200,XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0159508274):0.0135989089):0.0000023287):0.0188153533,(((((XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032894186,(XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032877982,XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010894911):0.0010975380):0.0011112309,XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0043892592):0.0000026859,(XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010840125,XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0768680225):0.0022126557):0.0022088303,((XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1:0.0021995714,XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010949031):0.0000022513,(XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0014367573,XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010958432):0.0000010199):0.0000020911):0.0179713288,(XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0135363211,XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0113898003):0.0030689302):0.0099805895):0.0175305401,(XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0067193873,XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0086842329):0.0511710993):0.0000021321,(((((((NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2:0.0000010199,(XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0021616171,(XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010199,XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010764649):0.0000022683):0.0000026372):0.0016433978,XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1:0.0028965488):0.0047873592,(XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0091748163,(XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0021582691,XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000010199):0.0030628992):0.0104924262):0.0011709299,((XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032527216,XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0601494905):0.0053977412,XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0086589522):0.0010149058):0.0380659330,((XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000010199,XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032826557):0.0056202267,XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0760839192):0.0328221185):0.0057683264,((((((XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1:0.0010969805,(XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010937369,XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032879702):0.0000010199):0.0000029912,XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010936553):0.0011122816,((XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010864707,XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010936933):0.0022155600,(XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0340913340,XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0011332715):0.0022010310):0.0022367003):0.0045629287,XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0122433771):0.0044165481,XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0079790978):0.0010838934,(XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0033013303,XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010972453):0.0035661295):0.0141924370):0.0019149337,XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0426509065):0.0226071664):0.0019626986,(((XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0021848848,XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032866137):0.0010684692,XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1:0.0000028037):0.0182424087,XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1:0.0310682384):0.0048410853):0.0041716244,((XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0227683983,XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0246286128):0.0552071278,((((XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010691341,(XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032022503,XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0021287702):0.0032396337):0.0077636299,XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0086327942):0.0361802919,(XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0276500064,XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1:0.0261241634):0.0256463890):0.0060524304,((XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0405844694,XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0319898058):0.0117235690,((XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0072542010,XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0080081556):0.0167984703,(XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0225865274,XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0183059783):0.0061155216):0.0375465393):0.0151499836):0.0045800370):0.0020577481):0.0086639519,(((((XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010855217,XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1:0.0010948972):0.0272064789,XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1:0.0389767990):0.0039966729,XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0976700807):0.0000022698,((XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.1451915300,XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0703488076):0.0124027486,XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0645080820):0.0060992856):0.0266458127,(XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0352044129,XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0435399689):0.0169118789):0.0176040431):0.0056797080):0.0084805594,((((((((XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0248994726,XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0183032844):0.0360168729,XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.1436807909):0.0073056997,(XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0164621431,XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1:0.0175570763):0.0540935840):0.0079959570,XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0347979553):0.0093232246,(XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0869474513,XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1:0.0083562068):0.0083255044):0.1572919636,(XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0208128891,XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0235975049):0.2392987462):0.1090392679,(XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0799897973,XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1:0.0801302099):0.0460309520):0.0236851885,((XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1:0.0470296346,(XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0171280513,XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0120434120):0.0870172937):0.0227768011,XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.1268812816):0.0027530083):0.0072206831):0.0171825394,(((XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1:0.0541311297,(XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1:0.0489051529,XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1:0.0358588188):0.0067883278):0.0108424977,(XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0197728777,XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0313102566):0.0083066884):0.0423066744,((((XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0020604003,XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0052178058):0.0054544439,(XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0042034324,(XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1:0.0010400500,XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0031274735):0.0000010199):0.0031192938):0.0731497704,XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0335445699):0.0079208876,((XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1:0.0027274175,XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0036072066):0.0242185654,XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0557088910):0.0499056957):0.0038239742):0.0019026595):0.0199739893,XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0845916999):0.0113889126,XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1:0.0398839903):0.0300373721,(((XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1:0.0174277433,(XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0395304773,XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1:0.0329745186):0.0022998847):0.0070391785,((((XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0012289823,XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0020110589):0.0021491347,XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1:0.0056390523):0.0066744495,XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0117356731):0.0053625888,XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0042932113):0.0254537831):0.0015617736,((XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0104444582,XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0074266805):0.0118339245,XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0088747543):0.0298373121):0.0115622535):0.0051135413,(XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0316184010,XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1:0.0581258117):0.0094375153):0.0199020719):0.0015803852,(XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0138921069,XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0105255188):0.0138460089):0.0323818858,XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0047505322);
+(NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1:0.0078034570,((((((((((((((((((((((XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000025942,XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0011778046):0.0047553067,NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000021302):0.0023438394,XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0066342503):0.0087682495,XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0084837581):0.0037265951,(XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0055545127,XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0009977937):0.0075768326):0.0088674210,((((((XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032318167,XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000026060):0.0010774948,XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0010774616):0.0000029747,((XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010768920,XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010279):0.0010776558,XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0010776965):0.0000010278):0.0000010278,(XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010771274,XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1:0.0032486525):0.0000010278):0.0010901537,XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0059623354):0.0043335267,((XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1:0.2925097034,XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0796987396):0.2401495508,(((XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010784570,XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010279):0.0010798776,XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010785001):0.0011034461,XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0477897912):0.0026800759):0.0000021523):0.0100560067):0.0082563772,(XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0166437529,(XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0164840723,(XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0076285803,(XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0021387475,XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032371855):0.0032679298):0.0022726709):0.0017887763):0.0187337618):0.0269525878,XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0571432742):0.0030930906,(XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0533160877,(XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0234341726,(XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0198506364,XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0212278357):0.0021559706):0.0047737761):0.0156313077):0.0052272061,XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0511523842):0.0025421065,XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0937787188):0.0038538540,(((((((((((((NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2:0.0000010279,XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0021630568):0.0000010278,(XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010279,XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010766669):0.0000028040):0.0016444773,XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1:0.0028984026):0.0047907555,(XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0091800682,(XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0021596997,XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000010279):0.0030648930):0.0104980928):0.0011715613,((XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032551640,XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0601844776):0.0054005078,XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0086648295):0.0010146756):0.0380683497,((XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000010279,XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032848050):0.0056232379,XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0761331519):0.0328437358):0.0057696835,((((((XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1:0.0010977912,(XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010945461,XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032904021):0.0000010278):0.0000020398,XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010944795):0.0011131018,((XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010872669,XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010944803):0.0022171961,(XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0341125697,XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0011341314):0.0022023812):0.0022381446):0.0045658741,XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0122521200):0.0044191310,XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0079851605):0.0010844365,(XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0033036761,XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010980382):0.0035687183):0.0142010549):0.0019160453,XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0426775384):0.0226164104,(XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0067231131,XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0086889011):0.0511995398):0.0000023169,(((((XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0000010279,XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010813258):0.0068818607,(XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0011010436,XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0022202822):0.0008880336):0.0261226252,XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3:0.0103979731):0.0032118689,(((XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0075728097,(XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0011091167,XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2:0.0000010279):0.0025044996):0.0033425265,((((XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.1384137652,XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000020934):0.0009589886,XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0022193569):0.0038487334,XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0000010279):0.0009616311,(XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0011068265,XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0009596741):0.0009565051):0.0090793158):0.0053175244,(((XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0056307638,XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010142832):0.0056961384,(XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1:0.0056147718,XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0078265969):0.0022338668):0.0000021982,XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0159595361):0.0136062650):0.0000027058):0.0188307292,((((((XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032909842,(XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032893848,XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010900259):0.0010971404):0.0011117366,XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0043913969):0.0000028406,(XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010847743,XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0769044382):0.0022134377):0.0022100406,((XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1:0.0022006383,XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010954316):0.0000027463,XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010963703):0.0000020919):0.0000010278,XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0014373966):0.0179794934,(XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0135427823,XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0113950922):0.0030705891):0.0099852902):0.0175455838):0.0019629458,(((XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0021858465,XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0032880645):0.0010690551,XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1:0.0000024391):0.0182507916,XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1:0.0310817354):0.0048424540):0.0041754099,((XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0227757709,XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0246378601):0.0552266751,((((XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0010694818,(XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0032033555,XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0021294933):0.0032407858):0.0077661111,XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0086359514):0.0361931017,(XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0276580784,XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1:0.0261338596):0.0256545579):0.0060542404,((XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0405986673,XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0320016185):0.0117276987,((XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0072567134,XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0080107378):0.0168044033,(XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0225942143,XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0183121385):0.0061176066):0.0375588754):0.0151551767):0.0045816894):0.0020575606):0.0086629447,(((((XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0010857262,XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1:0.0010950673):0.0272101419,XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1:0.0389836080):0.0039981084,XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0976871691):0.0000021317,((XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.1452193406,XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0703631255):0.0124037997,XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0645210089):0.0060983822):0.0266506977,(XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0352122918,XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0435480672):0.0169157892):0.0176083107):0.0056805543):0.0084771565,((((((((XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0248927420,XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0182983726):0.0360079291,XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.1436453726):0.0073021973,(XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0164578955,XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1:0.0175522124):0.0540796484):0.0079931615,XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0347887403):0.0093213042,(XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1:0.0869243942,XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1:0.0083534918):0.0083232319):0.1572429732,(XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0208067935,XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0235910985):0.2392186587):0.1090083582,(XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.0799674237,XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1:0.0801080450):0.0460180102):0.0236774230,((XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1:0.0470155725,(XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0171230442,XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1:0.0120405851):0.0869956837):0.0227734028,XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1:0.1268417448):0.0027509528):0.0072188557):0.0171788061,(((XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1:0.0541162124,(XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1:0.0488917905,XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1:0.0358488721):0.0067861598):0.0108393414,(XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0197674436,XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0313014986):0.0083044688):0.0422947863,((((XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0020598258,XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0052163960):0.0054526367,(XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0042022758,(XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1:0.0010397648,XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0031266190):0.0000010278):0.0031186925):0.0731296605,XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0335350216):0.0079182826,((XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1:0.0027264799,XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0036063703):0.0242120072,XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0556927049):0.0498919420):0.0038231632):0.0019018083):0.0199691953,XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0845671114):0.0113849909,XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1:0.0398720229):0.0300295121,(((XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1:0.0174227668,(XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0395198423,XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1:0.0329657022):0.0022984273):0.0070372238,((((XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0012286080,XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0020104656):0.0021484998,XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1:0.0056373705):0.0066724064,XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0117322451):0.0053610421,XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0042919665):0.0254462724):0.0015610196,((XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0104414332,XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0074245256):0.0118305658,XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0088722123):0.0298287708):0.0115589750):0.0051118834,(XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0316085654,XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1:0.0581087473):0.0094355331):0.0198965384,((NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0035445384,XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0047495955):0.0323727700,(XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0138881178,XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0105223859):0.0138417096):0.0015801761):0.0013869933,XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1:0.0283187498):0.0030021246,XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0196843748):0.0080926131,XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0161036691):0.0108249683,XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1:0.0058277039);
 
 TIME STAMP
 ----------
 
-Date and time: Fri Dec 30 03:57:36 2022
-Total CPU time used: 187.603 seconds (0h:3m:7s)
-Total wall-clock time used: 188.882 seconds (0h:3m:8s)
+Date and time: Wed Feb  1 17:22:57 2023
+Total CPU time used: 239.971 seconds (0h:3m:59s)
+Total wall-clock time used: 124.453 seconds (0h:2m:4s)
 

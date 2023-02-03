@@ -1,12 +1,12 @@
-name: AOC
+name: AOC_REM2
 channels:
   - conda-forge
   - bioconda
   - defaults
 
 dependencies:
-  - snakemake=7.9.0
-  - hyphy=2.5.42
+  - snakemake=7.20.0
+  - hyphy=2.5.46
   - iqtree=2.2.0.3
   - tn93=1.0.9
   - altair=4.2.0
@@ -17,3 +17,4 @@ dependencies:
   - python=3.10.5
   - jupyter=1.0
   - jupyterlab_code_formatter=1.5.0
+  - ete3=3.1.2
