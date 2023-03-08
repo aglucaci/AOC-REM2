@@ -99,12 +99,13 @@ rule all:
         os.path.join(OUTDIR, Label + "_protein.aln"),
         os.path.join(OUTDIR, Label + "_codons.fasta"),
         os.path.join(OUTDIR, Label + "_codons_duplicates.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst"),
+        #os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.SLAC.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta"), 
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.json"),
+        os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.dst"),
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.treefile"), 
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.GARD.json"), 
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTEDS.json"),
@@ -284,14 +285,14 @@ rule recombination_filter_outliers:
 # TN93, genetic distance calculation
 #----------------------------------------------------------------------------
 
-#rule tn93:
-#    input:
-#       input = rules.strike_ambigs.output.out_strike_ambigs
-#    output:
-#       output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.dst")
-#    shell:
-#       "tn93 -t 1 -o {output.output} {input.input}"
-#    #end shell
+rule tn93:
+    input:
+       input = rules.strike_ambigs.output.out_strike_ambigs
+    output:
+       output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.dst")
+    shell:
+       "tn93 -t 1 -o {output.output} {input.input}"
+    #end shell
 #end rule
 
 #----------------------------------------------------------------------------
@@ -507,7 +508,9 @@ rule GatherLineages:
         csv_f  = CSV,
         tree_f = rules.iqtree_fo.output.tree
     output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.treefile.log")  
+        output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.treefile.log")
+    conda:
+        "environment.yml"
     shell:
         "python scripts/LineageAnnotation_Pipeline.py {input.out_d} {input.csv_f} {input.tree_f}"
 #end rule
@@ -556,6 +559,8 @@ rule RELAX:
         fasta    = rules.filter_outliers.output.fasta
     output:
         output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.RELAX.json")
+    conda:
+        "environment.yml"
     shell:
         "{HYPHY} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
 #end rule
@@ -566,6 +571,8 @@ rule CFEL:
         fasta    = rules.filter_outliers.output.fasta
     output: 
         output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.CFEL.json")
+    conda:
+        "environment.yml"
     shell:
         "{HYPHY} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
 #end file
