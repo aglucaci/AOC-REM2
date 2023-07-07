@@ -287,7 +287,7 @@ rule recombination_filter_outliers:
 
 rule tn93:
     input:
-       input = rules.strike_ambigs.output.out_strike_ambigs
+       input = rules.filter_outliers.output.fasta
     output:
        output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.dst")
     shell:
@@ -385,7 +385,7 @@ rule BUSTED:
     output: 
         results = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTED.json")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10"
+        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv No --starting-points 10"
 #end rule
 
 rule BUSTEDSMH:
@@ -405,7 +405,7 @@ rule BUSTEDMH:
     output: 
         results = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTED+MH.json")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10 --multiple-hits Double+Triple"
+        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv No --starting-points 10 --multiple-hits Double+Triple"
 #end rule
 
 rule BGM:
