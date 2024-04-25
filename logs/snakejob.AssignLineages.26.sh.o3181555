@@ -1,0 +1,764 @@
+# Tree loaded: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+# Reading orthologs (csv) file: /home/aglucaci/AOC-REM2/data/mammalian_REM2/Rem2_orthologs.csv
+# 1 Processing transcript accession: NM_022685.2 with NCBI Taxon ID: IntegerElement(10116, attributes={})
+# 2 Processing transcript accession: NM_080726.3 with NCBI Taxon ID: IntegerElement(10090, attributes={})
+# 3 Processing transcript accession: NM_173527.3 with NCBI Taxon ID: IntegerElement(9606, attributes={})
+# 4 Processing transcript accession: XM_009427474.3 with NCBI Taxon ID: IntegerElement(9598, attributes={})
+# 5 Processing transcript accession: XM_005623217.4 with NCBI Taxon ID: IntegerElement(9615, attributes={})
+# 6 Processing transcript accession: NM_001192708.1 with NCBI Taxon ID: IntegerElement(9913, attributes={})
+# 7 Processing transcript accession: XM_001100692.4 with NCBI Taxon ID: IntegerElement(9544, attributes={})
+# 8 Processing transcript accession: XM_007479801.2 with NCBI Taxon ID: IntegerElement(13616, attributes={})
+# 9 Processing transcript accession: XM_023622024.1 with NCBI Taxon ID: IntegerElement(9796, attributes={})
+# 10 Processing transcript accession: XM_051822640.1 with NCBI Taxon ID: IntegerElement(9986, attributes={})
+# 11 Processing transcript accession: XM_035260095.1 with NCBI Taxon ID: IntegerElement(9483, attributes={})
+# 12 Processing transcript accession: XM_002824566.3 with NCBI Taxon ID: IntegerElement(9601, attributes={})
+# 13 Processing transcript accession: XM_011233348.2 with NCBI Taxon ID: IntegerElement(9646, attributes={})
+# 14 Processing transcript accession: XM_003260595.2 with NCBI Taxon ID: IntegerElement(61853, attributes={})
+# 15 Processing transcript accession: XM_021099265.1 with NCBI Taxon ID: IntegerElement(9823, attributes={})
+# 16 Processing transcript accession: XM_003420937.2 with NCBI Taxon ID: IntegerElement(9785, attributes={})
+# 17 Processing transcript accession: XM_029077766.2 with NCBI Taxon ID: IntegerElement(9258, attributes={})
+# 18 Processing transcript accession: XM_023567007.1 with NCBI Taxon ID: IntegerElement(10141, attributes={})
+# 19 Processing transcript accession: XM_027390645.2 with NCBI Taxon ID: IntegerElement(10029, attributes={})
+# 20 Processing transcript accession: XM_031955028.1 with NCBI Taxon ID: IntegerElement(9305, attributes={})
+# 21 Processing transcript accession: XM_003801909.3 with NCBI Taxon ID: IntegerElement(30611, attributes={})
+# 22 Processing transcript accession: XM_008960213.2 with NCBI Taxon ID: IntegerElement(9597, attributes={})
+# 23 Processing transcript accession: XM_003901565.5 with NCBI Taxon ID: IntegerElement(9555, attributes={})
+# 24 Processing transcript accession: XM_003924335.3 with NCBI Taxon ID: IntegerElement(39432, attributes={})
+# 25 Processing transcript accession: XM_003987456.6 with NCBI Taxon ID: IntegerElement(9685, attributes={})
+# 26 Processing transcript accession: XM_027971647.2 with NCBI Taxon ID: IntegerElement(9940, attributes={})
+# 27 Processing transcript accession: XM_019009447.1 with NCBI Taxon ID: IntegerElement(9595, attributes={})
+# 28 Processing transcript accession: XM_004283191.4 with NCBI Taxon ID: IntegerElement(9733, attributes={})
+# 29 Processing transcript accession: XM_023724898.1 with NCBI Taxon ID: IntegerElement(127582, attributes={})
+# 30 Processing transcript accession: XM_004402108.1 with NCBI Taxon ID: IntegerElement(9708, attributes={})
+# 31 Processing transcript accession: XM_004421250.2 with NCBI Taxon ID: IntegerElement(73337, attributes={})
+# 32 Processing transcript accession: XM_004474567.2 with NCBI Taxon ID: IntegerElement(9361, attributes={})
+# 33 Processing transcript accession: XM_004584677.1 with NCBI Taxon ID: IntegerElement(9978, attributes={})
+# 34 Processing transcript accession: XM_004609481.1 with NCBI Taxon ID: IntegerElement(42254, attributes={})
+# 35 Processing transcript accession: XM_004646648.2 with NCBI Taxon ID: IntegerElement(10160, attributes={})
+# 36 Processing transcript accession: XM_045154677.1 with NCBI Taxon ID: IntegerElement(51337, attributes={})
+# 37 Processing transcript accession: XM_004694658.2 with NCBI Taxon ID: IntegerElement(143302, attributes={})
+# 38 Processing transcript accession: XM_045287665.1 with NCBI Taxon ID: IntegerElement(9371, attributes={})
+# 39 Processing transcript accession: XM_004755362.3 with NCBI Taxon ID: IntegerElement(9669, attributes={})
+# 40 Processing transcript accession: XM_004864195.2 with NCBI Taxon ID: IntegerElement(10181, attributes={})
+# 41 Processing transcript accession: XM_005085570.4 with NCBI Taxon ID: IntegerElement(10036, attributes={})
+# 42 Processing transcript accession: XM_005338787.4 with NCBI Taxon ID: IntegerElement(43179, attributes={})
+# 43 Processing transcript accession: XM_026777673.1 with NCBI Taxon ID: IntegerElement(79684, attributes={})
+# 44 Processing transcript accession: XM_005377113.2 with NCBI Taxon ID: IntegerElement(34839, attributes={})
+# 45 Processing transcript accession: XM_005560816.3 with NCBI Taxon ID: IntegerElement(9541, attributes={})
+# 46 Processing transcript accession: XM_018054571.1 with NCBI Taxon ID: IntegerElement(9925, attributes={})
+# 47 Processing transcript accession: XM_005895455.1 with NCBI Taxon ID: IntegerElement(72004, attributes={})
+# 48 Processing transcript accession: XM_025296072.3 with NCBI Taxon ID: IntegerElement(89462, attributes={})
+# 49 Processing transcript accession: XM_006100080.3 with NCBI Taxon ID: IntegerElement(59463, attributes={})
+# 50 Processing transcript accession: XM_006144596.3 with NCBI Taxon ID: IntegerElement(246437, attributes={})
+# 51 Processing transcript accession: XM_032481695.1 with NCBI Taxon ID: IntegerElement(419612, attributes={})
+# 52 Processing transcript accession: XM_031678770.1 with NCBI Taxon ID: IntegerElement(30538, attributes={})
+# 53 Processing transcript accession: XM_031036681.1 with NCBI Taxon ID: IntegerElement(9713, attributes={})
+# 54 Processing transcript accession: XM_006776770.2 with NCBI Taxon ID: IntegerElement(225400, attributes={})
+# 55 Processing transcript accession: XM_006835452.1 with NCBI Taxon ID: IntegerElement(185453, attributes={})
+# 56 Processing transcript accession: XM_006883133.1 with NCBI Taxon ID: IntegerElement(28737, attributes={})
+# 57 Processing transcript accession: XM_006913609.2 with NCBI Taxon ID: IntegerElement(9402, attributes={})
+# 58 Processing transcript accession: XM_006988484.2 with NCBI Taxon ID: IntegerElement(230844, attributes={})
+# 59 Processing transcript accession: XM_007098093.3 with NCBI Taxon ID: IntegerElement(9694, attributes={})
+# 60 Processing transcript accession: XM_007100477.2 with NCBI Taxon ID: IntegerElement(9755, attributes={})
+# 61 Processing transcript accession: XM_007180539.1 with NCBI Taxon ID: IntegerElement(9767, attributes={})
+# 62 Processing transcript accession: XM_007449526.1 with NCBI Taxon ID: IntegerElement(118797, attributes={})
+# 63 Processing transcript accession: XM_007536758.2 with NCBI Taxon ID: IntegerElement(9365, attributes={})
+# 64 Processing transcript accession: XM_007951171.2 with NCBI Taxon ID: IntegerElement(1230840, attributes={})
+# 65 Processing transcript accession: XM_037987559.1 with NCBI Taxon ID: IntegerElement(60711, attributes={})
+# 66 Processing transcript accession: XM_008065271.2 with NCBI Taxon ID: IntegerElement(1868482, attributes={})
+# Error (main): XM_008528968.1 Invalid uid XM_008528968.1 at position= 0 
+
+# 67 Processing transcript accession: XM_008566551.1 with NCBI Taxon ID: IntegerElement(482537, attributes={})
+# 68 Processing transcript accession: XM_040620901.1 with NCBI Taxon ID: IntegerElement(29073, attributes={})
+# 69 Processing transcript accession: XM_008839903.2 with NCBI Taxon ID: IntegerElement(1026970, attributes={})
+# 70 Processing transcript accession: XM_010378358.2 with NCBI Taxon ID: IntegerElement(61622, attributes={})
+# 71 Processing transcript accession: XM_033765070.1 with NCBI Taxon ID: IntegerElement(885580, attributes={})
+# 72 Processing transcript accession: XM_010831252.1 with NCBI Taxon ID: IntegerElement(43346, attributes={})
+# 73 Processing transcript accession: XM_045516484.1 with NCBI Taxon ID: IntegerElement(9837, attributes={})
+# 74 Processing transcript accession: XM_031452725.1 with NCBI Taxon ID: IntegerElement(9838, attributes={})
+# 75 Processing transcript accession: XM_011372778.2 with NCBI Taxon ID: IntegerElement(132908, attributes={})
+# 76 Processing transcript accession: XM_011772352.2 with NCBI Taxon ID: IntegerElement(9545, attributes={})
+# 77 Processing transcript accession: XM_011930962.1 with NCBI Taxon ID: IntegerElement(336983, attributes={})
+# 78 Processing transcript accession: XM_011990630.1 with NCBI Taxon ID: IntegerElement(9568, attributes={})
+# 79 Processing transcript accession: XM_012088533.1 with NCBI Taxon ID: IntegerElement(9531, attributes={})
+# 80 Processing transcript accession: XM_012466673.1 with NCBI Taxon ID: IntegerElement(37293, attributes={})
+# 81 Processing transcript accession: XM_012649447.1 with NCBI Taxon ID: IntegerElement(379532, attributes={})
+# 82 Processing transcript accession: XM_012752689.1 with NCBI Taxon ID: IntegerElement(30608, attributes={})
+# 83 Processing transcript accession: XM_013025368.1 with NCBI Taxon ID: IntegerElement(10020, attributes={})
+# Error, sleeping HTTP Error 429: Too Many Requests
+# 84 Processing transcript accession: XM_014856335.2 with NCBI Taxon ID: IntegerElement(9793, attributes={})
+# 85 Processing transcript accession: XM_015086639.2 with NCBI Taxon ID: IntegerElement(32536, attributes={})
+# 86 Processing transcript accession: XM_015492848.2 with NCBI Taxon ID: IntegerElement(9994, attributes={})
+# 87 Processing transcript accession: XM_016120537.2 with NCBI Taxon ID: IntegerElement(9407, attributes={})
+# 88 Processing transcript accession: XM_016205757.1 with NCBI Taxon ID: IntegerElement(291302, attributes={})
+# 89 Processing transcript accession: XM_017544499.2 with NCBI Taxon ID: IntegerElement(2715852, attributes={})
+# 90 Processing transcript accession: XM_017665172.2 with NCBI Taxon ID: IntegerElement(9974, attributes={})
+# 91 Processing transcript accession: XM_017864286.1 with NCBI Taxon ID: IntegerElement(61621, attributes={})
+# 92 Processing transcript accession: XM_019429463.1 with NCBI Taxon ID: IntegerElement(9691, attributes={})
+# 93 Processing transcript accession: XM_019663177.1 with NCBI Taxon ID: IntegerElement(186990, attributes={})
+# 94 Processing transcript accession: XM_019968374.1 with NCBI Taxon ID: IntegerElement(9915, attributes={})
+# 95 Processing transcript accession: XM_020162859.1 with NCBI Taxon ID: IntegerElement(51338, attributes={})
+# 96 Processing transcript accession: XM_020909415.1 with NCBI Taxon ID: IntegerElement(9880, attributes={})
+# 97 Processing transcript accession: XM_021008842.1 with NCBI Taxon ID: IntegerElement(38626, attributes={})
+# 98 Processing transcript accession: XM_021182512.1 with NCBI Taxon ID: IntegerElement(10089, attributes={})
+# 99 Processing transcript accession: XM_021203619.1 with NCBI Taxon ID: IntegerElement(10093, attributes={})
+# 100 Processing transcript accession: XM_021639619.1 with NCBI Taxon ID: IntegerElement(10047, attributes={})
+# 101 Processing transcript accession: XM_021695575.1 with NCBI Taxon ID: IntegerElement(29088, attributes={})
+# 102 Processing transcript accession: XM_022520471.1 with NCBI Taxon ID: IntegerElement(391180, attributes={})
+# 103 Processing transcript accession: XM_022553601.2 with NCBI Taxon ID: IntegerElement(9749, attributes={})
+# 104 Processing transcript accession: XM_023230440.1 with NCBI Taxon ID: IntegerElement(591936, attributes={})
+# 105 Processing transcript accession: XM_024556113.2 with NCBI Taxon ID: IntegerElement(9430, attributes={})
+# 106 Processing transcript accession: XM_024741692.1 with NCBI Taxon ID: IntegerElement(1706337, attributes={})
+# 107 Processing transcript accession: XM_025392475.1 with NCBI Taxon ID: IntegerElement(9565, attributes={})
+# 108 Processing transcript accession: XM_025442827.3 with NCBI Taxon ID: IntegerElement(286419, attributes={})
+# 109 Processing transcript accession: XM_025870359.1 with NCBI Taxon ID: IntegerElement(34884, attributes={})
+# 110 Processing transcript accession: XM_025919283.1 with NCBI Taxon ID: IntegerElement(9696, attributes={})
+# 111 Processing transcript accession: XM_026007504.1 with NCBI Taxon ID: IntegerElement(9627, attributes={})
+# 112 Processing transcript accession: XM_026406123.1 with NCBI Taxon ID: IntegerElement(9999, attributes={})
+# 113 Processing transcript accession: XM_026486411.2 with NCBI Taxon ID: IntegerElement(9644, attributes={})
+# 114 Processing transcript accession: XM_027110778.1 with NCBI Taxon ID: IntegerElement(90247, attributes={})
+# 115 Processing transcript accession: XM_027553330.1 with NCBI Taxon ID: IntegerElement(30522, attributes={})
+# 116 Processing transcript accession: XM_027571459.2 with NCBI Taxon ID: IntegerElement(9704, attributes={})
+# 117 Processing transcript accession: XM_027843188.1 with NCBI Taxon ID: IntegerElement(29139, attributes={})
+# 118 Processing transcript accession: XM_027920156.1 with NCBI Taxon ID: IntegerElement(93162, attributes={})
+# 119 Processing transcript accession: XM_028114785.1 with NCBI Taxon ID: IntegerElement(34886, attributes={})
+# 120 Processing transcript accession: XM_028507134.2 with NCBI Taxon ID: IntegerElement(89673, attributes={})
+# 121 Processing transcript accession: XM_028788542.1 with NCBI Taxon ID: IntegerElement(491861, attributes={})
+# 122 Processing transcript accession: XM_028892240.2 with NCBI Taxon ID: IntegerElement(10041, attributes={})
+# 123 Processing transcript accession: XM_029237411.1 with NCBI Taxon ID: IntegerElement(40151, attributes={})
+# 124 Processing transcript accession: XM_029952605.1 with NCBI Taxon ID: IntegerElement(37032, attributes={})
+# 125 Processing transcript accession: XM_030318679.1 with NCBI Taxon ID: IntegerElement(61383, attributes={})
+# 126 Processing transcript accession: XM_030854517.1 with NCBI Taxon ID: IntegerElement(9731, attributes={})
+# 127 Processing transcript accession: XM_031361298.1 with NCBI Taxon ID: IntegerElement(35658, attributes={})
+# 128 Processing transcript accession: XM_032179928.1 with NCBI Taxon ID: IntegerElement(81572, attributes={})
+# 129 Processing transcript accession: XM_032265550.1 with NCBI Taxon ID: IntegerElement(9515, attributes={})
+# 130 Processing transcript accession: XM_032343807.1 with NCBI Taxon ID: IntegerElement(36723, attributes={})
+# 131 Processing transcript accession: XM_032404536.1 with NCBI Taxon ID: IntegerElement(9720, attributes={})
+# 132 Processing transcript accession: XM_032622712.1 with NCBI Taxon ID: IntegerElement(42100, attributes={})
+# 133 Processing transcript accession: XM_032856406.1 with NCBI Taxon ID: IntegerElement(76717, attributes={})
+# 134 Processing transcript accession: XM_032918139.1 with NCBI Taxon ID: IntegerElement(10117, attributes={})
+# 135 Processing transcript accession: XM_033107547.1 with NCBI Taxon ID: IntegerElement(59479, attributes={})
+# 136 Processing transcript accession: XM_033188604.1 with NCBI Taxon ID: IntegerElement(54180, attributes={})
+# 137 Processing transcript accession: XM_033851357.1 with NCBI Taxon ID: IntegerElement(9739, attributes={})
+# 138 Processing transcript accession: XM_034498612.1 with NCBI Taxon ID: IntegerElement(61156, attributes={})
+# 139 Processing transcript accession: XM_034994691.1 with NCBI Taxon ID: IntegerElement(9715, attributes={})
+# 140 Processing transcript accession: XM_036114829.1 with NCBI Taxon ID: IntegerElement(9711, attributes={})
+# 141 Processing transcript accession: XM_036199393.1 with NCBI Taxon ID: IntegerElement(38674, attributes={})
+# 142 Processing transcript accession: XM_036355955.1 with NCBI Taxon ID: IntegerElement(51298, attributes={})
+# 143 Processing transcript accession: XM_036737107.1 with NCBI Taxon ID: IntegerElement(9337, attributes={})
+# 144 Processing transcript accession: XM_036842027.1 with NCBI Taxon ID: IntegerElement(9771, attributes={})
+# 145 Processing transcript accession: XM_036884595.1 with NCBI Taxon ID: IntegerElement(143292, attributes={})
+# 146 Processing transcript accession: XM_037037712.1 with NCBI Taxon ID: IntegerElement(192404, attributes={})
+# 147 Processing transcript accession: XM_037129407.1 with NCBI Taxon ID: IntegerElement(9417, attributes={})
+# 148 Processing transcript accession: XM_037503036.1 with NCBI Taxon ID: IntegerElement(50954, attributes={})
+# 149 Processing transcript accession: XM_037835533.1 with NCBI Taxon ID: IntegerElement(27675, attributes={})
+# 150 Processing transcript accession: XM_038310306.1 with NCBI Taxon ID: IntegerElement(1047088, attributes={})
+# 151 Processing transcript accession: XM_038741379.1 with NCBI Taxon ID: IntegerElement(9261, attributes={})
+# 152 Processing transcript accession: XM_039245203.1 with NCBI Taxon ID: IntegerElement(95912, attributes={})
+# 153 Processing transcript accession: XM_039851849.1 with NCBI Taxon ID: IntegerElement(143291, attributes={})
+# 154 Processing transcript accession: XM_040227220.1 with NCBI Taxon ID: IntegerElement(59534, attributes={})
+# 155 Processing transcript accession: XM_040476645.1 with NCBI Taxon ID: IntegerElement(1608482, attributes={})
+# 156 Processing transcript accession: XM_040969296.1 with NCBI Taxon ID: IntegerElement(130825, attributes={})
+# 157 Processing transcript accession: XM_041634112.1 with NCBI Taxon ID: IntegerElement(111838, attributes={})
+# 158 Processing transcript accession: XM_041758862.1 with NCBI Taxon ID: IntegerElement(494514, attributes={})
+# 159 Processing transcript accession: XM_042686425.1 with NCBI Taxon ID: IntegerElement(105255, attributes={})
+# 160 Processing transcript accession: XM_042942694.1 with NCBI Taxon ID: IntegerElement(9689, attributes={})
+# 161 Processing transcript accession: XM_043471209.1 with NCBI Taxon ID: IntegerElement(1574408, attributes={})
+# 162 Processing transcript accession: XM_043555763.1 with NCBI Taxon ID: IntegerElement(37029, attributes={})
+# 163 Processing transcript accession: XM_043919551.1 with NCBI Taxon ID: IntegerElement(9860, attributes={})
+# 164 Processing transcript accession: XM_043980377.1 with NCBI Taxon ID: IntegerElement(33562, attributes={})
+# Error, sleeping HTTP Error 429: Too Many Requests
+# 165 Processing transcript accession: XM_044229739.1 with NCBI Taxon ID: IntegerElement(452646, attributes={})
+# 166 Processing transcript accession: XM_044662280.1 with NCBI Taxon ID: IntegerElement(191870, attributes={})
+# 167 Processing transcript accession: XM_045450372.1 with NCBI Taxon ID: IntegerElement(46844, attributes={})
+# 168 Processing transcript accession: XM_045525960.1 with NCBI Taxon ID: IntegerElement(9447, attributes={})
+# Error, sleeping HTTP Error 429: Too Many Requests
+# 169 Processing transcript accession: XM_045802792.1 with NCBI Taxon ID: IntegerElement(9643, attributes={})
+# 170 Processing transcript accession: XM_045841219.1 with NCBI Taxon ID: IntegerElement(9423, attributes={})
+# 171 Processing transcript accession: XM_045900528.1 with NCBI Taxon ID: IntegerElement(9716, attributes={})
+# 172 Processing transcript accession: XM_046008309.1 with NCBI Taxon ID: IntegerElement(9662, attributes={})
+# 173 Processing transcript accession: XM_046465107.1 with NCBI Taxon ID: IntegerElement(9995, attributes={})
+# 174 Processing transcript accession: XM_046653592.1 with NCBI Taxon ID: IntegerElement(89248, attributes={})
+# 175 Processing transcript accession: XM_048362803.1 with NCBI Taxon ID: IntegerElement(214514, attributes={})
+# 176 Processing transcript accession: XM_048444987.1 with NCBI Taxon ID: IntegerElement(447135, attributes={})
+# 177 Processing transcript accession: XM_049613126.1 with NCBI Taxon ID: IntegerElement(29064, attributes={})
+# 178 Processing transcript accession: XM_049768637.1 with NCBI Taxon ID: IntegerElement(109475, attributes={})
+# 179 Processing transcript accession: XM_049899603.1 with NCBI Taxon ID: IntegerElement(99487, attributes={})
+# 180 Processing transcript accession: XM_050126229.1 with NCBI Taxon ID: IntegerElement(100897, attributes={})
+# 181 Processing transcript accession: XM_050796554.1 with NCBI Taxon ID: IntegerElement(257877, attributes={})
+# 182 Processing transcript accession: XM_051143407.1 with NCBI Taxon ID: IntegerElement(60746, attributes={})
+# 183 Processing transcript accession: XM_051195738.1 with NCBI Taxon ID: IntegerElement(109678, attributes={})
+# 184 Processing transcript accession: XM_051980438.1 with NCBI Taxon ID: IntegerElement(38775, attributes={})
+# 185 Processing transcript accession: XM_052190525.1 with NCBI Taxon ID: IntegerElement(10129, attributes={})
+# 0 = 1
+# 1 = 1
+# 2 = 1
+# 3 = 1
+# 4 = 1
+# 5 = 1
+# 6 = 1
+# 7 = 1
+# 8 = 1
+# 9 = 1
+# 10 = 1
+# 11 = 1
+# 12 = 1
+# 13 = 1
+# 14 = 1
+# 15 = 1
+# 16 = 1
+# 17 = 1
+# 18 = 1
+# 19 = 2
+# 20 = 3
+# 21 = 9
+# 22 = 18
+## Seed = 5
+0.03783783783783784
+0.8972972972972973
+0.8972972972972973 exceeded threshold
+## Seed = 6
+0.03783783783783784
+0.8972972972972973
+0.8972972972972973 exceeded threshold
+## Seed = 7
+0.03783783783783784
+0.8972972972972973
+0.8972972972972973 exceeded threshold
+## Seed = 8
+0.03783783783783784
+0.8972972972972973
+0.8972972972972973 exceeded threshold
+## Seed = 9
+0.03783783783783784
+0.8972972972972973
+0.8972972972972973 exceeded threshold
+## Seed = 10
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 11
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 12
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 13
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 14
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 15
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 16
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 17
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 18
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.010810810810810811
+0.4
+0.4972972972972973
+0.4972972972972973 exceeded threshold
+## Seed = 19
+0.005405405405405406
+0.15675675675675677
+0.2
+0.08108108108108109
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.010810810810810811
+0.02702702702702703
+0.005405405405405406
+0.22162162162162163
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.021621621621621623
+0.005405405405405406
+0.010810810810810811
+0.16756756756756758
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 19
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 19
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 18
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 17
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 16
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 15
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 14
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 13
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 12
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# final seed = 11
+0.010810810810810811
+0.010810810810810811
+0.016216216216216217
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+# final seed = 10
+0.010810810810810811
+0.010810810810810811
+0.016216216216216217
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+# final seed = 9
+0.010810810810810811
+0.010810810810810811
+0.016216216216216217
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+# final seed = 8
+0.010810810810810811
+0.010810810810810811
+0.016216216216216217
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+# final seed = 7
+0.010810810810810811
+0.010810810810810811
+0.016216216216216217
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+# final seed = 6
+0.005405405405405406
+0.15675675675675677
+0.2
+0.08108108108108109
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.010810810810810811
+0.005405405405405406
+0.010810810810810811
+0.02702702702702703
+0.005405405405405406
+0.22162162162162163
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.021621621621621623
+0.005405405405405406
+0.010810810810810811
+0.16756756756756758
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+0.005405405405405406
+# Saving 41 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade
+# Saving 5 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade
+# Saving 4 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade
+# Saving 27 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade
+# Saving 31 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade
+# Saving 31 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade
+# Saving 12 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade
+# Writing JSON file to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/CladeLabels.json
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Glires
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 41 branches to label
+
+internal-nodes: All descendants
+
+Labeled 29 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Eulipotyphla
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 5 branches to label
+
+internal-nodes: All descendants
+
+Labeled 2 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Chiroptera
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 12 branches to label
+
+internal-nodes: All descendants
+
+Labeled 11 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Primates
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 31 branches to label
+
+internal-nodes: All descendants
+
+Labeled 24 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Carnivora
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 31 branches to label
+
+internal-nodes: All descendants
+
+Labeled 30 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Artiodactyla
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 27 branches to label
+
+internal-nodes: All descendants
+
+Labeled 26 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Perissodactyla
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 4 branches to label
+
+internal-nodes: All descendants
+
+Labeled 3 additional branches
+
+# Loaded config yaml file
+# Loaded cluster json file
+# Using nucleotide data from: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# Using protein data from: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Using the analysis label: mammalian_REM2
+# We are operating out of base directory: /home/aglucaci/AOC-REM2
+# We will create and store results in: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+# Directory '/home/aglucaci/AOC-REM2/results' created
+# Directory '/home/aglucaci/AOC-REM2/results/mammalian_REM2' created
+# Moving on to processing rules
+# We have 7 clade files
+['/home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade']
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Glires
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Eulipotyphla
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Chiroptera
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Primates
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Carnivora
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Artiodactyla
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Perissodactyla

@@ -1,0 +1,34 @@
+compress: Yes
+code: Universal
+
+Analysis Description
+--------------------
+ Map a protein MSA back onto nucleotide sequences 
+
+- __Requirements__: A protein MSA and the corresponding nucleotide alignment
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.01
+
+Load the protein MSA
+Load the unaligned in-frame sequences
+[UNIQUE SEQUENCES] Retained 175 unique  sequences
+
+
+# Loaded config yaml file
+# Loaded cluster json file
+# Using nucleotide data from: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# Using protein data from: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Using the analysis label: mammalian_REM2
+# We are operating out of base directory: /home/aglucaci/AOC-REM2
+# We will create and store results in: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+# Directory '/home/aglucaci/AOC-REM2/results' created
+# Directory '/home/aglucaci/AOC-REM2/results/mammalian_REM2' created
+# Moving on to processing rules
+# We have 7 clade files
+['/home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade']

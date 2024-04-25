@@ -14,7 +14,7 @@ Label: mammalian_REM2
 TN93_Threshold: 0.1
 
 # User settings for NCBI Entrez
-EMAIL: ""
+EMAIL: "agl4001@med.cornell.edu"
 
 # -------------------------------------------------------------
 # Do not change below this line

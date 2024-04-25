@@ -1,0 +1,79 @@
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+
+[Wed Nov 22 09:51:32 2023]
+rule FEL:
+    input: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+    output: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.FEL.json
+    jobid: 0
+    reason: Missing output files: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.FEL.json
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=/tmp
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+[n6:67152] 7 more processes have sent help message help-mpi-api.txt / mpi-abort
+[n6:67152] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[Wed Nov 22 09:54:38 2023]
+Error in rule FEL:
+    jobid: 0
+    input: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+    output: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.FEL.json
+    shell:
+        mpirun -np 8 HYPHYMPI FEL --alignment /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.FEL.json --ci Yes
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job FEL since they might be corrupted:
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.FEL.json
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message

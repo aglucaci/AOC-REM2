@@ -1,0 +1,28 @@
+openmpi/gnu/3.1.6(17):ERROR:150: Module 'openmpi/gnu/3.1.6' conflicts with the currently loaded module(s) 'openmpi/gnu/4.1.0'
+openmpi/gnu/3.1.6(17):ERROR:102: Tcl command execution failed: conflict	openmpi
+
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+
+[Mon Aug 14 23:00:08 2023]
+rule post_msa:
+    input: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_protein.aln, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_nuc.fas
+    output: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.fasta, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons_duplicates.json
+    jobid: 0
+    reason: Missing output files: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.fasta, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons_duplicates.json
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/f3568008dea44f202712c6ec80c14f10_
+[Mon Aug 14 23:00:11 2023]
+Finished job 0.
+1 of 1 steps (100%) done

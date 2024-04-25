@@ -1,0 +1,52 @@
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+
+[Wed Nov 22 09:55:32 2023]
+rule GatherLineages:
+    input: /home/aglucaci/AOC-REM2/results/mammalian_REM2, /home/aglucaci/AOC-REM2/data/mammalian_REM2/Rem2_orthologs.csv, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+    output: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.log
+    jobid: 8
+    reason: Updated input files: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=/tmp
+
+/home/aglucaci/anaconda3/envs/AOC_REM2/lib/python3.10/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 89248 was translated into 89252
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+[Wed Nov 22 09:57:05 2023]
+Finished job 8.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Wed Nov 22 09:57:05 2023]
+rule AssignLineages:
+    input: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.log
+    output: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+    jobid: 1
+    reason: Input files updated by another job: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.log
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=/tmp
+
+[Wed Nov 22 09:57:06 2023]
+Finished job 1.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Wed Nov 22 09:57:06 2023]
+rule RELAX:
+    input: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled, /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta
+    output: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.RELAX.json
+    jobid: 0
+    reason: Input files updated by another job: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=/tmp
+
+[Thu Nov 23 15:37:15 2023]
+Finished job 0.
+3 of 3 steps (100%) done

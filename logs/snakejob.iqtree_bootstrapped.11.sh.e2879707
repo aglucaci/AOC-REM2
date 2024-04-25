@@ -1,0 +1,31 @@
+openmpi/gnu/3.1.6(17):ERROR:150: Module 'openmpi/gnu/3.1.6' conflicts with the currently loaded module(s) 'openmpi/gnu/4.1.0'
+openmpi/gnu/3.1.6(17):ERROR:102: Tcl command execution failed: conflict	openmpi
+
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+aocc/1.3.0(13):ERROR:150: Module 'aocc/1.3.0' conflicts with the currently loaded module(s) 'aocc/4.0.0'
+aocc/1.3.0(13):ERROR:102: Tcl command execution failed:   conflict aocc
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+
+[Mon Aug 14 23:01:12 2023]
+rule iqtree_bootstrapped:
+    input: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta
+    output: /home/aglucaci/AOC-REM2/results/mammalian_REM2/bootstrapped_mammalian_REM2_codons.SA.fasta.treefile
+    jobid: 0
+    reason: Missing output files: /home/aglucaci/AOC-REM2/results/mammalian_REM2/bootstrapped_mammalian_REM2_codons.SA.fasta.treefile
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/f3568008dea44f202712c6ec80c14f10_
+Waiting at most 60 seconds for missing files.
+MissingOutputException in rule iqtree_bootstrapped in file /home/aglucaci/AOC-REM2/Snakefile, line 222:
+Job 0 completed successfully, but some output files are missing. Missing files after 60 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/bootstrapped_mammalian_REM2_codons.SA.fasta.treefile
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message

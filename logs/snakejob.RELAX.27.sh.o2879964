@@ -1,0 +1,1033 @@
+# Tree loaded: /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+# Reading orthologs (csv) file: /home/aglucaci/AOC-REM2/data/mammalian_REM2/Rem2_orthologs.csv
+# 1 Processing transcript accession: NM_022685.2 with NCBI Taxon ID: IntegerElement(10116, attributes={})
+# 2 Processing transcript accession: NM_080726.3 with NCBI Taxon ID: IntegerElement(10090, attributes={})
+# 3 Processing transcript accession: NM_173527.3 with NCBI Taxon ID: IntegerElement(9606, attributes={})
+# 4 Processing transcript accession: XM_009427474.3 with NCBI Taxon ID: IntegerElement(9598, attributes={})
+# 5 Processing transcript accession: XM_005623217.4 with NCBI Taxon ID: IntegerElement(9615, attributes={})
+# 6 Processing transcript accession: NM_001192708.1 with NCBI Taxon ID: IntegerElement(9913, attributes={})
+# 7 Processing transcript accession: XM_001100692.4 with NCBI Taxon ID: IntegerElement(9544, attributes={})
+# 8 Processing transcript accession: XM_007479801.2 with NCBI Taxon ID: IntegerElement(13616, attributes={})
+# 9 Processing transcript accession: XM_023622024.1 with NCBI Taxon ID: IntegerElement(9796, attributes={})
+# 10 Processing transcript accession: XM_051822640.1 with NCBI Taxon ID: IntegerElement(9986, attributes={})
+# 11 Processing transcript accession: XM_035260095.1 with NCBI Taxon ID: IntegerElement(9483, attributes={})
+# 12 Processing transcript accession: XM_002824566.3 with NCBI Taxon ID: IntegerElement(9601, attributes={})
+# 13 Processing transcript accession: XM_011233348.2 with NCBI Taxon ID: IntegerElement(9646, attributes={})
+# 14 Processing transcript accession: XM_003260595.2 with NCBI Taxon ID: IntegerElement(61853, attributes={})
+# 15 Processing transcript accession: XM_021099265.1 with NCBI Taxon ID: IntegerElement(9823, attributes={})
+# 16 Processing transcript accession: XM_003420937.2 with NCBI Taxon ID: IntegerElement(9785, attributes={})
+# 17 Processing transcript accession: XM_029077766.2 with NCBI Taxon ID: IntegerElement(9258, attributes={})
+# 18 Processing transcript accession: XM_023567007.1 with NCBI Taxon ID: IntegerElement(10141, attributes={})
+# 19 Processing transcript accession: XM_027390645.2 with NCBI Taxon ID: IntegerElement(10029, attributes={})
+# 20 Processing transcript accession: XM_031955028.1 with NCBI Taxon ID: IntegerElement(9305, attributes={})
+# 21 Processing transcript accession: XM_003801909.3 with NCBI Taxon ID: IntegerElement(30611, attributes={})
+# 22 Processing transcript accession: XM_008960213.2 with NCBI Taxon ID: IntegerElement(9597, attributes={})
+# 23 Processing transcript accession: XM_003901565.5 with NCBI Taxon ID: IntegerElement(9555, attributes={})
+# 24 Processing transcript accession: XM_003924335.3 with NCBI Taxon ID: IntegerElement(39432, attributes={})
+# 25 Processing transcript accession: XM_003987456.6 with NCBI Taxon ID: IntegerElement(9685, attributes={})
+# 26 Processing transcript accession: XM_027971647.2 with NCBI Taxon ID: IntegerElement(9940, attributes={})
+# 27 Processing transcript accession: XM_019009447.1 with NCBI Taxon ID: IntegerElement(9595, attributes={})
+# 28 Processing transcript accession: XM_004283191.4 with NCBI Taxon ID: IntegerElement(9733, attributes={})
+# 29 Processing transcript accession: XM_023724898.1 with NCBI Taxon ID: IntegerElement(127582, attributes={})
+# 30 Processing transcript accession: XM_004402108.1 with NCBI Taxon ID: IntegerElement(9708, attributes={})
+# 31 Processing transcript accession: XM_004421250.2 with NCBI Taxon ID: IntegerElement(73337, attributes={})
+# 32 Processing transcript accession: XM_004474567.2 with NCBI Taxon ID: IntegerElement(9361, attributes={})
+# 33 Processing transcript accession: XM_004584677.1 with NCBI Taxon ID: IntegerElement(9978, attributes={})
+# 34 Processing transcript accession: XM_004609481.1 with NCBI Taxon ID: IntegerElement(42254, attributes={})
+# 35 Processing transcript accession: XM_004646648.2 with NCBI Taxon ID: IntegerElement(10160, attributes={})
+# 36 Processing transcript accession: XM_045154677.1 with NCBI Taxon ID: IntegerElement(51337, attributes={})
+# 37 Processing transcript accession: XM_004694658.2 with NCBI Taxon ID: IntegerElement(143302, attributes={})
+# 38 Processing transcript accession: XM_045287665.1 with NCBI Taxon ID: IntegerElement(9371, attributes={})
+# 39 Processing transcript accession: XM_004755362.3 with NCBI Taxon ID: IntegerElement(9669, attributes={})
+# 40 Processing transcript accession: XM_004864195.2 with NCBI Taxon ID: IntegerElement(10181, attributes={})
+# 41 Processing transcript accession: XM_005085570.4 with NCBI Taxon ID: IntegerElement(10036, attributes={})
+# 42 Processing transcript accession: XM_005338787.4 with NCBI Taxon ID: IntegerElement(43179, attributes={})
+# 43 Processing transcript accession: XM_026777673.1 with NCBI Taxon ID: IntegerElement(79684, attributes={})
+# 44 Processing transcript accession: XM_005377113.2 with NCBI Taxon ID: IntegerElement(34839, attributes={})
+# 45 Processing transcript accession: XM_005560816.3 with NCBI Taxon ID: IntegerElement(9541, attributes={})
+# 46 Processing transcript accession: XM_018054571.1 with NCBI Taxon ID: IntegerElement(9925, attributes={})
+# 47 Processing transcript accession: XM_005895455.1 with NCBI Taxon ID: IntegerElement(72004, attributes={})
+# 48 Processing transcript accession: XM_025296072.3 with NCBI Taxon ID: IntegerElement(89462, attributes={})
+# 49 Processing transcript accession: XM_006100080.3 with NCBI Taxon ID: IntegerElement(59463, attributes={})
+# 50 Processing transcript accession: XM_006144596.3 with NCBI Taxon ID: IntegerElement(246437, attributes={})
+# 51 Processing transcript accession: XM_032481695.1 with NCBI Taxon ID: IntegerElement(419612, attributes={})
+# 52 Processing transcript accession: XM_031678770.1 with NCBI Taxon ID: IntegerElement(30538, attributes={})
+# 53 Processing transcript accession: XM_031036681.1 with NCBI Taxon ID: IntegerElement(9713, attributes={})
+# 54 Processing transcript accession: XM_006776770.2 with NCBI Taxon ID: IntegerElement(225400, attributes={})
+# 55 Processing transcript accession: XM_006835452.1 with NCBI Taxon ID: IntegerElement(185453, attributes={})
+# 56 Processing transcript accession: XM_006883133.1 with NCBI Taxon ID: IntegerElement(28737, attributes={})
+# 57 Processing transcript accession: XM_006913609.2 with NCBI Taxon ID: IntegerElement(9402, attributes={})
+# 58 Processing transcript accession: XM_006988484.2 with NCBI Taxon ID: IntegerElement(230844, attributes={})
+# 59 Processing transcript accession: XM_007098093.3 with NCBI Taxon ID: IntegerElement(9694, attributes={})
+# 60 Processing transcript accession: XM_007100477.2 with NCBI Taxon ID: IntegerElement(9755, attributes={})
+# 61 Processing transcript accession: XM_007180539.1 with NCBI Taxon ID: IntegerElement(9767, attributes={})
+# 62 Processing transcript accession: XM_007449526.1 with NCBI Taxon ID: IntegerElement(118797, attributes={})
+# 63 Processing transcript accession: XM_007536758.2 with NCBI Taxon ID: IntegerElement(9365, attributes={})
+# 64 Processing transcript accession: XM_007951171.2 with NCBI Taxon ID: IntegerElement(1230840, attributes={})
+# 65 Processing transcript accession: XM_037987559.1 with NCBI Taxon ID: IntegerElement(60711, attributes={})
+# 66 Processing transcript accession: XM_008065271.2 with NCBI Taxon ID: IntegerElement(1868482, attributes={})
+# 67 Processing transcript accession: XM_008528968.1 with NCBI Taxon ID: IntegerElement(9798, attributes={})
+# 68 Processing transcript accession: XM_008566551.1 with NCBI Taxon ID: IntegerElement(482537, attributes={})
+# 69 Processing transcript accession: XM_040620901.1 with NCBI Taxon ID: IntegerElement(29073, attributes={})
+# 70 Processing transcript accession: XM_008839903.2 with NCBI Taxon ID: IntegerElement(1026970, attributes={})
+# 71 Processing transcript accession: XM_010378358.2 with NCBI Taxon ID: IntegerElement(61622, attributes={})
+# 72 Processing transcript accession: XM_033765070.1 with NCBI Taxon ID: IntegerElement(885580, attributes={})
+# 73 Processing transcript accession: XM_010831252.1 with NCBI Taxon ID: IntegerElement(43346, attributes={})
+# 74 Processing transcript accession: XM_045516484.1 with NCBI Taxon ID: IntegerElement(9837, attributes={})
+# Error, sleeping HTTP Error 429: Too Many Requests
+# 75 Processing transcript accession: XM_031452725.1 with NCBI Taxon ID: IntegerElement(9838, attributes={})
+# 76 Processing transcript accession: XM_011372778.2 with NCBI Taxon ID: IntegerElement(132908, attributes={})
+# 77 Processing transcript accession: XM_011772352.2 with NCBI Taxon ID: IntegerElement(9545, attributes={})
+# 78 Processing transcript accession: XM_011930962.1 with NCBI Taxon ID: IntegerElement(336983, attributes={})
+# 79 Processing transcript accession: XM_011990630.1 with NCBI Taxon ID: IntegerElement(9568, attributes={})
+# 80 Processing transcript accession: XM_012088533.1 with NCBI Taxon ID: IntegerElement(9531, attributes={})
+# 81 Processing transcript accession: XM_012466673.1 with NCBI Taxon ID: IntegerElement(37293, attributes={})
+# 82 Processing transcript accession: XM_012649447.1 with NCBI Taxon ID: IntegerElement(379532, attributes={})
+# 83 Processing transcript accession: XM_012752689.1 with NCBI Taxon ID: IntegerElement(30608, attributes={})
+# 84 Processing transcript accession: XM_013025368.1 with NCBI Taxon ID: IntegerElement(10020, attributes={})
+# 85 Processing transcript accession: XM_014856335.2 with NCBI Taxon ID: IntegerElement(9793, attributes={})
+# 86 Processing transcript accession: XM_015086639.2 with NCBI Taxon ID: IntegerElement(32536, attributes={})
+# 87 Processing transcript accession: XM_015492848.2 with NCBI Taxon ID: IntegerElement(9994, attributes={})
+# 88 Processing transcript accession: XM_016120537.2 with NCBI Taxon ID: IntegerElement(9407, attributes={})
+# 89 Processing transcript accession: XM_016205757.1 with NCBI Taxon ID: IntegerElement(291302, attributes={})
+# 90 Processing transcript accession: XM_017544499.2 with NCBI Taxon ID: IntegerElement(2715852, attributes={})
+# 91 Processing transcript accession: XM_017665172.2 with NCBI Taxon ID: IntegerElement(9974, attributes={})
+# 92 Processing transcript accession: XM_017864286.1 with NCBI Taxon ID: IntegerElement(61621, attributes={})
+# 93 Processing transcript accession: XM_019429463.1 with NCBI Taxon ID: IntegerElement(9691, attributes={})
+# 94 Processing transcript accession: XM_019663177.1 with NCBI Taxon ID: IntegerElement(186990, attributes={})
+# 95 Processing transcript accession: XM_019968374.1 with NCBI Taxon ID: IntegerElement(9915, attributes={})
+# 96 Processing transcript accession: XM_020162859.1 with NCBI Taxon ID: IntegerElement(51338, attributes={})
+# 97 Processing transcript accession: XM_020909415.1 with NCBI Taxon ID: IntegerElement(9880, attributes={})
+# 98 Processing transcript accession: XM_021008842.1 with NCBI Taxon ID: IntegerElement(38626, attributes={})
+# 99 Processing transcript accession: XM_021182512.1 with NCBI Taxon ID: IntegerElement(10089, attributes={})
+# 100 Processing transcript accession: XM_021203619.1 with NCBI Taxon ID: IntegerElement(10093, attributes={})
+# 101 Processing transcript accession: XM_021639619.1 with NCBI Taxon ID: IntegerElement(10047, attributes={})
+# 102 Processing transcript accession: XM_021695575.1 with NCBI Taxon ID: IntegerElement(29088, attributes={})
+# 103 Processing transcript accession: XM_022520471.1 with NCBI Taxon ID: IntegerElement(391180, attributes={})
+# 104 Processing transcript accession: XM_022553601.2 with NCBI Taxon ID: IntegerElement(9749, attributes={})
+# 105 Processing transcript accession: XM_023230440.1 with NCBI Taxon ID: IntegerElement(591936, attributes={})
+# 106 Processing transcript accession: XM_024556113.2 with NCBI Taxon ID: IntegerElement(9430, attributes={})
+# 107 Processing transcript accession: XM_024741692.1 with NCBI Taxon ID: IntegerElement(1706337, attributes={})
+# 108 Processing transcript accession: XM_025392475.1 with NCBI Taxon ID: IntegerElement(9565, attributes={})
+# 109 Processing transcript accession: XM_025442827.3 with NCBI Taxon ID: IntegerElement(286419, attributes={})
+# 110 Processing transcript accession: XM_025870359.1 with NCBI Taxon ID: IntegerElement(34884, attributes={})
+# 111 Processing transcript accession: XM_025919283.1 with NCBI Taxon ID: IntegerElement(9696, attributes={})
+# 112 Processing transcript accession: XM_026007504.1 with NCBI Taxon ID: IntegerElement(9627, attributes={})
+# 113 Processing transcript accession: XM_026406123.1 with NCBI Taxon ID: IntegerElement(9999, attributes={})
+# 114 Processing transcript accession: XM_026486411.2 with NCBI Taxon ID: IntegerElement(9644, attributes={})
+# 115 Processing transcript accession: XM_027110778.1 with NCBI Taxon ID: IntegerElement(90247, attributes={})
+# 116 Processing transcript accession: XM_027553330.1 with NCBI Taxon ID: IntegerElement(30522, attributes={})
+# 117 Processing transcript accession: XM_027571459.2 with NCBI Taxon ID: IntegerElement(9704, attributes={})
+# 118 Processing transcript accession: XM_027843188.1 with NCBI Taxon ID: IntegerElement(29139, attributes={})
+# 119 Processing transcript accession: XM_027920156.1 with NCBI Taxon ID: IntegerElement(93162, attributes={})
+# 120 Processing transcript accession: XM_028114785.1 with NCBI Taxon ID: IntegerElement(34886, attributes={})
+# 121 Processing transcript accession: XM_028507134.2 with NCBI Taxon ID: IntegerElement(89673, attributes={})
+# 122 Processing transcript accession: XM_028788542.1 with NCBI Taxon ID: IntegerElement(491861, attributes={})
+# 123 Processing transcript accession: XM_028892240.2 with NCBI Taxon ID: IntegerElement(10041, attributes={})
+# 124 Processing transcript accession: XM_029237411.1 with NCBI Taxon ID: IntegerElement(40151, attributes={})
+# 125 Processing transcript accession: XM_029952605.1 with NCBI Taxon ID: IntegerElement(37032, attributes={})
+# 126 Processing transcript accession: XM_030318679.1 with NCBI Taxon ID: IntegerElement(61383, attributes={})
+# 127 Processing transcript accession: XM_030854517.1 with NCBI Taxon ID: IntegerElement(9731, attributes={})
+# 128 Processing transcript accession: XM_031361298.1 with NCBI Taxon ID: IntegerElement(35658, attributes={})
+# 129 Processing transcript accession: XM_032179928.1 with NCBI Taxon ID: IntegerElement(81572, attributes={})
+# 130 Processing transcript accession: XM_032265550.1 with NCBI Taxon ID: IntegerElement(9515, attributes={})
+# 131 Processing transcript accession: XM_032343807.1 with NCBI Taxon ID: IntegerElement(36723, attributes={})
+# 132 Processing transcript accession: XM_032404536.1 with NCBI Taxon ID: IntegerElement(9720, attributes={})
+# 133 Processing transcript accession: XM_032622712.1 with NCBI Taxon ID: IntegerElement(42100, attributes={})
+# 134 Processing transcript accession: XM_032856406.1 with NCBI Taxon ID: IntegerElement(76717, attributes={})
+# 135 Processing transcript accession: XM_032918139.1 with NCBI Taxon ID: IntegerElement(10117, attributes={})
+# 136 Processing transcript accession: XM_033107547.1 with NCBI Taxon ID: IntegerElement(59479, attributes={})
+# 137 Processing transcript accession: XM_033188604.1 with NCBI Taxon ID: IntegerElement(54180, attributes={})
+# 138 Processing transcript accession: XM_033851357.1 with NCBI Taxon ID: IntegerElement(9739, attributes={})
+# 139 Processing transcript accession: XM_034498612.1 with NCBI Taxon ID: IntegerElement(61156, attributes={})
+# 140 Processing transcript accession: XM_034994691.1 with NCBI Taxon ID: IntegerElement(9715, attributes={})
+# 141 Processing transcript accession: XM_036114829.1 with NCBI Taxon ID: IntegerElement(9711, attributes={})
+# 142 Processing transcript accession: XM_036199393.1 with NCBI Taxon ID: IntegerElement(38674, attributes={})
+# 143 Processing transcript accession: XM_036355955.1 with NCBI Taxon ID: IntegerElement(51298, attributes={})
+# 144 Processing transcript accession: XM_036737107.1 with NCBI Taxon ID: IntegerElement(9337, attributes={})
+# 145 Processing transcript accession: XM_036842027.1 with NCBI Taxon ID: IntegerElement(9771, attributes={})
+# 146 Processing transcript accession: XM_036884595.1 with NCBI Taxon ID: IntegerElement(143292, attributes={})
+# 147 Processing transcript accession: XM_037037712.1 with NCBI Taxon ID: IntegerElement(192404, attributes={})
+# 148 Processing transcript accession: XM_037129407.1 with NCBI Taxon ID: IntegerElement(9417, attributes={})
+# 149 Processing transcript accession: XM_037503036.1 with NCBI Taxon ID: IntegerElement(50954, attributes={})
+# 150 Processing transcript accession: XM_037835533.1 with NCBI Taxon ID: IntegerElement(27675, attributes={})
+# 151 Processing transcript accession: XM_038310306.1 with NCBI Taxon ID: IntegerElement(1047088, attributes={})
+# 152 Processing transcript accession: XM_038741379.1 with NCBI Taxon ID: IntegerElement(9261, attributes={})
+# 153 Processing transcript accession: XM_039245203.1 with NCBI Taxon ID: IntegerElement(95912, attributes={})
+# 154 Processing transcript accession: XM_039851849.1 with NCBI Taxon ID: IntegerElement(143291, attributes={})
+# 155 Processing transcript accession: XM_040227220.1 with NCBI Taxon ID: IntegerElement(59534, attributes={})
+# 156 Processing transcript accession: XM_040476645.1 with NCBI Taxon ID: IntegerElement(1608482, attributes={})
+# 157 Processing transcript accession: XM_040969296.1 with NCBI Taxon ID: IntegerElement(130825, attributes={})
+# 158 Processing transcript accession: XM_041634112.1 with NCBI Taxon ID: IntegerElement(111838, attributes={})
+# 159 Processing transcript accession: XM_041758862.1 with NCBI Taxon ID: IntegerElement(494514, attributes={})
+# 160 Processing transcript accession: XM_042686425.1 with NCBI Taxon ID: IntegerElement(105255, attributes={})
+# 161 Processing transcript accession: XM_042942694.1 with NCBI Taxon ID: IntegerElement(9689, attributes={})
+# 162 Processing transcript accession: XM_043471209.1 with NCBI Taxon ID: IntegerElement(1574408, attributes={})
+# 163 Processing transcript accession: XM_043555763.1 with NCBI Taxon ID: IntegerElement(37029, attributes={})
+# 164 Processing transcript accession: XM_043919551.1 with NCBI Taxon ID: IntegerElement(9860, attributes={})
+# 165 Processing transcript accession: XM_043980377.1 with NCBI Taxon ID: IntegerElement(33562, attributes={})
+# 166 Processing transcript accession: XM_044229739.1 with NCBI Taxon ID: IntegerElement(452646, attributes={})
+# 167 Processing transcript accession: XM_044662280.1 with NCBI Taxon ID: IntegerElement(191870, attributes={})
+# 168 Processing transcript accession: XM_045450372.1 with NCBI Taxon ID: IntegerElement(46844, attributes={})
+# 169 Processing transcript accession: XM_045525960.1 with NCBI Taxon ID: IntegerElement(9447, attributes={})
+# 170 Processing transcript accession: XM_045802792.1 with NCBI Taxon ID: IntegerElement(9643, attributes={})
+# 171 Processing transcript accession: XM_045841219.1 with NCBI Taxon ID: IntegerElement(9423, attributes={})
+# 172 Processing transcript accession: XM_045900528.1 with NCBI Taxon ID: IntegerElement(9716, attributes={})
+# 173 Processing transcript accession: XM_046008309.1 with NCBI Taxon ID: IntegerElement(9662, attributes={})
+# 174 Processing transcript accession: XM_046465107.1 with NCBI Taxon ID: IntegerElement(9995, attributes={})
+# 175 Processing transcript accession: XM_046653592.1 with NCBI Taxon ID: IntegerElement(89248, attributes={})
+# 176 Processing transcript accession: XM_048362803.1 with NCBI Taxon ID: IntegerElement(214514, attributes={})
+# 177 Processing transcript accession: XM_048444987.1 with NCBI Taxon ID: IntegerElement(447135, attributes={})
+# 178 Processing transcript accession: XM_049613126.1 with NCBI Taxon ID: IntegerElement(29064, attributes={})
+# 179 Processing transcript accession: XM_049768637.1 with NCBI Taxon ID: IntegerElement(109475, attributes={})
+# 180 Processing transcript accession: XM_049899603.1 with NCBI Taxon ID: IntegerElement(99487, attributes={})
+# 181 Processing transcript accession: XM_050126229.1 with NCBI Taxon ID: IntegerElement(100897, attributes={})
+# 182 Processing transcript accession: XM_050796554.1 with NCBI Taxon ID: IntegerElement(257877, attributes={})
+# 183 Processing transcript accession: XM_051143407.1 with NCBI Taxon ID: IntegerElement(60746, attributes={})
+# 184 Processing transcript accession: XM_051195738.1 with NCBI Taxon ID: IntegerElement(109678, attributes={})
+# 185 Processing transcript accession: XM_051980438.1 with NCBI Taxon ID: IntegerElement(38775, attributes={})
+# 186 Processing transcript accession: XM_052190525.1 with NCBI Taxon ID: IntegerElement(10129, attributes={})
+# 0 = 1
+# 1 = 1
+# 2 = 1
+# 3 = 1
+# 4 = 1
+# 5 = 1
+# 6 = 1
+# 7 = 1
+# 8 = 1
+# 9 = 1
+# 10 = 1
+# 11 = 1
+# 12 = 1
+# 13 = 1
+# 14 = 1
+# 15 = 1
+# 16 = 1
+# 17 = 1
+# 18 = 1
+# 19 = 2
+# 20 = 3
+# 21 = 9
+# 22 = 18
+## Seed = 5
+0.03763440860215054
+0.8978494623655914
+0.8978494623655914 exceeded threshold
+## Seed = 6
+0.03763440860215054
+0.8978494623655914
+0.8978494623655914 exceeded threshold
+## Seed = 7
+0.03763440860215054
+0.8978494623655914
+0.8978494623655914 exceeded threshold
+## Seed = 8
+0.03763440860215054
+0.8978494623655914
+0.8978494623655914 exceeded threshold
+## Seed = 9
+0.03763440860215054
+0.8978494623655914
+0.8978494623655914 exceeded threshold
+## Seed = 10
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 11
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 12
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 13
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 14
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 15
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 16
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 17
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 18
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.010752688172043012
+0.3978494623655914
+0.5
+0.5 exceeded threshold
+## Seed = 19
+0.005376344086021506
+0.15591397849462366
+0.1989247311827957
+0.08064516129032258
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.010752688172043012
+0.026881720430107527
+0.005376344086021506
+0.22043010752688172
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.026881720430107527
+0.005376344086021506
+0.010752688172043012
+0.16666666666666666
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 19
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 19
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 18
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 17
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 16
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 15
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 14
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 13
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 12
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# final seed = 11
+0.010752688172043012
+0.010752688172043012
+0.016129032258064516
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+# final seed = 10
+0.010752688172043012
+0.010752688172043012
+0.016129032258064516
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+# final seed = 9
+0.010752688172043012
+0.010752688172043012
+0.016129032258064516
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+# final seed = 8
+0.010752688172043012
+0.010752688172043012
+0.016129032258064516
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+# final seed = 7
+0.010752688172043012
+0.010752688172043012
+0.016129032258064516
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+# final seed = 6
+0.005376344086021506
+0.15591397849462366
+0.1989247311827957
+0.08064516129032258
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.010752688172043012
+0.005376344086021506
+0.010752688172043012
+0.026881720430107527
+0.005376344086021506
+0.22043010752688172
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.026881720430107527
+0.005376344086021506
+0.010752688172043012
+0.16666666666666666
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+0.005376344086021506
+# Saving 27 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade
+# Saving 12 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade
+# Saving 5 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade
+# Saving 31 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade
+# Saving 5 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade
+# Saving 31 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade
+# Saving 41 to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade
+# Writing JSON file to: /home/aglucaci/AOC-REM2/results/mammalian_REM2/CladeLabels.json
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Glires
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 41 branches to label
+
+internal-nodes: All descendants
+
+Labeled 29 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Eulipotyphla
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 5 branches to label
+
+internal-nodes: All descendants
+
+Labeled 2 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Chiroptera
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 12 branches to label
+
+internal-nodes: All descendants
+
+Labeled 11 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Primates
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 31 branches to label
+
+internal-nodes: All descendants
+
+Labeled 24 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Carnivora
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 31 branches to label
+
+internal-nodes: All descendants
+
+Labeled 30 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Artiodactyla
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 27 branches to label
+
+internal-nodes: All descendants
+
+Labeled 26 additional branches
+
+
+Analysis Description
+--------------------
+ Read a tree and (optionally) a list of sequence names, and annotate
+branches for subsequent analyses that accept branch partitions. 
+
+- __Requirements__: A tree to label. Existing tree labels will be respected, allowing for
+multiple sets to be labeled
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.2
+
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+Use the following regular expression to select a subset of leaves : regexp: ()
+Use the following label for annotation : label: Perissodactyla
+Reroot the tree on this node ('None' to skip rerooting) : reroot: None
+
+Selected 5 branches to label
+
+internal-nodes: All descendants
+
+Labeled 3 additional branches
+
+
+Analysis Description
+--------------------
+RELAX (a random effects test of selection relaxation) uses a random
+effects branch-site model framework to test whether a set of 'Test'
+branches evolves under relaxed selection relative to a set of
+'Reference' branches (R), as measured by the relaxation parameter (K).
+Version 2.1 adds a check for stability in K estimates to try to mitigate
+convergence problems. Version 3 provides support for >2 branch sets.
+Version 3.1 adds LHC + Nedler-Mead initial fit phase and keyword
+support. Version 3.1.1 adds some bug fixes for better convergence.
+Version 4.0 adds support for synonymous rate variation. Version 4.1 adds
+further support for multiple hit models
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree, with at least two
+groups of branches defined using the {} notation (one group can be
+defined as all unlabeled branches)
+
+- __Citation__: RELAX: Detecting Relaxed Selection in a Phylogenetic Framework (2015).
+Mol Biol Evol 32 (3): 820-832
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution g
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.1.1
+
+
+>code –> Universal
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled
+
+>Loaded a multiple sequence alignment with **175** sequences, **627** codons, and **1** partitions from `/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta`
+
+>mode –> Group mode
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size –> 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points –> 10
+
+
+### Branch sets for RELAX analysis
+
+>multiple-hits –> None
+
+* Selected 53 branches as the _Artiodactyla_ set: `NM_001192708_1_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2, Node100, Node103, Node104, Node108, Node109, Node113, Node114, Node115, Node116, Node117, Node118, Node120, Node124, Node125, Node128, Node133, Node84, Node85, Node86, Node87, Node88, Node89, Node90, Node92, Node94, Node98, XM_004283191_4_PREDICTED_Orcinus_orca_RRAD_and_GEM_like_GTPase_2_LOC101284288_transcript_variant_X1_mRNA_1, XM_007100477_2_PREDICTED_Physeter_catodon_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_007180539_1_PREDICTED_Balaenoptera_acutorostrata_scammoni_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_007449526_1_PREDICTED_Lipotes_vexillifer_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_010831252_1_PREDICTED_Bison_bison_bison_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_018054571_1_PREDICTED_Capra_hircus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_019968374_1_PREDICTED_Bos_indicus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_020909415_1_PREDICTED_Odocoileus_virginianus_texanus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_021099265_1_PREDICTED_Sus_scrofa_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_022553601_2_PREDICTED_Delphinapterus_leucas_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_024741692_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_025296072_3_PREDICTED_Bubalus_bubalis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X4_mRNA_1, XM_027110778_1_PREDICTED_Lagenorhynchus_obliquidens_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_027553330_1_PREDICTED_Bos_indicus_x_Bos_taurus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_027971647_2_PREDICTED_Ovis_aries_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_029237411_1_PREDICTED_Monodon_monoceros_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_030854517_1_PREDICTED_Globicephala_melas_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_031452725_1_PREDICTED_Camelus_dromedarius_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_031678770_1_PREDICTED_Vicugna_pacos_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_032481695_1_PREDICTED_Camelus_ferus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_032622712_1_PREDICTED_Phocoena_sinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_033851357_1_PREDICTED_Tursiops_truncatus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_036842027_1_PREDICTED_Balaenoptera_musculus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_040227220_1_PREDICTED_Oryx_dammah_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_043471209_1_PREDICTED_Cervus_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_043919551_1_PREDICTED_Cervus_elaphus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1`
+
+* Selected 61 branches as the _Carnivora_ set: `Node138, Node139, Node140, Node141, Node142, Node145, Node149, Node150, Node151, Node153, Node156, Node157, Node158, Node159, Node164, Node167, Node168, Node169, Node172, Node176, Node177, Node178, Node179, Node180, Node181, Node182, Node184, Node188, Node192, Node196, XM_003987456_6_PREDICTED_Felis_catus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_004402108_1_PREDICTED_Odobenus_rosmarus_divergens_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_004755362_3_PREDICTED_Mustela_putorius_furo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_005623217_4_PREDICTED_Canis_lupus_familiaris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_007098093_3_PREDICTED_Panthera_tigris_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X3_mRNA_1, XM_015086639_2_PREDICTED_Acinonyx_jubatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_019429463_1_PREDICTED_Panthera_pardus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_021695575_1_PREDICTED_Neomonachus_schauinslandi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_022520471_1_PREDICTED_Enhydra_lutris_kenyoni_RRAD_and_GEM_like_GTPase_2_LOC111158448_mRNA_1, XM_025442827_3_PREDICTED_Canis_lupus_dingo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_025870359_1_PREDICTED_Callorhinus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_025919283_1_PREDICTED_Puma_concolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_026007504_1_PREDICTED_Vulpes_vulpes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_027571459_2_PREDICTED_Zalophus_californianus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_2, XM_029952605_1_PREDICTED_Suricata_suricatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_030318679_1_PREDICTED_Lynx_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_031036681_1_PREDICTED_Leptonychotes_weddellii_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_032343807_1_PREDICTED_Mustela_erminea_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_032404536_1_PREDICTED_Phoca_vitulina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_032856406_1_PREDICTED_Lontra_canadensis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_034994691_1_PREDICTED_Mirounga_leonina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_036114829_1_PREDICTED_Halichoerus_grypus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_039245203_1_PREDICTED_Hyaena_hyaena_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_040620901_1_PREDICTED_Ursus_maritimus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_3, XM_041758862_1_PREDICTED_Vulpes_lagopus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_042942694_1_PREDICTED_Panthera_leo_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_043555763_1_PREDICTED_Prionailurus_bengalensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_045450372_1_PREDICTED_Leopardus_geoffroyi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_045900528_1_PREDICTED_Mirounga_angustirostris_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_046008309_1_PREDICTED_Meles_meles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_049613126_1_PREDICTED_Panthera_uncia_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1`
+
+* Selected 23 branches as the _Chiroptera_ set: `Node213, Node214, Node215, Node216, Node218, Node222, Node225, Node226, Node229, Node230, Node233, XM_006913609_2_PREDICTED_Pteropus_alecto_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_011372778_2_PREDICTED_Pteropus_vampyrus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_016120537_2_PREDICTED_Rousettus_aegyptiacus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_016205757_1_PREDICTED_Miniopterus_natalensis_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_019663177_1_PREDICTED_Hipposideros_armiger_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_028507134_2_PREDICTED_Phyllostomus_discolor_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_033107547_1_PREDICTED_Rhinolophus_ferrumequinum_RRAD_and_GEM_like_GTPase_2_LOC117023075_transcript_variant_X1_mRNA_1, XM_036355955_1_PREDICTED_Myotis_myotis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_037037712_1_PREDICTED_Sturnira_hondurensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_037129407_1_PREDICTED_Artibeus_jamaicensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_039851849_1_PREDICTED_Pteropus_giganteus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_045841219_1_PREDICTED_Phyllostomus_hastatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1`
+
+* Selected 7 branches as the _Eulipotyphla_ set: `Node210, Node274, XM_004609481_1_PREDICTED_Sorex_araneus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_004694658_2_PREDICTED_Condylura_cristata_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_007536758_2_PREDICTED_Erinaceus_europaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_037503036_1_PREDICTED_Talpa_occidentalis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_049768637_1_PREDICTED_Suncus_etruscus_RRAD_and_GEM_like_GTPase_2_LOC126001377_mRNA_1`
+
+* Selected 70 branches as the _Glires_ set: `NM_022685_2_Rattus_norvegicus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, NM_080726_3_Mus_musculus_rad_and_gem_related_GTP_binding_protein_2_Rem2_mRNA_1, Node278, Node280, Node284, Node285, Node286, Node288, Node291, Node294, Node295, Node296, Node297, Node300, Node302, Node306, Node307, Node313, Node314, Node315, Node317, Node320, Node321, Node322, Node323, Node329, Node330, Node334, Node337, Node338, Node341, XM_004584677_1_PREDICTED_Ochotona_princeps_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_004646648_2_PREDICTED_Octodon_degus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1, XM_004864195_2_PREDICTED_Heterocephalus_glaber_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_005085570_4_PREDICTED_Mesocricetus_auratus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_005338787_4_PREDICTED_Ictidomys_tridecemlineatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_005377113_2_PREDICTED_Chinchilla_lanigera_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1, XM_006988484_2_PREDICTED_Peromyscus_maniculatus_bairdii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_008839903_2_PREDICTED_Nannospalax_galili_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1, XM_013025368_1_PREDICTED_Dipodomys_ordii_RAS_RAD_and_GEM_like_GTP_binding_2_Rem2_mRNA_1, XM_015492848_2_PREDICTED_Marmota_marmota_marmota_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_020162859_1_PREDICTED_Castor_canadensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_021182512_1_PREDICTED_Mus_caroli_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_021203619_1_PREDICTED_Mus_pahari_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_021639619_1_PREDICTED_Meriones_unguiculatus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_023567007_1_PREDICTED_Cavia_porcellus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1, XM_026406123_1_PREDICTED_Urocitellus_parryii_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_026777673_1_PREDICTED_Microtus_ochrogaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_027390645_2_PREDICTED_Cricetulus_griseus_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X2_mRNA_1, XM_027920156_1_PREDICTED_Marmota_flaviventris_RRAD_and_GEM_like_GTPase_2_Rem2_transcript_variant_X1_mRNA_1, XM_028788542_1_PREDICTED_Grammomys_surdaster_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_028892240_2_PREDICTED_Peromyscus_leucopus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_031361298_1_PREDICTED_Mastomys_coucha_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_032918139_1_PREDICTED_Rattus_rattus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_033765070_1_PREDICTED_Fukomys_damarensis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_034498612_1_PREDICTED_Arvicanthis_niloticus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_036199393_1_PREDICTED_Onychomys_torridus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_038310306_1_PREDICTED_Arvicola_amphibius_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_040969296_1_PREDICTED_Ochotona_curzoniae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_041634112_1_PREDICTED_Microtus_oregoni_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_042686425_1_PREDICTED_Dipodomys_spectabilis_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_045154677_1_PREDICTED_Jaculus_jaculus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_046465107_1_PREDICTED_Marmota_monax_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_048362803_1_PREDICTED_Perognathus_longimembris_pacificus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_048444987_1_PREDICTED_Myodes_glareolus_RRAD_and_GEM_like_GTPase_2_Rem2_mRNA_1, XM_050126229_1_PREDICTED_Microtus_fortis_RRAD_and_GEM_like_GTPase_2_LOC126490927_mRNA_1, XM_051143407_1_PREDICTED_Acomys_russatus_RRAD_and_GEM_like_GTPase_2_LOC127187235_mRNA_1, XM_051195738_1_PREDICTED_Phodopus_roborovskii_RRAD_and_GEM_like_GTPase_2_LOC127230422_mRNA_1, XM_051822640_1_PREDICTED_Oryctolagus_cuniculus_RRAD_and_GEM_like_GTPase_2_LOC100344089_mRNA_1, XM_052190525_1_PREDICTED_Apodemus_sylvaticus_RRAD_and_GEM_like_GTPase_2_LOC127690950_mRNA_1`
+
+* Selected 8 branches as the _Perissodactyla_ set: `Node202, Node203, Node204, XM_004421250_2_PREDICTED_Ceratotherium_simum_simum_RAS_RAD_and_GEM_like_GTP_binding_2_LOC101388298_transcript_variant_X1_mRNA_1, XM_008528968_1_PREDICTED_Equus_przewalskii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_transcript_variant_X1_mRNA_1, XM_014856335_2_PREDICTED_Equus_asinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_023622024_1_PREDICTED_Equus_caballus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_046653592_1_PREDICTED_Equus_quagga_GTP_binding_protein_REM_2_LOC124235489_transcript_variant_X1_mRNA_1`
+
+* Selected 55 branches as the _Primates_ set: `NM_173527_3_Homo_sapiens_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, Node19, Node20, Node21, Node22, Node23, Node29, Node33, Node34, Node35, Node38, Node39, Node40, Node44, Node45, Node54, Node55, Node56, Node61, Node63, Node65, Node67, Node71, Node73, Node75, XM_001100692_4_PREDICTED_Macaca_mulatta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_002824566_3_PREDICTED_Pongo_abelii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_003260595_2_PREDICTED_Nomascus_leucogenys_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_003801909_3_PREDICTED_Otolemur_garnettii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_003901565_5_PREDICTED_Papio_anubis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_003924335_3_PREDICTED_Saimiri_boliviensis_boliviensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_005560816_3_PREDICTED_Macaca_fascicularis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_008065271_2_PREDICTED_Carlito_syrichta_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_008960213_2_PREDICTED_Pan_paniscus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_009427474_3_PREDICTED_Pan_troglodytes_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_010378358_2_PREDICTED_Rhinopithecus_roxellana_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_011772352_2_PREDICTED_Macaca_nemestrina_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_011930962_1_PREDICTED_Colobus_angolensis_palliatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_011990630_1_PREDICTED_Mandrillus_leucophaeus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_012088533_1_PREDICTED_Cercocebus_atys_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_012466673_1_PREDICTED_Aotus_nancymaae_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_012649447_1_PREDICTED_Propithecus_coquereli_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_012752689_1_PREDICTED_Microcebus_murinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_017544499_2_PREDICTED_Cebus_imitator_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_017864286_1_PREDICTED_Rhinopithecus_bieti_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_019009447_1_PREDICTED_Gorilla_gorilla_gorilla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_023230440_1_PREDICTED_Piliocolobus_tephrosceles_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_025392475_1_PREDICTED_Theropithecus_gelada_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_032179928_1_PREDICTED_Hylobates_moloch_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_032265550_1_PREDICTED_Sapajus_apella_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_033188604_1_PREDICTED_Trachypithecus_francoisi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_035260095_1_PREDICTED_Callithrix_jacchus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_037987559_1_PREDICTED_Chlorocebus_sabaeus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_045525960_1_PREDICTED_Lemur_catta_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_050796554_1_PREDICTED_Macaca_thibetana_thibetana_RRAD_and_GEM_like_GTPase_2_LOC126958288_mRNA_1`
+
+>reference-group –> Primates
+* 70 branches are in the unclassified (nuisance) set: `Node10, Node11, Node12, Node13, Node137, Node14, Node15, Node16, Node17, Node18, Node199, Node2, Node209, Node236, Node237, Node238, Node239, Node240, Node245, Node246, Node250, Node253, Node254, Node255, Node256, Node257, Node258, Node259, Node260, Node264, Node268, Node271, Node277, Node3, Node32, Node4, Node5, Node50, Node51, Node6, Node7, Node8, Node80, Node81, Node82, Node83, Node9, XM_003420937_2_PREDICTED_Loxodonta_africana_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_004474567_2_PREDICTED_Dasypus_novemcinctus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_006144596_3_PREDICTED_Tupaia_chinensis_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_006835452_1_PREDICTED_Chrysochloris_asiatica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_006883133_1_PREDICTED_Elephantulus_edwardii_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_007479801_2_PREDICTED_Monodelphis_domestica_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_007951171_2_PREDICTED_Orycteropus_afer_afer_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_008566551_1_PREDICTED_Galeopterus_variegatus_RAS_RAD_and_GEM_like_GTP_binding_2_REM2_mRNA_1, XM_017665172_2_PREDICTED_Manis_javanica_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_021008842_1_PREDICTED_Phascolarctos_cinereus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_023724898_1_PREDICTED_Trichechus_manatus_latirostris_RRAD_and_GEM_like_GTPase_2_LOC101345257_transcript_variant_X1_mRNA_1, XM_027843188_1_PREDICTED_Vombatus_ursinus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X2_mRNA_1, XM_029077766_2_PREDICTED_Ornithorhynchus_anatinus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_031955028_1_PREDICTED_Sarcophilus_harrisii_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_036737107_1_PREDICTED_Trichosurus_vulpecula_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_036884595_1_PREDICTED_Manis_pentadactyla_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_037835533_1_PREDICTED_Choloepus_didactylus_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_038741379_1_PREDICTED_Tachyglossus_aculeatus_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_043980377_1_PREDICTED_Dromiciops_gliroides_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_044662280_1_PREDICTED_Gracilinanus_agilis_RRAD_and_GEM_like_GTPase_2_REM2_transcript_variant_X1_mRNA_1, XM_045287665_1_PREDICTED_Echinops_telfairi_RRAD_and_GEM_like_GTPase_2_REM2_mRNA_1, XM_049899603_1_PREDICTED_Elephas_maximus_indicus_RRAD_and_GEM_like_GTPase_2_LOC126084786_transcript_variant_X1_mRNA_1, XM_051980438_1_PREDICTED_Antechinus_flavipes_RRAD_and_GEM_like_GTPase_2_LOC127551038_mRNA_1`
+The number omega rate classes to include in the model (permissible range = [2,10], default value = 3, integer): 
+>rates –> 3
+
+>models –> All
+
+>srv –> Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>syn-rates –> 3
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 17 zero-length internal branches: `Node118, Node120, Node137, Node149, Node159, Node168, Node178, Node179, Node181, Node192, Node302, Node38, Node39, Node44, Node45, Node50, Node92`
+* Log(L) = -25145.73, AIC-c = 51002.23 (355 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  4.259
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -23488.63, AIC-c = 47683.54 (352 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  4.468
+* non-synonymous/synonymous rate ratio for *Artiodactyla* =   0.1874
+* non-synonymous/synonymous rate ratio for *Carnivora* =   0.1514
+* non-synonymous/synonymous rate ratio for *Chiroptera* =   0.1528
+* non-synonymous/synonymous rate ratio for *Eulipotyphla* =   0.1285
+* non-synonymous/synonymous rate ratio for *Glires* =   0.1231
+* non-synonymous/synonymous rate ratio for *Perissodactyla* =   0.2175
+* non-synonymous/synonymous rate ratio for *Primates* =   0.1820
+* non-synonymous/synonymous rate ratio for *Unclassified* =   0.1531
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -23432.09, AIC-c = 47570.45 (352 estimated parameters)
+* non-synonymous/synonymous rate ratio for *Artiodactyla* =   0.2077
+* non-synonymous/synonymous rate ratio for *Carnivora* =   0.1499
+* non-synonymous/synonymous rate ratio for *Chiroptera* =   0.1510
+* non-synonymous/synonymous rate ratio for *Eulipotyphla* =   0.1015
+* non-synonymous/synonymous rate ratio for *Glires* =   0.1112
+* non-synonymous/synonymous rate ratio for *Perissodactyla* =   0.2628
+* non-synonymous/synonymous rate ratio for *Primates* =   0.2016
+* non-synonymous/synonymous rate ratio for *Unclassified* =   0.1409
+
+### Fitting the general descriptive (separate k per branch) model
+
+### * Log(L) = -23144.35, AIC-c = 47655.17 (679 estimated parameters)
+* The following baseline rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   26.852    |                                   |
+|        Negative selection         |     0.000     |   71.844    |       Collapsed rate class        |
+|      Diversifying selection       |    76.681     |    1.304    |                                   |
+
+* Branch-level relaxation or intensification parameter distribution has mean  0.60, median  0.17, and 95% of the weight in  0.02 - 19.09
+
+### Fitting the alternative model with individual K parameters for 7 branch groups
+* Log(L) = -22927.50, AIC-c = 46587.44 (365 estimated parameters)
+* The following rate distribution was inferred for **Primates** (reference) branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   17.330    |                                   |
+|        Negative selection         |     0.000     |   76.601    |                                   |
+|      Diversifying selection       |     4.372     |    6.069    |                                   |
+
+* Relaxation/intensification parameter (K) for branch set Glires =     0.05
+* The following rate distribution was inferred for **Glires** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.046     |   17.330    |                                   |
+|        Negative selection         |     0.067     |   76.601    |                                   |
+|      Diversifying selection       |     1.080     |    6.069    |                                   |
+
+* Relaxation/intensification parameter (K) for branch set Artiodactyla =     0.04
+* The following rate distribution was inferred for **Artiodactyla** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.113     |   17.330    |                                   |
+|        Negative selection         |     0.148     |   76.601    |                                   |
+|      Diversifying selection       |     1.056     |    6.069    |                                   |
+
+* Relaxation/intensification parameter (K) for branch set Carnivora =     0.05
+* The following rate distribution was inferred for **Carnivora** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.070     |   17.330    |                                   |
+|        Negative selection         |     0.097     |   76.601    |                                   |
+|      Diversifying selection       |     1.069     |    6.069    |                                   |
+
+* Relaxation/intensification parameter (K) for branch set Perissodactyla =     0.03
+* The following rate distribution was inferred for **Perissodactyla** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.167     |   17.330    |                                   |
+|        Negative selection         |     0.209     |   76.601    |                                   |
+|      Diversifying selection       |     1.046     |    6.069    |                                   |
+
+* Relaxation/intensification parameter (K) for branch set Eulipotyphla =     0.06
+* The following rate distribution was inferred for **Eulipotyphla** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.033     |   17.330    |                                   |
+|        Negative selection         |     0.050     |   76.601    |                                   |
+|      Diversifying selection       |     1.089     |    6.069    |                                   |
+
+* Relaxation/intensification parameter (K) for branch set Chiroptera =     0.05
+* The following rate distribution was inferred for **Chiroptera** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.057     |   17.330    |                                   |
+|        Negative selection         |     0.082     |   76.601    |                                   |
+|      Diversifying selection       |     1.074     |    6.069    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.428               |    43.819     |                                   |
+|               1.097               |    41.300     |                                   |
+|               2.415               |    14.880     |                                   |
+
+
+### Fitting the null (K := 1) model
+* Log(L) = -22932.60, AIC-c = 46585.56 (359 estimated parameters)
+* The following rate distribution was inferred for **Primates** (reference) branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.121     |   99.341    |                                   |
+|         Neutral evolution         |     1.000     |    0.566    |                                   |
+|      Diversifying selection       |    49.454     |    0.093    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.496               |    55.458     |                                   |
+|               1.343               |    37.381     |                                   |
+|               3.117               |     7.161     |                                   |
+
+----
+## Test for relaxation (or intensification) of selection [RELAX]
+Likelihood ratio test **p =   0.1164**.
+>>No significant evidence for differences of selective pressures among the test groups at P<=0.05
+----
+
+
+### Fitting the partitioned descriptive model (completely separate rate distributions for branch sets)
+* Log(L) = -22894.60, AIC-c = 46569.98 (389 estimated parameters)
+* The following rate distribution was inferred for **Primates** (reference) branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.139     |   99.142    |                                   |
+|        Negative selection         |     0.141     |    0.425    |       Collapsed rate class        |
+|      Diversifying selection       |    54.467     |    0.433    |                                   |
+
+* The following rate distribution was inferred for **Glires** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.106     |    0.295    |                                   |
+|        Negative selection         |     0.108     |   99.648    |       Collapsed rate class        |
+|      Diversifying selection       |     5.381     |    0.057    |                                   |
+
+* The following rate distribution was inferred for **Artiodactyla** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.187     |   99.035    |                                   |
+|        Negative selection         |     0.859     |    0.929    |                                   |
+|      Diversifying selection       |9999999171.5...|    0.036    |                                   |
+
+* The following rate distribution was inferred for **Carnivora** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.142     |   99.354    |                                   |
+|        Negative selection         |     0.148     |    0.629    |       Collapsed rate class        |
+|      Diversifying selection       |    451.268    |    0.016    |                                   |
+
+* The following rate distribution was inferred for **Perissodactyla** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.212     |   98.011    |                                   |
+|        Negative selection         |     0.213     |    0.901    |       Collapsed rate class        |
+|      Diversifying selection       |     6.640     |    1.088    |                                   |
+
+* The following rate distribution was inferred for **Eulipotyphla** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.061     |   94.365    |                                   |
+|        Negative selection         |     0.477     |    4.993    |                                   |
+|      Diversifying selection       |     3.423     |    0.643    |                                   |
+
+* The following rate distribution was inferred for **Chiroptera** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.089     |   97.964    |                                   |
+|         Neutral evolution         |     1.000     |    0.343    |                                   |
+|      Diversifying selection       |     4.022     |    1.693    |                                   |
+
+# Loaded config yaml file
+# Loaded cluster json file
+# Using nucleotide data from: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# Using protein data from: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Using the analysis label: mammalian_REM2
+# We are operating out of base directory: /home/aglucaci/AOC-REM2
+# We will create and store results in: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+# Directory '/home/aglucaci/AOC-REM2/results' created
+# Directory '/home/aglucaci/AOC-REM2/results/mammalian_REM2' created
+# Moving on to processing rules
+# We have 7 clade files
+['/home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade', '/home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade']
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Glires.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Glires
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Eulipotyphla.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Eulipotyphla
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Chiroptera.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Chiroptera
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Primates.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Primates
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Carnivora.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Carnivora
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Artiodactyla.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Artiodactyla
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.fasta.treefile
+/home/aglucaci/anaconda3/envs/AOC_REM2/bin/hyphy /home/aglucaci/AOC-REM2/scripts/label-tree.bf --tree /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --list /home/aglucaci/AOC-REM2/results/mammalian_REM2/Perissodactyla.clade --output /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile.labelled --label Perissodactyla

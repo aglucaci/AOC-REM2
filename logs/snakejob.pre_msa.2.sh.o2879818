@@ -1,0 +1,47 @@
+
+Analysis Description
+--------------------
+ Load nucleotide sequences (SOME of which **must be in frame**), perform
+frameshift correction as needed, and translate to amino-acids for
+subsequent alignment. 
+
+- __Requirements__: Sequences
+
+- __Citation__: TBD
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.02
+
+code: Universal
+[Data QC] Loaded 179 sequences on 1401 sites from **/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2**
+Load reference sequences from : reference: data/mammalian_REM2/Rem2_Human.fasta
+Maximum acceptable fraction of N's (permissible range = [0,1], default value = 0.05): N-fraction: 1.0
+Trim non-reference sequences from this position (permissible range = [0,10000000], default value = 0, integer): trim-from: 0
+Trim non-reference sequences to this position (permissible range = [-1,10000000], default value = -1, integer): trim-to: -1
+keep-reference: No
+[Data QC] Will write unaligned protein sequences for MSA to **/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_protein.fas**, and the corresponding nucleotide sequences to **/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_nuc.fas**
+[Data QC] Found 0 unique sequences that were in frame
+[Advanced Setting -- Sequence similarity is based on an alignment score and is not normalized between 0 and 1. ] Expected sequence similarity (0 to automatically compute).  (permissible range = [0,1], default value = 0): E: 0
+skip-realignment: No
+remove-stop-codons: No
+[Data QC] Correcting frame-shifts in the remaining reads
+[Data QC] Checking for frame-preserving indels in other reads
+[Next steps] Please run **/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_protein.fas** through an MSA program, and then run post-msa.bf on the output and **/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_nuc.fas** to recover the nucleotide MSA
+
+
+
+# Loaded config yaml file
+# Loaded cluster json file
+# Using nucleotide data from: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# Using protein data from: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Using the analysis label: mammalian_REM2
+# We are operating out of base directory: /home/aglucaci/AOC-REM2
+# We will create and store results in: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+# Directory '/home/aglucaci/AOC-REM2/results' created
+# Directory '/home/aglucaci/AOC-REM2/results/mammalian_REM2' created
+# Moving on to processing rules
+# We have 0 clade files
+[]

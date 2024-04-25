@@ -1,0 +1,137 @@
+
+Analysis Description
+--------------------
+BGM (Bayesian Graphical Model) uses a maximum likelihood ancestral state
+reconstruction to map substitution (non-synonymous only for coding data)
+events to branches in the phylogeny and then analyzes the joint
+distribution of the substitution map using a Bayesian graphical model
+(network). Next, a Markov chain Monte Carlo analysis is used to generate
+a random sample of network structures from the posterior distribution
+given the data. Each node in the network represents a codon site in the
+alignment, and links (edges) between nodes indicate high posterior
+support for correlated substitutions at the two sites over time, which
+implies coevolution.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Spidermonkey: rapid detection of co-evolving sites using Bayesian
+graphical models (2008). _Bioinformatics_ 24(17): 1949-1950
+
+- __Written by__: Art FY Poon, Fraser I Lewis, Simon DW Frost and Sergei L Kosakovsky Pond
+
+- __Contact Information__: apoon42@uwo.ca
+
+- __Analysis Version__: 1.2
+
+
+>type –> codon
+
+>code –> Universal
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+
+
+
+### Loaded **175** codon sequences, **627** sites, from `/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta`
+
+> BGM will write result file to /home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.BGM.json
+
+
+>branches –> All
+
+>Select the number of MCMC steps to sample (permissible range = [0,1000000000], default value = 100000, integer): 
+>steps –> 100000
+
+>Select the number of MCMC steps to discard as burn-in (permissible range = [0,1000000000], default value = 10000, integer): 
+>burn-in –> 10000
+
+>Select the number of steps to extract from the chain sample (permissible range = [100,90000], default value = 100, integer): 
+>samples –> 100
+
+>Select the maximum number of parents allowed per node (permissible range = [1,3], default value = 1, integer): 
+>max-parents –> 1
+
+>Select the minimum number of substitutions per site to include it in the analysis (permissible range = [1,100000], default value = 1, integer): 
+>min-subs –> 1
+
+
+### Performing initial model fit to obtain branch lengths and rate parameters
+Fitting nucleotide GTR to obtain branch length estimates
+>Fitted an alignment-wide GTR model. Log(L) = -25011.81, AIC-c = 50735.92 (355 estimated parameters)
+>Fitted an alignment-wide model. Log(L) = -23336.36, AIC-c = 47399.11 (362 estimated parameters)
+
+Total tree lengths by partition
+
+Partition 1.  4.402 subs/site.
+
+### Performing joint ancestral state reconstruction and mapping substitutions
+
+### Inferring a BGM on 257 nodes [sites]
+
+|   Site 1   |   Site 2   |P [Site 1 <-> Site 2]|Subs (1,2,shared)|
+|:----------:|:----------:|:-------------------:|:---------------:|
+|       1    |      33    |        0.562        |     1, 2, 1     |
+|      10    |     295    |        0.735        |    11, 9, 4     |
+|      11    |      93    |        0.754        |     1, 1, 1     |
+|      28    |      84    |        0.712        |    5, 10, 3     |
+|      30    |     164    |        0.576        |    20, 7, 4     |
+|      47    |     297    |        0.599        |     6, 2, 2     |
+|      48    |      55    |        0.720        |    4, 14, 3     |
+|      48    |      76    |        0.578        |    4, 14, 3     |
+|      48    |     517    |        0.873        |    4, 12, 3     |
+|      54    |      63    |        0.504        |     3, 6, 2     |
+|      57    |     520    |        0.552        |    11, 2, 2     |
+|      59    |     163    |        0.797        |    13, 14, 5    |
+|      60    |     126    |        0.527        |    10, 2, 2     |
+|      61    |     251    |        0.791        |     6, 2, 2     |
+|      63    |     129    |        0.646        |    6, 10, 3     |
+|      67    |     494    |        0.536        |     2, 1, 1     |
+|      68    |      72    |        0.534        |    15, 4, 3     |
+|      68    |     120    |        0.545        |    15, 4, 3     |
+|      70    |     562    |        0.928        |    6, 27, 5     |
+|      71    |     256    |        0.532        |    16, 4, 3     |
+|      72    |     604    |        0.587        |     4, 4, 2     |
+|      76    |     261    |        0.873        |    14, 6, 4     |
+|      79    |     102    |        0.930        |     6, 5, 3     |
+|      79    |     347    |        0.707        |     6, 2, 2     |
+|      80    |     164    |        0.502        |    17, 7, 4     |
+|      80    |     166    |        0.904        |    17, 5, 4     |
+|      81    |     116    |        0.978        |    19, 14, 7    |
+|      81    |     164    |        0.944        |    19, 7, 5     |
+|      82    |     132    |        0.520        |    11, 11, 4    |
+|      83    |     113    |        0.733        |     3, 4, 2     |
+|      86    |     604    |        0.629        |     4, 4, 2     |
+|      98    |     501    |        0.519        |     1, 2, 1     |
+|     114    |     299    |        0.788        |     7, 2, 2     |
+|     115    |     314    |        0.539        |     2, 1, 1     |
+|     119    |     349    |        0.770        |    10, 5, 3     |
+|     122    |     251    |        0.777        |     7, 2, 2     |
+|     128    |     613    |        0.875        |    10, 4, 3     |
+|     151    |     539    |        0.571        |    4, 17, 3     |
+|     155    |     324    |        0.674        |     1, 1, 1     |
+|     170    |     297    |        0.791        |     4, 2, 2     |
+|     187    |     234    |        0.529        |     1, 1, 1     |
+|     193    |     249    |        0.724        |     1, 1, 1     |
+|     251    |     329    |        0.774        |     2, 7, 2     |
+|     297    |     310    |        0.905        |     2, 3, 2     |
+|     300    |     302    |        0.535        |    11, 2, 2     |
+|     331    |     554    |        0.899        |    3, 15, 3     |
+|     337    |     626    |        0.519        |     1, 2, 1     |
+|     359    |     603    |        0.952        |    13, 6, 4     |
+|     538    |     588    |        0.864        |     6, 8, 3     |
+|     551    |     620    |        0.526        |    15, 5, 3     |
+----
+## BGM analysis summary on 257 sites each with at least 1 substitutions. Evidence for conditional dependence was reported at posterior probability of 0.5
+* 50 pairs  of conditionally dependent sites found
+# Loaded config yaml file
+# Loaded cluster json file
+# Using nucleotide data from: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# Using protein data from: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Using the analysis label: mammalian_REM2
+# We are operating out of base directory: /home/aglucaci/AOC-REM2
+# We will create and store results in: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+# Directory '/home/aglucaci/AOC-REM2/results' created
+# Directory '/home/aglucaci/AOC-REM2/results/mammalian_REM2' created
+# Moving on to processing rules
+# We have 0 clade files
+[]

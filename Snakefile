@@ -121,6 +121,7 @@ rule all:
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.SLAC.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.aBSRELS.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.aBSRELS+MH.json"),
+        os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.PRIME.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.treefile.labelled"),
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.RELAX.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.CFEL.json") 
@@ -214,7 +215,7 @@ rule iqtree: # Unrooted
     conda:
         "environment.yml"
     shell:
-        "iqtree -s {input.codons_fas} -T AUTO"
+        "iqtree -s {input.codons_fas} -T AUTO -B 100"
     #end shell
 #end rule iqtree
 
@@ -263,7 +264,7 @@ rule iqtree_fo: # Unrooted
     conda:
         "environment.yml"
     shell:
-        "iqtree -s {input.codons_fas} -T AUTO"
+        "iqtree -s {input.codons_fas} -T AUTO -B 100"
     #end shell
 #end rule iqtree
 
@@ -273,7 +274,7 @@ rule iqtree_fo: # Unrooted
 
 rule recombination_filter_outliers:
     input: 
-        input = rules.filter_outliers.output.fasta
+        input  = rules.filter_outliers.output.fasta
     output: 
         output =  os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.GARD.json"), 
     shell: 
@@ -421,12 +422,12 @@ rule BGM:
 
 rule SLAC_FO:
     input: 
-        codon_aln = rules.strike_ambigs.output.out_strike_ambigs,
-        tree = rules.iqtree.output.tree
+        codon_aln = rules.filter_outliers.output.fasta,
+        tree = rules.iqtree_fo.output.tree
     output: 
         results = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.SLAC.json")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --samples 100"
 #end rule 
 
 rule ABSRELS:
@@ -499,6 +500,16 @@ rule FUBAR:
         "mpirun -np {PPN} {HYPHYMPI} FUBAR --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
+rule PRIME:
+    input: 
+        codon_aln = rules.filter_outliers.output.fasta,
+        tree = rules.iqtree_fo.output.tree
+    output: 
+        results = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.PRIME.json")
+    shell: 
+        "mpirun -np {PPN} {HYPHYMPI} PRIME --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule 
+
 #----------------------------------------------------------------------------
 # Lineages
 #----------------------------------------------------------------------------
@@ -509,8 +520,6 @@ rule GatherLineages:
         tree_f = rules.iqtree_fo.output.tree
     output:
         output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.treefile.log")
-    conda:
-        "environment.yml"
     shell:
         "python scripts/LineageAnnotation_Pipeline.py {input.out_d} {input.csv_f} {input.tree_f}"
 #end rule
@@ -559,8 +568,6 @@ rule RELAX:
         fasta    = rules.filter_outliers.output.fasta
     output:
         output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.RELAX.json")
-    conda:
-        "environment.yml"
     shell:
         "{HYPHY} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
 #end rule
@@ -571,13 +578,9 @@ rule CFEL:
         fasta    = rules.filter_outliers.output.fasta
     output: 
         output = os.path.join(OUTDIR, Label + "_codons.SA.FilterOutliers.fasta.CFEL.json")
-    conda:
-        "environment.yml"
     shell:
         "{HYPHY} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
 #end file
-
-
 
 #----------------------------------------------------------------------------
 # End of file

@@ -1,0 +1,138 @@
+
+Analysis Description
+--------------------
+Examine whether or not a codon alignment is better fit by models which
+permit multiple instantaneous substitutions. v0.2 adds a separate rate
+for codon-island triple-hit rates
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Submitted; preprint at hyphy.org/resources/fmm.pdf
+
+- __Written by__: Sergei L Kosakovsky Pond, Sadie Wisotsky and Alexander Lucaci
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 1.0
+
+
+>code –> Universal
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.treefile
+
+>Loaded a multiple sequence alignment with **175** sequences, **627** codons, and **1** partitions from `/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta`
+The number of omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>rates –> 3
+
+>triple-islands –> Yes
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 15 zero-length internal branches: `Node141, Node142, Node143, Node149, Node156, Node240, Node241, Node242, Node244, Node282, Node307, Node309, Node343, Node345, Node79`
+* Log(L) = -25011.81, AIC-c = 50734.38 (355 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  4.187
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -23383.22, AIC-c = 47462.64 (347 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  4.387
+* non-synonymous/synonymous rate ratio for *test* =   0.1490
+
+### Fitting Standard MG94
+* Log(L) = -22693.30, AIC-c = 46092.86 (352 estimated parameters)
+* non-synonymous/synonymous rate ratio =   0.1749
+* The following relative rate distribution (mean 1) for site-to-site **non-synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.086               |    51.579     |                                   |
+|               0.921               |    29.262     |                                   |
+|               3.582               |    19.159     |                                   |
+
+
+### Fitting MG94 with double instantaneous substitutions
+* Log(L) = -22649.10, AIC-c = 46006.48 (353 estimated parameters)
+* non-synonymous/synonymous rate ratio =   0.1615
+* rate at which 2 nucleotides are changed instantly within a single codon =   0.1386
+* The following relative rate distribution (mean 1) for site-to-site **non-synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.100               |    54.634     |                                   |
+|               1.013               |    27.001     |                                   |
+|               3.657               |    18.365     |                                   |
+
+
+### Fitting MG94 with double and triple instantaneous substitutions
+* Log(L) = -22626.73, AIC-c = 45965.78 (355 estimated parameters)
+* non-synonymous/synonymous rate ratio =   0.1629
+* rate at which 2 nucleotides are changed instantly within a single codon =   0.0863
+* rate at which 3 nucleotides are changed instantly within a single codon =   0.2542
+* rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands =   0.0000
+* The following relative rate distribution (mean 1) for site-to-site **non-synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.102               |    54.954     |                                   |
+|               1.014               |    26.642     |                                   |
+|               3.660               |    18.404     |                                   |
+
+
+### Fitting MG94 with double and triple instantaneous substitutions [only synonymous islands]
+* Log(L) = -22648.94, AIC-c = 46008.19 (354 estimated parameters)
+* non-synonymous/synonymous rate ratio =   0.1618
+* rate at which 2 nucleotides are changed instantly within a single codon =   0.1361
+* rate at which 3 nucleotides are changed instantly within a single codon =   0.0000
+* rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands =   0.9215
+* The following relative rate distribution (mean 1) for site-to-site **non-synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.101               |    54.674     |                                   |
+|               1.015               |    26.972     |                                   |
+|               3.657               |    18.354     |                                   |
+
+
+### Summary of rate estimates and significance testing
+|                Model                 |   Log-L    |   omega    | 2-hit rate |              p-value               | 3-hit rate |              p-value               |
+|:------------------------------------:|:----------:|:----------:|:----------:|:----------------------------------:|:----------:|:----------------------------------:|
+|            Standard MG94             |-22693.30...|    0.1749  |    N/A     |                N/A                 |    N/A     |                N/A                 |
+|        Standard MG94 + 2 hits        |-22649.10...|    0.1615  |    0.1386  |       0.0000 (2-hit rate = 0)      |    N/A     |                N/A                 |
+|   Standard MG94 + 3 hits (islands)   |-22648.94...|    0.1618  |    0.9215  |    0.5794 (3-hit island vs 2-hit)  |    0.2542  |          0.0000 (3-hit = 0)        |
+|     Standard MG94 + 2 or 3 hits      |-22626.73...|    0.1629  |    0.0863  |      0.0000 (2&3-hit rates = 0)    |    0.2542  |      0.0000 (3-hit rate(s) = 0)    |
+
+### 13 individual sites which showed sufficiently strong preference for multiple-hit models
+
+|   Site   |       ER (2 vs 1)       |       ER (3 vs 2)       |   ER (3-island vs 2)    |   ER (3-island vs 3)    |                       Substitutions                        |
+|:--------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:----------------------------------------------------------:|
+|    1     |          58.8758        |           0.5849        |           0.9832        |           0.5950        |                        ATG->GGG(1)                         |
+|    20    |          10.8017        |          26.7420        |           0.9874        |          27.0831        |         ACA->ACG(1), ACC->AAC(1)ACA(1)ACT(4)TTA(1)         |
+|    51    |          13.3045        |           0.5155        |           0.9858        |           0.5229        |ACA->ACC(2)ACG(5)AGA(1)ATA(2)CCC(1)GCA(1)GCG(1), ACG->ATG...|
+|   171    |           8.6496        |           0.3564        |           0.9678        |           0.3682        |                        GCA->GGT(3)                         |
+|   315    |          10.6615        |           4.4759        |           1.5994        |           2.7985        |            TCA->GGT(1)TCC(2)TCG(7), TCC->TCT(1)            |
+|   337    |          10.0072        |          59.0125        |           0.9724        |          60.6852        |      CCC->CCA(1)CCG(1)CCT(2)TGG(1), CCG->CCA(2)TAC(1)      |
+|   340    |           9.0739        |           0.6147        |           0.9856        |           0.6237        |               GAC->ACC(1)GAT(4), GAT->GAC(2)               |
+|   620    |          13.7520        |           0.6785        |           0.9664        |           0.7021        |            TCA->TCC(1), TCG->GGG(1)TCA(9)TCC(4)            |
+|   626    |          24.7793        |           0.2945        |           0.9722        |           0.3029        |            GTG->CTA(1)GTA(3)GTC(1)GTT(3)TCG(1)             |
+|   627    |          20.7841        |          43.0805        |           0.9743        |          44.2152        |         CTC->CCC(1)CTG(1)CTT(3)TCT(1), CTT->GGC(1)         |
+|    2     |           6.8939        |          36.1041        |           0.9948        |          36.2926        |      CAC->CAT(6)CTC(1)TAC(2), CAT->CAA(1)CAC(1)TGG(1)      |
+|    33    |           3.9725        |          12.1725        |           0.9791        |          12.4318        |CCA->CCC(1)CCG(4)CCT(2), CCC->CAC(1)CCA(4)CCG(1)CCT(5), C...|
+|    77    |           7.2124        |           8.5850        |           0.9921        |           8.6532        |ACT->ATT(1), AGG->GGG(1), GGG->ACT(1)GAG(2)GGA(5)GGC(2)GG...|
+
+### Writing detailed analysis report to `/home/aglucaci/AOC-REM2/results/mammalian_REM2/mammalian_REM2_codons.SA.FilterOutliers.fasta.FMM.json'
+
+
+# Loaded config yaml file
+# Loaded cluster json file
+# Using nucleotide data from: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# Using protein data from: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Using the analysis label: mammalian_REM2
+# We are operating out of base directory: /home/aglucaci/AOC-REM2
+# We will create and store results in: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+# Directory '/home/aglucaci/AOC-REM2/results' created
+# Directory '/home/aglucaci/AOC-REM2/results/mammalian_REM2' created
+# Moving on to processing rules
+# We have 0 clade files
+[]

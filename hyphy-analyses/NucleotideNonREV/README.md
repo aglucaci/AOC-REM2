@@ -1,0 +1,196 @@
+## NRM -- examine nucleotide data for non-reversibility
+
+> Original code by Wayne Delport; project with Darren Matrin, Rita Sianga, and Steven Weaver
+
+Given an input (rooted) Newick tree, and a nucleotide sequence alignment, fit **4** nucleotide models, compare their fits and estimate equilibrim nucleotide frequencies.
+
+#### Model 1: GTR + &Gamma;4
+
+This is the standard 6 parameter general time reversible nucleotide model and a 4-bin discretized gamma distribution site-to-site rate variation. The equilibritum nucleotide frequencies (&pi;<sub>A</sub>,&pi;<sub>C</sub>,&pi;<sub>G</sub>,&pi;<sub>T</sub>) are estimated by counts from the data.
+
+**Q** matrix
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   r<sub>AC</sub> &pi;<sub>C</sub>|   &pi;<sub>G</sub> |  r<sub>AT</sub>&pi;<sub>T</sub> |   &pi;<sub>A</sub> |
+|     C    |     r<sub>AC</sub> &pi;<sub>A</sub>| *  |   r<sub>CG</sub>   &pi;<sub>G</sub> |  r<sub>CT</sub>&pi;<sub>T</sub> |   &pi;<sub>C</sub> |
+|     G    |     &pi;<sub>A</sub>|   r<sub>CG</sub>   &pi;<sub>C</sub> |  * | r<sub>GT</sub>&pi;<sub>T</sub> |   &pi;<sub>C</sub> |
+|     T    |     r<sub>AT</sub> &pi;<sub>A</sub>|  r<sub>CT</sub>   &pi;<sub>C</sub> |  r<sub>GT</sub>&pi;<sub>G</sub> |   * | &pi;<sub>T</sub> |
+
+#### Model 1: stGTR + &Gamma;4
+
+This is the "paired strand" 6 parameter non-reversible nucleotide model and a 4-bin discretized gamma distribution site-to-site rate variation. The nucleotide frequencies at the root of the tree are estimated by counts from the data.
+
+**Q** matrix
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   r<sub>AC</sub> &pi;<sub>C</sub>|   &pi;<sub>G</sub> |  r<sub>AT</sub>&pi;<sub>T</sub> |   Induced by the model |
+|     C    |     r<sub>GT</sub> &pi;<sub>A</sub>| *  |   r<sub>CG</sub>   &pi;<sub>G</sub> |  r<sub>CT</sub>&pi;<sub>T</sub> |  " |
+|     G    |     r<sub>CT</sub>&pi;<sub>A</sub>|   r<sub>CG</sub>   &pi;<sub>C</sub> |  * | r<sub>GT</sub>&pi;<sub>T</sub> |   "|
+|     T    |     r<sub>AT</sub> &pi;<sub>A</sub>|  &pi;<sub>C</sub> |  r<sub>AC</sub>&pi;<sub>G</sub> |   * | "|
+
+#### Model 1: NRM + &Gamma;4
+
+This is the 12 parameter parameter non-reversible nucleotide model and a 4-bin discretized gamma distribution site-to-site rate variation. The nucleotide frequencies at the root of the tree are estimated by counts from the data.
+**Q** matrix
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   r<sub>AC</sub>|   1|  r<sub>AT</sub> |   Induced by the model |
+|     C    |     r<sub>CA</sub> | *  |   r<sub>CG</sub>    |  r<sub>CT</sub>|  " |
+|     G    |     r<sub>GA</sub>|   r<sub>GC</sub>    |  * | r<sub>GT</sub> |   "|
+|     T    |     r<sub>TA</sub> | r<sub>TC</sub>  |  r<sub>TG</sub>|   * | "|
+
+#### Model 1: NRMF + &Gamma;4
+
+This is the 12+3 parameter parameter non-reversible nucleotide model and a 4-bin discretized gamma distribution site-to-site rate variation. The nucleotide frequencies at the root of the tree are estimated by maximum likelihood.
+**Q** matrix
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   r<sub>AC</sub>|   1|  r<sub>AT</sub> |   Induced by the model |
+|     C    |     r<sub>CA</sub> | *  |   r<sub>CG</sub>    |  r<sub>CT</sub>|  " |
+|     G    |     r<sub>GA</sub>|   r<sub>GC</sub>    |  * | r<sub>GT</sub> |   "|
+|     T    |     r<sub>TA</sub> | r<sub>TC</sub>  |  r<sub>TG</sub>|   * | "|
+
+## Invokation
+
+This analysis has one **required** argument
+
+- `--alignment` the file containing the alignment 
+
+Detailed analysis results written to the `--output` file (default == `alignment file.NRM.json`)
+
+### Complete options list
+
+
+
+```
+Available analysis command line options
+---------------------------------------
+Use --option VALUE syntax to invoke
+If a [reqired] option is not provided on the command line, the analysis will prompt for its value
+[conditionally required] options may or not be required based on the values of other options
+
+alignment [required]
+	Sequence alignment to fit non-reversible models to
+
+tree [conditionally required]
+	A phylogenetic tree (optionally annotated with {})
+	applies to: Please select a tree file for the data:
+
+save-fit
+	Save NRM+F model fit to this file (default is not to save)
+	default value: /dev/null
+
+output
+	Write the resulting JSON to this file (default is to save to the same path as the alignment file + 'NRM.json')
+	default value: nrm.nuc_data_info[terms.json.json] [computed at run time]
+```
+
+## Result visualization
+
+The `json` file generated by this analysis can be viewed using 
+
+## Example run
+
+```
+hyphy NRM.bf --alignment test.nex
+```
+
+Analysis Description
+--------------------
+ Perform a fit of GTR, strand non-reversible, and fully non-reversible
+model (with Gamma rate variation) to a nucleotide alignment. Report
+estimated rate matrices, and perform nested model fits. 
+
+- __Requirements__: a nucleotide alignment and a phylogenetic tree (rooted)
+
+- __Citation__: TBD
+
+- __Written by__: Wayne Delport and Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.1
+
+>Loaded a multiple sequence alignment with **24** sequences, **4041** sites, and **1** partitions from `/Users/sergei/Development/hyphy-analyses/NucleotideNonREV/test.fas`
+
+
+### Fitting the GTR + G model with empirical base frequencies
+
+>Log(L) = -53399.89, AIC-c = 106907.84 (54 estimated parameters)
+1 partition. Total tree length by partition (subs/site)  4.489
+_Gamma shape parameter_ =   1.1744
+
+#### Rate and equilibrium frequency estimates.
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   0.5963 |   1.0000 |   0.2568 |   0.4339 |
+|     C    |   0.5963 |     *    |   0.7521 |   1.1082 |   0.1355 |
+|     G    |   1.0000 |   0.7521 |     *    |   0.2281 |   0.1559 |
+|     T    |   0.2568 |   1.1082 |   0.2281 |     *    |   0.2747 |
+
+### Fitting the NREV6 + G model with empirical base frequencies
+
+### 
+>Log(L) = -53521.18, AIC-c = 107150.42 (54 estimated parameters)
+1 partition. Total tree length by partition (subs/site)  4.394
+_Gamma shape parameter_ =   1.1414
+
+#### Rate and equilibrium frequency estimates.
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   0.4151 |   1.0000 |   0.2423 |   0.4224 |
+|     C    |   0.3800 |     *    |   0.6676 |   0.9146 |   0.1442 |
+|     G    |   0.9146 |   0.6676 |     *    |   0.3800 |   0.1660 |
+|     T    |   0.2423 |   1.0000 |   0.4151 |     *    |   0.2674 |
+
+### Fitting the NREV12 + G model with empirical root frequencies
+
+>Log(L) = -53379.13, AIC-c = 106878.33 (60 estimated parameters)
+1 partition. Total tree length by partition (subs/site)  4.829
+_Gamma shape parameter_ =   1.1489
+
+#### Rate and equilibrium frequency estimates.
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   0.4890 |   1.0000 |   0.4763 |   0.4363 |
+|     C    |   1.6061 |     *    |   0.7528 |   1.5595 |   0.1516 |
+|     G    |   2.7026 |   0.5993 |     *    |   0.4501 |   0.1603 |
+|     T    |   0.7184 |   1.1303 |   0.2019 |     *    |   0.2518 |
+
+### Fitting the NREV12F + G model with estimated root frequencies
+
+>Log(L) = -53324.11, AIC-c = 106774.31 (63 estimated parameters)
+1 partition. Total tree length by partition (subs/site)  4.375
+_Gamma shape parameter_ =   1.1295
+
+#### Estimates for root frequencies
+- A : 0.4770334357523082
+- C : 0.08347251457551803
+- G : 0.1221683997440409
+- T : 0.3173256499281328
+
+#### Rate and equilibrium frequency estimates.
+
+| From/To  |     A    |     C    |     G    |     T    | Frequency| 
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|     A    |     *    |   0.4840 |   1.0000 |   0.4803 |   0.4272 |
+|     C    |   1.4444 |     *    |   0.6862 |   1.4052 |   0.1633 |
+|     G    |   2.4899 |   0.5608 |     *    |   0.4224 |   0.1694 |
+|     T    |   0.7559 |   1.1474 |   0.2043 |     *    |   0.2402 |
+
+### Model comparison results
+
+|    Null    |    Alt.    |      LRT      | Deg. freedom  |       p       |    Delta c-AIC     |
+|:----------:|:----------:|:-------------:|:-------------:|:-------------:|:------------------:|
+|    GTR     |   NREV6    |     null      |     null      |     null      |      -242.5740     |
+|    GTR     |  NREV12+F  |    151.5479   |       9       |      0.0000   |       133.5271     |
+|    GTR     |   NREV12   |     41.5209   |       6       |      0.0000   |        29.5074     |
+|   NREV6    |  NREV12+F  |    394.1219   |       9       |      0.0000   |       376.1011     |
+|   NREV12   |  NREV12+F  |    110.0270   |       3       |      0.0000   |       104.0197     |

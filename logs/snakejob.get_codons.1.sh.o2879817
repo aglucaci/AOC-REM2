@@ -1,0 +1,19 @@
+# =============================================================================
+# Processing... 
+# =============================================================================
+# TRANSCRIPT INPUT FILE: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# PROTEIN INPUT FILE: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Transcripts: 186
+# Proteins: 186
+# Loaded config yaml file
+# Loaded cluster json file
+# Using nucleotide data from: data/mammalian_REM2/Rem2_refseq_transcript.fasta
+# Using protein data from: data/mammalian_REM2/Rem2_refseq_protein.fasta
+# Using the analysis label: mammalian_REM2
+# We are operating out of base directory: /home/aglucaci/AOC-REM2
+# We will create and store results in: /home/aglucaci/AOC-REM2/results/mammalian_REM2
+# Directory '/home/aglucaci/AOC-REM2/results' created
+# Directory '/home/aglucaci/AOC-REM2/results/mammalian_REM2' created
+# Moving on to processing rules
+# We have 0 clade files
+[]
