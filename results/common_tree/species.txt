@@ -1,0 +1,186 @@
+Rattus norvegicus
+Mus musculus
+Homo sapiens
+Pan troglodytes
+Canis lupus familiaris
+Bos taurus
+Macaca mulatta
+Monodelphis domestica
+Equus caballus
+Oryctolagus cuniculus
+Callithrix jacchus
+Pongo abelii
+Ailuropoda melanoleuca
+Nomascus leucogenys
+Sus scrofa
+Loxodonta africana
+Ornithorhynchus anatinus
+Cavia porcellus
+Cricetulus griseus
+Sarcophilus harrisii
+Otolemur garnettii
+Pan paniscus
+Papio anubis
+Saimiri boliviensis
+Felis catus
+Ovis aries
+Gorilla gorilla
+Orcinus orca
+Trichechus manatus latirostris
+Odobenus rosmarus divergens
+Ceratotherium simum simum
+Dasypus novemcinctus
+Ochotona princeps
+Sorex araneus
+Octodon degus
+Jaculus jaculus
+Condylura cristata
+Echinops telfairi
+Mustela putorius furo
+Heterocephalus glaber
+Mesocricetus auratus
+Ictidomys tridecemlineatus
+Microtus ochrogaster
+Chinchilla lanigera
+Macaca fascicularis
+Capra hircus
+Bos mutus
+Bubalus bubalis
+Myotis lucifugus
+Tupaia chinensis
+Camelus ferus
+Vicugna pacos
+Leptonychotes weddellii
+Myotis davidii
+Chrysochloris asiatica
+Elephantulus edwardii
+Pteropus alecto
+Peromyscus maniculatus bairdii
+Panthera tigris
+Physeter catodon
+Balaenoptera acutorostrata scammoni
+Lipotes vexillifer
+Erinaceus europaeus
+Orycteropus afer afer
+Chlorocebus sabaeus
+Carlito syrichta
+Equus przewalskii
+Galeopterus variegatus
+Ursus maritimus
+Nannospalax galili
+Rhinopithecus roxellana
+Fukomys damarensis
+Bison bison bison
+Camelus bactrianus
+Camelus dromedarius
+Pteropus vampyrus
+Macaca nemestrina
+Colobus angolensis palliatus
+Mandrillus leucophaeus
+Cercocebus atys
+Aotus nancymaae
+Propithecus coquereli
+Microcebus murinus
+Dipodomys ordii
+Equus asinus
+Acinonyx jubatus
+Marmota marmota marmota
+Rousettus aegyptiacus
+Miniopterus natalensis
+Cebus imitator
+Manis javanica
+Rhinopithecus bieti
+Panthera pardus
+Hipposideros armiger
+Bos indicus
+Castor canadensis
+Odocoileus virginianus
+Phascolarctos cinereus
+Mus caroli
+Mus pahari
+Meriones unguiculatus
+Neomonachus schauinslandi
+Enhydra lutris kenyoni
+Delphinapterus leucas
+Piliocolobus tephrosceles
+Desmodus rotundus
+Neophocaena asiaeorientalis asiaeorientalis
+Theropithecus gelada
+Canis lupus dingo
+Callorhinus ursinus
+Puma concolor
+Vulpes vulpes
+Urocitellus parryii
+Ursus arctos
+Lagenorhynchus obliquidens
+Bos indicus x Bos taurus
+Zalophus californianus
+Vombatus ursinus
+Marmota flaviventris
+Eumetopias jubatus
+Phyllostomus discolor
+Grammomys surdaster
+Peromyscus leucopus
+Monodon monoceros
+Suricata suricatta
+Lynx canadensis
+Globicephala melas
+Mastomys coucha
+Hylobates moloch
+Sapajus apella
+Mustela erminea
+Phoca vitulina
+Phocoena sinus
+Lontra canadensis
+Rattus rattus
+Rhinolophus ferrumequinum
+Trachypithecus francoisi
+Tursiops truncatus
+Arvicanthis niloticus
+Mirounga leonina
+Halichoerus grypus
+Onychomys torridus
+Myotis myotis
+Trichosurus vulpecula
+Balaenoptera musculus
+Manis pentadactyla
+Sturnira hondurensis
+Artibeus jamaicensis
+Talpa occidentalis
+Choloepus didactylus
+Arvicola amphibius
+Tachyglossus aculeatus
+Hyaena hyaena
+Pteropus giganteus
+Oryx dammah
+Puma yagouaroundi
+Ochotona curzoniae
+Microtus oregoni
+Vulpes lagopus
+Dipodomys spectabilis
+Panthera leo
+Cervus canadensis
+Prionailurus bengalensis
+Cervus elaphus
+Dromiciops gliroides
+Neogale vison
+Gracilinanus agilis
+Leopardus geoffroyi
+Lemur catta
+Ursus americanus
+Phyllostomus hastatus
+Mirounga angustirostris
+Meles meles
+Marmota monax
+Equus quagga
+Perognathus longimembris pacificus
+Myodes glareolus
+Panthera uncia
+Suncus etruscus
+Elephas maximus indicus
+Microtus fortis
+Macaca thibetana thibetana
+Acomys russatus
+Phodopus roborovskii
+Antechinus flavipes
+Apodemus sylvaticus
